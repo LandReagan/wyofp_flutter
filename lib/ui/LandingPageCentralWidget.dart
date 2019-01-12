@@ -18,6 +18,7 @@ class LandingPageCentralWidget extends StatelessWidget {
 }
 
 class OFPHistoryWidget extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return ListTile(
