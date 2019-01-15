@@ -33,7 +33,6 @@ class Parser {
     );
     String flightHeader =
         flightHeaderRE.firstMatch(this.content).group(1);
-    print(flightHeader);
     _parseFlightHeader(flightHeader);
 
     // Fuel and route Section
@@ -48,7 +47,7 @@ class Parser {
   }
 
   void _parseFlightAcceptanceForm(section) {
-
+    // TODO: check if required, and do!
   }
 
   void _parseFlightHeader(section) {
@@ -94,10 +93,234 @@ class Parser {
       this.ofpData['computation_date'] = thirdLineMatch.group(2);
     }
 
-    print(ofpData);
+    RegExp flightCostRE = RegExp(r'FLIGHT COST\s+(\d+)?');
+    Match flightCostMatch = flightCostRE.firstMatch(section);
+    if (flightCostMatch != null) {
+      this.ofpData['flight_cost'] = flightCostMatch.group(1);
+    }
+
+    RegExp performanceDegradationRE = RegExp(r'PERF DEGR USED\s+([\d|\.]+)');
+    Match performanceDegradationMatch = performanceDegradationRE.firstMatch(section);
+    if (performanceDegradationMatch != null) {
+      this.ofpData['performance_degradation'] = performanceDegradationMatch.group(1);
+    }
+
+    RegExp groundDistanceRE = RegExp(r'GROUND DIST\s+(\d+)');
+    Match groundDistanceMatch = groundDistanceRE.firstMatch(section);
+    if (groundDistanceMatch != null) {
+      this.ofpData['ground_distance'] = groundDistanceMatch.group(1);
+    }
+
+    RegExp airDistanceRE = RegExp(r'AIR DIST\s+(\d+)');
+    Match airDistanceMatch = airDistanceRE.firstMatch(section);
+    if (airDistanceMatch != null) {
+      this.ofpData['air_distance'] = airDistanceMatch.group(1);
+    }
+
+    RegExp greatCircleDistanceRE = RegExp(r'GC DIST\s+(\d+)');
+    Match greatCircleDistanceMatch = greatCircleDistanceRE.firstMatch(section);
+    if (greatCircleDistanceMatch != null) {
+      this.ofpData['great_circle_distance'] = greatCircleDistanceMatch.group(1);
+    }
   }
 
   void _parseFuelAndRoute(section) {
+    Map<String, dynamic> sectionData = {};
 
+    RegExp averageWindComponentRE = RegExp(r'AV WC\s+(\w\d+)');
+    Match averageWindComponentMatch = averageWindComponentRE.firstMatch(section);
+    if (averageWindComponentMatch != null) {
+      sectionData['average_wind_component'] = averageWindComponentMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Average wind component not found!');
+    }
+
+    RegExp maximumShearRE = RegExp(r'MXSH\s+(\d+)/(\w+)');
+    Match maximumShearMatch = maximumShearRE.firstMatch(section);
+    if (maximumShearMatch != null) {
+      sectionData['maximum_shear_ratio'] = maximumShearMatch.group(1);
+      sectionData['maximum_shear_waypoint'] = maximumShearMatch.group(2);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Maximum shear not found!');
+    }
+
+    RegExp tripRE = RegExp(r'TRIP\s+(\d+)\s+([\d|\.]+)');
+    Match tripMatch = tripRE.firstMatch(section);
+    if (tripMatch != null) {
+      sectionData['trip_fuel'] = tripMatch.group(1);
+      sectionData['trip_time'] = tripMatch.group(2);
+    } else {
+      this.parsingMessages.add('PARSING ERROR: trip fuel not found!');
+    }
+
+    RegExp approachDestinationRE = RegExp(r'APP.DEST\s+(\d+)\s+([\d|\.]+)');
+    Match approachDestinationMatch = approachDestinationRE.firstMatch(section);
+    if (approachDestinationMatch != null) {
+      sectionData['approach_destination_fuel'] = approachDestinationMatch.group(1);
+      sectionData['approach_destination_time'] = approachDestinationMatch.group(2);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Approach destination fuel not found!');
+    }
+
+    RegExp contingencyRE = RegExp(r'CONTINGENCY\s+(\d)PCT\s+(\d+)\s+([\d|\.]+)');
+    Match contingencyMatch = contingencyRE.firstMatch(section);
+    if (contingencyMatch != null) {
+      sectionData['contingency_type'] = contingencyMatch.group(1);
+      sectionData['contingency_fuel'] = contingencyMatch.group(2);
+      sectionData['contingency_time'] = contingencyMatch.group(3);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Contingency fuel not found!');
+    }
+
+    RegExp alternateRE = RegExp(r'ALTERNATE\s+(\w+)\s+(\d+)\s+([\d|\.]+)');
+    Match alternateMatch = alternateRE.firstMatch(section);
+    if (alternateMatch != null) {
+      sectionData['alternate_airport'] = alternateMatch.group(1);
+      sectionData['alternate_fuel'] = alternateMatch.group(2);
+      sectionData['alternate_time'] = alternateMatch.group(3);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Alternate fuel not found!');
+    }
+
+    RegExp finalReserveRE = RegExp(r'FINAL RESERVE\s+(\d+)\s+([\d|\.]+)');
+    Match finalReserveMatch = finalReserveRE.firstMatch(section);
+    if (finalReserveMatch != null) {
+      sectionData['final_reserve_fuel'] = finalReserveMatch.group(1);
+      sectionData['final_reserve_time'] = finalReserveMatch.group(2);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Final reserve fuel not found!');
+    }
+
+    RegExp additionalRE = RegExp(r'ADDTNAL\(ETOP XTR\)\s+(\d+)\s+([\d|\.]+)');
+    Match additionalMatch = additionalRE.firstMatch(section);
+    if (additionalMatch != null) {
+      sectionData['additional_fuel'] = additionalMatch.group(1);
+      sectionData['additional_time'] = additionalMatch.group(2);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Additional fuel not found!');
+    }
+
+    RegExp extraRE = RegExp(r'EXTRA\s+(\d+)');
+    Match extraMatch = extraRE.firstMatch(section);
+    if (extraMatch != null) {
+      sectionData['extra_fuel'] = extraMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Extra fuel not found!');
+    }
+
+    RegExp taxiRE = RegExp(r'TAXY\s+(\d+)');
+    Match taxiMatch = taxiRE.firstMatch(section);
+    if (taxiMatch != null) {
+      sectionData['taxi_fuel'] = taxiMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Taxi fuel not found!');
+    }
+
+    RegExp minimumDispatchRE = RegExp(r'MIN DISPATCH FUEL\s+(\d+)');
+    Match minimumDispatchMatch = minimumDispatchRE.firstMatch(section);
+    if (minimumDispatchMatch != null) {
+      sectionData['minimumDispatch_fuel'] = minimumDispatchMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Minimum dispatch fuel not found!');
+    }
+
+    RegExp tankeringRE = RegExp(r'MIN T/O FUEL\s+(\d+)\s+([\d|\.]+)');
+    Match tankeringMatch = tankeringRE.firstMatch(section);
+    if (tankeringMatch != null) {
+      sectionData['tankering_fuel'] = tankeringMatch.group(1);
+      sectionData['tankering_time'] = tankeringMatch.group(2);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Tankering fuel not found!');
+    }
+
+    RegExp picExtraRE = RegExp(r'PIC EXTRA\s+(\d+)');
+    Match picExtraMatch = picExtraRE.firstMatch(section);
+    if (picExtraMatch != null) {
+      sectionData['pic_extra_fuel'] = picExtraMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Pic extra fuel not found!');
+    }
+
+    RegExp rampRE = RegExp(r'RAMP FUEL\s+(\d+)');
+    Match rampMatch = rampRE.firstMatch(section);
+    if (rampMatch != null) {
+      sectionData['ramp_fuel'] = rampMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Ramp fuel not found!');
+    }
+
+
+    RegExp minimumDiversionRE = RegExp(r'MIN DIV\s+(\d+)');
+    Match minimumDiversionMatch = minimumDiversionRE.firstMatch(section);
+    if (minimumDiversionMatch != null) {
+      sectionData['minimum_diversion_fuel'] = minimumDiversionMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Minimum diversion fuel not found!');
+    }
+
+    RegExp enRouteAlternateRE = RegExp(r'ERA \-\s+(\w+)');
+    Match enRouteAlternateMatch = enRouteAlternateRE.firstMatch(section);
+    if (enRouteAlternateMatch != null) {
+      sectionData['era_airport'] = enRouteAlternateMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: En Route Alternate airport not found!');
+    }
+
+    RegExp adjustmentIncreaseRE = RegExp(r'ADJUSTMENT FOR\s+(\d+)\s+KGS INCREASE IN ZFW - TTL FUEL/BURN P(\d+)/(\d+)KGS');
+    Match adjustmentIncreaseMatch = adjustmentIncreaseRE.firstMatch(section);
+    if (adjustmentIncreaseMatch != null) {
+      sectionData['adjustment_increase_weight'] = adjustmentIncreaseMatch.group(1);
+      sectionData['adjustment_increase_fuel'] = adjustmentIncreaseMatch.group(2);
+      sectionData['adjustment_increase_burn'] = adjustmentIncreaseMatch.group(3);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Adjustment increase not found!');
+    }
+
+    RegExp adjustmentDecreaseRE = RegExp(r'ADJUSTMENT FOR\s+(\d+)\s+KGS DECREASE IN ZFW - TTL FUEL/BURN M(\d+)/(\d+)KGS');
+    Match adjustmentDecreaseMatch = adjustmentDecreaseRE.firstMatch(section);
+    if (adjustmentDecreaseMatch != null) {
+      sectionData['adjustment_decrease_weight'] = adjustmentDecreaseMatch.group(1);
+      sectionData['adjustment_decrease_fuel'] = adjustmentDecreaseMatch.group(2);
+      sectionData['adjustment_decrease_burn'] = adjustmentDecreaseMatch.group(3);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Adjustment decrease not found!');
+    }
+
+    RegExp averageIsaDeviationRE = RegExp(r'AVERAGE ISA DEVIATION (\w?\d\d)');
+    Match averageIsaDeviationMatch = averageIsaDeviationRE.firstMatch(section);
+    if (averageIsaDeviationMatch != null) {
+      sectionData['average_isa_deviation'] = averageIsaDeviationMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Average ISA deviation not found!');
+    }
+
+    RegExp captainRE = RegExp(r'CAPTAIN\s+([\S|\s]+)\s+CAPTAIN SIGNATURE:');
+    Match captainMatch = captainRE.firstMatch(section);
+    if (captainMatch != null) {
+      sectionData['captain'] = captainMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Captain not found!');
+    }
+
+    RegExp dispatcherRE = RegExp(r'DISPATCHER\s+([\S|\s]+)\s+ROUTE');
+    Match dispatcherMatch = dispatcherRE.firstMatch(section);
+    if (dispatcherMatch != null) {
+      sectionData['dispatcher'] = dispatcherMatch.group(1);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Captain not found!');
+    }
+
+    RegExp routeAndFlightLevelsRE = RegExp(r'ROUTE:\s+(\S+)\s+FL(\d+)');
+    Match routeAndFlightLevelsMatch = routeAndFlightLevelsRE.firstMatch(section);
+    if (routeAndFlightLevelsMatch != null) {
+      sectionData['route_code'] = routeAndFlightLevelsMatch.group(1);
+      sectionData['flight_level'] = routeAndFlightLevelsMatch.group(2);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Route and Flight level not found!');
+    }
+
+    print(sectionData);
+    print(parsingMessages);
+    print(section);
   }
 }
