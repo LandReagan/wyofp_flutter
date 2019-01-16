@@ -8,6 +8,13 @@ void main() {
     SitaConnector connector = SitaConnector();
     String connectionResult = await connector.init();
     expect(connectionResult, 'Connection OK!');
-    await connector.getFlightPlanList();
+    List<Map<String, String>> flights = await connector.getFlightPlanList();
+    for (var flight in flights) {
+      print(flight['flight_number'] + ' - ' + flight['flight_reference'] + ' - ' + flight['url']);
+    }
+    if (flights.length != 0) {
+      print('Text of first OFP found:');
+      print(await connector.getFlightPlanText(flights[0]['flight_reference']));
+    }
   });
 }

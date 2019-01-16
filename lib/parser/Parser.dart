@@ -43,6 +43,11 @@ class Parser {
     fuelAndRouteRE.firstMatch(this.content).group(1);
     _parseFuelAndRoute(fuelAndRoute);
 
+    // NOTAMs section
+    RegExp notamsRE = RegExp(r'SITA NOTAM SERVICE[\S|\s]+');
+    String notams = notamsRE.firstMatch(this.content).group(0);
+    _parseNotams(notams);
+
     print('Parsing finished!');
   }
 
@@ -51,6 +56,7 @@ class Parser {
   }
 
   void _parseFlightHeader(section) {
+
     RegExp firstLineRE = RegExp(
       r'PLAN\s+(\w{5})\s+OMA\s+(\d{3,4})\s+(\w{4})\s+TO\s+(\w{4})\s+(\S+)\s+(\S+)\s+CI\s+(\d+)\s(\w+)\s+(\S+)'
     );
@@ -318,7 +324,44 @@ class Parser {
     } else {
       this.parsingMessages.add('PARSING WARNING: Route and Flight level not found!');
     }
+  }
 
+  void _parseNotams(section) {
+    Map<String, dynamic> sectionData = {};
+
+    RegExp validitiesRE = RegExp(
+      r'Valid from: (\d\d/\d\d/\d\d : \d\d:\d\dZ)\s+'
+      r'Issued: (\d\d/\d\d/\d\d : \d\d:\d\dZ)\s+'
+      r'Valid to\s+: (\d\d/\d\d/\d\d : \d\d:\d\dZ)'
+    );
+    Match validitiesMatch = validitiesRE.firstMatch(section);
+    if (validitiesMatch != null) {
+      sectionData['notams_validity_from'] = validitiesMatch.group(1);
+      sectionData['notams_issued'] = validitiesMatch.group(2);
+      sectionData['notams_validity_to'] = validitiesMatch.group(3);
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Notams validities not found!');
+    }
+
+    RegExp locationsRE = RegExp(r'Locations:(?:\s+\w+,?)+');
+    Match locationsListMatch = locationsRE.firstMatch(section);
+
+    if (locationsListMatch != null) {
+      String locationsList = locationsListMatch.group(0);
+      print(locationsList);
+      RegExp locationRE = RegExp(r'\s(\w{4}),?');
+      List<Match> locationsMatch = locationRE.allMatches(locationsList).toList();
+
+      if (locationsMatch != null && locationsMatch.length > 1) {
+        for (int i = 0; i < locationsMatch.length; i++) {
+          sectionData['notam_location_' + i.toString()] =
+              locationsMatch[i].group(1);
+        }
+      }
+    } else {
+      this.parsingMessages.add('PARSING WARNING: Notams locations not found!');
+    }
+    
     print(sectionData);
     print(parsingMessages);
     print(section);
