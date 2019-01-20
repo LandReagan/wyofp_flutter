@@ -327,8 +327,10 @@ class Parser {
   }
 
   void _parseNotams(section) {
+
     Map<String, dynamic> sectionData = {};
 
+    // Header
     RegExp validitiesRE = RegExp(
       r'Valid from: (\d\d/\d\d/\d\d : \d\d:\d\dZ)\s+'
       r'Issued: (\d\d/\d\d/\d\d : \d\d:\d\dZ)\s+'
@@ -348,11 +350,14 @@ class Parser {
 
     if (locationsListMatch != null) {
       String locationsList = locationsListMatch.group(0);
-      print(locationsList);
       RegExp locationRE = RegExp(r'\s(\w{4}),?');
       List<Match> locationsMatch = locationRE.allMatches(locationsList).toList();
 
       if (locationsMatch != null && locationsMatch.length > 1) {
+        this.parsingMessages.add(
+          'PARSING DEBUG: ' + locationsMatch.length.toString() +
+          ' NOTAM locations found.'
+        );
         for (int i = 0; i < locationsMatch.length; i++) {
           sectionData['notam_location_' + i.toString()] =
               locationsMatch[i].group(1);
@@ -361,9 +366,38 @@ class Parser {
     } else {
       this.parsingMessages.add('PARSING WARNING: Notams locations not found!');
     }
-    
+
+    // Individual NOTAMs
+    RegExp notamRE = RegExp(
+        r'(\d{10})-(\d{10})?(EST)?\s+(PERM)?\s+([\w|,]+)\s+(\w\d{4}/\d{2})([\S|\s]+?)Issued: (\d{10})'
+    );
+    List<Match> notamsMatches = notamRE.allMatches(section).toList();
+    print(notamsMatches.length.toString());
+    for (var match in notamsMatches) {
+      String startTime = match.group(1);
+      String endTime = '';
+      if (match.group(2) != null) {
+        endTime = match.group(2);
+        if (match.group(3) != null) {
+          endTime += match.group(3);
+        }
+      } else {
+        endTime = match.group(4);
+      }
+      String notamLocations = match.group(5);
+      String notamReference = match.group(6);
+      String notamContent = match.group(7);
+      String notamIssued = match.group(8);
+
+      print(startTime + ' - ' + endTime + ' - ' + notamLocations + ' - ' +
+      notamReference + ' - ' + notamContent + ' - ' + notamIssued);
+    }
+
+    // Individual SNOWTAMS
+    // TODO
+
     print(sectionData);
     print(parsingMessages);
-    print(section);
+    // print(section);
   }
 }
