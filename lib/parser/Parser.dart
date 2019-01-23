@@ -43,6 +43,11 @@ class Parser {
     fuelAndRouteRE.firstMatch(this.content).group(1);
     _parseFuelAndRoute(fuelAndRoute);
 
+    // Weights Section
+    RegExp weightsRE = RegExp(r'RWY \.+ FLX \.+ [\S|\s]+?C OF G \.+PCT');
+    String weights = weightsRE.firstMatch(this.content).group(0);
+    _parseWeights(weights);
+
     // NOTAMs section
     RegExp notamsRE = RegExp(r'SITA NOTAM SERVICE[\S|\s]+');
     String notams = notamsRE.firstMatch(this.content).group(0);
@@ -324,6 +329,50 @@ class Parser {
     } else {
       this.parsingMessages.add('PARSING WARNING: Route and Flight level not found!');
     }
+    
+    this.ofpData.addAll(sectionData);
+  }
+  
+  void _parseWeights(section) {
+
+    Map<String, String> sectionData = {};
+    
+    RegExp structuralLimitsRE = RegExp(
+        r'STR LIM: ZFW (\d+)KGS / TOW (\d+)KGS / LWT (\d+)KGS');
+    Match structuralLimitsMatch = structuralLimitsRE.firstMatch(section);
+    if (structuralLimitsMatch == null) {
+      this.parsingMessages.add(
+        'PARSING WARNING: Structural Weights values not found!'
+      );
+    } else {
+      sectionData['maximum_structural_ZFW'] = structuralLimitsMatch.group(1);
+      sectionData['maximum_structural_TOW'] = structuralLimitsMatch.group(2);
+      sectionData['maximum_structural_LWT'] = structuralLimitsMatch.group(3);
+    }
+
+    RegExp estimatedRE = RegExp(
+        r'EST    : ZFW (\d+)KGS / TOW (\d+)KGS / LWT (\d+)KGS');
+    Match estimatedMatch = estimatedRE.firstMatch(section);
+    if (estimatedMatch == null) {
+      this.parsingMessages.add(
+          'PARSING WARNING: Structural Weights values not found!'
+      );
+    } else {
+      sectionData['estimated_ZFW'] = estimatedMatch.group(1);
+      sectionData['estimated_TOW'] = estimatedMatch.group(2);
+      sectionData['estimated_LWT'] = estimatedMatch.group(3);
+    }
+
+    RegExp payloadRE = RegExp(r'PLD (\d+)KGS');
+    Match payloadMatch = payloadRE.firstMatch(section);
+    if (payloadMatch == null) {
+      this.parsingMessages.add(
+          'PARSING WARNING: Estimated payload value not found!');
+    } else {
+      sectionData['estimated_payload'] = payloadMatch.group(1);
+    }
+
+    this.ofpData.addAll(sectionData);
   }
 
   void _parseNotams(section) {
@@ -372,7 +421,6 @@ class Parser {
         r'(\d{10})-(\d{10})?(EST)?\s+(PERM)?\s+([\w|,]+)\s+(\w\d{4}/\d{2})([\S|\s]+?)Issued: (\d{10})'
     );
     List<Match> notamsMatches = notamRE.allMatches(section).toList();
-    print(notamsMatches.length.toString());
     for (var match in notamsMatches) {
       String startTime = match.group(1);
       String endTime = '';
@@ -389,15 +437,20 @@ class Parser {
       String notamContent = match.group(7);
       String notamIssued = match.group(8);
 
-      print(startTime + ' - ' + endTime + ' - ' + notamLocations + ' - ' +
-      notamReference + ' - ' + notamContent + ' - ' + notamIssued);
+      String prefix = 'notam_' + notamReference + '_';
+
+      if (sectionData[prefix + 'start_time'] == null) {
+        sectionData[prefix + 'start_time'] = startTime;
+        sectionData[prefix + 'endTime'] = endTime;
+        sectionData[prefix + 'location'] = notamLocations;
+        sectionData[prefix + 'content'] = notamContent;
+        sectionData[prefix + 'issued'] = notamIssued;
+      }
     }
 
     // Individual SNOWTAMS
-    // TODO
-
-    print(sectionData);
-    print(parsingMessages);
-    // print(section);
+    // TODO SNOWTAM EXAMPLE on OFP1.txt line 8732
+    
+    this.ofpData.addAll(sectionData);
   }
 }

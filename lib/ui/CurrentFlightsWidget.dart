@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:wyofp_flutter/connectors/SitaConnector.dart';
+import 'package:wyofp_flutter/parser/Parser.dart';
 import 'package:wyofp_flutter/ui/FlightScreen.dart';
 
 class CurrentFlightsWidget extends StatefulWidget {
@@ -48,8 +49,11 @@ class _CurrentFlightsWidgetState extends State<CurrentFlightsWidget> {
             Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => FlightScreen(_flightNumberAndReference[index]['flight_reference'])
-              )
+                builder: (context) {
+                  return FlightScreen(
+                      _flightNumberAndReference[index]['flight_reference']);
+                },
+              ),
             );
           },
         );
