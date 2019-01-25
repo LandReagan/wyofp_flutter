@@ -145,7 +145,14 @@ class Parser {
 
     // FIRs
 
-    // Wind data
+    // Wind information section
+    RegExp windSectionRE = RegExp(r'WIND INFORMATION SECTION[\S|\s]+?-{5,}');
+    Match windSectionMatch = windSectionRE.firstMatch(this.content);
+    if (windSectionMatch == null) {
+      this.parsingMessages.add('PARSING ERROR: Wind section not found!');
+    } else {
+      _parseWindInformation(windSectionMatch.group(0));
+    }
 
     // ICAO flight plan
 
@@ -182,7 +189,7 @@ class Parser {
     
     // Debug stuff...
     for (var key in this.ofpData.keys) {
-      if (key.contains('destination')) {
+      if (key.contains('wind_information')) {
         print(key + ' : ' + this.ofpData[key]);
       }
     }
@@ -612,6 +619,59 @@ class Parser {
     } else {
       sectionData['destination_manoeuver_time'] = lastLineMatch.group(1);
       sectionData['destination_fuel'] = lastLineMatch.group(2);
+    }
+
+    this.ofpData.addAll(sectionData);
+  }
+
+  void _parseWindInformation(section) {
+    /// Triggers parsing wind information per sub section (same FLs)
+    RegExp windSubSection = RegExp(
+        r'(\d{3})\s+FL(\d{3})\s+FL(\d{3})\s+FL\s?(\d{3})\s+([\S|\s]+?)(?:FL|-{5,})');
+    List<Match> windSubSectionMatches = windSubSection.allMatches(section).toList();
+    if (windSubSectionMatches == null) {
+      this.parsingMessages.add(
+          'PARSING ERROR: No subsection found in the wind information!');
+    } else {
+      for (var match in windSubSectionMatches) {
+        _parseWindSubSection(
+            match.group(5), match.group(1), match.group(2), match.group(3), match.group(4)
+        );
+      }
+    }
+  }
+
+  void _parseWindSubSection(subSection, fl1, fl2, fl3, fl4) {
+    Map<String, String> sectionData = {};
+
+    RegExp windLineRE = RegExp(
+      // WAYPT        LAT              LONG             TROP      WIND1
+      r'(\S{2,5})\s+((?:N|S)\d{5})\s+((?:E|W)\d{6})(?:\s+(\d{3})\s+(\d{5})\s+'
+      //  OAT1            WIND2      OAT2            WIND3      OAT3
+      r'((?:-|\+)\d\d)\s+(\d{5})\s+((?:-|\+)\d\d)\s+(\d{5})\s+((?:-|\+)\d\d)\s+'
+      // SR        WIND4      OAT4
+      r'(\d\d)?\s+(\d{5})\s+((?:-|\+)\d\d))?'
+    );
+    List<Match> windLineMatches = windLineRE.allMatches(subSection).toList();
+    if (windLineMatches == null) {
+      this.parsingMessages.add(
+          'PARSING WARNING: No wind information found in one subsection!');
+    } else {
+      for (var match in windLineMatches) {
+        String prefix = 'wind_information_' + match.group(1) + '_';
+        sectionData[prefix + 'LAT'] = match.group(2) ?? '';
+        sectionData[prefix + 'LONG'] = match.group(3) ?? '';
+        sectionData[prefix + 'TROP'] = match.group(4) ?? '';
+        sectionData[prefix + 'WIND1'] = match.group(5) ?? '';
+        sectionData[prefix + 'OAT1'] = match.group(6) ?? '';
+        sectionData[prefix + 'WIND2'] = match.group(7) ?? '';
+        sectionData[prefix + 'OAT2'] = match.group(8) ?? '';
+        sectionData[prefix + 'WIND3'] = match.group(9) ?? '';
+        sectionData[prefix + 'OAT3'] = match.group(10) ?? '';
+        sectionData[prefix + 'SR'] = match.group(11) ?? '';
+        sectionData[prefix + 'WIND4'] = match.group(12) ?? '';
+        sectionData[prefix + 'OAT4'] = match.group(13) ?? '';
+      }
     }
 
     this.ofpData.addAll(sectionData);
