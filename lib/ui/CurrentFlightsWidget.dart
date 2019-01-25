@@ -1,19 +1,22 @@
 import 'package:flutter/material.dart';
 
 import 'package:wyofp_flutter/connectors/SitaConnector.dart';
-import 'package:wyofp_flutter/parser/Parser.dart';
 import 'package:wyofp_flutter/ui/FlightScreen.dart';
 
 class CurrentFlightsWidget extends StatefulWidget {
   _CurrentFlightsWidgetState createState() => _CurrentFlightsWidgetState();
 }
 
-class _CurrentFlightsWidgetState extends State<CurrentFlightsWidget> {
+class _CurrentFlightsWidgetState extends State<CurrentFlightsWidget>
+    with AutomaticKeepAliveClientMixin<CurrentFlightsWidget>{
 
   SitaConnector _connector = SitaConnector();
   bool loading = false;
 
   List<Map<String, String>> _flightNumberAndReference = [];
+
+  @override
+  bool get wantKeepAlive => true;
 
   void initState() {
     super.initState();
@@ -38,7 +41,15 @@ class _CurrentFlightsWidgetState extends State<CurrentFlightsWidget> {
   @override
   Widget build(BuildContext context) {
     if (_flightNumberAndReference.length == 0) {
-
+      return Column(
+        children: <Widget>[
+          Text('Fetching flight plans, please wait...',
+            textScaleFactor: 1.5,
+            textAlign: TextAlign.center,
+          ),
+          CircularProgressIndicator(),
+        ],
+      );
     }
     return ListView.builder(
       itemCount: _flightNumberAndReference.length,
@@ -51,7 +62,9 @@ class _CurrentFlightsWidgetState extends State<CurrentFlightsWidget> {
               MaterialPageRoute(
                 builder: (context) {
                   return FlightScreen(
-                      _flightNumberAndReference[index]['flight_reference']);
+                    _flightNumberAndReference[index]['flight_reference'],
+                    _connector
+                  );
                 },
               ),
             );

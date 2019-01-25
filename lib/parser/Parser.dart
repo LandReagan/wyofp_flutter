@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:async';
 
 class Parser {
 
@@ -10,13 +11,18 @@ class Parser {
   /// Errors, Warnings, etc... messages emitted by the parsing functions
   List parsingMessages = [];
 
-  Parser(this.content) {
-    _parse();
-  }
+  Parser(this.content);
 
   String get ofpDataAsJson => jsonEncode(ofpData);
 
+  Future<void> parse() {
+    /// Only to make parsing asynchronous
+    _parse();
+    return null;
+  }
+
   void _parse() {
+    /// Main parsing function, calling sub functions per OFP sections
     print('Parsing started...');
 
     // Flight Acceptance Form Section
@@ -48,11 +54,99 @@ class Parser {
     String weights = weightsRE.firstMatch(this.content).group(0);
     _parseWeights(weights);
 
+    // ATC clearance
+    RegExp atcClearanceRE = RegExp(
+        r'ATC CLEARANCE REQUESTED([\S|\s]+?)ATC CLEARANCE ISSUED');
+    Match atcClearanceMatch = atcClearanceRE.firstMatch(this.content);
+    if (atcClearanceMatch == null) {
+      this.parsingMessages.add('PARSING WARNING: ATC clearance not found!');
+    } else {
+      this.ofpData['atc_clearance'] = atcClearanceMatch.group(1);
+    }
+
+    // Least cost - real value
+
+    // Escape route alternates
+    RegExp escapeRouteAlternatesRE = RegExp(
+        r'ENROUTE ESCAPE ROUTE DIVERSION ALTERNATES:\s+((?:\w{4}\s)+)');
+    Match escapeRouteAlternatesMatch =
+        escapeRouteAlternatesRE.firstMatch(this.content);
+    if (escapeRouteAlternatesMatch == null) {
+      this.parsingMessages.add('PARSING INFO: no escape route alternates found!');
+    } else {
+      String alternatesText = escapeRouteAlternatesMatch.group(1);
+      RegExp alternatesRE = RegExp(r'\w{4}');
+      List<Match> alternatesMatches =
+          alternatesRE.allMatches(alternatesText).toList();
+      this.parsingMessages.add(
+          'PARSING DEBUG: ' + alternatesMatches.length.toString() +
+          ' escape route alternates found!');
+      for (var match in alternatesMatches) {
+        String index = alternatesMatches.indexOf(match).toString();
+        this.ofpData['escape_route_alternate_' + index] = match.group(0);
+      }
+    }
+
+    // destination alternate data
+
+    // ETOPS data
+
+    // Timings
+
+    // log
+
+    // Destination elevation
+    // !! Uses data parsed before !!
+    RegExp elevationRE = RegExp(r'(\w{4}) ELEV (\d+)FT');
+    List<Match> elevationMatches = elevationRE.allMatches(this.content).toList();
+    if (elevationMatches == null) {
+      this.parsingMessages.add('PARSING WARNING: no elevation found!');
+    } else {
+      for (var match in elevationMatches) {
+        if (match.group(1) == ofpData['origin_icao'])
+          ofpData['origin_icao_elevation'] = match.group(2);
+        if (match.group(1) == ofpData['destination_icao'])
+          ofpData['destination_icao_elevation'] = match.group(2);
+      }
+    }
+
+    // Waypoints?
+
+    // FIRs
+
+    // Wind data
+
+    // ICAO flight plan
+
+    // Alternate log
+
+    // Alternate waypoints
+
+    // AFTN. ???
+
+    // Overfly charge costing
+
+    // Company notice
+
+    // RAIM outage report
+
+    // Weather
+    RegExp weatherRE = RegExp(r'WEATHER MACRO[\S|\s]+?END OF WEATHER MACRO');
+    Match weatherMatch = weatherRE.firstMatch(this.content);
+    if (weatherMatch == null) {
+      this.parsingMessages.add('PARSING ERROR: Weather section not found!');
+    } else {
+      _parseWeather(weatherMatch.group(0));
+    }
+
     // NOTAMs section
     RegExp notamsRE = RegExp(r'SITA NOTAM SERVICE[\S|\s]+');
     String notams = notamsRE.firstMatch(this.content).group(0);
     _parseNotams(notams);
 
+    for (var message in parsingMessages) {
+      print(message);
+    }
     print('Parsing finished!');
   }
 
@@ -63,14 +157,15 @@ class Parser {
   void _parseFlightHeader(section) {
 
     RegExp firstLineRE = RegExp(
-      r'PLAN\s+(\w{5})\s+OMA\s+(\d{3,4})\s+(\w{4})\s+TO\s+(\w{4})\s+(\S+)\s+(\S+)\s+CI\s+(\d+)\s(\w+)\s+(\S+)'
+      // todo: add the case of constant mach! (find an example)
+      r'PLAN\s+(\w{5})\s+OMA\s+(\d{3,4})\s+(\w{4})\s+TO\s+(\w{4})\s+([\S|\s]+?)\s+(ECON|LRC|MRC)\s+CI\s+(\d+)\s(\w+)\s+(\S+)'
     );
     Match firstLineMatch = firstLineRE.firstMatch(section);
     if (firstLineMatch == null) {
       this.parsingMessages.add('PARSING FAIL: firstLine of FlightHeader!');
     } else {
       this.ofpData['flight_plan_reference'] = firstLineMatch.group(1);
-      this.ofpData['flight_number'] = firstLineMatch.group(2);
+      this.ofpData['flight_number'] = 'OMA' + firstLineMatch.group(2);
       this.ofpData['origin_icao'] = firstLineMatch.group(3);
       this.ofpData['destination_icao'] = firstLineMatch.group(4);
       this.ofpData['aircraft_type'] = firstLineMatch.group(5);
@@ -170,10 +265,12 @@ class Parser {
       sectionData['approach_destination_fuel'] = approachDestinationMatch.group(1);
       sectionData['approach_destination_time'] = approachDestinationMatch.group(2);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Approach destination fuel not found!');
+      this.parsingMessages.add(
+          'PARSING WARNING: Approach destination fuel not found!');
     }
 
-    RegExp contingencyRE = RegExp(r'CONTINGENCY\s+(\d)PCT\s+(\d+)\s+([\d|\.]+)');
+    RegExp contingencyRE = RegExp(
+        r'CONTINGENCY\s+((?:\dPCT|MIN))\s+(\d+)\s+([\d|\.]+)');
     Match contingencyMatch = contingencyRE.firstMatch(section);
     if (contingencyMatch != null) {
       sectionData['contingency_type'] = contingencyMatch.group(1);
@@ -235,7 +332,7 @@ class Parser {
       this.parsingMessages.add('PARSING WARNING: Minimum dispatch fuel not found!');
     }
 
-    RegExp tankeringRE = RegExp(r'MIN T/O FUEL\s+(\d+)\s+([\d|\.]+)');
+    RegExp tankeringRE = RegExp(r'TANKERING\s+(\d+)\s+([\d|\.]+)');
     Match tankeringMatch = tankeringRE.firstMatch(section);
     if (tankeringMatch != null) {
       sectionData['tankering_fuel'] = tankeringMatch.group(1);
@@ -304,6 +401,8 @@ class Parser {
     } else {
       this.parsingMessages.add('PARSING WARNING: Average ISA deviation not found!');
     }
+
+    // TODO: FIXED ALT calculation
 
     RegExp captainRE = RegExp(r'CAPTAIN\s+([\S|\s]+)\s+CAPTAIN SIGNATURE:');
     Match captainMatch = captainRE.firstMatch(section);
@@ -375,6 +474,39 @@ class Parser {
     this.ofpData.addAll(sectionData);
   }
 
+  void _parseWeather(section) {
+    Map<String, String> sectionData = {};
+
+    RegExp metarTafSpeciRE = RegExp(
+        r'(TAF|METAR|SPECI) (?:AMD|COR)?\s?(\w{4})[\S|\s]+?=');
+    List<Match> metarTafSpeciMatches =
+        metarTafSpeciRE.allMatches(section).toList();
+    if (metarTafSpeciMatches == null) {
+      this.parsingMessages.add('PARSING ERROR: no METAR / TAF / SPECI found!');
+    } else {
+      this.parsingMessages.add(
+          'PARSING DEBUG: ' + metarTafSpeciMatches.length.toString() +
+          ' METAR TAF SPECI found!');
+      for (var match in metarTafSpeciMatches) {
+        sectionData[match.group(1) + '_' + match.group(2)] = match.group(0);
+      }
+    }
+
+    RegExp sigmetAirmetRE = RegExp(r'(\w{4}) (SIGMET|AIRMET) [\S|\s]+?=');
+    List<Match> sigmetAirmetMatches =
+        sigmetAirmetRE.allMatches(section).toList();
+    if (sigmetAirmetMatches == null) {
+      this.parsingMessages.add('PARSING WARNING: no SIGMET or AIRMET found!');
+    } else {
+      this.parsingMessages.add(
+          'PARSING DEBUG: ' + sigmetAirmetMatches.length.toString() +
+              ' SIGMET or AIRMET found!');
+      for (var match in sigmetAirmetMatches) {
+        sectionData[match.group(2) + '_' + match.group(1)] = match.group(0);
+      }
+    }
+  }
+
   void _parseNotams(section) {
 
     Map<String, dynamic> sectionData = {};
@@ -421,6 +553,9 @@ class Parser {
         r'(\d{10})-(\d{10})?(EST)?\s+(PERM)?\s+([\w|,]+)\s+(\w\d{4}/\d{2})([\S|\s]+?)Issued: (\d{10})'
     );
     List<Match> notamsMatches = notamRE.allMatches(section).toList();
+    this.parsingMessages.add(
+        'PARSING DEBUG: ' + notamsMatches.length.toString() +
+        ' NOTAMS found! (it may contain doubles)');
     for (var match in notamsMatches) {
       String startTime = match.group(1);
       String endTime = '';

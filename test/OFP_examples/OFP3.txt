@@ -1,0 +1,1843 @@
+-CFP INPUT MESSAGE DATE TIME REF 240718
+ START OF CFP REF : BZEEZ  -  OMA607  01 OOMS OMDB
+
+                      FLIGHT DISPATCH CHECKLIST
+                      -------------------------
+  ___________________________________________________________________
+ |FLT NO | WY607          | CAPTAIN    | JANOS FENTOR                |
+ |_______|________________|____________|_____________________________|
+ |SECTOR | OOMS-OMDB      | CO-PILOT   |                             |
+ |_______|________________|____________|_____________________________|
+ |REGN   | A4OBAG         | DISPATCHER | A.ALBARWANI                 |
+ |_______|________________|____________|_____________________________|
+ |ETD    | 1340           | DATE       | 24JAN19                     |
+ |_______|________________|____________|_____________________________|
+  ___________________________________________________________________
+ |  NO   |      ITEM      |          WHAT TO CHECK          | STATUS |
+ |_______|________________|_________________________________|_YES|NO_|
+ |   1   |OFP REFERENCE   |                                 |    |   |
+ |_______|________________|_________________________________|____|___|
+ |       |OPERATIONAL     |FLIGHT NO / REGN / EZFW / ETOW   |    |   |
+ |   2   |FLIGHT PLAN     |ELGW /STD / STA / FLIGHT LEVEL   |    |   |
+ |       |ACCURACY        |ALTERNATES / COMPANY ROUTE /     |    |   |
+ |_______|________________|_________________________________|____|___|
+ |   3   |TAFS            |ORIGIN/DEST/DEST-ALT/ENROUTE ALT |    |   |
+ |_______|________________|_________________________________|____|___|
+ |   4   |APPLICABLE SIGWX|MET FOLDER MUST CONTAIN ALL      |    |   |
+ |       |LOW-HIGH LVL    |APPLICABLE CHARTS COVERING ENTIRE|    |   |
+ |       |UPPER WIND/TEMP |AREA                             |    |   |
+ |       |CHARTS          |                                 |    |   |
+ |_______|________________|_________________________________|____|___|
+ |   5   |NOTAMS /COMPANY |ORIGIN/DEST/DEST-ALT/            |    |   |
+ |       |NOTICE          |ENROUTE ALT/ENROUTE FIR          |    |   |
+ |_______|________________|_________________________________|____|___|
+ |   6   |MEL/CDL         |                                 |    |   |
+ |       |REFERENCE       |                                 |    |   |
+ |_______|________________|_________________________________|____|___|
+ |   7   |TANKERING FUEL  |ACCURACY OF RLW CALCULATION      |    |   |
+ |_______|________________|_________________________________|____|___|
+ |   8   |PERFORMANCE     |TAKEOFF WEIGHT RESTRICTED        |    |   |
+ |       |LIMITED WEIGHTS |_________________________________|____|___|
+ |       |                |LANDING WEIGHT RESTRICTED        |    |   |
+ |_______|________________|_________________________________|____|___|
+ |   9   |ACFT STRUCTURAL |MTOW / ETOW - MLGW / ELGW        |    |   |
+ |       |WEIGHTS         |MZFW / EZFW                      |    |   |
+ |_______|________________|_________________________________|____|___|
+ |  10   |ATS FLIGHT PLAN |WITH-AIS OFFICE / EURO CONTROL   |    |   |
+ |       |FILED           |APPLICABLE DEP STATION           |    |   |
+ |_______|__________________________________________________|____|___|
+ |  11   |SPECIAL WEATHER |CYCLONE / ASH CLOUDES / SEVERE-  |    |   |
+ |       |PHENOMENON      |MODERATE ICING                   |    |   |
+ |       |EFFECTING ROUTE |                                 |    |   |
+ |_______|________________|_________________________________|____|___|
+ |       |LOW VISIBILITY  |CAT II  / CAT IIIA / CAT IIIB    |    |   |
+ |  12   |OPERATION / CREW|LVTO / OBTAINED CONFIRMATION     |    |   |
+ |       |QUALIFCATION    |FROM CREW CONTROL                |    |   |
+ |_______|________________|_________________________________|____|___|
+ |  13   |ADDITIONAL SPECIAL INFO:                                   |
+ |_______|___________________________________________________________|
+ |    DISPATCHERS SIGNATURE:                                         |
+ |                                                                   |
+ |___________________________________________________________________|
+
+ NOTE- FLIGHT DISPATCH CHECK LIST SHALL BE ATTACHED WITH FLIGHT
+ ACCEPTANCE-DEPARTURE STATION COPY AFTER COMPLETION OF FLT MONITORING
+
+
+
+
+
+                          FLIGHT ACCEPTANCE FORM
+                          ----------------------
+
+          PLEASE RETAIN WITH OTHER FLIGHT DISPATCH PAPERWORK
+
+ OMA607  /24JAN19 / A4OBAG  / OOMS    OMDB / ALTN - OMAL/2ALTN - OMSJ
+
+ T/O ALTN - XXXX / B737-8 / ECON CI024 / IFR / ETD: 241340Z /REF:BZEEZ
+
+
+ DISPATCHER - A.ALBARWANI
+
+ ROUTE: MCTDXB03
+ OOMS DCT MCT T508 SOLUD P574 IMPED IMPE3E OMDB
+
+ EST:    TOW   065630 KGS / ZFW 060450 KGS LWT  063260 KGS / PL 015570
+
+ TRIP FUEL                    - 002370 KGS    - 00.50
+ APP.DEST                     - 000240 KGS    - 00.07
+ MINIMUM DISPATCH FUEL        - 005490 KGS    - 01.59
+ TANKERING                    - 000000 KGS    - 00.00
+
+ RAMP FUEL (RECOMMENDED)      - 005490 KGS
+
+
+ EXTRA UPLIFT                 - ...... KGS - REASON FOR EXTRA FUEL:
+
+ .....................................................................
+
+
+
+ FINAL RAMP FUEL BY CAPTAIN   -................KGS
+
+
+ REMARKS..............................................................
+
+ .....................................................................
+
+ I, THE UNDERSIGNED CERTIFY THAT I ACCEPT THIS FLIGHT PLAN/NOTAM/
+ WEATHER REPORTS AND CONFIRM I HAVE READ AND UNDERSTOOD  ALL RELEVANT
+ CIRCULARS, NTC'S MEMOS AND COMPANY NOTICES (WHICH APPEAR IN THE LAST
+ PAGE OF THE FLIGHT PLAN) AS OF DATE:....................
+
+ CAPTAIN - JANOS FENTOR      S/NO-............SIGNATURE-..............
+
+
+ CO-PILOT-...................S/N0-............SIGNATURE-..............
+
+
+ JUMP SEAT-..................S/N0-............SIGNATURE-..............
+
+ ** NOTE-THIS FLIGHT ACCEPTANCE FORM IS TO BE COMPLETED BY THE
+ OPERATING PILOTS PRIOR TO EACH SECTOR AND LEFT WITH DEPARTURE
+ STATION.
+
+
+
+
+
+
+
+
+
+
+ PLAN BZEEZ OMA 607     OOMS TO OMDB B737-8 ECON CI 024 IFR 24/JAN/19
+ WX OBS TIME 0000 FOR ETD 1340Z BAG 12Z/ PROGS
+ COMPUTED AT 0718Z ON 24JAN19
+ FLIGHT COST 002750
+ PERF DEGR USED 0.0 PCT
+                                 TAKE-OFF ALTERNATE
+ GROUND DIST   256 N.M.          AIR DIST   287 N.M.  GC DIST   188N.M
+
+ FUEL PLAN             AV WC H037          MXSH 05/DAPOK
+ TRIP                2370  0.50 . . . .  MIN DIV 002270
+ APP.DEST             240  0.07 . . . .
+ CONTINGENCY MIN      300  0.06 . . . . ERA -
+ ALTERNATE    OMAL   1140  0.26 . . . . INCLUDES ALTN APP. FUEL
+ FINAL RESERVE       1130  0.30 . . . .
+ ADDTNAL(ETOP XTR)      0  0.00 . . . .
+ MIN T/O FUEL        5180  1.59 . . . .
+ EXTRA                  0       . . . .
+ TAXY                 310       . . . .
+ MIN DISPATCH FUEL   5490       . . . .
+ TANKERING              0  0.00 . . . .
+ PIC EXTRA              0       . . . . REASON FOR EXTRA FUEL.......
+ RAMP FUEL           5490       . . . .
+ FUEL LOADED       (CAPT)       . . . . (F/O) . . . .
+ ZERO ZERO FIVE FOUR NINE ZERO  KGS
+
+ ADJUSTMENT FOR 2000 KGS INCREASE IN ZFW - TTL FUEL/BURN P0080/0040KGS
+ ADJUSTMENT FOR 2000 KGS DECREASE IN ZFW - TTL FUEL/BURN M0080/0030KGS
+
+ AVERAGE ISA DEVIATION P10
+
+
+ CAPTAIN     JANOS FENTOR          CAPTAIN SIGNATURE:.................
+ DISPATCHER  A.ALBARWANI
+
+ ROUTE: MCTDXB03    FL200
+
+ ---------------------------------------------------------------------
+ :                                                                   :
+ :   RWY ..... FLX ......     NI ..... V1 .... VR .... V2.... VFS....:
+ :                                                                   :
+ : STR LIM: ZFW 062730KGS / TOW 079015KGS / LWT 066260KGS            :
+ :                                                                   :
+ : OPS LIM: ZFW ......KGS / TOW ......KGS / LWT ......KGS            :
+ :                                                                   :
+ : EST    : ZFW 060450KGS / TOW 065630KGS / LWT 063260KGS            :
+ :          PLD 015570KGS                                            :
+ :                                                                   :
+ : ACT    : ZFW ......KGS / TOW ......KGS / LWT ......KGS            :
+ :        : PLD ......KGS                                            :
+ :                                                                   :
+ :          PAX ......  CREW ......  POB ......      C OF G .....PCT :
+ :                                                                   :
+ ---------------------------------------------------------------------
+
+
+ DEP ATIS:------------------------------------------------------------
+
+
+
+ ATC CLEARANCE REQUESTED
+ OOMS DCT MCT T508 SOLUD P574 IMPED IMPE3E OMDB
+
+ ATC CLEARANCE ISSUED
+
+
+                  - - - - - - - - - - - -
+                  LEAST COST - REAL VALUES
+                  - - - - - - - - - - - -
+ ROUTE      DIST  ACTTIM    FUEL    ZFW    OFC    TOT COST
+ MCTDXB03   0256   00.57  002373  060450  000173  002849
+
+
+
+              DESTINATION ALTERNATE DATA
+
+                   MORA TTK  DIST  FL   W/C   TIME  FUEL  ELEV
+ ALTERNATE  OMAL   080  167  0083  150  T013  0.26  1140  866  FT
+ OMDB ANVI5G ANVIX R401 GIDIS DCT OMAL
+
+
+ :-------------------------------------------------------------------:
+ : ADDITIONAL DESTINATION ALTERNATES DATA (FOR INFORMATION ONLY)     :
+ :-------------------------------------------------------------------:
+                   MORA TTK  DIST  FL   W/C   TIME  FUEL  ELEV
+ ALTERNATE  OMSJ   038  061  0020  030  T002  0007   710  118  FT
+ OMDB DCT SERSA DCT OMSJ
+
+ : ALTERNATE 3 NOT SPECIFIED                                         :
+ :-------------------------------------------------------------------:
+
+
+
+ FL200
+
+
+
+ EQT ALTNS
+
+
+ ---------------------------------------------------------------------
+ :                                                                   :
+ :RAMP FUEL. . .   STA 1445Z  BLON . . . .  LDG . . . .              :
+ :                                                                   :
+ :     BLON. . . . STD 1340Z  BLOFF. . . .  T/O . . . . AFLT         :
+ :                                                                   :
+ :     B/O . . . .            TIME. . . . . TIME . . . .RETA . . . . :
+ :                                                                   :
+ ---------------------------------------------------------------------
+ --------------------------------------------------------------------
+                              REMARKS
+ NOTES:
+
+
+
+ --------------------------------------------------------------------
+
+ OOMS ELEV 00025FT                                        REMAINING
+ AWY   FIX    FREQ  FL TAS GS MCSE ZDIST ZTIME  ETA/ATA  TIME   FUEL
+              MSA      WIND   ITCS       CTIME
+
+       OOMS         CL          000       0.00 ..../.... 00.57 005180
+ OOMM  FIR    000      000/000  000       0.00
+
+ DCT   MCT   114.5  CL 275 275  265 0010  0.02 ..../.... 00.55 004950
+              091      340/002  266       0.02
+
+ T508  MIXAM        CL 275 255  287 0020  0.05 ..../.... 00.50 004460
+              124      300/025  288       0.07
+
+ T508  TOC         200 275 222  307 0006  0.01 ..../.... 00.49 004290
+              124      300/062  308       0.08
+
+ T508  DAPOK       200 412 351  307 0024  0.05 ..../.... 00.44 004100
+              124      300/062  308       0.13
+
+ T508  SOLUD       200 411 350  307 0053  0.09 ..../.... 00.35 003680
+              124      300/061  308       0.22
+
+ P574  PUXIL       200 410 350  306 0015  0.02 ..../.... 00.33 003560
+              080      300/061  308       0.24
+
+ P574  GISMO       200 410 350  306 0011  0.02 ..../.... 00.31 003480
+ OMAE  FIR    080      300/061  308       0.26
+
+ P574  MIVEK       200 410 350  305 0008  0.01 ..../.... 00.30 003410
+              094      300/060  307       0.27
+
+ P574  IMPED       200 410 349  298 0012  0.02 ..../.... 00.28 003320
+              094      300/060  299       0.29
+
+ IMPE3EDB520       200 409 350  310 0008  0.02 ..../.... 00.26 003260
+              094      300/060  312       0.31
+
+ IMPE3EDB518       200 409 350  310 0009  0.01 ..../.... 00.25 003190
+              094      300/060  312       0.32
+
+ IMPE3EDB517       200 409 349  300 0004  0.01 ..../.... 00.24 003160
+              094      300/060  302       0.33
+
+ IMPE3EDB423       200 409 351  279 0013  0.02 ..../.... 00.22 003060
+              038      300/060  281       0.35
+
+ IMPE3ETOD         200 408 353  270 0000  0.00 ..../.... 00.22 003060
+              038      300/060  272       0.35
+
+ IMPE3EDB407        DC 343 301  270 0012  0.02 ..../.... 00.20 003020
+              038      300/046  272       0.37
+
+ IMPE3EDB408        DC 329 296  284 0007  0.02 ..../.... 00.18 003000
+              038      300/034  285       0.39
+
+ IMPE3EDB403        DC 322 295  300 0007  0.01 ..../.... 00.17 002970
+              038      300/026  302       0.40
+
+ IMPE3ESOLIL        DC 315 295  300 0005  0.01 ..../.... 00.16 002960
+              038      300/020  302       0.41
+
+ IMPE3EODLAL        DC 307 292  300 0004  0.01 ..../.... 00.15 002940
+              038      300/015  302       0.42
+
+ IMPE3EDB414        DC 294 294  030 0004  0.01 ..../.... 00.14 002930
+              038      300/011  032       0.43
+
+ IMPE3EDB413        DC 272 279  120 0004  0.01 ..../.... 00.13 002920
+              038      290/007  122       0.44
+
+ IMPE3EREREK        DC 239 243  120 0004  0.01 ..../.... 00.12 002900
+              038      290/004  121       0.45
+
+ IMPE3EOMDB         DC          120 0016  0.05 ..../.... 00.07 002810
+              000      300/002  122       0.50
+
+                              DEST MNVR   0.07                 002570
+ OMDB ELEV 00062FT
+
+ ATIS-
+
+  ___________________________________________________________________
+ |                                                                   |
+ |                                                                   |
+ |DEST WX:__________________________________________________________ |
+ |                                                                   |
+ |                                                                   |
+ |ALT WX:___________________________________________________________ |
+ |                                                                   |
+ |                                                                   |
+ |ETOPS ALT WX:_____________________________________________________ |
+ |                                                                   |
+ | _________________________________________________________________ |
+ |                                                                   |
+ |___________________________________________________________________|
+
+
+
+
+
+ WAYPOINTS
+
+ OOMS  N23356   E058169     DB517  N25115   E055469
+ MCT   N23355   E058156     DB423  N25139   E055327
+ MIXAM N23417   E057554     TOD    N25139   E055327
+ TOC   N23454   E057502     DB407  N25142   E055195
+ DAPOK N23599   E057300     DB408  N25162   E055116
+ SOLUD N24324   E056444     DB403  N25199   E055051
+ PUXIL N24413   E056318     SOLIL  N25226   E055003
+ GISMO N24477   E056226     ODLAL  N25247   E054565
+ MIVEK N24527   E056153     DB414  N25282   E054589
+ IMPED N24584   E056041     DB413  N25261   E055026
+ DB520 N25037   E055577     REREK  N25240   E055064
+ DB518 N25094   E055507     OMDB   N25152   E055219
+
+
+
+ FIRS:
+ OOMS - OOMM 00.57 - OMAE 00.31 - OMDB
+
+
+ --------------------------------------------------------------------
+
+                       WIND INFORMATION SECTION
+
+ DESCENT WINDS : FL250 299/085     FL150 299/041      FL050 297/006
+
+ WAYPT  LAT     LONG   TROP W/V   OAT W/V   OAT W/V   OAT SR W/V   OAT
+                             FL160     FL180      FL200       FL 220
+ OOMS  N23356  E058169
+ DAPOK N23599  E057300  560 30043 -09 29052 -12 30062 -15 05 30071 -19
+ SOLUD N24324  E056444  560 30043 -09 29052 -12 30061 -15 05 30070 -19
+ PUXIL N24413  E056318  560 30043 -09 29052 -12 30061 -15 05 30070 -19
+ GISMO N24477  E056226  560 30044 -09 29052 -12 30061 -15 05 30070 -19
+ MIVEK N24527  E056153  560 30044 -09 29051 -12 30060 -15 05 30070 -19
+ IMPED N24584  E056041  560 30044 -09 29052 -12 30060 -15 05 30070 -19
+ DB520 N25037  E055577  560 30045 -09 29052 -12 30060 -15 05 29069 -20
+ DB518 N25094  E055507  570 30045 -09 29052 -12 30060 -15 05 29069 -20
+ DB517 N25115  E055469  570 30045 -09 29052 -12 30060 -15 05 29069 -20
+ DB423 N25139  E055327  570 29044 -09 29051 -12 30060 -15 04 29069 -20
+ TOD   N25139  E055327  570 29044 -09 29051 -12 30060 -16 00 29070 -20
+ OMDB  N25152  E055219
+ --------------------------------------------------------------------
+
+ AL2  OMDB    OMSJ    FL 030 BELOW GMORA  38, SEGMENT OMDB    TOC
+ AL2  OMDB    OMSJ    FL 030 BELOW GMORA  38, SEGMENT TOC     TOD
+
+
+ START OF ICAO FLIGHT PLAN
+
+ (FPL-OMA607-IS
+ -B738/M-SDE2E3FGHIRWY/LB1
+ -OOMS1340
+ -N0412F200 DCT MCT T508 SOLUD P574 IMPED DCT
+ -OMDB0050 OMAL OMSJ
+ -PBN/A1B1C1D1L1O1T1S2 DOF/190124 REG/A4OBAG
+  EET/OMAE0026 SEL/EQHM
+  RMK/FON GCAPOMA0120
+  TCAS AGCS EQUIPPED
+  C/JANOS FENTOR)
+
+ END OF ICAO FLIGHT PLAN
+
+
+ START OF ALTERNATIVE FLIGHT PLAN OMDB TO OMAL
+ ROUTE:
+
+                                                           TIME  FUEL
+ AWY   FIX    FREQ  FL  TAS  GS MCSE ZDIST ZTIME  ETA/ATA  RMNG  RMNG
+               MSA       WIND   ITCS       CTIME
+
+ ANVI5GOMDB         CLB   0   0  000  0000  000  ..../.... 0026 02270
+                        000/000  000        0026
+
+ ANVI5GASTES        CLB 196 198  120  0007  003  ..../.... 0023 02060
+             038        300/052  122        0023
+
+ ANVI5GDB469        CLB 196 196  120  0010  003  ..../.... 0020 01810
+             054        300/052  122        0020
+
+ ANVI5GTOC          150 196 180  133  0008  002  ..../.... 0018 01600
+             054        300/052  134        0018
+
+ ANVI5GTOD          150 314 314  136  0000  000  ..../.... 0018 01600
+             054        300/052  138        0018
+
+ ANVI5GLUBAP        DC  188 210  134  0006  002  ..../.... 0016 01550
+             054        300/052  135        0016
+
+ ANVI5GLOPUV        DC  188 201  155  0007  002  ..../.... 0014 01500
+             080        300/052  157        0014
+
+ R401  ANVIX        DC  188 187  125  0006  001  ..../.... 0013 01460
+             080        300/052  127        0013
+
+ DCT   GIDIS        DC  188 190  180  0011  004  ..../.... 0009 01360
+             080        300/054  181        0009
+
+       OMAL         DC  188 189  220  0028  009  ..../.... 0000 01130
+                        300/027  221        0000
+
+ WAYPOINTS
+
+ OMDB  N25152   E055219     LUBAP  N24566   E055481
+ ASTES N25121   E055274     LOPUV  N24505   E055510
+ DB469 N25068   E055368     ANVIX  N24469   E055563
+ TOC   N25012   E055431     GIDIS  N24360   E055560
+ TOD   N25009   E055434     OMAL   N24157   E055366
+
+
+ AFTN.  OOMSOASO OOMSZPZX OOMMZQZX OMAEZRZX
+
+
+ OVERFLIGHT CHARGE COSTINGS
+ BZEEZ       OMA/ 607/OOMS/OMDB     DATE: 24JAN19     MTOW:  79.01 TON
+
+ TOTAL COSTING FOR ROUTE: MCTDXB03 =                   172.99 USD
+
+
+
+
+ ------------------------- COMPANY NOTICE ---------------------------
+  A/L  TYP  REGISTRN  ORIG  DEST  ALTN  AIRP   VALDFM    VALDTO
+  OMA                                         07122017  07122020
+ CN16/17
+ FLIGHT OVER FLYING , TAKE-OFF ,LANDING WITHIN UAE FIR NEED TO UPDATE
+ ROUTES IN FMC UFN
+ --------------------------------------------------------------------
+  A/L  TYP  REGISTRN  ORIG  DEST  ALTN  AIRP   VALDFM    VALDTO
+  OMA                 OOMS                    05082018  05082025
+ CN07/18
+ MUSCAT AIRPORT CLOSED ON SUN,MON & WED BTN 0100-0200
+ ---------------------------------------------------------------------
+  A/L  TYP  REGISTRN  ORIG  DEST  ALTN  AIRP   VALDFM    VALDTO
+  OMA                 OOMS                    16072018  16072025
+ CN09/18
+ DUE TO POOR VHF READABILITY BETWEEN AIRCRAFT AND IOCC ON SOME AIRCRAF
+ STANDS, PILOTS TO USE ACARS IF THERE IS NO CONNECTION TO IOCC.
+ ---------------------------------------------------------------------
+ --------------------------------------------------------------------
+
+ START OF RAIM OUTAGE REPORT
+ Identifier               OOMS
+ Start:                   24/01/2019 07:40:00
+ End:                     25/01/2019 07:40:00
+ Algorithm:               FD
+ Minimum Duration Outage: 0 Minute(s) 0 Second(s)
+ Sample period:           1 Minute(s) 0 Second(s)
+ Mask angle:              5
+ RNP value:               NPA
+ Baro aided:              OFF
+                          Non-Baro Aided Outages
+ No outages reported
+
+ Identifier               OMDB
+ Start:                   24/01/2019 07:40:00
+ End:                     25/01/2019 07:40:00
+ Algorithm:               FD
+ Minimum Duration Outage: 0 Minute(s) 0 Second(s)
+ Sample period:           1 Minute(s) 0 Second(s)
+ Mask angle:              5
+ RNP value:               NPA
+ Baro aided:              OFF
+                          Non-Baro Aided Outages
+ No outages reported
+
+ Identifier               OMAL
+ Start:                   24/01/2019 07:40:00
+ End:                     25/01/2019 07:40:00
+ Algorithm:               FD
+ Minimum Duration Outage: 0 Minute(s) 0 Second(s)
+ Sample period:           1 Minute(s) 0 Second(s)
+ Mask angle:              5
+ RNP value:               NPA
+ Baro aided:              OFF
+                          Non-Baro Aided Outages
+ No outages reported
+
+ Identifier               OMSJ
+ Start:                   24/01/2019 07:40:00
+ End:                     25/01/2019 07:40:00
+ Algorithm:               FD
+ Minimum Duration Outage: 0 Minute(s) 0 Second(s)
+ Sample period:           1 Minute(s) 0 Second(s)
+ Mask angle:              5
+ RNP value:               NPA
+ Baro aided:              OFF
+                          Non-Baro Aided Outages
+ No outages reported
+ END OF RAIM OUTAGE REPORT
+- - - DATA SUPPLIED BY SITA SURFACE WEATHER SYSTEM - - -
+
+
+                     WEATHER MACRO WYMCTDXB FOR OMAN AIR
+                     ***********************************
+
+
+ *********
+ DEPARTURE
+ *********
+
+
+  Muscat - MCT
+  ------------
+
+ FT 24/06:00
+ TAF OOMS 240500Z 2406/2512 04012KT 8000 NSC
+      BECMG 2417/2419 22009KT
+      BECMG 2506/2508 05012KT=
+ SA 24/06:50
+ METAR OOMS 240650Z 05006KT 6000 NSC 25/10 Q1021 NOSIG=
+
+
+ ***********
+ DESTINATION
+ ***********
+
+
+  Dubai - DXB
+  -----------
+
+ FT 24/06:00
+ TAF OMDB 240459Z 2406/2512 09005KT 7000 NSC
+      BECMG 2408/2410 36010KT
+      BECMG 2415/2417 08005KT
+      BECMG 2509/2511 32010KT=
+ SA 24/07:00
+ METAR OMDB 240700Z 11005KT 060V170 5000 DU NSC 22/14 Q1021 NOSIG=
+
+
+ *******************
+ DESTINATION ALTERNATES
+ *******************
+
+
+  Sharjah - SHJ
+  -------------
+
+ FT 24/06:00
+ TAF OMSJ 240459Z 2406/2512 VRB02KT 6000 NSC
+      BECMG 2409/2411 36010KT
+      BECMG 2415/2417 08005KT
+      BECMG 2509/2511 32010KT=
+ SA 24/07:00
+ METAR OMSJ 240700Z 13003KT 6000 NSC 22/13 Q1022=
+
+
+  Abu Dhabi - AUH
+  ---------------
+
+ FT 24/06:00
+ TAF OMAA 240500Z 2406/2512 06005KT 8000 NSC
+      BECMG 2408/2410 34010KT
+      BECMG 2418/2420 09005KT PROB30 2501/2505 4000 HZ
+      BECMG 2510/2512 30010KT=
+ SA 24/07:00
+ METAR OMAA 240700Z 08007KT 050V120 7000 NSC 21/14 Q1021 NOSIG=
+
+
+  Al Ain - AAN
+  ------------
+
+ FT 24/06:00
+ TAF OMAL 240500Z 2406/2512 04006KT 8000 NSC
+      BECMG 2408/2410 34010KT
+      BECMG 2416/2418 10005KT
+      BECMG 2510/2512 30008KT=
+ SA 24/07:00
+ METAR OMAL 240700Z 04007KT CAVOK 24/M02 Q1022 NOSIG=
+
+
+  Muscat - MCT
+  ------------
+
+ FT 24/06:00
+ TAF OOMS 240500Z 2406/2512 04012KT 8000 NSC
+      BECMG 2417/2419 22009KT
+      BECMG 2506/2508 05012KT=
+ SA 24/06:50
+ METAR OOMS 240650Z 05006KT 6000 NSC 25/10 Q1021 NOSIG=
+
+
+  Doha - DOH
+  -------------
+
+ FT 24/06:00
+ TAF OTHH 240505Z  2406/2512 14008KT 8000  NSC
+      PROB30 TEMPO   2422/2505 VRB02KT 3000 BR=
+ SA 24/07:00
+ METAR OTHH 240700Z 16009KT 6000 NSC 21/12 Q1020 NOSIG=
+
+
+  Bahrain - BAH
+  ------------
+
+ FT 24/06:00
+ TAF OBBI 240500Z 2406/2512 14010KT 7000 NSC PROB30 TEMPO 2500/2505
+      5000 HZ=
+ SA 24/07:00
+ METAR OBBI 240700Z 16009KT 130V200 6000 NSC 20/10 Q1020 NOSIG=
+
+
+ *********************************
+ METEOROLOGICAL WARNINGS (SIGMETS)
+ *********************************
+
+ WS OOMM NO DATA FOUND.
+
+ WS OMAE NO DATA FOUND.
+
+ WS OBBB NO DATA FOUND.
+
+ END OF WEATHER MACRO
+ *********************
+
+       - - - DATA SUPPLIED BY SITA SURFACE WEATHER SYSTEM - - -
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ --------------------------------------------------------------------
+                          SITA NOTAM SERVICE
+               PRE-FLIGHT LOCATION INFORMATION BULLETIN
+ --------------------------------------------------------------------
+ Bulletin: TEMPORARY 5108900.TR         Valid from: 19/01/24 : 13:40Z
+ Issued: 19/01/24 : 07:18Z              Valid to  : 19/01/24 : 18:30Z
+ Filter: OMAFPL
+ Filter Description: OMAN AIR NOTAM FILTER
+ Locations: OOMS, OOMM, OMAE, OMDB, OMAL, OMSJ
+ --------------------------------------------------------------------
+
+ SEEB INTL(OOMS)
+
+ 1811050800-1902052359                                   OOMS A0431/18
+ INSTRUMENT APPROACH PROCEDURES ILS RWY 26R AND ILS RWY 08L (CAT II)
+ ARE NOT AUTHORIZED.
+ Issued: 1811050839
+
+ 1812310730-1903312359                                   OOMS A0510/18
+ IMPLEMENTATION AND USE OF PUBLISHED SIDS AND STARS RWY 08L/26R ARE
+ DELAYED.
+ REF AIRAC AIP AMENDMENT NO 02-18 EFFECTIVE ON 11 OCTOBER 2018.
+ NEW TEMPORARY DEPARTURE/ARRIVAL PROCEDURES SHALL BE USED FOR RWY
+ 08L/26R AS FOLLOWS:
+ RWY 26R DEPARTURE WILL BE IDENTIFIED AS:
+ ITLAK 1N (NOVEMBER) AFTER TAKEOFF TRACK STRAIGHT AHEAD (MAG TRACK
+ 264) TO ITLAK CLIMB 3000FT QNH MINIMUM CLIMB GRADIENT 5 PERCENT.
+ FURTHER CLIMB VECTORING AS INSTRUCTED BY MUSCAT RADAR.
+ RWY 08L DEPARTURE WILL BE IDENTIFIED AS:
+ MURMA 1N (NOVEMBER) AFTER TAKEOFF TRACK STRAIGHT AHEAD (MAG TRACK
+ 084) TO MURMA CLIMB 3000FT QNH MINIMUM CLIMB GRADIENT 5 PERCENT.
+ FURTHER CLIMB VECTORING AS INSTRUCTED BY MUSCAT RADAR.
+ ARRIVAL: INBOUND AIRCRAFT CAN EXPECT RADAR VECTORING TO THE ILS OR
+ VISUAL APPROACH FOR THE RELEVANT RUNWAY.
+ RMK/ IN THE EVENT OF RADAR FAILURE, THE APPROPRIATE PUBLISHED
+ INSTRUMENT APPROACH WILL BE USED.
+ Issued: 1812310816
+
+ 1901020500-1904012359                                   OOMS A0005/19
+ MULTIPLE CRANES WITH ELEVATIONS OF 275FT WHICH ARE MARKED DURING
+ THE
+ DAY AND LIT AT NIGHT WILL BE OPERATING SOUTH EAST AIRFIELD AT THE
+ FLW CO-ORDS:
+ 233524.18N0581752.32E    233525.14N0581804.21E
+ 233520.19N0581752.73E    233521.14N0581804.59E
+ 233517.75N0581747.74E
+ SFC-275FT MSL
+ Issued: 1901020450
+
+ 1901240530-1904252359                                   OOMS A0037/19
+ EAST OF TWY H FROM TWY M TO CARGO APRON ACTIVE WITH CHECKER FOLLOW
+ ME
+ Issued: 1901240602
+
+ MUSCAT FIR(OOMM)
+
+ 1810250700-1901252359                                   OOMM A0422/18
+ SEGMENT BETWEEN GISKA AND TOKRA ON ATS ROUTE N569 IS CLOSED.
+ Issued: 1810250806
+
+               END OF PART  1   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ --------------------------------------------------------------------
+                          SITA NOTAM SERVICE
+               PRE-FLIGHT LOCATION INFORMATION BULLETIN
+ --------------------------------------------------------------------
+ Bulletin: TEMPORARY 5108900.TR         Valid from: 19/01/24 : 13:40Z
+ Issued: 19/01/24 : 07:18Z              Valid to  : 19/01/24 : 18:30Z
+ Filter: OMAFPL
+ Filter Description: OMAN AIR NOTAM FILTER
+ Locations: OOMS, OOMM, OMAE, OMDB, OMAL, OMSJ
+ --------------------------------------------------------------------
+
+ SEEB INTL(OOMS)
+
+ 1811050800-1902052359                                   OOMS A0431/18
+ INSTRUMENT APPROACH PROCEDURES ILS RWY 26R AND ILS RWY 08L (CAT II)
+ ARE NOT AUTHORIZED.
+ Issued: 1811050839
+
+ 1812310730-1903312359                                   OOMS A0510/18
+ IMPLEMENTATION AND USE OF PUBLISHED SIDS AND STARS RWY 08L/26R ARE
+ DELAYED.
+ REF AIRAC AIP AMENDMENT NO 02-18 EFFECTIVE ON 11 OCTOBER 2018.
+ NEW TEMPORARY DEPARTURE/ARRIVAL PROCEDURES SHALL BE USED FOR RWY
+ 08L/26R AS FOLLOWS:
+ RWY 26R DEPARTURE WILL BE IDENTIFIED AS:
+ ITLAK 1N (NOVEMBER) AFTER TAKEOFF TRACK STRAIGHT AHEAD (MAG TRACK
+ 264) TO ITLAK CLIMB 3000FT QNH MINIMUM CLIMB GRADIENT 5 PERCENT.
+ FURTHER CLIMB VECTORING AS INSTRUCTED BY MUSCAT RADAR.
+ RWY 08L DEPARTURE WILL BE IDENTIFIED AS:
+ MURMA 1N (NOVEMBER) AFTER TAKEOFF TRACK STRAIGHT AHEAD (MAG TRACK
+ 084) TO MURMA CLIMB 3000FT QNH MINIMUM CLIMB GRADIENT 5 PERCENT.
+ FURTHER CLIMB VECTORING AS INSTRUCTED BY MUSCAT RADAR.
+ ARRIVAL: INBOUND AIRCRAFT CAN EXPECT RADAR VECTORING TO THE ILS OR
+ VISUAL APPROACH FOR THE RELEVANT RUNWAY.
+ RMK/ IN THE EVENT OF RADAR FAILURE, THE APPROPRIATE PUBLISHED
+ INSTRUMENT APPROACH WILL BE USED.
+ Issued: 1812310816
+
+ 1901020500-1904012359                                   OOMS A0005/19
+ MULTIPLE CRANES WITH ELEVATIONS OF 275FT WHICH ARE MARKED DURING
+ THE
+ DAY AND LIT AT NIGHT WILL BE OPERATING SOUTH EAST AIRFIELD AT THE
+ FLW CO-ORDS:
+ 233524.18N0581752.32E    233525.14N0581804.21E
+ 233520.19N0581752.73E    233521.14N0581804.59E
+ 233517.75N0581747.74E
+ SFC-275FT MSL
+ Issued: 1901020450
+
+ 1901240530-1904252359                                   OOMS A0037/19
+ EAST OF TWY H FROM TWY M TO CARGO APRON ACTIVE WITH CHECKER FOLLOW
+ ME
+ Issued: 1901240602
+
+ MUSCAT FIR(OOMM)
+
+ 1810250700-1901252359                                   OOMM A0422/18
+ SEGMENT BETWEEN GISKA AND TOKRA ON ATS ROUTE N569 IS CLOSED.
+ Issued: 1810250806
+
+               END OF PART  1   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1811080630-1902082359                                   OOMM A0438/18
+ CRANE WITH AN ELEVATION OF 437FT WHICH IS MARKED DURING THE DAY AND
+ LIT AT NIGHT WILL BE OPERATING AT 241912N0564012E (SUHAR).
+ SFC-437FT AMSL
+ Issued: 1811080703
+
+ 1812040600-1903042359                                   OOMM A0470/18
+ RADIO FAILURE PROCEDURE MURMA 1N (NOVEMBER) RUNWAY
+          08L SQUAWK 7600 INTERCEPT AND FOLLOW RDL080 FROM
+          MCT DVOR/DME,
+          MAINTAIN 3000FT OR LAST ASSIGNED RADAR INSTRUCTIONS TO
+          20 DME MCT. THENCE
+          1.R462 TRACK T500 DIRECT TO VUSET,
+          G216 TRACK DIRECT TO ITILA, THEN G216
+          ALL ROUTES CLIMB TO FL230 OR PLANNED LEVEL,IF LOWER,OR
+          LAST ASSIGNED LEVEL, IF HIGHER, ENROUTE DESTINATION.
+          2.FOR TRAFFIC ENTERING THE MUMBAI FIR VIA RASKI, PARAR
+          AND TOTOX CONTINUE ON RDL080 UNTIL PASSING 5000FT AND THEN
+          TRACK DIRECT MUSRU PLANNED ROUTE.
+          3.ALL ROUTES CLIMB TO FL230 OR PLANNED LEVEL, IF LOWER,OR
+          LAST ASSIGNED LEVEL, IF HIGHER, ENROUTE DESTINATION.
+          4.OTHER ROUTES-TURN LEFT, CLIMB TO SET COURSE OVER MCT
+          DVOR AT 12000FT, THEN CONTINUE CLIMB TO FL200 OR PLANNED
+          LEVEL. IF LOWER (WESTBOUND) OR FL230 OR PLANNED LEVEL, IF
+          LOWER (EASTBOUND) OR LAST ASSIGNED LEVEL, IF HIGHER,
+          ENROUTE DESTINATION NO TURN PERMITTED BELOW 3000FT.
+          RADIO FAILURE PROCEDURE ITLAK 1N (NOVEMBER) RUNWAY 26R
+          SQUAWK 7600, INTERCEPT AND FOLLOW RDL268 FROM MCT
+          DVOR/DME, MAINTAIN 3000FT OR LAST ASSIGNED RADAR
+          INSTRUCTIONS TO 20 DME MCT.
+          THENCE:
+          1.P899 (WESTBOUND) TRAFFIC-TRACK VIA Q978 TO IVETO,
+          THEN LOPIL TO ITRAX, P574, M762 OR B540 TRAFFIC VIA T508,
+          BOTH ROUTES CLIMB TO FL200 OR PLANNED LEVEL, IF LOWER OR
+          LAST ASSIGNED LEVEL,IF HIGHER, ENROUTE DESTINATION.
+ Issued: 1812040714
+
+ 1812040600-1903042359                                   OOMM A0470/18
+ 2.OTHER ROUTES-TURN RIGHT, CLIMB TO SET COURSE OVER MCT
+          DVOR/DME AT 12000FT, THEN CONTINUE CLIMB TO FL200 OR
+          PLANNED LEVEL. IF LOWER (WESTBOUND) OR FL230 OR PLANNED
+          LEVEL, IF LOWER (EASTBOUND)OR LAST ASSIGNED LEVEL, IF
+          HIGHER, ENROUTE DESTINATION.
+          NO TURN PERMITTED BELOW 3000FT
+          NOTE1: RCF AIRCRAFT OBSERVED ON RADAR TO BE FLYING OTHER
+          THAN THE ABOVE PROCEDURE WILL BE ASSUMED TO BE IN AN
+          EMERGENCY SITUATION AND WILL HAVE PRIORITY FOR LANDING
+          AT MUSCAT.
+ Issued: 1812040714
+
+               END OF PART  2   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1811080630-1902082359                                   OOMM A0438/18
+ CRANE WITH AN ELEVATION OF 437FT WHICH IS MARKED DURING THE DAY AND
+ LIT AT NIGHT WILL BE OPERATING AT 241912N0564012E (SUHAR).
+ SFC-437FT AMSL
+ Issued: 1811080703
+
+ 1812040600-1903042359                                   OOMM A0470/18
+ RADIO FAILURE PROCEDURE MURMA 1N (NOVEMBER) RUNWAY
+          08L SQUAWK 7600 INTERCEPT AND FOLLOW RDL080 FROM
+          MCT DVOR/DME,
+          MAINTAIN 3000FT OR LAST ASSIGNED RADAR INSTRUCTIONS TO
+          20 DME MCT. THENCE
+          1.R462 TRACK T500 DIRECT TO VUSET,
+          G216 TRACK DIRECT TO ITILA, THEN G216
+          ALL ROUTES CLIMB TO FL230 OR PLANNED LEVEL,IF LOWER,OR
+          LAST ASSIGNED LEVEL, IF HIGHER, ENROUTE DESTINATION.
+          2.FOR TRAFFIC ENTERING THE MUMBAI FIR VIA RASKI, PARAR
+          AND TOTOX CONTINUE ON RDL080 UNTIL PASSING 5000FT AND THEN
+          TRACK DIRECT MUSRU PLANNED ROUTE.
+          3.ALL ROUTES CLIMB TO FL230 OR PLANNED LEVEL, IF LOWER,OR
+          LAST ASSIGNED LEVEL, IF HIGHER, ENROUTE DESTINATION.
+          4.OTHER ROUTES-TURN LEFT, CLIMB TO SET COURSE OVER MCT
+          DVOR AT 12000FT, THEN CONTINUE CLIMB TO FL200 OR PLANNED
+          LEVEL. IF LOWER (WESTBOUND) OR FL230 OR PLANNED LEVEL, IF
+          LOWER (EASTBOUND) OR LAST ASSIGNED LEVEL, IF HIGHER,
+          ENROUTE DESTINATION NO TURN PERMITTED BELOW 3000FT.
+          RADIO FAILURE PROCEDURE ITLAK 1N (NOVEMBER) RUNWAY 26R
+          SQUAWK 7600, INTERCEPT AND FOLLOW RDL268 FROM MCT
+          DVOR/DME, MAINTAIN 3000FT OR LAST ASSIGNED RADAR
+          INSTRUCTIONS TO 20 DME MCT.
+          THENCE:
+          1.P899 (WESTBOUND) TRAFFIC-TRACK VIA Q978 TO IVETO,
+          THEN LOPIL TO ITRAX, P574, M762 OR B540 TRAFFIC VIA T508,
+          BOTH ROUTES CLIMB TO FL200 OR PLANNED LEVEL, IF LOWER OR
+          LAST ASSIGNED LEVEL,IF HIGHER, ENROUTE DESTINATION.
+ Issued: 1812040714
+
+ 1812040600-1903042359                                   OOMM A0470/18
+ 2.OTHER ROUTES-TURN RIGHT, CLIMB TO SET COURSE OVER MCT
+          DVOR/DME AT 12000FT, THEN CONTINUE CLIMB TO FL200 OR
+          PLANNED LEVEL. IF LOWER (WESTBOUND) OR FL230 OR PLANNED
+          LEVEL, IF LOWER (EASTBOUND)OR LAST ASSIGNED LEVEL, IF
+          HIGHER, ENROUTE DESTINATION.
+          NO TURN PERMITTED BELOW 3000FT
+          NOTE1: RCF AIRCRAFT OBSERVED ON RADAR TO BE FLYING OTHER
+          THAN THE ABOVE PROCEDURE WILL BE ASSUMED TO BE IN AN
+          EMERGENCY SITUATION AND WILL HAVE PRIORITY FOR LANDING
+          AT MUSCAT.
+ Issued: 1812040714
+
+               END OF PART  2   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1812090100-1912032359                                   OOMM A0475/18
+ THREE TOWER CRANES WITH AN ELEVATION OF 417FT WHICH ARE MARKED
+ DURING THE DAY AND LIT AT NIGHT WILL BE OPERATING AT 233416N0581729E
+ (AIRPORT HEIGHTS).
+ SFC-417FT AMSL
+ Issued: 1812050635
+
+ 1812260630-1906302359                                   OOMM A0498/18
+ SEVERAL CRANES WITH ELEVATIONS OF 270FT WHICH ARE MARKED DURING THE
+ DAY AND LIT AT NIGHT WILL BE OPERATING AT 233450N0581930E
+ (MADINAT ALARFAN). SFC/270FT AMSL
+ Issued: 1812260712
+
+ 1812310853-1903312359                                   OOMM A0512/18
+ A NEW WESTBOUND RNAV1 ATS ROUTE ESTABLISHED
+     WITHIN OOMM FIR WITH DESIGNATOR Z833 CONNECTING EMATA TO PASOV
+     (MAG TR 338 DIST 16.7NM), AND FROM PASOV TO GIDIL
+     (MAG TR 358  DIST 38.9NM).AIRSPACE CLASS A JOINING
+      Z151  AT GIDIL TO ULDUN ESTABLISHED FOR TRAFFIC
+     DEPARTING OOMS, OOSA AND TRAFFIC ENTERING MUSCAT
+     FIR VIA TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD
+     DESTINATION OTHH.TRAFFIC SHALL ROUTE AFTER POINT
+     MIXAM P574 EMATA Z833 PASOV GIDIL Z151 ULDUN.
+ FL280/UNL
+ Issued: 1812310859
+
+ 1901010700-1904012359                                   OOMM A0003/19
+ PROVISION OF ATS , FIS AND ALERTING SERVICES ON AIRWAY UL425 AND
+ N315:
+ UL425 BETWEEN ASPUX AND BOVOS, N315 BETWEEN ASPUX AND KUTVI IS
+ DELEGATED TO MUSCAT ACC.
+ TRAFFIC WESTBOUND ON UL425 AND N315 SHALL CONTACT MUSCAT CONTROL ON
+ FREQUENCY 123.95MHZ AT POSITION ASPUX STOP
+ Issued: 1901010718
+
+ 1901030700-1904032359                                   OOMM A0009/19
+ NEW COMPULSORY REPORTING POINT ESTABLISHED WITH NAME-CODE
+ DESIGNATOR
+ IVIVA 245945N0574958E ON TEHRAN AND MUSCAT FIR BOUNDARIES.
+ Issued: 1901030725
+
+ 1901030700-1904032359                                   OOMM A0010/19
+ A NEW BI-DIRECTIONAL RNAV5 ATS ROUTE ESTABLISHED WITHIN OOMM FIR
+ WITH
+ DESIGNATOR Z152 CONNECTING MCT DVOR/DME TO MIXAM (MAG TR 108 DIST
+ 19NM) THEN FROM MIXAM TO GERAR (MAG TR 143 DIST 30NM) AND FROM GERAR
+ TO BUBAS (MAG TR 148 DIST 36NM) FOR TRAFFIC LANDING OOMS FROM OTHH.
+ Issued: 1901030728
+
+               END OF PART  3   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1812090100-1912032359                                   OOMM A0475/18
+ THREE TOWER CRANES WITH AN ELEVATION OF 417FT WHICH ARE MARKED
+ DURING THE DAY AND LIT AT NIGHT WILL BE OPERATING AT 233416N0581729E
+ (AIRPORT HEIGHTS).
+ SFC-417FT AMSL
+ Issued: 1812050635
+
+ 1812260630-1906302359                                   OOMM A0498/18
+ SEVERAL CRANES WITH ELEVATIONS OF 270FT WHICH ARE MARKED DURING THE
+ DAY AND LIT AT NIGHT WILL BE OPERATING AT 233450N0581930E
+ (MADINAT ALARFAN). SFC/270FT AMSL
+ Issued: 1812260712
+
+ 1812310853-1903312359                                   OOMM A0512/18
+ A NEW WESTBOUND RNAV1 ATS ROUTE ESTABLISHED
+     WITHIN OOMM FIR WITH DESIGNATOR Z833 CONNECTING EMATA TO PASOV
+     (MAG TR 338 DIST 16.7NM), AND FROM PASOV TO GIDIL
+     (MAG TR 358  DIST 38.9NM).AIRSPACE CLASS A JOINING
+      Z151  AT GIDIL TO ULDUN ESTABLISHED FOR TRAFFIC
+     DEPARTING OOMS, OOSA AND TRAFFIC ENTERING MUSCAT
+     FIR VIA TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD
+     DESTINATION OTHH.TRAFFIC SHALL ROUTE AFTER POINT
+     MIXAM P574 EMATA Z833 PASOV GIDIL Z151 ULDUN.
+ FL280/UNL
+ Issued: 1812310859
+
+ 1901010700-1904012359                                   OOMM A0003/19
+ PROVISION OF ATS , FIS AND ALERTING SERVICES ON AIRWAY UL425 AND
+ N315:
+ UL425 BETWEEN ASPUX AND BOVOS, N315 BETWEEN ASPUX AND KUTVI IS
+ DELEGATED TO MUSCAT ACC.
+ TRAFFIC WESTBOUND ON UL425 AND N315 SHALL CONTACT MUSCAT CONTROL ON
+ FREQUENCY 123.95MHZ AT POSITION ASPUX STOP
+ Issued: 1901010718
+
+ 1901030700-1904032359                                   OOMM A0009/19
+ NEW COMPULSORY REPORTING POINT ESTABLISHED WITH NAME-CODE
+ DESIGNATOR
+ IVIVA 245945N0574958E ON TEHRAN AND MUSCAT FIR BOUNDARIES.
+ Issued: 1901030725
+
+ 1901030700-1904032359                                   OOMM A0010/19
+ A NEW BI-DIRECTIONAL RNAV5 ATS ROUTE ESTABLISHED WITHIN OOMM FIR
+ WITH
+ DESIGNATOR Z152 CONNECTING MCT DVOR/DME TO MIXAM (MAG TR 108 DIST
+ 19NM) THEN FROM MIXAM TO GERAR (MAG TR 143 DIST 30NM) AND FROM GERAR
+ TO BUBAS (MAG TR 148 DIST 36NM) FOR TRAFFIC LANDING OOMS FROM OTHH.
+ Issued: 1901030728
+
+               END OF PART  3   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1901030700-1904032359                                   OOMM A0011/19
+ ESTABLISHMENT OF RNAV5 ATS ROUTE Z151 CONNECTING THE TEHRAN/MUSCAT
+ FIR BOUNDARY POINT ULDUN TO BUBAS:
+ TRACK (MAG) 150 DEGREES
+ DISTANCE 96NM
+ AIRSPACE CLASS A
+ EASTBOUND FOR TRAFFIC OVERFLYING OOMM FIR AND LANDING OOMS/OOSH FL310
+ AND FL350.
+ WESTBOUND  FOR TRAFFIC DEPARTING OOMS/OOSH/OOSA AND TRAFFIC ENTERING
+ MUSCAT FIR VIA TOTOX, REXOD, LOTAV,
+ KITAL, KIVEL, AND IMKAD DESTINATION OTHH SHALL EXIT VIA ULDUN AT
+ FL300, FL360, AND FL400.
+ SEGMENT ON AIRWAY P513 BETWEEN MIXAM AND BUBAS IS BIDIRECTIONAL FOR
+ TRAFFIC TO AND FROM OTHH VIA ULDUN.
+ MUSCAT CTL 119.8 MHZ.
+ Issued: 1901030732
+
+ 1901030700-1904032359                                   OOMM A0012/19
+ ESTABLISHMENT OF NEW RNAV5 ATS ROUTE DESIGNATED AS Z350 CONNECTING
+ POINT ITURA WITHIN MUSCAT FIR TO THE TEHRAN/MUSCAT FIR BOUNDARY
+ POINT IVIVA WITH FLW SPECIFICATIONS:
+ TRACK (MAG) 350 DEG
+ DISTANCE 96.9NM
+ AIRSPACE CLASS A
+ NOTE: NOT AVAILABLE  FOR EASTBOUND TRAFFIC.
+ WESTBOUND TRAFFIC LEVEL RESTRICTIONS AT IVIVA: ONLY FL360 AND FL400.
+ Issued: 1901030734
+
+ 1901030700-1904032359                                   OOMM A0013/19
+ ESTABLISHMENT OF RNAV5 ATS ROUTE WITH DESIGNATOR Z178 WITHIN MUSCAT
+ FIR CONNECTING POINT BOTOV TO SOLUD (MAG TR 178 DEG, DIST 55.6NM)
+ THEN FROM SOLUD TO LAKLU (MAG TR 164 DEG, DIST 71.8NM), MNM FLT:
+ FL280, AIRSPACE CLASS A.
+ Issued: 1901030738
+
+ 1901030700-1904032359                                   OOMM A0014/19
+ NEW COMPULSORY REPORTING POINT WITH NAME-CODE
+ DESIGNATOR BOTOV 252812N0564308E ESTABLISHED ON ATS ROUTE Z151 WITHIN
+ MUSCAT FIR.
+ Issued: 1901030739
+
+ 1901030700-1904032359                                   OOMM A0015/19
+ TEMPORARY RESTRICTIONS WITHIN MUSCAT FIR:
+ 1-MESPO IS NOT AVAILABLE FOR TRAFFIC OVERFLYING OOMM FIR ENTERING VIA
+ TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD.
+ 2- FL310 AND FL350  NOT AVAILABLE FOR EASTBOUND TRAFFIC  ENTERING
+ OOMM FIR VIA TONVO,TARDI  AND LABRI .
+ 3- EASTBOUND TRAFFIC FROM OIIX FIR INTENDING TO EXIT OOMM FIR VIA
+ ALPOR, RASKI AND PARAR SHALL ROUTE VIA MESPO L430.
+ 4- ATS ROUTE Z151 SEGMENT FROM BOTOV TO BUBAS IS ONLY AVAILABLE FOR
+ TRAFFIC LANDING AND DEPARTING OOMS/OOSH.
+ 5-EASTBOUND TRAFFIC ENTERING OOMM FIR VIA ULDUN Z151 INTENDING TO
+ EXIT OOMM FIR VIA  TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD SHALL
+ ROUTE Z151 BOTOV THEN Z178 TO LAKLU.
+ 6- ATS ROUTE Z151 IS NOT AVAILABLE FOR TRAFFIC EXITING OOMM FIR VIA
+ ALPOR, RASKI AND PARAR.
+ Issued: 1901030742
+
+               END OF PART  4   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1901030700-1904032359                                   OOMM A0011/19
+ ESTABLISHMENT OF RNAV5 ATS ROUTE Z151 CONNECTING THE TEHRAN/MUSCAT
+ FIR BOUNDARY POINT ULDUN TO BUBAS:
+ TRACK (MAG) 150 DEGREES
+ DISTANCE 96NM
+ AIRSPACE CLASS A
+ EASTBOUND FOR TRAFFIC OVERFLYING OOMM FIR AND LANDING OOMS/OOSH FL310
+ AND FL350.
+ WESTBOUND  FOR TRAFFIC DEPARTING OOMS/OOSH/OOSA AND TRAFFIC ENTERING
+ MUSCAT FIR VIA TOTOX, REXOD, LOTAV,
+ KITAL, KIVEL, AND IMKAD DESTINATION OTHH SHALL EXIT VIA ULDUN AT
+ FL300, FL360, AND FL400.
+ SEGMENT ON AIRWAY P513 BETWEEN MIXAM AND BUBAS IS BIDIRECTIONAL FOR
+ TRAFFIC TO AND FROM OTHH VIA ULDUN.
+ MUSCAT CTL 119.8 MHZ.
+ Issued: 1901030732
+
+ 1901030700-1904032359                                   OOMM A0012/19
+ ESTABLISHMENT OF NEW RNAV5 ATS ROUTE DESIGNATED AS Z350 CONNECTING
+ POINT ITURA WITHIN MUSCAT FIR TO THE TEHRAN/MUSCAT FIR BOUNDARY
+ POINT IVIVA WITH FLW SPECIFICATIONS:
+ TRACK (MAG) 350 DEG
+ DISTANCE 96.9NM
+ AIRSPACE CLASS A
+ NOTE: NOT AVAILABLE  FOR EASTBOUND TRAFFIC.
+ WESTBOUND TRAFFIC LEVEL RESTRICTIONS AT IVIVA: ONLY FL360 AND FL400.
+ Issued: 1901030734
+
+ 1901030700-1904032359                                   OOMM A0013/19
+ ESTABLISHMENT OF RNAV5 ATS ROUTE WITH DESIGNATOR Z178 WITHIN MUSCAT
+ FIR CONNECTING POINT BOTOV TO SOLUD (MAG TR 178 DEG, DIST 55.6NM)
+ THEN FROM SOLUD TO LAKLU (MAG TR 164 DEG, DIST 71.8NM), MNM FLT:
+ FL280, AIRSPACE CLASS A.
+ Issued: 1901030738
+
+ 1901030700-1904032359                                   OOMM A0014/19
+ NEW COMPULSORY REPORTING POINT WITH NAME-CODE
+ DESIGNATOR BOTOV 252812N0564308E ESTABLISHED ON ATS ROUTE Z151 WITHIN
+ MUSCAT FIR.
+ Issued: 1901030739
+
+ 1901030700-1904032359                                   OOMM A0015/19
+ TEMPORARY RESTRICTIONS WITHIN MUSCAT FIR:
+ 1-MESPO IS NOT AVAILABLE FOR TRAFFIC OVERFLYING OOMM FIR ENTERING VIA
+ TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD.
+ 2- FL310 AND FL350  NOT AVAILABLE FOR EASTBOUND TRAFFIC  ENTERING
+ OOMM FIR VIA TONVO,TARDI  AND LABRI .
+ 3- EASTBOUND TRAFFIC FROM OIIX FIR INTENDING TO EXIT OOMM FIR VIA
+ ALPOR, RASKI AND PARAR SHALL ROUTE VIA MESPO L430.
+ 4- ATS ROUTE Z151 SEGMENT FROM BOTOV TO BUBAS IS ONLY AVAILABLE FOR
+ TRAFFIC LANDING AND DEPARTING OOMS/OOSH.
+ 5-EASTBOUND TRAFFIC ENTERING OOMM FIR VIA ULDUN Z151 INTENDING TO
+ EXIT OOMM FIR VIA  TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD SHALL
+ ROUTE Z151 BOTOV THEN Z178 TO LAKLU.
+ 6- ATS ROUTE Z151 IS NOT AVAILABLE FOR TRAFFIC EXITING OOMM FIR VIA
+ ALPOR, RASKI AND PARAR.
+ Issued: 1901030742
+
+               END OF PART  4   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1901101600-1902091630                                   OOMM A0020/19
+ DAILY 1600-1630
+ FIREWORKS DISPLAY WILL TAKE  PLACE WI CIRCLE RADIUS 0.5 NM CENTRED
+ AT 234127N0580239E(NASEEM GARDEN)
+ SFC 600FT AMSL
+ Issued: 1901070837
+
+ 1901101600-1902091630                                   OOMM A0021/19
+ 1600-1630
+ FIREWORKS DISPLAY WILL TAKE  PLACE WI CIRCLE RADIUS 0.5 NM CENTRED
+ AT 233033N0583039E (ALAMRAT PARK)
+ SFC 600FT AMSL
+ Issued: 1901070843
+
+ 1901100600-1904112359                                   OOMM A0024/19
+ DUE TO THE HIGH DENSITY TRAFFIC IN THE OOMM FIR AT CERTAIN TIMES,
+ FLOW CONTROL MEASURES HAVE BEEN IMPLEMENTED FOR UAE DEPARTUERS AS
+ FOLLOWS :
+  UAE DEPARTURES :
+  A)FROM 10 JAN 2019 TO 11 APR 2019 BTN 0630/0730 ON TRIAL BASIS
+ 20NM LONGITUDINAL SEPARATION BTN ANY TWO SUCCESSIVE DEPARTURES
+ ENTERING THE OOMM FIR POSITION LABRI
+ OR TARDI  (TARDI AND LABRI SHALL BE CONSIDERED AS TWO POINTS) ALL
+ TRAFFIC SHALL MAINTAIN SPEED OF 290 KTS. EXCLUDING TRAFFIC LANDING
+ AT MUSCAT INTL AIRPORT.
+  B)FROM 1700 TO 2359 UTC:
+  FIVE (5) MINUTES LONGITUDINAL SEPARATION BTN ANY
+  TWO SUCCESSIVE DEPARTURES ENTERING THE OOMM FIR POSITION LABRI OR
+ TARDI (TARDI AND LABRI SHALL BE CONSIDERED AS A COMMON POINT)
+ EXCLUDING TRAFFIC LANDING AT MUSCAT INTL AIRPORT.
+  C)FROM 1700 TO 2359 UTC :
+  20NM LONGITUDINAL SEPARATION BTN ANY TWO SUCCESSIVE UAE DEPARTURES
+ ENTERING THE OOMM FIR VIA LALDO OR GOMTA (LALDO AND GOMTA SHALL BE
+ CONSIDERED AS A COMMON POINT).
+  NOTE: DEPARTURES FROM OOMS LANDING AT ANY UAE AIRPORT
+  AND ALL UAE DEPARTURES LANDING AT OOMS ARE EXEMPTED FROM
+  THESE RESTRICTIONS.
+ Issued: 1901100607
+
+ 1901190001-1903182359                                   OOMM A0034/19
+ TEMPORARY RESTRICTED AREA ESTABLISHED AND ACTIVATED WI CIRCLE
+ RADIUS 2NM CENTRED ON 24191048N 056455757E ( BAHJAT AL ANZAR) SOHAR
+ SFC FL150
+ Issued: 1901171258
+
+ EMIRATES FIR/UIR(OMAE)
+
+ 1812060000-          PERM                               OMAE A2109/18
+ REF AIRAC AMDT 13/2018 WEF 06 DEC 2018.
+ AMD UAE AIP SECN ENR 5.1 AND ALL RELEVANT CHARTS.
+ IDENTIFICATION OF DNG AREA OMD 27 TO READ AS OMD 2.
+ ALL OTHER DETAILS AS PUBLISHED IN AIRAC 13/2018
+ GND UNL
+ Issued: 1811011201
+
+ 1811130000-          PERM                               OMAE A2193/18
+ AMD UAE AIP SECN ENR 1.9.5 ARR AP OMAD FM OISS, OIII AND BEYOND
+ WITH ADDN ENTRY POINT/RTE AS FOLLOWS:
+ ORSAR G666 ELOVU (SEE NOTE 2).
+ Issued: 1811121205
+
+               END OF PART  5   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1901101600-1902091630                                   OOMM A0020/19
+ DAILY 1600-1630
+ FIREWORKS DISPLAY WILL TAKE  PLACE WI CIRCLE RADIUS 0.5 NM CENTRED
+ AT 234127N0580239E(NASEEM GARDEN)
+ SFC 600FT AMSL
+ Issued: 1901070837
+
+ 1901101600-1902091630                                   OOMM A0021/19
+ 1600-1630
+ FIREWORKS DISPLAY WILL TAKE  PLACE WI CIRCLE RADIUS 0.5 NM CENTRED
+ AT 233033N0583039E (ALAMRAT PARK)
+ SFC 600FT AMSL
+ Issued: 1901070843
+
+ 1901100600-1904112359                                   OOMM A0024/19
+ DUE TO THE HIGH DENSITY TRAFFIC IN THE OOMM FIR AT CERTAIN TIMES,
+ FLOW CONTROL MEASURES HAVE BEEN IMPLEMENTED FOR UAE DEPARTUERS AS
+ FOLLOWS :
+  UAE DEPARTURES :
+  A)FROM 10 JAN 2019 TO 11 APR 2019 BTN 0630/0730 ON TRIAL BASIS
+ 20NM LONGITUDINAL SEPARATION BTN ANY TWO SUCCESSIVE DEPARTURES
+ ENTERING THE OOMM FIR POSITION LABRI
+ OR TARDI  (TARDI AND LABRI SHALL BE CONSIDERED AS TWO POINTS) ALL
+ TRAFFIC SHALL MAINTAIN SPEED OF 290 KTS. EXCLUDING TRAFFIC LANDING
+ AT MUSCAT INTL AIRPORT.
+  B)FROM 1700 TO 2359 UTC:
+  FIVE (5) MINUTES LONGITUDINAL SEPARATION BTN ANY
+  TWO SUCCESSIVE DEPARTURES ENTERING THE OOMM FIR POSITION LABRI OR
+ TARDI (TARDI AND LABRI SHALL BE CONSIDERED AS A COMMON POINT)
+ EXCLUDING TRAFFIC LANDING AT MUSCAT INTL AIRPORT.
+  C)FROM 1700 TO 2359 UTC :
+  20NM LONGITUDINAL SEPARATION BTN ANY TWO SUCCESSIVE UAE DEPARTURES
+ ENTERING THE OOMM FIR VIA LALDO OR GOMTA (LALDO AND GOMTA SHALL BE
+ CONSIDERED AS A COMMON POINT).
+  NOTE: DEPARTURES FROM OOMS LANDING AT ANY UAE AIRPORT
+  AND ALL UAE DEPARTURES LANDING AT OOMS ARE EXEMPTED FROM
+  THESE RESTRICTIONS.
+ Issued: 1901100607
+
+ 1901190001-1903182359                                   OOMM A0034/19
+ TEMPORARY RESTRICTED AREA ESTABLISHED AND ACTIVATED WI CIRCLE
+ RADIUS 2NM CENTRED ON 24191048N 056455757E ( BAHJAT AL ANZAR) SOHAR
+ SFC FL150
+ Issued: 1901171258
+
+ EMIRATES FIR/UIR(OMAE)
+
+ 1812060000-          PERM                               OMAE A2109/18
+ REF AIRAC AMDT 13/2018 WEF 06 DEC 2018.
+ AMD UAE AIP SECN ENR 5.1 AND ALL RELEVANT CHARTS.
+ IDENTIFICATION OF DNG AREA OMD 27 TO READ AS OMD 2.
+ ALL OTHER DETAILS AS PUBLISHED IN AIRAC 13/2018
+ GND UNL
+ Issued: 1811011201
+
+ 1811130000-          PERM                               OMAE A2193/18
+ AMD UAE AIP SECN ENR 1.9.5 ARR AP OMAD FM OISS, OIII AND BEYOND
+ WITH ADDN ENTRY POINT/RTE AS FOLLOWS:
+ ORSAR G666 ELOVU (SEE NOTE 2).
+ Issued: 1811121205
+
+               END OF PART  5   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1811220755-1902202359EST                                OMAE A2296/18
+ TEMPO RNAV1 ATS RTE T665 ESTABLISHED:
+ FM DAPER (254522N 0545731E) DCT KUSBA (251634N 0532847E)
+ DCT RORON (252053N 0530916E) DCT OVONA (252443N 0524739E)
+ AIRSPACE CLASS A, FOR WB QATAR REGISTERED ACFT INBD TO THE STATE
+ OF QATAR. FROM FL220 - UP TO FL400
+ Issued: 1811220803
+
+ 1811220805-1902202359EST                                OMAE A2297/18
+ DUE TO CHANGES IN THE TEHRAN FIR THE FLW ATS RTE WI
+ EMIRATES FIR CLSD: P574 BTN TOVIV AND KUMUN.
+ Issued: 1811220811
+
+ 1812110959-1902122359                                   OMAE A2462/18
+ LASER BEAM ACT WILL TAKE PLACE AT PSN 251406.90N 0555840.10E
+ SFC FL730
+ Issued: 1812111004
+
+ 1812120812-1903122359EST                                OMAE A2473/18
+ ATS RTE M318 BTN DANOK AND BOPIT LOWER LIMIT TEMPO RAISED TO FL200.
+ REF UAE AIP ENR 3.3 AND CHART ENR 6-3
+ FL200-FL460
+ Issued: 1812120829
+
+ 1812170635-1903170559                                   OMAE A2490/18
+ OBST CRANE ELEV 355M ERECTED AT VCY OF DUBAI MARINA AT FLW PSN
+ 250420.00N 0550735.00E
+ CRANE LGT AT NGT.
+ SFC-1,165FT AMSL
+ Issued: 1812170638
+
+ 1812200830-1903280400EST                                OMAE A2528/18
+ OBST CRANES ELEV 315M ERECTED AT VCY OF PALM JUMEIRAH
+ PSN 250650N 0550825E CRANES LGT AT NGT
+ FROM SFC UP TO 1034FT AMSL
+ Issued: 1812200837
+
+ 1812310853-1903300800EST                                OMAE A2564/18
+ 0100-0800
+ FLOW CTL PROC ACT FOR UAE DEPARTURES EXITING THE EMIRATES FIR VIA
+ RIBOT, MUXIT, TANSU AND PEKEM.
+ ACFT AFFECTED SHALL REQ DEP SLOT TIME NOT EARLIER THAN 2 HR PRIOR
+ TO THE REALISTIC AIRBORNE TIME IF BTN 0300-0800 FM THE FLW:
+ OMAA:DELIVERY FREQ 125.100 MHZ OR +971(0)2 599 8744
+ OMAD:TWR FREQ 119.900 MHZ OR +971(0)2 444 7546
+ OMAL:GND FREQ 129.150 MHZ OR +971(0)3 709 2047
+ OMAM:TWR FREQ UHF 240.900 OR VHF 122.150 MHZ OR +971(0)2 503 3320
+ OMDB:DELIVERY FREQ 120.350 MHZ OR +971(0)4 505 6459
+ OMDW:GND FREQ 118.375 MHZ OR +971(0)4 813 3501
+ OMFJ:TWR FREQ VHF 124.600 MHZ OR +971(0)9 224 1166
+ OMRK:TWR FREQ 118.250 MHZ OR +971(0)7 244 9016
+ OMSJ:GND FREQ 121.875 MHZ OR +971(0)6 508 4615
+ Issued: 1812310903
+
+ 1812310855-1903302330EST                                OMAE A2565/18
+ DAILY 0600-0700 1630-2330
+ DEPARTURES FM (OBBI, OBBS, OEDF, OEDR) AND DOHA TMA EXITING
+ EMIRATES FIR VIA LABRI ARE REQUIRED TO ENTER EMIRATES FIR AT 5 MIN
+ INTERVALS.
+ Issued: 1812310901
+
+               END OF PART  6   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1811220755-1902202359EST                                OMAE A2296/18
+ TEMPO RNAV1 ATS RTE T665 ESTABLISHED:
+ FM DAPER (254522N 0545731E) DCT KUSBA (251634N 0532847E)
+ DCT RORON (252053N 0530916E) DCT OVONA (252443N 0524739E)
+ AIRSPACE CLASS A, FOR WB QATAR REGISTERED ACFT INBD TO THE STATE
+ OF QATAR. FROM FL220 - UP TO FL400
+ Issued: 1811220803
+
+ 1811220805-1902202359EST                                OMAE A2297/18
+ DUE TO CHANGES IN THE TEHRAN FIR THE FLW ATS RTE WI
+ EMIRATES FIR CLSD: P574 BTN TOVIV AND KUMUN.
+ Issued: 1811220811
+
+ 1812110959-1902122359                                   OMAE A2462/18
+ LASER BEAM ACT WILL TAKE PLACE AT PSN 251406.90N 0555840.10E
+ SFC FL730
+ Issued: 1812111004
+
+ 1812120812-1903122359EST                                OMAE A2473/18
+ ATS RTE M318 BTN DANOK AND BOPIT LOWER LIMIT TEMPO RAISED TO FL200.
+ REF UAE AIP ENR 3.3 AND CHART ENR 6-3
+ FL200-FL460
+ Issued: 1812120829
+
+ 1812170635-1903170559                                   OMAE A2490/18
+ OBST CRANE ELEV 355M ERECTED AT VCY OF DUBAI MARINA AT FLW PSN
+ 250420.00N 0550735.00E
+ CRANE LGT AT NGT.
+ SFC-1,165FT AMSL
+ Issued: 1812170638
+
+ 1812200830-1903280400EST                                OMAE A2528/18
+ OBST CRANES ELEV 315M ERECTED AT VCY OF PALM JUMEIRAH
+ PSN 250650N 0550825E CRANES LGT AT NGT
+ FROM SFC UP TO 1034FT AMSL
+ Issued: 1812200837
+
+ 1812310853-1903300800EST                                OMAE A2564/18
+ 0100-0800
+ FLOW CTL PROC ACT FOR UAE DEPARTURES EXITING THE EMIRATES FIR VIA
+ RIBOT, MUXIT, TANSU AND PEKEM.
+ ACFT AFFECTED SHALL REQ DEP SLOT TIME NOT EARLIER THAN 2 HR PRIOR
+ TO THE REALISTIC AIRBORNE TIME IF BTN 0300-0800 FM THE FLW:
+ OMAA:DELIVERY FREQ 125.100 MHZ OR +971(0)2 599 8744
+ OMAD:TWR FREQ 119.900 MHZ OR +971(0)2 444 7546
+ OMAL:GND FREQ 129.150 MHZ OR +971(0)3 709 2047
+ OMAM:TWR FREQ UHF 240.900 OR VHF 122.150 MHZ OR +971(0)2 503 3320
+ OMDB:DELIVERY FREQ 120.350 MHZ OR +971(0)4 505 6459
+ OMDW:GND FREQ 118.375 MHZ OR +971(0)4 813 3501
+ OMFJ:TWR FREQ VHF 124.600 MHZ OR +971(0)9 224 1166
+ OMRK:TWR FREQ 118.250 MHZ OR +971(0)7 244 9016
+ OMSJ:GND FREQ 121.875 MHZ OR +971(0)6 508 4615
+ Issued: 1812310903
+
+ 1812310855-1903302330EST                                OMAE A2565/18
+ DAILY 0600-0700 1630-2330
+ DEPARTURES FM (OBBI, OBBS, OEDF, OEDR) AND DOHA TMA EXITING
+ EMIRATES FIR VIA LABRI ARE REQUIRED TO ENTER EMIRATES FIR AT 5 MIN
+ INTERVALS.
+ Issued: 1812310901
+
+               END OF PART  6   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1901101700-1901311800                                   OMAE A0026/19
+ JAN 10 11 17 18 24 25 31 1700-1800
+ FIREWORKS DISPLAY WILL TAKE PLACE AT PSN 244903.97N 0551341.22E
+ TFC TO REMAIN CLEAR DUE TO FIREWORKS AND PYROTECHNICS DISPLAY
+ SFC 500FT AGL
+ Issued: 1901070737
+
+ 1901101145-1904112359EST                                OMAE A0033/19
+ DAILY 1500-2359
+ FLOW CTL PROC ACT REF OOMM NOTAM A0024/19.
+ DEP ACFT AFFECTED SHALL REQ DEP SLOT TIME NOT EARLIER THAN 2 HRS
+ PRIOR TO THE REALISTIC AIRBORNE TIME IF BTN 1700-2359 FM THE FLW:
+ OMAA: DELIVERY FREQ 125.100 MHZ OR +971(0)2 599 8744
+ OMAD: TWR FREQ 119.900 MHZ OR +971(0)2 444 7546
+ OMAL: GND FREQ 129.150 MHZ OR +971(0)3 709 2047
+ OMAM: TWR FREQ UHF 240.900 OR VHF 122.150 MHZ OR
+ +971(0)2 503 3320
+ OMDB: DELIVERY FREQ 120.350 MHZ OR +971(0)4 505 6459
+ OMDW: GND FREQ 118.375 MHZ OR +971(0)4 813 3501
+ OMRK: TWR FREQ 118.250 MHZ OR +971(0)7 244 9016
+ OMSJ: GND FREQ 121.875 MHZ OR +971(0)6 508 4615
+ Issued: 1901101146
+
+ 1901201430-1904192359EST                                OMAE A0109/19
+ TEMPO RESTRICTED AREA ESTABLISH BOUNDED BY LINES JOINING:
+ 255657.03N 0560819.03E
+ 255632.73N 0560922.63E
+ 255537.69N 0560731.58E
+ 255550.57N 0560721.17E
+ HIGH CABLES AND AERIAL ACTIVITIES (JEBEL JAIS ZIP LINE) PPR FM RAK
+ TOURISM DEVELOPMENT AUTHORITY (RAKTDA). EMAIL: NIZAR(A)RAKTDA.COM
+ TEL: 009717-2338998/MOB: 00971569949773
+ SFC 5000FT AMSL
+ Issued: 1901201433
+
+ 1901230645-1902281800                                   OMAE A0144/19
+ JAN 24 25 31 1600-1800, FEB 01 07 08 14 15 21 22 28 1600-1800
+ FIREWORKS DISPLAY WILL TAKE PLACE AT FLW PSN:
+ 250337.59N 0551821.68E
+ 250333.18N 0551825.45E
+ 250346.91N 0551849.25E
+ 250353.07N 0551846.87E
+ TFC TO REMAIN CLR DUE TO FIREWORKS AND PYROTECHNICS DISPLAY
+ SFC 700FT AGL
+ Issued: 1901230651
+
+ DUBAI INTL(OMDB)
+
+ 1811011430-1901311430                                   OMDB A2129/18
+ OBST CRANES ELEV UP TO 79M ERECTED AT VCY OF PSN 251321N 0552629E
+ ARP BRG 112 DEG MAG DIST 8.4KM. CRANE LGT AT NGT.
+ SFC-260FT AMSL
+ Issued: 1811011446
+
+ 1811050530-1902041600EST                                OMDB A2149/18
+ DAILY 1100-1600
+ AIRFIELD LGT FLW THE GREENS BEING USED. FLW ATC INSTRUCTIONS.
+ WILL ADZ ON ATIS IF FLW THE GREENS ARE IN USE.
+ PILOT STILL RESPONSIBLE FOR WING TIP CLR WHEN FLW GREEN CL LGT.
+ Issued: 1811050532
+
+ 1811210920-1902210900                                   OMDB A2289/18
+ OBST CRANES ELEV 55M ERECTED AT VCY OF PSN 251615N 0551942E ARP BRG
+ 297 DEG MAG DIST 4.1KM.
+ CRANES LGT AT NGT.
+ SFC - 181FT AMSL
+ Issued: 1811210941
+
+               END OF PART  7   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1901101700-1901311800                                   OMAE A0026/19
+ JAN 10 11 17 18 24 25 31 1700-1800
+ FIREWORKS DISPLAY WILL TAKE PLACE AT PSN 244903.97N 0551341.22E
+ TFC TO REMAIN CLEAR DUE TO FIREWORKS AND PYROTECHNICS DISPLAY
+ SFC 500FT AGL
+ Issued: 1901070737
+
+ 1901101145-1904112359EST                                OMAE A0033/19
+ DAILY 1500-2359
+ FLOW CTL PROC ACT REF OOMM NOTAM A0024/19.
+ DEP ACFT AFFECTED SHALL REQ DEP SLOT TIME NOT EARLIER THAN 2 HRS
+ PRIOR TO THE REALISTIC AIRBORNE TIME IF BTN 1700-2359 FM THE FLW:
+ OMAA: DELIVERY FREQ 125.100 MHZ OR +971(0)2 599 8744
+ OMAD: TWR FREQ 119.900 MHZ OR +971(0)2 444 7546
+ OMAL: GND FREQ 129.150 MHZ OR +971(0)3 709 2047
+ OMAM: TWR FREQ UHF 240.900 OR VHF 122.150 MHZ OR
+ +971(0)2 503 3320
+ OMDB: DELIVERY FREQ 120.350 MHZ OR +971(0)4 505 6459
+ OMDW: GND FREQ 118.375 MHZ OR +971(0)4 813 3501
+ OMRK: TWR FREQ 118.250 MHZ OR +971(0)7 244 9016
+ OMSJ: GND FREQ 121.875 MHZ OR +971(0)6 508 4615
+ Issued: 1901101146
+
+ 1901201430-1904192359EST                                OMAE A0109/19
+ TEMPO RESTRICTED AREA ESTABLISH BOUNDED BY LINES JOINING:
+ 255657.03N 0560819.03E
+ 255632.73N 0560922.63E
+ 255537.69N 0560731.58E
+ 255550.57N 0560721.17E
+ HIGH CABLES AND AERIAL ACTIVITIES (JEBEL JAIS ZIP LINE) PPR FM RAK
+ TOURISM DEVELOPMENT AUTHORITY (RAKTDA). EMAIL: NIZAR(A)RAKTDA.COM
+ TEL: 009717-2338998/MOB: 00971569949773
+ SFC 5000FT AMSL
+ Issued: 1901201433
+
+ 1901230645-1902281800                                   OMAE A0144/19
+ JAN 24 25 31 1600-1800, FEB 01 07 08 14 15 21 22 28 1600-1800
+ FIREWORKS DISPLAY WILL TAKE PLACE AT FLW PSN:
+ 250337.59N 0551821.68E
+ 250333.18N 0551825.45E
+ 250346.91N 0551849.25E
+ 250353.07N 0551846.87E
+ TFC TO REMAIN CLR DUE TO FIREWORKS AND PYROTECHNICS DISPLAY
+ SFC 700FT AGL
+ Issued: 1901230651
+
+ DUBAI INTL(OMDB)
+
+ 1811011430-1901311430                                   OMDB A2129/18
+ OBST CRANES ELEV UP TO 79M ERECTED AT VCY OF PSN 251321N 0552629E
+ ARP BRG 112 DEG MAG DIST 8.4KM. CRANE LGT AT NGT.
+ SFC-260FT AMSL
+ Issued: 1811011446
+
+ 1811050530-1902041600EST                                OMDB A2149/18
+ DAILY 1100-1600
+ AIRFIELD LGT FLW THE GREENS BEING USED. FLW ATC INSTRUCTIONS.
+ WILL ADZ ON ATIS IF FLW THE GREENS ARE IN USE.
+ PILOT STILL RESPONSIBLE FOR WING TIP CLR WHEN FLW GREEN CL LGT.
+ Issued: 1811050532
+
+ 1811210920-1902210900                                   OMDB A2289/18
+ OBST CRANES ELEV 55M ERECTED AT VCY OF PSN 251615N 0551942E ARP BRG
+ 297 DEG MAG DIST 4.1KM.
+ CRANES LGT AT NGT.
+ SFC - 181FT AMSL
+ Issued: 1811210941
+
+               END OF PART  7   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1811290535-1902260559                                   OMDB A2379/18
+ OBST CRANE ELEV 140M ERECTED AT VCY OF PSN 251312N 0551957E ARP
+ BRG 219 DEG MAG DIST 4.85KM.
+ CRANES LGT AT NGT.
+ SFC/459FT AMSL
+ Issued: 1811290540
+
+ 1812040830-1903030745EST                                OMDB A2411/18
+ ALL OPERATORS TO BE AWARE REDUCED APCH PHASE WAKE TURB SEPARATION
+ MINIMA TRIAL INPR:
+  1.BTN EMIRATES AIRLINES HVY CAT ACFT IN TRAIL TO OTHER HVY CAT
+ ACFT AND
+  2.ALL B777 HVY CAT ACFT FLW B777 HVY CAT ACFT
+ PERIODS WHEN THE TRIAL IS ACT WILL BE NOTIFIED BY ATIS.
+ Issued: 1812040833
+
+ 1812041705-1903050800                                   OMDB A2417/18
+ TWY LINK SOUTH OF TWY K1 BTN TWY K AND TWY Z AVBL DRG DAY LIGHTS
+ HOURS ONLY.
+ NOT AVBL WHEN LVP IN EFFECT.
+ Issued: 1812041710
+
+ 1812110800-1903110800EST                                OMDB A2451/18
+ TWY J4 LINK BTN TWY Z AND TWY K OPR. ACFT MOV UNDER PWR NOT
+ PERMITTED TO TURN NORTH FM TWY Z. FLW ATC INSTRUCTIONS
+ Issued: 1812110735
+
+ 1812131133-1903121100                                   OMDB A2478/18
+ CTN TRANSIENT AND SPORADIC LOW LVL WS POSS BTN 1800-0300 UTC ON
+ APCH AND CLIMB OUT DUE TO LAND AND SEA BREEZE INTERACTION. POSS
+ AIRSPEED LOSS GAIN OF 10 KT OR MORE.
+ Issued: 1812131134
+
+ 1812190600-1903190559                                   OMDB A2509/18
+ OBST CRANES ELEV 78M ERECTED AT VCY OF PSN 251502N 0552038E ARP
+ BRG 270 DEG MAG DIST 2.6KM.
+ CRANES LGT AT NGT.
+ SFC-256FT AMSL
+ Issued: 1812190558
+
+ 1812260545-1903260459                                   OMDB A2545/18
+ OBST CRANE ELEV 61M ERECTED AT VCY OF PSN 251554N 0551944E ARP BRG
+ 289 DEG MAG DIST 3.8KM.
+ CRANES LGT AT NGT
+ SFC-200FT AMSL
+ Issued: 1812260539
+
+ 1812270720-1903270559                                   OMDB A2557/18
+ OBST CRANE ELEV 90M ERECTED AT VCY OF PSN 251651N 0552119E ARP BRG
+ 344 DEG MAG DIST 3.4KM
+ CRANES LGT AT NGT
+ FROM SFC UP TO 300FT AMSL
+ Issued: 1812270717
+
+ 1901150600-1904150559                                   OMDB A0055/19
+ OBST CRANE ELEV 72 M AMSL ERECTED AT VCY OF PSN 251528N 0552005E
+ ARP BRG 278 DEG MAG DIST 3 KM. CRANE LGT AT NGT.
+ SFC-236FT AMSL
+ Issued: 1901150543
+
+ 1901240800-1902140800                                   OMDB A0062/19
+ SECN OF TWY M BTN TWY L3 AND TWY M5B CLSD.
+ TWY L4 NORTH OF TWY K, TWY M3, TWY M3A, TWY M4 AND TWY M6 WESTBOUND
+ LINK TO TWY M CLSD.
+ Issued: 1901151020
+
+ 1901200730-1904190730EST                                OMDB A0100/19
+ OBST CRANE ELEV 206M ERECTED AT VCY OF PSN 251501N 0551803E ARP
+ BRG 268 DEG MAG DIST 6400M CRANE LGT AT NGT
+ SFC/676FT AMSL
+ Issued: 1901201003
+
+               END OF PART  8   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1811290535-1902260559                                   OMDB A2379/18
+ OBST CRANE ELEV 140M ERECTED AT VCY OF PSN 251312N 0551957E ARP
+ BRG 219 DEG MAG DIST 4.85KM.
+ CRANES LGT AT NGT.
+ SFC/459FT AMSL
+ Issued: 1811290540
+
+ 1812040830-1903030745EST                                OMDB A2411/18
+ ALL OPERATORS TO BE AWARE REDUCED APCH PHASE WAKE TURB SEPARATION
+ MINIMA TRIAL INPR:
+  1.BTN EMIRATES AIRLINES HVY CAT ACFT IN TRAIL TO OTHER HVY CAT
+ ACFT AND
+  2.ALL B777 HVY CAT ACFT FLW B777 HVY CAT ACFT
+ PERIODS WHEN THE TRIAL IS ACT WILL BE NOTIFIED BY ATIS.
+ Issued: 1812040833
+
+ 1812041705-1903050800                                   OMDB A2417/18
+ TWY LINK SOUTH OF TWY K1 BTN TWY K AND TWY Z AVBL DRG DAY LIGHTS
+ HOURS ONLY.
+ NOT AVBL WHEN LVP IN EFFECT.
+ Issued: 1812041710
+
+ 1812110800-1903110800EST                                OMDB A2451/18
+ TWY J4 LINK BTN TWY Z AND TWY K OPR. ACFT MOV UNDER PWR NOT
+ PERMITTED TO TURN NORTH FM TWY Z. FLW ATC INSTRUCTIONS
+ Issued: 1812110735
+
+ 1812131133-1903121100                                   OMDB A2478/18
+ CTN TRANSIENT AND SPORADIC LOW LVL WS POSS BTN 1800-0300 UTC ON
+ APCH AND CLIMB OUT DUE TO LAND AND SEA BREEZE INTERACTION. POSS
+ AIRSPEED LOSS GAIN OF 10 KT OR MORE.
+ Issued: 1812131134
+
+ 1812190600-1903190559                                   OMDB A2509/18
+ OBST CRANES ELEV 78M ERECTED AT VCY OF PSN 251502N 0552038E ARP
+ BRG 270 DEG MAG DIST 2.6KM.
+ CRANES LGT AT NGT.
+ SFC-256FT AMSL
+ Issued: 1812190558
+
+ 1812260545-1903260459                                   OMDB A2545/18
+ OBST CRANE ELEV 61M ERECTED AT VCY OF PSN 251554N 0551944E ARP BRG
+ 289 DEG MAG DIST 3.8KM.
+ CRANES LGT AT NGT
+ SFC-200FT AMSL
+ Issued: 1812260539
+
+ 1812270720-1903270559                                   OMDB A2557/18
+ OBST CRANE ELEV 90M ERECTED AT VCY OF PSN 251651N 0552119E ARP BRG
+ 344 DEG MAG DIST 3.4KM
+ CRANES LGT AT NGT
+ FROM SFC UP TO 300FT AMSL
+ Issued: 1812270717
+
+ 1901150600-1904150559                                   OMDB A0055/19
+ OBST CRANE ELEV 72 M AMSL ERECTED AT VCY OF PSN 251528N 0552005E
+ ARP BRG 278 DEG MAG DIST 3 KM. CRANE LGT AT NGT.
+ SFC-236FT AMSL
+ Issued: 1901150543
+
+ 1901240800-1902140800                                   OMDB A0062/19
+ SECN OF TWY M BTN TWY L3 AND TWY M5B CLSD.
+ TWY L4 NORTH OF TWY K, TWY M3, TWY M3A, TWY M4 AND TWY M6 WESTBOUND
+ LINK TO TWY M CLSD.
+ Issued: 1901151020
+
+ 1901200730-1904190730EST                                OMDB A0100/19
+ OBST CRANE ELEV 206M ERECTED AT VCY OF PSN 251501N 0551803E ARP
+ BRG 268 DEG MAG DIST 6400M CRANE LGT AT NGT
+ SFC/676FT AMSL
+ Issued: 1901201003
+
+               END OF PART  8   REP NO 15108900
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1901201310-1901310800                                   OMDB A0108/19
+ INTERMEDIATE TWY HLDG PSN (ITHP) STOP BARS, PB, PE, PF, PJ, PM AND
+ PQ ON TWY P NOT AVBL.
+ Issued: 1901201321
+
+ 1901220600-1904220559                                   OMDB A0135/19
+ OBST CRANES ELEV 119M (391FT AMSL) ERECTED AT VCY OF
+ PSN 251712N 0552137E ARP BRG 352 DEG MAG DIST 3.78KM.
+ CRANES LGT AT NGT.
+ Issued: 1901211420
+
+ 1901241100-1901241400                                   OMDB A0136/19
+ RWY 12L/30R CLSD
+ Issued: 1901220429
+
+ 1901240600-1904240559                                   OMDB A0137/19
+ OBST CRANE ELEV 290M ERECTED AT VCY OF PSN 251351N 0551905E ARP BRG
+ 240 DEG MAG DIST 5.3KM
+ CRANES LGT AT NGT
+ SFC-952FT AMSL
+ Issued: 1901220647
+
+ AL AIN INTL(OMAL)
+
+ 1812310935-1903192359EST                                OMAL A2515/18
+ TAXIWAYS R, G, H AND S NOT OPR DUE WIP.
+ Issued: 1812190953
+
+ 1812250703-1903242359EST                                OMAL A2543/18
+ OBST CRANE ERECTED AT PSN: 241731.39N 0553737.18E.
+ SFC/898FT AMSL
+ Issued: 1812250731
+
+ SHARJAH(OMSJ)
+
+ 1812050000-1903042359EST                                OMSJ A2356/18
+ ACFT TO EXER CTN WHEN TAXING TO STAND DUE INCREASED ACT ON SERVICE
+ ROAD BTN MAIN APN (ACFT STANDS 2 TO 8) AND TWY A.
+ Issued: 1811272012
+
+ 1812050000-1903042359EST                                OMSJ A2357/18
+ ACFT STANDS 2 AND 4 DOWNGRADED TO ACFT CODE C AND BELOW.
+ Issued: 1811272017
+
+                          END OF BULLETIN
+
+               END OF PART  9 OF 9   REP NO 15108900
+
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 240718
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ BZEEZ
+ 1901201310-1901310800                                   OMDB A0108/19
+ INTERMEDIATE TWY HLDG PSN (ITHP) STOP BARS, PB, PE, PF, PJ, PM AND
+ PQ ON TWY P NOT AVBL.
+ Issued: 1901201321
+
+ 1901220600-1904220559                                   OMDB A0135/19
+ OBST CRANES ELEV 119M (391FT AMSL) ERECTED AT VCY OF
+ PSN 251712N 0552137E ARP BRG 352 DEG MAG DIST 3.78KM.
+ CRANES LGT AT NGT.
+ Issued: 1901211420
+
+ 1901241100-1901241400                                   OMDB A0136/19
+ RWY 12L/30R CLSD
+ Issued: 1901220429
+
+ 1901240600-1904240559                                   OMDB A0137/19
+ OBST CRANE ELEV 290M ERECTED AT VCY OF PSN 251351N 0551905E ARP BRG
+ 240 DEG MAG DIST 5.3KM
+ CRANES LGT AT NGT
+ SFC-952FT AMSL
+ Issued: 1901220647
+
+ AL AIN INTL(OMAL)
+
+ 1812310935-1903192359EST                                OMAL A2515/18
+ TAXIWAYS R, G, H AND S NOT OPR DUE WIP.
+ Issued: 1812190953
+
+ 1812250703-1903242359EST                                OMAL A2543/18
+ OBST CRANE ERECTED AT PSN: 241731.39N 0553737.18E.
+ SFC/898FT AMSL
+ Issued: 1812250731
+
+ SHARJAH(OMSJ)
+
+ 1812050000-1903042359EST                                OMSJ A2356/18
+ ACFT TO EXER CTN WHEN TAXING TO STAND DUE INCREASED ACT ON SERVICE
+ ROAD BTN MAIN APN (ACFT STANDS 2 TO 8) AND TWY A.
+ Issued: 1811272012
+
+ 1812050000-1903042359EST                                OMSJ A2357/18
+ ACFT STANDS 2 AND 4 DOWNGRADED TO ACFT CODE C AND BELOW.
+ Issued: 1811272017
+
+                          END OF BULLETIN
+
+               END OF PART  9 OF 9   REP NO 15108900
+
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+

@@ -1,12 +1,16 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
+import 'package:wyofp_flutter/connectors/SitaConnector.dart';
+import 'package:wyofp_flutter/parser/Parser.dart';
+
 
 class FlightScreen extends StatefulWidget {
 
   final String _flightReference;
+  final SitaConnector _connector;
 
-  FlightScreen(this._flightReference);
+  FlightScreen(this._flightReference, this._connector);
 
   _FlightScreenState createState() => _FlightScreenState();
 }
@@ -18,32 +22,48 @@ class _FlightScreenState extends State<FlightScreen> {
 
   Map<String, String> ofpRawData;
 
-  void getAndParseOFPData() async {
+  @override
+  void initState() {
+    super.initState();
+    getAndParseOFPData();
+  }
 
+  void getAndParseOFPData() async {
+    print('Awaiting for the OFP text...');
+    String content =
+        await widget._connector.getFlightPlanText(widget._flightReference);
+    setState((){
+      textReceived = true;
+    });
+    print('OFP text found. Starting parsing...');
+    Parser parser = Parser(content);
+    await parser.parse();
+    setState(() {
+      parsingFinished = true;
+    });
+    print('OFP parsed.');
+    ofpRawData = parser.ofpData;
   }
 
   Widget getMainWidget() {
 
-    Widget fetchingWidget = textReceived ? Text('Done!') : CircularProgressIndicator();
-    Widget parsingWidget = parsingFinished ? Text('Done!') : CircularProgressIndicator();
+    Widget fetchingWidget = textReceived ?
+        Text('Done!', textScaleFactor: 1.5,) : CircularProgressIndicator();
+    Widget parsingWidget = parsingFinished ?
+        Text('Done!', textScaleFactor: 1.5,) : CircularProgressIndicator();
 
     if (ofpRawData == null) { // We wait...
-      return Column(
+      return GridView.count(
+        crossAxisCount: 2,
         children: <Widget>[
-          Row(
-            children: <Widget>[
-              Text('Fetching OFP...'),
-              fetchingWidget,
-            ],
-          ),
-          Row(
-            children: <Widget>[
-              Text('Parsing OFP...'),
-              parsingWidget,
-            ],
-          )
+          Text('Fetching OFP...', textScaleFactor: 1.5,),
+          fetchingWidget,
+          Text('Parsing OFP...', textScaleFactor: 1.5,),
+          parsingWidget,
         ],
       );
+    } else {
+      return Text('Finished!');
     }
   }
 

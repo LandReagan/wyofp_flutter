@@ -1,21 +1,15 @@
 import 'package:flutter/material.dart';
 
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:wyofp_flutter/ui/CurrentFlightsWidget.dart';
+
+// For tests only:
+import 'package:wyofp_flutter/OFP1_flight_screen.dart';
 
 void main() => runApp(WyOfp());
 
 class WyOfp extends StatelessWidget {
 
-  WyOfp() {
-    print('Testing stuff...');
-    Firestore firestore = Firestore();
-    firestore.collection('sandbox').add({
-      'test': 'Ça marche !',
-    });
-  }
-
-  // This widget is the root of your application.
+  // This widget is the root of application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -53,6 +47,17 @@ class _LandingPageState extends State<LandingPage> with SingleTickerProviderStat
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.dashboard),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => OFP1FlightScreen())
+              );
+            },
+          )
+        ],
         bottom: TabBar(
           controller: _tabController,
           tabs: [
