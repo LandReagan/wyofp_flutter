@@ -155,18 +155,49 @@ class Parser {
     }
 
     // ICAO flight plan
+    RegExp icaoFlightPlanRE = RegExp(
+        r'START OF ICAO FLIGHT PLAN\s+\(([\S|\s]+?)\)\s+END OF ICAO FLIGHT PLAN');
+    Match icaoFlightPlanMatch = icaoFlightPlanRE.firstMatch(this.content);
+    if (icaoFlightPlanMatch == null) {
+      this.parsingMessages.add('PARSING ERROR: No ICAO flight plan found!');
+    } else {
+      this.ofpData['icao_flight_plan'] = icaoFlightPlanMatch.group(1);
+    }
 
     // Alternate log
-
-    // Alternate waypoints
+    RegExp alternateLogRE = RegExp(
+        r'START OF ALTERNATIVE FLIGHT PLAN\s+([\S|\s]+?)WAYPOINTS');
+    Match alternateLogMatch = alternateLogRE.firstMatch(this.content);
+    if (alternateLogMatch == null) {
+      this.parsingMessages.add('PARSING WARNING: Alternate log not found!');
+    } else {
+      _parseAlternateLog(alternateLogMatch.group(1));
+    }
+    
+    // Alternate waypoints ?
 
     // AFTN. ???
 
     // Overfly charge costing
 
     // Company notice
+    RegExp companyNoticeRE = RegExp(r'-{5,}\s+COMPANY NOTICE[\S|\s]+?-{5,}\s+-{5,}');
+    Match companyNoticeMatch = companyNoticeRE.firstMatch(this.content);
+    if (companyNoticeMatch == null) {
+      this.parsingMessages.add('PARSING ERROR: Company notice section not found!');
+    } else {
+      _parseCompanyNotice(companyNoticeMatch.group(0));
+    }
 
     // RAIM outage report
+    RegExp raimReportRE = RegExp(
+        r'START OF RAIM OUTAGE REPORT[\S|\s]+?END OF RAIM OUTAGE REPORT');
+    Match raimReportMatch = raimReportRE.firstMatch(this.content);
+    if (raimReportMatch == null) {
+      this.parsingMessages.add('PARSING ERROR: RAIM outage reports section not found!');
+    } else {
+      _parseRaimReport(raimReportMatch.group(0));
+    }
 
     // Weather
     RegExp weatherRE = RegExp(r'WEATHER MACRO[\S|\s]+?END OF WEATHER MACRO');
@@ -189,7 +220,7 @@ class Parser {
     
     // Debug stuff...
     for (var key in this.ofpData.keys) {
-      if (key.contains('wind_information')) {
+      if (key.contains('icao')) {
         print(key + ' : ' + this.ofpData[key]);
       }
     }
@@ -675,6 +706,18 @@ class Parser {
     }
 
     this.ofpData.addAll(sectionData);
+  }
+  
+  void _parseAlternateLog(section) {
+    // TODO
+  }
+  
+  void _parseCompanyNotice(section) {
+    // TODO
+  }
+
+  void _parseRaimReport(section) {
+    // TODO
   }
 
   void _parseWeather(section) {
