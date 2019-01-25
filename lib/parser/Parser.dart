@@ -88,14 +88,45 @@ class Parser {
     }
 
     // destination alternate data
+    RegExp destinationAlternatesRE = RegExp(
+        r'DESTINATION ALTERNATE DATA\s+([\S|\s]+?):-{5,}:(?:[\S|\s]+?):-{5,}:([\S|\s]+?):-{5,}:');
+    Match destinationAlternatesMatch = destinationAlternatesRE.firstMatch(this.content);
+    if (destinationAlternatesMatch == null) {
+      this.parsingMessages.add(
+          'PARSING ERROR: Destination alternates data not found!');
+    } else {
+      _parseAlternates(
+        destinationAlternatesMatch.group(1),
+        destinationAlternatesMatch.group(2)
+      );
+    }
 
     // ETOPS data
+    // todo: get some examples
 
     // Timings
+    RegExp timingsRE = RegExp(r':RAMP FUEL[\S|\s]+?RETA');
+    Match timingsMatch = timingsRE.firstMatch(this.content);
+    if (timingsMatch == null) {
+      this.parsingMessages.add('PARSING ERROR: Timings (STD, STA) not found!');
+    } else {
+      String timingsSection = timingsMatch.group(0);
+      RegExp staRE = RegExp(r'STA (\d{4})Z');
+      RegExp stdRE = RegExp(r'STD (\d{4})Z');
+      this.ofpData['standart_time_arrival'] = staRE.firstMatch(timingsSection).group(1);
+      this.ofpData['standart_time_departure'] = stdRE.firstMatch(timingsSection).group(1);
+    }
 
     // log
+    RegExp logRE = RegExp(r'AWY\s+FIX\s+FREQ[\S|\s]+?DEST MNVR\s+\S{4}\s+\d+');
+    Match logMatch = logRE.firstMatch(this.content);
+    if (logMatch == null) {
+      this.parsingMessages.add('PARSING ERROR: Log not found!');
+    } else {
+      _parseLog(logMatch.group(0));
+    }
 
-    // Destination elevation
+    // Departure and destination elevations
     // !! Uses data parsed before !!
     RegExp elevationRE = RegExp(r'(\w{4}) ELEV (\d+)FT');
     List<Match> elevationMatches = elevationRE.allMatches(this.content).toList();
@@ -148,6 +179,13 @@ class Parser {
       print(message);
     }
     print('Parsing finished!');
+    
+    // Debug stuff...
+    for (var key in this.ofpData.keys) {
+      if (key.contains('destination')) {
+        print(key + ' : ' + this.ofpData[key]);
+      }
+    }
   }
 
   void _parseFlightAcceptanceForm(section) {
@@ -428,14 +466,14 @@ class Parser {
     } else {
       this.parsingMessages.add('PARSING WARNING: Route and Flight level not found!');
     }
-    
+
     this.ofpData.addAll(sectionData);
   }
-  
+
   void _parseWeights(section) {
 
     Map<String, String> sectionData = {};
-    
+
     RegExp structuralLimitsRE = RegExp(
         r'STR LIM: ZFW (\d+)KGS / TOW (\d+)KGS / LWT (\d+)KGS');
     Match structuralLimitsMatch = structuralLimitsRE.firstMatch(section);
@@ -469,6 +507,111 @@ class Parser {
           'PARSING WARNING: Estimated payload value not found!');
     } else {
       sectionData['estimated_payload'] = payloadMatch.group(1);
+    }
+
+    this.ofpData.addAll(sectionData);
+  }
+
+  void _parseAlternates(section1, section2) {
+    /// [section1] is the main destination alternate, [section2] is the
+    /// additional ones.
+    Map<String, String> sectionData = {};
+
+    RegExp alternateRE = RegExp(
+        r'MORA TTK  DIST  FL   W/C   TIME  FUEL  ELEV\s+ALTERNATE\s+(\w{4})\s+(\d{3})\s+(\d{3})\s+(\d{4})\s+(\d{3})\s+(\w\d{3})\s+([\d|\.]+)\s+(\d+)\s+(\d+)\s+FT\s+([\S|\s]+)');
+    Match mainAlternateMatch = alternateRE.firstMatch(section1);
+    if (mainAlternateMatch == null) {
+      this.parsingMessages.add('PARSING ERROR: Main alternate data not parsed!');
+    } else {
+      sectionData['destination_alternate'] = mainAlternateMatch.group(1);
+      sectionData['destination_alternate_mora'] = mainAlternateMatch.group(2);
+      sectionData['destination_alternate_track'] = mainAlternateMatch.group(3);
+      sectionData['destination_alternate_distance'] = mainAlternateMatch.group(4);
+      sectionData['destination_alternate_flight_level'] = mainAlternateMatch.group(5);
+      sectionData['destination_alternate_wind_component'] = mainAlternateMatch.group(6);
+      sectionData['destination_alternate_time'] = mainAlternateMatch.group(7);
+      sectionData['destination_alternate_fuel'] = mainAlternateMatch.group(8);
+      sectionData['destination_alternate_elevation'] = mainAlternateMatch.group(9);
+    }
+    
+    List<Match> otherAlternatesMatches = alternateRE.allMatches(section2).toList();
+    if (otherAlternatesMatches == null) {
+      this.parsingMessages.add(
+          'PARSING WARNING: No other destination alternates found '
+          '(other than the main one)!');
+    } else {
+      this.parsingMessages.add('PARSING INFO: ' +
+          otherAlternatesMatches.length.toString() +
+          ' other destination alternates found!');
+      for (var match in otherAlternatesMatches) {
+        String withIndex = 'destination_alternate_' + 
+            (otherAlternatesMatches.indexOf(match) + 1).toString();
+        sectionData[withIndex] = match.group(1);
+        sectionData[withIndex + '_mora'] = match.group(2);
+        sectionData[withIndex + '_track'] = match.group(3);
+        sectionData[withIndex + '_distance'] = match.group(4);
+        sectionData[withIndex + '_flight_level'] = match.group(5);
+        sectionData[withIndex + '_wind_component'] = match.group(6);
+        sectionData[withIndex + '_time'] = match.group(7);
+        sectionData[withIndex + '_fuel'] = match.group(8);
+        sectionData[withIndex + '_elevation'] = match.group(9);
+      }
+    }
+
+    this.ofpData.addAll(sectionData);
+  }
+
+  void _parseLog(section) {
+
+    Map<String, String> sectionData = {};
+
+    RegExp entryRE = RegExp(
+      // AWY           FIX       FREQ                       FL
+      r'(\S{3,6})\s*(\S{2,5})\s+(\d\d\d\.\d|\d\d\d\d\.)?\s+(\d{3}|\w{2})\s+'
+      // TAS        GS         MCSE      ZDIST      ZTIME
+      r'(\d{3})?\s+(\d{3})?\s+(\d{3})\s+(\d{4})?\s+(\d?\d\.\d\d)\s+\.{4}/\.{4}\s+'
+      // REM TIME       R FUEL  FIR              MSA       WIND
+      r'(\d\d\.\d\d)\s+(\d+)\s+(\w{4}\s+FIR)?\s+(\d{3})\s+(\d{3}/\d{3})\s+'
+      // ITCS      CTIME
+      r'(\d{3})\s+(\d?\d\.\d\d)'
+    );
+
+    List<Match> entryMatches = entryRE.allMatches(section).toList();
+    if (entryMatches == null) {
+      this.parsingMessages.add('PARSING ERROR: Log entries could not be parsed!');
+    } else {
+      this.parsingMessages.add(
+          'PARSING DEBUG: ' + entryMatches.length.toString() +
+          ' log entries found!');
+      for (var i = 0; i < entryMatches.length; i++) {
+        Match match = entryMatches[i];
+        String withIndex = 'log_entry_' + i.toString() + '_';
+        sectionData[withIndex + 'AWY'] = match.group(1) ?? '';
+        sectionData[withIndex + 'FIX'] = match.group(2) ?? '';
+        sectionData[withIndex + 'FREQ'] = match.group(3) ?? '';
+        sectionData[withIndex + 'FL'] = match.group(4) ?? '';
+        sectionData[withIndex + 'TAS'] = match.group(5) ?? '';
+        sectionData[withIndex + 'GS'] = match.group(6) ?? '';
+        sectionData[withIndex + 'MCSE'] = match.group(7) ?? '';
+        sectionData[withIndex + 'ZDIST'] = match.group(8) ?? '';
+        sectionData[withIndex + 'ZTIME'] = match.group(9) ?? '';
+        sectionData[withIndex + 'REMAINING_TIME'] = match.group(10) ?? '';
+        sectionData[withIndex + 'REMAINING_FUEL'] = match.group(11) ?? '';
+        sectionData[withIndex + 'FIR'] = match.group(12) ?? '';
+        sectionData[withIndex + 'MSA'] = match.group(13) ?? '';
+        sectionData[withIndex + 'WIND'] = match.group(14) ?? '';
+        sectionData[withIndex + 'ITCS'] = match.group(15) ?? '';
+        sectionData[withIndex + 'CTIME'] = match.group(16) ?? '';
+      }
+    }
+
+    RegExp lastLineRE = RegExp(r'DEST MNVR\s+(\d?\d\.\d\d)\s+(\d+)');
+    Match lastLineMatch = lastLineRE.firstMatch(section);
+    if (lastLineMatch == null) {
+      this.parsingMessages.add('PARSING ERROR: Last line of log not parsed!');
+    } else {
+      sectionData['destination_manoeuver_time'] = lastLineMatch.group(1);
+      sectionData['destination_fuel'] = lastLineMatch.group(2);
     }
 
     this.ofpData.addAll(sectionData);
@@ -585,7 +728,7 @@ class Parser {
 
     // Individual SNOWTAMS
     // TODO SNOWTAM EXAMPLE on OFP1.txt line 8732
-    
+
     this.ofpData.addAll(sectionData);
   }
 }
