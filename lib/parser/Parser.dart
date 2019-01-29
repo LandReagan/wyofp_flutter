@@ -9,7 +9,7 @@ class Parser {
   /// JSON friendly data from the OFP
   Map<String, dynamic> ofpData = {};
   /// Errors, Warnings, etc... messages emitted by the parsing functions
-  List parsingMessages = [];
+  List parsingReport = [];
 
   Parser(this.content);
 
@@ -59,7 +59,7 @@ class Parser {
         r'ATC CLEARANCE REQUESTED([\S|\s]+?)ATC CLEARANCE ISSUED');
     Match atcClearanceMatch = atcClearanceRE.firstMatch(this.content);
     if (atcClearanceMatch == null) {
-      this.parsingMessages.add('PARSING WARNING: ATC clearance not found!');
+      this.parsingReport.add('PARSING WARNING: ATC clearance not found!');
     } else {
       this.ofpData['atc_clearance'] = atcClearanceMatch.group(1);
     }
@@ -72,13 +72,13 @@ class Parser {
     Match escapeRouteAlternatesMatch =
         escapeRouteAlternatesRE.firstMatch(this.content);
     if (escapeRouteAlternatesMatch == null) {
-      this.parsingMessages.add('PARSING INFO: no escape route alternates found!');
+      this.parsingReport.add('PARSING INFO: no escape route alternates found!');
     } else {
       String alternatesText = escapeRouteAlternatesMatch.group(1);
       RegExp alternatesRE = RegExp(r'\w{4}');
       List<Match> alternatesMatches =
           alternatesRE.allMatches(alternatesText).toList();
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING DEBUG: ' + alternatesMatches.length.toString() +
           ' escape route alternates found!');
       for (var match in alternatesMatches) {
@@ -92,7 +92,7 @@ class Parser {
         r'DESTINATION ALTERNATE DATA\s+([\S|\s]+?):-{5,}:(?:[\S|\s]+?):-{5,}:([\S|\s]+?):-{5,}:');
     Match destinationAlternatesMatch = destinationAlternatesRE.firstMatch(this.content);
     if (destinationAlternatesMatch == null) {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING ERROR: Destination alternates data not found!');
     } else {
       _parseAlternates(
@@ -102,13 +102,20 @@ class Parser {
     }
 
     // ETOPS data
-    // todo: get some examples
+    RegExp etopsRE = RegExp(
+        r'START OF ETOPS INFORMATION[\S|\s]+?END OF ETOPS INFORMATION');
+    Match etopsMatch = etopsRE.firstMatch(this.content);
+    if (etopsMatch == null) {
+      this.parsingReport.add('PARSING INFO: ETOPS information not found!');
+    } else {
+      _parseEtops(etopsMatch.group(0));
+    }
 
     // Timings
     RegExp timingsRE = RegExp(r':RAMP FUEL[\S|\s]+?RETA');
     Match timingsMatch = timingsRE.firstMatch(this.content);
     if (timingsMatch == null) {
-      this.parsingMessages.add('PARSING ERROR: Timings (STD, STA) not found!');
+      this.parsingReport.add('PARSING ERROR: Timings (STD, STA) not found!');
     } else {
       String timingsSection = timingsMatch.group(0);
       RegExp staRE = RegExp(r'STA (\d{4})Z');
@@ -121,7 +128,7 @@ class Parser {
     RegExp logRE = RegExp(r'AWY\s+FIX\s+FREQ[\S|\s]+?DEST MNVR\s+\S{4}\s+\d+');
     Match logMatch = logRE.firstMatch(this.content);
     if (logMatch == null) {
-      this.parsingMessages.add('PARSING ERROR: Log not found!');
+      this.parsingReport.add('PARSING ERROR: Log not found!');
     } else {
       _parseLog(logMatch.group(0));
     }
@@ -131,7 +138,7 @@ class Parser {
     RegExp elevationRE = RegExp(r'(\w{4}) ELEV (\d+)FT');
     List<Match> elevationMatches = elevationRE.allMatches(this.content).toList();
     if (elevationMatches == null) {
-      this.parsingMessages.add('PARSING WARNING: no elevation found!');
+      this.parsingReport.add('PARSING WARNING: no elevation found!');
     } else {
       for (var match in elevationMatches) {
         if (match.group(1) == ofpData['origin_icao'])
@@ -149,7 +156,7 @@ class Parser {
     RegExp windSectionRE = RegExp(r'WIND INFORMATION SECTION[\S|\s]+?-{5,}');
     Match windSectionMatch = windSectionRE.firstMatch(this.content);
     if (windSectionMatch == null) {
-      this.parsingMessages.add('PARSING ERROR: Wind section not found!');
+      this.parsingReport.add('PARSING ERROR: Wind section not found!');
     } else {
       _parseWindInformation(windSectionMatch.group(0));
     }
@@ -159,7 +166,7 @@ class Parser {
         r'START OF ICAO FLIGHT PLAN\s+\(([\S|\s]+?)\)\s+END OF ICAO FLIGHT PLAN');
     Match icaoFlightPlanMatch = icaoFlightPlanRE.firstMatch(this.content);
     if (icaoFlightPlanMatch == null) {
-      this.parsingMessages.add('PARSING ERROR: No ICAO flight plan found!');
+      this.parsingReport.add('PARSING ERROR: No ICAO flight plan found!');
     } else {
       this.ofpData['icao_flight_plan'] = icaoFlightPlanMatch.group(1);
     }
@@ -169,7 +176,7 @@ class Parser {
         r'START OF ALTERNATIVE FLIGHT PLAN\s+([\S|\s]+?)WAYPOINTS');
     Match alternateLogMatch = alternateLogRE.firstMatch(this.content);
     if (alternateLogMatch == null) {
-      this.parsingMessages.add('PARSING WARNING: Alternate log not found!');
+      this.parsingReport.add('PARSING WARNING: Alternate log not found!');
     } else {
       _parseAlternateLog(alternateLogMatch.group(1));
     }
@@ -184,7 +191,7 @@ class Parser {
     RegExp companyNoticeRE = RegExp(r'-{5,}\s+COMPANY NOTICE[\S|\s]+?-{5,}\s+-{5,}');
     Match companyNoticeMatch = companyNoticeRE.firstMatch(this.content);
     if (companyNoticeMatch == null) {
-      this.parsingMessages.add('PARSING ERROR: Company notice section not found!');
+      this.parsingReport.add('PARSING WARNING: Company notice section not found!');
     } else {
       _parseCompanyNotice(companyNoticeMatch.group(0));
     }
@@ -194,7 +201,7 @@ class Parser {
         r'START OF RAIM OUTAGE REPORT[\S|\s]+?END OF RAIM OUTAGE REPORT');
     Match raimReportMatch = raimReportRE.firstMatch(this.content);
     if (raimReportMatch == null) {
-      this.parsingMessages.add('PARSING ERROR: RAIM outage reports section not found!');
+      this.parsingReport.add('PARSING ERROR: RAIM outage reports section not found!');
     } else {
       _parseRaimReport(raimReportMatch.group(0));
     }
@@ -203,7 +210,7 @@ class Parser {
     RegExp weatherRE = RegExp(r'WEATHER MACRO[\S|\s]+?END OF WEATHER MACRO');
     Match weatherMatch = weatherRE.firstMatch(this.content);
     if (weatherMatch == null) {
-      this.parsingMessages.add('PARSING ERROR: Weather section not found!');
+      this.parsingReport.add('PARSING ERROR: Weather section not found!');
     } else {
       _parseWeather(weatherMatch.group(0));
     }
@@ -213,17 +220,10 @@ class Parser {
     String notams = notamsRE.firstMatch(this.content).group(0);
     _parseNotams(notams);
 
-    for (var message in parsingMessages) {
+    for (var message in parsingReport) {
       print(message);
     }
     print('Parsing finished!');
-    
-    // Debug stuff...
-    for (var key in this.ofpData.keys) {
-      if (key.contains('icao')) {
-        print(key + ' : ' + this.ofpData[key]);
-      }
-    }
   }
 
   void _parseFlightAcceptanceForm(section) {
@@ -238,7 +238,7 @@ class Parser {
     );
     Match firstLineMatch = firstLineRE.firstMatch(section);
     if (firstLineMatch == null) {
-      this.parsingMessages.add('PARSING FAIL: firstLine of FlightHeader!');
+      this.parsingReport.add('PARSING FAIL: firstLine of FlightHeader!');
     } else {
       this.ofpData['flight_plan_reference'] = firstLineMatch.group(1);
       this.ofpData['flight_number'] = 'OMA' + firstLineMatch.group(2);
@@ -256,7 +256,7 @@ class Parser {
     );
     Match secondLineMatch = secondLineRE.firstMatch(section);
     if (secondLineMatch == null) {
-      this.parsingMessages.add('PARSING FAIL: secondLine of FlightHeader!');
+      this.parsingReport.add('PARSING FAIL: secondLine of FlightHeader!');
     } else {
       this.ofpData['weather_observation_time'] = secondLineMatch.group(1);
       this.ofpData['estimated_time_departure'] = secondLineMatch.group(2);
@@ -269,7 +269,7 @@ class Parser {
     );
     Match thirdLineMatch = thirdLineRE.firstMatch(section);
     if (thirdLineMatch == null) {
-      this.parsingMessages.add('PARSING FAIL: thirdLine of FlightHeader!');
+      this.parsingReport.add('PARSING FAIL: thirdLine of FlightHeader!');
     } else {
       this.ofpData['computation_time'] = thirdLineMatch.group(1);
       this.ofpData['computation_date'] = thirdLineMatch.group(2);
@@ -314,7 +314,7 @@ class Parser {
     if (averageWindComponentMatch != null) {
       sectionData['average_wind_component'] = averageWindComponentMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Average wind component not found!');
+      this.parsingReport.add('PARSING WARNING: Average wind component not found!');
     }
 
     RegExp maximumShearRE = RegExp(r'MXSH\s+(\d+)/(\w+)');
@@ -323,7 +323,7 @@ class Parser {
       sectionData['maximum_shear_ratio'] = maximumShearMatch.group(1);
       sectionData['maximum_shear_waypoint'] = maximumShearMatch.group(2);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Maximum shear not found!');
+      this.parsingReport.add('PARSING WARNING: Maximum shear not found!');
     }
 
     RegExp tripRE = RegExp(r'TRIP\s+(\d+)\s+([\d|\.]+)');
@@ -332,7 +332,7 @@ class Parser {
       sectionData['trip_fuel'] = tripMatch.group(1);
       sectionData['trip_time'] = tripMatch.group(2);
     } else {
-      this.parsingMessages.add('PARSING ERROR: trip fuel not found!');
+      this.parsingReport.add('PARSING ERROR: trip fuel not found!');
     }
 
     RegExp approachDestinationRE = RegExp(r'APP.DEST\s+(\d+)\s+([\d|\.]+)');
@@ -341,7 +341,7 @@ class Parser {
       sectionData['approach_destination_fuel'] = approachDestinationMatch.group(1);
       sectionData['approach_destination_time'] = approachDestinationMatch.group(2);
     } else {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING WARNING: Approach destination fuel not found!');
     }
 
@@ -353,7 +353,7 @@ class Parser {
       sectionData['contingency_fuel'] = contingencyMatch.group(2);
       sectionData['contingency_time'] = contingencyMatch.group(3);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Contingency fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Contingency fuel not found!');
     }
 
     RegExp alternateRE = RegExp(r'ALTERNATE\s+(\w+)\s+(\d+)\s+([\d|\.]+)');
@@ -363,7 +363,7 @@ class Parser {
       sectionData['alternate_fuel'] = alternateMatch.group(2);
       sectionData['alternate_time'] = alternateMatch.group(3);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Alternate fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Alternate fuel not found!');
     }
 
     RegExp finalReserveRE = RegExp(r'FINAL RESERVE\s+(\d+)\s+([\d|\.]+)');
@@ -372,7 +372,7 @@ class Parser {
       sectionData['final_reserve_fuel'] = finalReserveMatch.group(1);
       sectionData['final_reserve_time'] = finalReserveMatch.group(2);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Final reserve fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Final reserve fuel not found!');
     }
 
     RegExp additionalRE = RegExp(r'ADDTNAL\(ETOP XTR\)\s+(\d+)\s+([\d|\.]+)');
@@ -381,7 +381,7 @@ class Parser {
       sectionData['additional_fuel'] = additionalMatch.group(1);
       sectionData['additional_time'] = additionalMatch.group(2);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Additional fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Additional fuel not found!');
     }
 
     RegExp extraRE = RegExp(r'EXTRA\s+(\d+)');
@@ -389,7 +389,7 @@ class Parser {
     if (extraMatch != null) {
       sectionData['extra_fuel'] = extraMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Extra fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Extra fuel not found!');
     }
 
     RegExp taxiRE = RegExp(r'TAXY\s+(\d+)');
@@ -397,7 +397,7 @@ class Parser {
     if (taxiMatch != null) {
       sectionData['taxi_fuel'] = taxiMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Taxi fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Taxi fuel not found!');
     }
 
     RegExp minimumDispatchRE = RegExp(r'MIN DISPATCH FUEL\s+(\d+)');
@@ -405,7 +405,7 @@ class Parser {
     if (minimumDispatchMatch != null) {
       sectionData['minimumDispatch_fuel'] = minimumDispatchMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Minimum dispatch fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Minimum dispatch fuel not found!');
     }
 
     RegExp tankeringRE = RegExp(r'TANKERING\s+(\d+)\s+([\d|\.]+)');
@@ -414,7 +414,7 @@ class Parser {
       sectionData['tankering_fuel'] = tankeringMatch.group(1);
       sectionData['tankering_time'] = tankeringMatch.group(2);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Tankering fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Tankering fuel not found!');
     }
 
     RegExp picExtraRE = RegExp(r'PIC EXTRA\s+(\d+)');
@@ -422,7 +422,7 @@ class Parser {
     if (picExtraMatch != null) {
       sectionData['pic_extra_fuel'] = picExtraMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Pic extra fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Pic extra fuel not found!');
     }
 
     RegExp rampRE = RegExp(r'RAMP FUEL\s+(\d+)');
@@ -430,7 +430,7 @@ class Parser {
     if (rampMatch != null) {
       sectionData['ramp_fuel'] = rampMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Ramp fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Ramp fuel not found!');
     }
 
 
@@ -439,7 +439,7 @@ class Parser {
     if (minimumDiversionMatch != null) {
       sectionData['minimum_diversion_fuel'] = minimumDiversionMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Minimum diversion fuel not found!');
+      this.parsingReport.add('PARSING WARNING: Minimum diversion fuel not found!');
     }
 
     RegExp enRouteAlternateRE = RegExp(r'ERA \-\s+(\w+)');
@@ -447,7 +447,7 @@ class Parser {
     if (enRouteAlternateMatch != null) {
       sectionData['era_airport'] = enRouteAlternateMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: En Route Alternate airport not found!');
+      this.parsingReport.add('PARSING WARNING: En Route Alternate airport not found!');
     }
 
     RegExp adjustmentIncreaseRE = RegExp(r'ADJUSTMENT FOR\s+(\d+)\s+KGS INCREASE IN ZFW - TTL FUEL/BURN P(\d+)/(\d+)KGS');
@@ -457,7 +457,7 @@ class Parser {
       sectionData['adjustment_increase_fuel'] = adjustmentIncreaseMatch.group(2);
       sectionData['adjustment_increase_burn'] = adjustmentIncreaseMatch.group(3);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Adjustment increase not found!');
+      this.parsingReport.add('PARSING WARNING: Adjustment increase not found!');
     }
 
     RegExp adjustmentDecreaseRE = RegExp(r'ADJUSTMENT FOR\s+(\d+)\s+KGS DECREASE IN ZFW - TTL FUEL/BURN M(\d+)/(\d+)KGS');
@@ -467,7 +467,7 @@ class Parser {
       sectionData['adjustment_decrease_fuel'] = adjustmentDecreaseMatch.group(2);
       sectionData['adjustment_decrease_burn'] = adjustmentDecreaseMatch.group(3);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Adjustment decrease not found!');
+      this.parsingReport.add('PARSING WARNING: Adjustment decrease not found!');
     }
 
     RegExp averageIsaDeviationRE = RegExp(r'AVERAGE ISA DEVIATION (\w?\d\d)');
@@ -475,7 +475,7 @@ class Parser {
     if (averageIsaDeviationMatch != null) {
       sectionData['average_isa_deviation'] = averageIsaDeviationMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Average ISA deviation not found!');
+      this.parsingReport.add('PARSING WARNING: Average ISA deviation not found!');
     }
 
     // TODO: FIXED ALT calculation
@@ -485,7 +485,7 @@ class Parser {
     if (captainMatch != null) {
       sectionData['captain'] = captainMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Captain not found!');
+      this.parsingReport.add('PARSING WARNING: Captain not found!');
     }
 
     RegExp dispatcherRE = RegExp(r'DISPATCHER\s+([\S|\s]+)\s+ROUTE');
@@ -493,7 +493,7 @@ class Parser {
     if (dispatcherMatch != null) {
       sectionData['dispatcher'] = dispatcherMatch.group(1);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Captain not found!');
+      this.parsingReport.add('PARSING WARNING: Captain not found!');
     }
 
     RegExp routeAndFlightLevelsRE = RegExp(r'ROUTE:\s+(\S+)\s+FL(\d+)');
@@ -502,7 +502,7 @@ class Parser {
       sectionData['route_code'] = routeAndFlightLevelsMatch.group(1);
       sectionData['flight_level'] = routeAndFlightLevelsMatch.group(2);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Route and Flight level not found!');
+      this.parsingReport.add('PARSING WARNING: Route and Flight level not found!');
     }
 
     this.ofpData.addAll(sectionData);
@@ -516,7 +516,7 @@ class Parser {
         r'STR LIM: ZFW (\d+)KGS / TOW (\d+)KGS / LWT (\d+)KGS');
     Match structuralLimitsMatch = structuralLimitsRE.firstMatch(section);
     if (structuralLimitsMatch == null) {
-      this.parsingMessages.add(
+      this.parsingReport.add(
         'PARSING WARNING: Structural Weights values not found!'
       );
     } else {
@@ -529,7 +529,7 @@ class Parser {
         r'EST    : ZFW (\d+)KGS / TOW (\d+)KGS / LWT (\d+)KGS');
     Match estimatedMatch = estimatedRE.firstMatch(section);
     if (estimatedMatch == null) {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING WARNING: Structural Weights values not found!'
       );
     } else {
@@ -541,7 +541,7 @@ class Parser {
     RegExp payloadRE = RegExp(r'PLD (\d+)KGS');
     Match payloadMatch = payloadRE.firstMatch(section);
     if (payloadMatch == null) {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING WARNING: Estimated payload value not found!');
     } else {
       sectionData['estimated_payload'] = payloadMatch.group(1);
@@ -559,7 +559,7 @@ class Parser {
         r'MORA TTK  DIST  FL   W/C   TIME  FUEL  ELEV\s+ALTERNATE\s+(\w{4})\s+(\d{3})\s+(\d{3})\s+(\d{4})\s+(\d{3})\s+(\w\d{3})\s+([\d|\.]+)\s+(\d+)\s+(\d+)\s+FT\s+([\S|\s]+)');
     Match mainAlternateMatch = alternateRE.firstMatch(section1);
     if (mainAlternateMatch == null) {
-      this.parsingMessages.add('PARSING ERROR: Main alternate data not parsed!');
+      this.parsingReport.add('PARSING ERROR: Main alternate data not parsed!');
     } else {
       sectionData['destination_alternate'] = mainAlternateMatch.group(1);
       sectionData['destination_alternate_mora'] = mainAlternateMatch.group(2);
@@ -574,11 +574,11 @@ class Parser {
     
     List<Match> otherAlternatesMatches = alternateRE.allMatches(section2).toList();
     if (otherAlternatesMatches == null) {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING WARNING: No other destination alternates found '
           '(other than the main one)!');
     } else {
-      this.parsingMessages.add('PARSING INFO: ' +
+      this.parsingReport.add('PARSING INFO: ' +
           otherAlternatesMatches.length.toString() +
           ' other destination alternates found!');
       for (var match in otherAlternatesMatches) {
@@ -599,6 +599,174 @@ class Parser {
     this.ofpData.addAll(sectionData);
   }
 
+  void _parseEtops(section) {
+    Map<String, String> sectionData = {};
+
+    RegExp etopsSegmentRE = RegExp(
+        r'ELAP TIME ENTRY\s+(\d\d\.\d\d)\s+ETP1\s+(\d\d\.\d\d)\s+EXIT\s+'
+        r'(\d\d\.\d\d)');
+    List<Match> etopsSegmentMatches = etopsSegmentRE.allMatches(section)
+        .toList();
+    if (etopsSegmentMatches == null) {
+      this.parsingReport.add(
+          'PARSING ERROR: No ETOPS segment found in ETOPS INFORMATION section');
+    } else {
+      for (int i = 0; i < etopsSegmentMatches.length; i++) {
+        sectionData['etops_segment_' + i.toString() + '_entry_time'] =
+            etopsSegmentMatches[i].group(1);
+        sectionData['etops_segment_' + i.toString() + '_etp_time'] =
+            etopsSegmentMatches[i].group(2);
+        sectionData['etops_segment_' + i.toString() + '_exit_time'] =
+            etopsSegmentMatches[i].group(3);
+      }
+    }
+
+    RegExp iataOrIcaoAlternatesRE = RegExp(r'EQT ALTNS (\w{3,4})/(\w{3,4})');
+    List<Match> iataOrIcaoAlternatesMatch = iataOrIcaoAlternatesRE
+        .allMatches(section).toList();
+    if (iataOrIcaoAlternatesMatch == null) {
+      this.parsingReport.add('PARSING ERROR: No ETOPS alternates code found!'
+          ' (EQT line)');
+    } else {
+      for (int i = 0; i < iataOrIcaoAlternatesMatch.length; i++) {
+        String iataOrIcao =
+            iataOrIcaoAlternatesMatch[i].group(1).length == 3 ? 'iata' : 'icao';
+        String entry =
+            'etops_segment_' + i.toString() + '_entry_airport_' + iataOrIcao;
+        sectionData[entry] = iataOrIcaoAlternatesMatch[i].group(1);
+        String exit =
+            'etops_segment_' + i.toString() + '_exit_airport_' + iataOrIcao;
+        sectionData[exit] = iataOrIcaoAlternatesMatch[i].group(2);
+      }
+    }
+
+    iataOrIcaoAlternatesRE = RegExp(
+        r'ENTRY AIRPORT\s+(\w{3,4})\s+/ EXIT AIRPORT\s+(\w{3,4})');
+    iataOrIcaoAlternatesMatch.clear();
+    iataOrIcaoAlternatesMatch = iataOrIcaoAlternatesRE
+        .allMatches(section).toList();
+    if (iataOrIcaoAlternatesMatch == null) {
+      this.parsingReport.add('PARSING ERROR: No ETOPS alternates code found!'
+          ' (ENTRY / EXIT line)');
+    } else {
+      for (int i = 0; i < iataOrIcaoAlternatesMatch.length; i++) {
+        String iataOrIcao =
+        iataOrIcaoAlternatesMatch[i].group(1).length == 3 ? 'iata' : 'icao';
+        String entry =
+            'etops_segment_' + i.toString() + '_entry_airport_' + iataOrIcao;
+        sectionData[entry] = iataOrIcaoAlternatesMatch[i].group(1);
+        String exit =
+            'etops_segment_' + i.toString() + '_exit_airport_' + iataOrIcao;
+        sectionData[exit] = iataOrIcaoAlternatesMatch[i].group(2);
+      }
+    }
+
+    RegExp etpRE = RegExp(
+      // LAT              entry       e MORA  e TRK   e FL    e DST   e TIME
+      r'((?:N|S)\d{5})\s+(\w{3,4})\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d\.\d\d)\s+'
+      // e IAS   e TAS   e GS   e FUELONE e FUELTWO  LONG             exit
+      r'(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+0\s+(\d+)\s+((?:E|W)\d{6})\s+(\w{3,4})\s+'
+      // xMORA   xTRK    xFL     xDST    xTIME        xIAS    xTAS    xGS
+      r'(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d\.\d\d)\s+(\d+)\s+(\d+)\s+(\d+)\s+'
+      // xFUELONE   xFUELTWO
+      r'(\d+)\s+0\s+(\d+)'
+    );
+    List<Match> etpMatches = etpRE.allMatches(section).toList();
+    if (etpMatches == null) {
+      this.parsingReport.add('PARSING ERROR: No ETP found for any segment!');
+    } else {
+      int segmentNumber = etpMatches.length;
+      for (int i = 0; i < segmentNumber; i++) {
+        String prefix = 'etops_segment_' + i.toString() + '_etp_';
+        Match match = etpMatches[i];
+        sectionData[prefix + 'LAT'] = match.group(1);
+        sectionData[prefix + 'entry_MORA'] = match.group(3);
+        sectionData[prefix + 'entry_TRK'] = match.group(4);
+        sectionData[prefix + 'entry_FL'] = match.group(5);
+        sectionData[prefix + 'entry_DST'] = match.group(6);
+        sectionData[prefix + 'entry_TIME'] = match.group(7);
+        sectionData[prefix + 'entry_IAS'] = match.group(8);
+        sectionData[prefix + 'entry_TAS'] = match.group(9);
+        sectionData[prefix + 'entry_GS'] = match.group(10);
+        sectionData[prefix + 'entry_ONEENGFUEL'] = match.group(11);
+        sectionData[prefix + 'entry_TWOENGFUEL'] = match.group(12);
+        sectionData[prefix + 'LONG'] = match.group(13);
+        sectionData[prefix + 'exit_MORA'] = match.group(15);
+        sectionData[prefix + 'exit_TRK'] = match.group(16);
+        sectionData[prefix + 'exit_FL'] = match.group(17);
+        sectionData[prefix + 'exit_DST'] = match.group(18);
+        sectionData[prefix + 'exit_TIME'] = match.group(19);
+        sectionData[prefix + 'exit_IAS'] = match.group(20);
+        sectionData[prefix + 'exit_TAS'] = match.group(21);
+        sectionData[prefix + 'exit_GS'] = match.group(22);
+        sectionData[prefix + 'exit_ONEENGFUEL'] = match.group(23);
+        sectionData[prefix + 'exit_TWOENGFUEL'] = match.group(24);
+      }
+    }
+
+    RegExp remainingFuelRE = RegExp(
+        r'FUEL REMAINING\s+(\d+)\s+INCLUDES\s+(\d+)\s+CONTINGENCY');
+    List<Match> remainingFuelMatches = remainingFuelRE.allMatches(section).toList();
+    if (remainingFuelMatches == null) {
+      this.parsingReport.add('PARSING ERROR: No ETOPS remaining fuel found!');
+    } else {
+      int segmentNumber = remainingFuelMatches.length;
+      for (int i = 0; i < segmentNumber; i++) {
+        Match match = remainingFuelMatches[i];
+        sectionData['etops_segment_' + i.toString() + '_remaining_fuel'] =
+            match.group(1);
+        sectionData['etops_segment_' + i.toString() + '_included_contigency'] =
+            match.group(2);
+      }
+    }
+
+    RegExp antiIcingRE = RegExp(
+        r'FUEL REQUIRED INCLUDES\s+(\d+\.\d+)/(\d+\.\d+)\s+PC ANTICING\s+'
+        r'(\d+\.\d+)\s+PC DEG'
+    );
+    List<Match> antiIcingMatches = antiIcingRE.allMatches(section).toList();
+    if (antiIcingMatches == null) {
+      this.parsingReport.add('PARSING ERROR: ETOPS Anti Icing not found!');
+    } else {
+      int segmentNumber = antiIcingMatches.length;
+      for (int i = 0; i < segmentNumber; i++) {
+        sectionData['etops_segment_' + i.toString() + '_anticing_ONEENG'] =
+            antiIcingMatches[i].group(1);
+        sectionData['etops_segment_' + i.toString() + '_anticing_TWOENG'] =
+            antiIcingMatches[i].group(2);
+        sectionData['etops_segment_' + i.toString() + '_PC_DEG'] =
+            antiIcingMatches[i].group(3);
+      }
+    }
+    
+    RegExp availabilityTimesRE = RegExp(
+      r'ALTERNATE\s+FROM\s+TO\s+'
+      r'(\w{3,4})\s+(\d\d\.\d\d)\s+(\d\d\.\d\d)\s+'
+      r'(\w{3,4})\s+(\d\d\.\d\d)\s+(\d\d\.\d\d)\s+'
+    );
+    List<Match> availabilityTimesMatches = availabilityTimesRE
+        .allMatches(section).toList();
+    if (availabilityTimesMatches == null) {
+      this.parsingReport.add('PARSING ERROR: ETOPS availability times not found!');
+    } else {
+      int segmentNumber = availabilityTimesMatches.length;
+      for (int i = 0; i < segmentNumber; i++) {
+        String prefix = 'etops_segment_' + i.toString() + '_';
+        Match match = availabilityTimesMatches[i];
+        String iataOrIcao = match.group(1).length == 3 ? 'iata' : 'icao';
+        sectionData[prefix + 'entry_alternate_' + iataOrIcao] = match.group(1);
+        sectionData[prefix + 'entry_alternate_availability_from'] = match.group(2);
+        sectionData[prefix + 'entry_alternate_availability_to'] = match.group(3);
+        iataOrIcao = match.group(4).length == 3 ? 'iata' : 'icao';
+        sectionData[prefix + 'exit_alternate_' + iataOrIcao] = match.group(4);
+        sectionData[prefix + 'exit_alternate_availability_from'] = match.group(5);
+        sectionData[prefix + 'exit_alternate_availability_to'] = match.group(6);
+      }
+    }
+
+    ofpData.addAll(sectionData);
+  }
+
   void _parseLog(section) {
 
     Map<String, String> sectionData = {};
@@ -616,9 +784,9 @@ class Parser {
 
     List<Match> entryMatches = entryRE.allMatches(section).toList();
     if (entryMatches == null) {
-      this.parsingMessages.add('PARSING ERROR: Log entries could not be parsed!');
+      this.parsingReport.add('PARSING ERROR: Log entries could not be parsed!');
     } else {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING DEBUG: ' + entryMatches.length.toString() +
           ' log entries found!');
       for (var i = 0; i < entryMatches.length; i++) {
@@ -646,7 +814,7 @@ class Parser {
     RegExp lastLineRE = RegExp(r'DEST MNVR\s+(\d?\d\.\d\d)\s+(\d+)');
     Match lastLineMatch = lastLineRE.firstMatch(section);
     if (lastLineMatch == null) {
-      this.parsingMessages.add('PARSING ERROR: Last line of log not parsed!');
+      this.parsingReport.add('PARSING ERROR: Last line of log not parsed!');
     } else {
       sectionData['destination_manoeuver_time'] = lastLineMatch.group(1);
       sectionData['destination_fuel'] = lastLineMatch.group(2);
@@ -661,7 +829,7 @@ class Parser {
         r'(\d{3})\s+FL(\d{3})\s+FL(\d{3})\s+FL\s?(\d{3})\s+([\S|\s]+?)(?:FL|-{5,})');
     List<Match> windSubSectionMatches = windSubSection.allMatches(section).toList();
     if (windSubSectionMatches == null) {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING ERROR: No subsection found in the wind information!');
     } else {
       for (var match in windSubSectionMatches) {
@@ -685,7 +853,7 @@ class Parser {
     );
     List<Match> windLineMatches = windLineRE.allMatches(subSection).toList();
     if (windLineMatches == null) {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING WARNING: No wind information found in one subsection!');
     } else {
       for (var match in windLineMatches) {
@@ -728,9 +896,9 @@ class Parser {
     List<Match> metarTafSpeciMatches =
         metarTafSpeciRE.allMatches(section).toList();
     if (metarTafSpeciMatches == null) {
-      this.parsingMessages.add('PARSING ERROR: no METAR / TAF / SPECI found!');
+      this.parsingReport.add('PARSING ERROR: no METAR / TAF / SPECI found!');
     } else {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING DEBUG: ' + metarTafSpeciMatches.length.toString() +
           ' METAR TAF SPECI found!');
       for (var match in metarTafSpeciMatches) {
@@ -742,9 +910,9 @@ class Parser {
     List<Match> sigmetAirmetMatches =
         sigmetAirmetRE.allMatches(section).toList();
     if (sigmetAirmetMatches == null) {
-      this.parsingMessages.add('PARSING WARNING: no SIGMET or AIRMET found!');
+      this.parsingReport.add('PARSING WARNING: no SIGMET or AIRMET found!');
     } else {
-      this.parsingMessages.add(
+      this.parsingReport.add(
           'PARSING DEBUG: ' + sigmetAirmetMatches.length.toString() +
               ' SIGMET or AIRMET found!');
       for (var match in sigmetAirmetMatches) {
@@ -769,7 +937,7 @@ class Parser {
       sectionData['notams_issued'] = validitiesMatch.group(2);
       sectionData['notams_validity_to'] = validitiesMatch.group(3);
     } else {
-      this.parsingMessages.add('PARSING WARNING: Notams validities not found!');
+      this.parsingReport.add('PARSING WARNING: Notams validities not found!');
     }
 
     RegExp locationsRE = RegExp(r'Locations:(?:\s+\w+,?)+');
@@ -781,7 +949,7 @@ class Parser {
       List<Match> locationsMatch = locationRE.allMatches(locationsList).toList();
 
       if (locationsMatch != null && locationsMatch.length > 1) {
-        this.parsingMessages.add(
+        this.parsingReport.add(
           'PARSING DEBUG: ' + locationsMatch.length.toString() +
           ' NOTAM locations found.'
         );
@@ -791,7 +959,7 @@ class Parser {
         }
       }
     } else {
-      this.parsingMessages.add('PARSING WARNING: Notams locations not found!');
+      this.parsingReport.add('PARSING WARNING: Notams locations not found!');
     }
 
     // Individual NOTAMs
@@ -799,7 +967,7 @@ class Parser {
         r'(\d{10})-(\d{10})?(EST)?\s+(PERM)?\s+([\w|,]+)\s+(\w\d{4}/\d{2})([\S|\s]+?)Issued: (\d{10})'
     );
     List<Match> notamsMatches = notamRE.allMatches(section).toList();
-    this.parsingMessages.add(
+    this.parsingReport.add(
         'PARSING DEBUG: ' + notamsMatches.length.toString() +
         ' NOTAMS found! (it may contain doubles)');
     for (var match in notamsMatches) {

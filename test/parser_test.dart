@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:convert' show json;
 
 import 'package:test/test.dart';
 import 'package:wyofp_flutter/parser/Parser.dart';
@@ -9,6 +10,8 @@ void main() {
     final String ofp1String = File('test/OFP_examples/OFP1.txt').readAsStringSync();
     Parser parser = Parser(ofp1String);
     await parser.parse();
+    File out = File('test/OFP_examples/OFP1_data.txt');
+    out.writeAsString(json.encode(parser.ofpData));
     /*
     parser.ofpData.forEach((key, value) {
       print(key + ' : ' + value);
@@ -47,5 +50,15 @@ void main() {
       print(key + ' : ' + value);
     });
     */
+  });
+
+  test('OFP5 parsing', () async {
+    final String ofp4String = File('test/OFP_examples/OFP5.txt').readAsStringSync();
+    Parser parser = Parser(ofp4String);
+    await parser.parse();
+
+    parser.ofpData.forEach((key, value) {
+      if (key.contains('etops')) print(key + ' : ' + value);
+    });
   });
 }

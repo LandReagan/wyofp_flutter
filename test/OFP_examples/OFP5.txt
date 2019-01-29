@@ -1,0 +1,4058 @@
+-CFP INPUT MESSAGE DATE TIME REF 290749
+ START OF CFP REF : C3JHG  -  OMA824  01 WMKK OOMS
+
+
+                          FLIGHT ACCEPTANCE FORM
+                          ----------------------
+
+          PLEASE RETAIN WITH OTHER FLIGHT DISPATCH PAPERWORK
+
+ OMA824  /29JAN19 / A4O-DD  / WMKK    OOMS / ALTN - OMAL/2ALTN - OMSJ
+
+ T/O ALTN - XXXX / A330-3 / ECON CI025 / IFR / ETD: 291305Z /REF:C3JHG
+
+
+ DISPATCHER - CHRIS
+
+ ROUTE: KULMCT03
+ WMKK AGOS1H AGOSA R467 GUNIP N571 PARAR N767 ELIGO L631 MCT DCT OOMS
+
+ EST:    TOW   205960 KGS / ZFW 159000 KGS LWT  166790 KGS / PL 030950
+
+ TRIP FUEL                    - 038870 KGS    - 06.46
+ APP.DEST                     - 000300 KGS    - 00.07
+ MINIMUM DISPATCH FUEL        - 047610 KGS    - 08.25
+ TANKERING                    - 000000 KGS    - 00.00
+
+ RAMP FUEL (RECOMMENDED)      - 047610 KGS
+
+
+ EXTRA UPLIFT                 - ...... KGS - REASON FOR EXTRA FUEL:
+
+ .....................................................................
+
+
+
+ FINAL RAMP FUEL BY CAPTAIN   -................KGS
+
+
+ REMARKS..............................................................
+
+ .....................................................................
+
+ I, THE UNDERSIGNED CERTIFY THAT I ACCEPT THIS FLIGHT PLAN/NOTAM/
+ WEATHER REPORTS AND CONFIRM I HAVE READ AND UNDERSTOOD  ALL RELEVANT
+ CIRCULARS, NTC'S MEMOS AND COMPANY NOTICES (WHICH APPEAR IN THE LAST
+ PAGE OF THE FLIGHT PLAN) AS OF DATE:....................
+
+ CAPTAIN - ALMASKARY MOHAMMEDS/NO-............SIGNATURE-..............
+
+
+ CO-PILOT-...................S/N0-............SIGNATURE-..............
+
+
+ JUMP SEAT-..................S/N0-............SIGNATURE-..............
+
+ ** NOTE-THIS FLIGHT ACCEPTANCE FORM IS TO BE COMPLETED BY THE
+ OPERATING PILOTS PRIOR TO EACH SECTOR AND LEFT WITH DEPARTURE
+ STATION.
+
+
+
+
+
+
+
+
+
+ PLAN C3JHG OMA 824     WMKK TO OOMS A330-3 ECON CI 025 IFR 29/JAN/19
+ WX OBS TIME 0000 FOR ETD 1305Z -DD 12Z/18Z/ PROGS
+ COMPUTED AT 0749Z ON 29JAN19
+ FLIGHT COST 037395
+ PERF DEGR USED 1.9 PCT
+                                 TAKE-OFF ALTERNATE
+ GROUND DIST  2865 N.M.          AIR DIST  3064 N.M.  GC DIST  2813N.M
+
+ FUEL PLAN             AV WC H029          MXSH 05/E.EXT
+ TRIP               38870  6.46 . . . .  MIN DIV 006620
+ APP.DEST             300  0.07 . . . .
+ CONTINGENCY  3PCT   1170  0.12 . . . . ERA - VOHS
+ ALTERNATE    OMAL   4270  0.50 . . . . INCLUDES ALTN APP. FUEL
+ FINAL RESERVE       2350  0.30 . . . .
+ ADDTNAL(ETOP XTR)      0  0.00 . . . .
+ MIN T/O FUEL       46960  8.25 . . . .
+ EXTRA                  0       . . . .
+ TAXY                 650       . . . .
+ MIN DISPATCH FUEL  47610       . . . .
+ TANKERING              0  0.00 . . . .
+ PIC EXTRA              0       . . . . REASON FOR EXTRA FUEL.......
+ RAMP FUEL          47610       . . . .
+ FUEL LOADED       (CAPT)       . . . . (F/O) . . . .
+ ZERO FOUR SEVN SIX  ONE  ZERO  KGS
+
+ ADJUSTMENT FOR 4000 KGS INCREASE IN ZFW - TTL FUEL/BURN P0860/0740KGS
+ ADJUSTMENT FOR 4000 KGS DECREASE IN ZFW - TTL FUEL/BURN M1000/0870KGS
+
+ AVERAGE ISA DEVIATION P05
+
+ FIXED ALT 36000 TIME 0652 BRNOF 38802  ZFW 159000
+ 360
+
+ FIXED ALT 32000 TIME 0648 BRNOF 40821  ZFW 159000
+ 320
+
+ FIXED ALT 28000 TIME 0654 BRNOF 42833  ZFW 159000
+
+
+ CAPTAIN     ALMASKARY MOHAMM      CAPTAIN SIGNATURE:.................
+ DISPATCHER  CHRIS
+
+ ROUTE: KULMCT03    FL280/IGOGU 380/BIKEN 400/VIRAM 380/SUGID 360/PAR
+
+ ---------------------------------------------------------------------
+ :                                                                   :
+ :   RWY ..... FLX ......     NI ..... V1 .... VR .... V2.... VFS....:
+ :                                                                   :
+ : STR LIM: ZFW 175000KGS / TOW 233000KGS / LWT 187000KGS            :
+ :                                                                   :
+ : OPS LIM: ZFW ......KGS / TOW ......KGS / LWT ......KGS            :
+ :                                                                   :
+ : EST    : ZFW 159000KGS / TOW 205960KGS / LWT 166790KGS            :
+ :          PLD 030950KGS                                            :
+ :                                                                   :
+ : ACT    : ZFW ......KGS / TOW ......KGS / LWT ......KGS            :
+ :        : PLD ......KGS                                            :
+ :                                                                   :
+ :          PAX ......  CREW ......  POB ......      C OF G .....PCT :
+ :                                                                   :
+ ---------------------------------------------------------------------
+
+
+ DEP ATIS:------------------------------------------------------------
+
+
+
+ ATC CLEARANCE REQUESTED
+ WMKK AGOS1H AGOSA R467 GUNIP N571 PARAR N767 ELIGO L631 MCT DCT OOMS
+
+ ATC CLEARANCE ISSUED
+
+
+                  - - - - - - - - - - - -
+                  LEAST COST - REAL VALUES
+                  - - - - - - - - - - - -
+ ROUTE      DIST  ACTTIM    FUEL    ZFW    OFC    TOT COST
+ KULMCT03   2865   06.52  038507  159000  000893  036889
+
+
+ ENROUTE FUEL ALTN FOR 3PCT RESERVES:
+
+ VOHS
+
+
+              DESTINATION ALTERNATE DATA
+
+                   MORA TTK  DIST  FL   W/C   TIME  FUEL  ELEV
+ ALTERNATE  OMAL   124  285  0196  200  H035  0.50  4270  866  FT
+ OOMS DCT MCT Q978 ITRAX ITRA1K OMAL
+
+
+ :-------------------------------------------------------------------:
+ : ADDITIONAL DESTINATION ALTERNATES DATA (FOR INFORMATION ONLY)     :
+ :-------------------------------------------------------------------:
+                   MORA TTK  DIST  FL   W/C   TIME  FUEL  ELEV
+ ALTERNATE  OMSJ   124  304  0239  200  H036  0058  4960  118  FT
+ OOMS DCT MCT T508 DAPOK T509 MENSA N317 NOLSU NOLS3K OMSJ
+
+ : ALTERNATE 3 NOT SPECIFIED                                         :
+ :-------------------------------------------------------------------:
+
+
+
+
+
+ START OF ETOPS INFORMATION
+
+                          ETOPS INFORMATION
+
+ ELAP TIME ENTRY 01.44 ETP1  02.16 EXIT  02.18
+ ATD... ...ETA   .. ..       .. ..       .. ..
+
+ ATD... ...ETA   .. ..
+
+ EQT ALTNS VTSP/VOHS
+
+ ENTRY AIRPORT HKT  / EXIT AIRPORT MAA
+                                                  ONE ENG CRIT TWO ENG
+ ETP1         MORA TRK  FL  DST  TIME IAS TAS  G/S  FUEL  FUEL  FUEL
+ N10450   VTSP  58 104 100  663  1.42 330 389  392 15970     0 14940
+ E087270  VOHS  44 306 100  653  1.42 330 388  384 16010     0 14980
+
+
+ FUEL REMAINING  30071 INCLUDES    776 CONTINGENCY
+
+ FUEL REQUIRED INCLUDES 10.0/11.0 PC ANTICING  1.900  PC DEG
+
+
+ ALTERNATE REQUIRED AVAILABILITY TIMES
+  ALTERNATE      FROM         TO
+   VTSP          15.43        18.03
+   VOHS          16.46        18.05
+
+ END OF ETOPS INFORMATION
+
+ ---------------------------------------------------------------------
+ :                                                                   :
+ :RAMP FUEL. . .   STA 2015Z  BLON . . . .  LDG . . . .              :
+ :                                                                   :
+ :     BLON. . . . STD 1305Z  BLOFF. . . .  T/O . . . . AFLT         :
+ :                                                                   :
+ :     B/O . . . .            TIME. . . . . TIME . . . .RETA . . . . :
+ :                                                                   :
+ ---------------------------------------------------------------------
+ --------------------------------------------------------------------
+                              REMARKS
+ NOTES:
+
+
+
+ --------------------------------------------------------------------
+
+ WMKK ELEV 00070FT                                        REMAINING
+ AWY   FIX    FREQ  FL TAS GS MCSE ZDIST ZTIME  ETA/ATA  TIME   FUEL
+              MSA      WIND   ITCS       CTIME
+
+       WMKK         CL          000       0.00 ..../.... 06.50 046960
+ WMFC  FIR    000      000/000  000       0.03
+
+ AGOS1HVKL   116.1  CL 389 391  115 0004  0.04 ..../.... 06.49 046140
+              043      040/006  115       0.04
+
+ AGOS1H10VKL        CL 389 387  116 0010  0.01 ..../.... 06.48 045790
+              054      040/009  116       0.05
+
+ AGOS1HVKL   116.1  CL 389 390  296 0015  0.02 ..../.... 06.46 045270
+              054      030/006  296       0.07
+
+ AGOS1HAGOSA        CL 389 389  309 0040  0.07 ..../.... 06.39 043880
+              086      070/005  309       0.14
+
+ R467  GOBAS        CL 389 395  309 0020  0.03 ..../.... 06.36 043200
+              086      090/008  309       0.17
+
+ R467  TOC         280 389 395  309 0004  0.01 ..../.... 06.35 042970
+              086      110/006  309       0.18
+
+ R467  GUNIP       280 467 473  309 0105  0.13 ..../.... 06.22 041510
+              086      110/006  309       0.31
+
+ N571  VAMPI       280 466 475  311 0154  0.19 ..../.... 06.03 039420
+              026      140/009  311       0.50
+
+ N571  MEKAR       280 465 473  287 0068  0.09 ..../.... 05.54 038490
+              020      150/011  286       0.59
+
+ N571  NILAM       280 465 472  297 0034  0.04 ..../.... 05.50 038020
+              020      150/008  296       1.03
+
+ N571  IGOGU       280 465 468  297 0104  0.14 ..../.... 05.36 036120
+ VOMF  FIR    020      100/003  296       1.17
+
+ N571  LAGOG       380 469 470  295 0158  0.20 ..../.... 05.16 034210
+              035      200/017  294       1.37
+
+ N571  E.ENT       380 469 462  297 0057  0.07 ..../.... 05.09 033490
+              020      220/029  295       1.44
+
+ N571  BIKEN       380 469 462  297 0170  0.22 ..../.... 04.47 031350
+              020      220/029  295       2.06
+
+ N571  ETP1        400 466 453  299 0072  0.10 ..../.... 04.37 030470
+              020      220/043  297       2.16
+
+ N571  E.EXT       400 466 453  299 0018  0.02 ..../.... 04.35 030240
+              020      220/043  297       2.18
+
+ N571  IDASO       400 466 453  298 0238  0.32 ..../.... 04.03 027320
+              020      220/043  296       2.50
+
+ N571  VATMO       400 468 437  298 0138  0.19 ..../.... 03.44 025590
+              020      240/051  297       3.09
+
+ N571  GURAS       400 468 431  298 0040  0.05 ..../.... 03.39 025080
+              020      250/054  297       3.14
+
+ N571  VIRAM       400 468 428  299 0178  0.25 ..../.... 03.14 022840
+              050      250/053  297       3.39
+
+ N571  DORAM       380 471 427  298 0048  0.07 ..../.... 03.07 022230
+              045      260/052  296       3.46
+
+ N571  BOGAT       380 470 427  297 0087  0.12 ..../.... 02.55 021140
+              050      270/048  296       3.58
+
+ N571  AGELA       380 469 427  297 0034  0.05 ..../.... 02.50 020710
+ VABF  FIR    039      270/045  296       4.03
+
+ N571  ENTUG       380 469 428  299 0078  0.11 ..../.... 02.39 019740
+              056      280/043  298       4.14
+
+ N571  BEKUT       380 468 427  298 0067  0.09 ..../.... 02.30 018920
+              060      280/042  297       4.23
+
+ N571  SUGID       380 467 425  297 0246  0.35 ..../.... 01.55 015900
+              060      290/042  296       4.58
+
+ N571  DOGET       360 465 419  297 0211  0.30 ..../.... 01.25 013270
+              020      300/047  296       5.28
+
+ N571  FIR         360 466 403  296 0177  0.27 ..../.... 00.58 010810
+ OOMM  FIR    020      300/063  296       5.55
+
+ N571  PARAR       360 466 403  295 0002  0.00 ..../.... 00.58 010770
+              020      300/063  296       5.55
+
+ N767  VUSIN       400 466 371  285 0126  0.21 ..../.... 00.37 009090
+              020      300/098  285       6.16
+
+ N767  ATBED       400 467 366  284 0017  0.02 ..../.... 00.35 008870
+              020      300/104  285       6.18
+
+ N767  TOD         400 467 365  284 0011  0.02 ..../.... 00.33 008710
+              091      300/104  284       6.20
+
+ N767  ELIGO        DC 430 378  284 0074  0.12 ..../.... 00.21 008430
+              091      280/053  284       6.32
+
+ L631  KARAR        DC 349 321  293 0014  0.02 ..../.... 00.19 008370
+              091      270/030  294       6.34
+
+ L631  MCT   114.5  DC 257 243  277 0036  0.09 ..../.... 00.10 008160
+              091      280/015  278       6.43
+
+ DCT   OOMS         DC          085 0010  0.03 ..../.... 00.07 008090
+              000      280/002  086       6.46
+
+                              DEST MNVR   0.07                 007790
+ OOMS ELEV 00025FT
+
+ ATIS-
+
+  ___________________________________________________________________
+ |                                                                   |
+ |                                                                   |
+ |DEST WX:__________________________________________________________ |
+ |                                                                   |
+ |                                                                   |
+ |ALT WX:___________________________________________________________ |
+ |                                                                   |
+ |                                                                   |
+ |ETOPS ALT WX:_____________________________________________________ |
+ |                                                                   |
+ | _________________________________________________________________ |
+ |                                                                   |
+ |___________________________________________________________________|
+
+
+
+
+
+ WAYPOINTS
+
+ WMKK  N02446   E101419     GURAS  N14001   E080499
+ VKL   N02435   E101443     VIRAM  N15216   E078059
+ 10VKL N02391   E101533     DORAM  N15431   E077209
+ VKL   N02435   E101443     BOGAT  N16216   E075599
+ AGOSA N03087   E101132     AGELA  N16364   E075280
+ GOBAS N03214   E100574     ENTUG  N17126   E074155
+ TOC   N03239   E100543     BEKUT  N17432   E073131
+ GUNIP N04299   E099318     SUGID  N19331   E069210
+ VAMPI N06109   E097351     DOGET  N21071   E066000
+ MEKAR N06302   E096295     FIR    N22255   E063092
+ NILAM N06454   E095586     PARAR  N22265   E063070
+ IGOGU N07310   E094250     VUSIN  N22597   E060552
+ LAGOG N08356   E091598     ATBED  N23039   E060379
+ E.ENT N09003   E091074     TOD    N23066   E060267
+ BIKEN N10124   E088319     ELIGO  N23250   E059088
+ ETP1  N10450   E087270     KARAR  N23307   E058546
+ E.EXT N10534   E087104     MCT    N23355   E058156
+ IDASO N12396   E083334     OOMS   N23356   E058169
+ VATMO N13420   E081270
+
+
+
+ FIRS:
+ WMKK - WMFC 06.50 - VOMF 05.36 - VABF 02.50 - OOMM 00.58 - OOMS
+
+
+ --------------------------------------------------------------------
+
+                       WIND INFORMATION SECTION
+
+ DESCENT WINDS : FL250 274/050     FL150 273/034      FL050 291/014
+
+ WAYPT  LAT     LONG   TROP W/V   OAT W/V   OAT W/V   OAT SR W/V   OAT
+                             FL240     FL260      FL280       FL 300
+ WMKK  N02446  E101419
+ GUNIP N04299  E099318  570 12008 -16 12007 -21 11006 -26 00 13006 -30
+                            FL        FL        FL280        FL300
+ VAMPI N06109  E097351  560                     14009 -25 00 14012 -31
+ MEKAR N06302  E096295  550                     15011 -25 01 16008 -31
+ NILAM N06454  E095586  540                     15008 -25 01 14007 -31
+ IGOGU N07310  E094250  530                     10003 -25 01 04004 -31
+                            FL340     FL360     FL380        FL400
+ LAGOG N08356  E091598  540 23019 -42 22019 -47 20017 -52 02 19023 -58
+ E.ENT N09003  E091074  560 24043 -41 23040 -46 22029 -52 04 21038 -57
+ BIKEN N10124  E088319  560 24043 -41 23040 -46 22029 -52 04 21038 -57
+                            FL360     FL380     FL400        FL430
+ ETP1  N10450  E087270  530 24055 -46 24050 -49 22043 -55    22049 -62
+ E.EXT N10534  E087104  530 24055 -46 24050 -49 22043 -55 05 22049 -62
+ IDASO N12396  E083334  530 24055 -46 24050 -49 22043 -55 04 22049 -62
+ VATMO N13420  E081270  550 25061 -46 25056 -50 24051 -54 04 23055 -61
+ GURAS N14001  E080499  540 25061 -46 25057 -50 25054 -54 04 23055 -61
+ VIRAM N15216  E078059  550 26050 -47 26053 -52 25053 -54 03 24051 -60
+                            FL340     FL360     FL380        FL400
+ DORAM N15431  E077209  560 27045 -44 26048 -48 26052 -51 01 26051 -55
+ BOGAT N16216  E075599  580 27041 -44 27044 -48 27048 -52 01 26048 -56
+ AGELA N16364  E075280  570 28040 -45 27042 -49 27045 -52 00 27046 -56
+ ENTUG N17126  E074155  550 29038 -45 28040 -49 28043 -53 01 27044 -56
+ BEKUT N17432  E073131  550 29038 -46 29040 -50 28042 -53 01 28045 -57
+ SUGID N19331  E069210  570 29037 -47 29040 -51 29042 -54 02 29047 -59
+                            FL320     FL340     FL360        FL380
+ DOGET N21071  E066000  500 29044 -42 29044 -47 30047 -51 03 30064 -55
+ FIR   N22255  E063092  450 28053 -43 29057 -48 30063 -51    30087 -55
+ PARAR N22265  E063070  450 28053 -43 29057 -48 30063 -51 04 30087 -55
+                            FL360     FL380     FL400        FL430
+ VUSIN N22597  E060552  450 29082 -51 29099 -54 30098 -58 00 29102 -64
+ ATBED N23039  E060379  450 29083 -51 29099 -54 30104 -58 01 29102 -65
+ TOD   N23066  E060267  450 29091 -50 29106 -54 30104 -58 00 29106 -65
+ OOMS  N23356  E058169
+ --------------------------------------------------------------------
+
+ START OF TANKERING FUEL INFORMATION
+
+ END OF TANKERING FUEL INFORMATION
+
+
+ START OF ICAO FLIGHT PLAN
+ (FPL-OMA824-IS
+ -A333/H-SDE1E2E3M1FGHIJ1RWY/L
+ -WMKK1305
+ -N0467F280 AGOSA1H AGOSA R467 GUNIP N571 IGOGU/M081F380 N571
+  BIKEN/M081F400 N571 IDASO/N0468F400 N571 VATMO/M081F400 N571
+  VIRAM/M081F380 N571 AGELA/N0469F380 N571 BEKUT/M081F380 N571
+  SUGID/M080F360 N571 PARAR/N0466F400 N767 ELIGO L631 MCT DCT
+ -OOMS0646 OMAL
+ -PBN/A1B1C1D1L1O1 DOF/190129 REG/A4ODD
+  EET/VOMF0117 VABF0403 OOMM0555 SEL/HLCS RALT/VTSP VOHS
+  RMK/FON GCAPOMA0120
+  TCAS AGCS EQUIPPED
+  C/ALMASKARY MOHAMMED)
+
+ END OF ICAO FLIGHT PLAN
+
+
+ START OF ALTERNATIVE FLIGHT PLAN OOMS TO OMAL
+ ROUTE:
+
+                                                           TIME  FUEL
+ AWY   FIX    FREQ  FL  TAS  GS MCSE ZDIST ZTIME  ETA/ATA  RMNG  RMNG
+               MSA       WIND   ITCS       CTIME
+
+ DCT   OOMS         CLB   0   0  000  0000  000  ..../.... 0050 06620
+                        000/000  000        0050
+
+ Q978  MCT    114.5 CLB 237 237  264  0010  003  ..../.... 0047 06030
+             091        270/045  265        0047
+
+ Q978  TOC          200 237 234  268  0023  006  ..../.... 0041 04550
+             124        270/048  270        0041
+
+ Q978  ALMOG        200 352 352  269  0001  000  ..../.... 0041 04550
+             124        270/046  270        0041
+
+ Q978  IVETO        200 352 351  268  0039  010  ..../.... 0031 04010
+             124        270/048  270        0031
+
+ Q978  TOD          200 352 352  292  0049  012  ..../.... 0019 03340
+             124        270/050  294        0019
+
+ Q978  LOPIL        DC  239 233  292  0004  002  ..../.... 0017 03280
+             124        270/049  294        0017
+
+ ITRA1KITRAX        DC  239 240  302  0029  007  ..../.... 0010 02890
+             111        270/051  304        0010
+
+ ITRA1KAL005        DC  239 233  258  0017  004  ..../.... 0006 02670
+             054        270/051  259        0006
+
+ ITRA1KAL003        DC  239 239  187  0006  002  ..../.... 0004 02570
+             054        270/051  188        0004
+
+ ITRA1KAL006        DC  239 239  096  0006  002  ..../.... 0002 02480
+             054        270/051  098        0002
+
+ ITRA1KASVAD        DC  239 239  007  0003  000  ..../.... 0002 02450
+             054        270/051  009        0002
+
+       OMAL         DC  239 245  006  0009  002  ..../.... 0000 02350
+                        270/026  008        0000
+
+ WAYPOINTS
+
+ OOMS  N23356   E058169     ITRAX  N24128   E055478
+ MCT   N23355   E058156     AL005  N24096   E055291
+ TOC   N23354   E057508     AL003  N24037   E055282
+ ALMOG N23354   E057497     AL006  N24029   E055347
+ IVETO N23353   E057071     ASVAD  N24059   E055352
+ TOD   N23551   E056180     OMAL   N24157   E055366
+ LOPIL N23567   E056140
+
+ END OF ALTERNATIVE FLIGHT PLAN OOMS TO OMAL
+
+ AFTN.  OOMSOASO WMFCZQZX VOMFZQZX VABFZQZX OOMMZQZX
+
+
+ OVERFLIGHT CHARGE COSTINGS
+ C3JHG       OMA/ 824/WMKK/OOMS     DATE: 29JAN19     MTOW: 233.00 TON
+
+ TOTAL COSTING FOR ROUTE: KULMCT03 =                   892.60 USD
+
+
+
+
+ START OF RAIM OUTAGE REPORT
+ Identifier               WMKK
+ Start:                   29/01/2019 07:05:00
+ End:                     30/01/2019 07:05:00
+ Algorithm:               FD
+ Minimum Duration Outage: 0 Minute(s) 0 Second(s)
+ Sample period:           1 Minute(s) 0 Second(s)
+ Mask angle:              5
+ RNP value:               NPA
+ Baro aided:              OFF
+                          Non-Baro Aided Outages
+ No outages reported
+
+ Identifier               OOMS
+ Start:                   29/01/2019 07:05:00
+ End:                     30/01/2019 07:05:00
+ Algorithm:               FD
+ Minimum Duration Outage: 0 Minute(s) 0 Second(s)
+ Sample period:           1 Minute(s) 0 Second(s)
+ Mask angle:              5
+ RNP value:               NPA
+ Baro aided:              OFF
+                          Non-Baro Aided Outages
+ No outages reported
+
+ Identifier               OMAL
+ Start:                   29/01/2019 07:05:00
+ End:                     30/01/2019 07:05:00
+ Algorithm:               FD
+ Minimum Duration Outage: 0 Minute(s) 0 Second(s)
+ Sample period:           1 Minute(s) 0 Second(s)
+ Mask angle:              5
+ RNP value:               NPA
+ Baro aided:              OFF
+                          Non-Baro Aided Outages
+ No outages reported
+
+ Identifier               OMSJ
+ Start:                   29/01/2019 07:05:00
+ End:                     30/01/2019 07:05:00
+ Algorithm:               FD
+ Minimum Duration Outage: 0 Minute(s) 0 Second(s)
+ Sample period:           1 Minute(s) 0 Second(s)
+ Mask angle:              5
+ RNP value:               NPA
+ Baro aided:              OFF
+                          Non-Baro Aided Outages
+ No outages reported
+ END OF RAIM OUTAGE REPORT
+- - - DATA SUPPLIED BY SITA SURFACE WEATHER SYSTEM - - -
+
+
+                     WEATHER MACRO WYKULMCT FOR OMAN AIR
+                     ***********************************
+
+
+ *********
+ DEPARTURE
+ *********
+
+
+  KUALA LUMPUR - KUL
+  ------------------
+
+ FT 29/06:00
+ TAF WMKK 290500Z 2906/3012 22007KT 9999 FEW017CB SCT018
+      TEMPO 2907/2911 4000 SHRA FEW010 FEW017CB SCT018
+      BECMG 2910/2912 05007KT FEW030
+      BECMG 2916/2918 FEW017CB
+      BECMG 2923/3001 FEW018=
+ SA 29/07:30 RTD
+ WMKK 290730Z 24008KT 190V300 9999 SCT018 SCT140 BKN280 30/25 Q1009
+      NOSIG=
+
+
+ *******************
+ TAKE OFF ALTERNATES
+ *******************
+
+
+  SUBANG - SZB
+  ------------
+
+ FT 29/06:00
+ TAF WMSA 290500Z 2906/3006 19007KT 9999 FEW017CB
+      TEMPO 2908/2912 3000 TSRA FEW010 FEW017CB SCT020
+      BECMG 2912/2914 32005KT FEW024
+      BECMG 2923/3001 FEW020=
+ SA 29/07:00
+ WMSA 290700Z 24008KT 9999 FEW018TCU SCT019 BKN280 31/24 Q1009=
+
+
+  JOHAR BAHRU - JHP
+  -----------------
+
+ FT 29/06:00
+ TAF WMKJ 290500Z 2906/3006 04008KT 9999 FEW017CB SCT018
+      TEMPO 2906/2910 4000 SHRA FEW010 FEW017CB SCT018
+      BECMG 2910/2912 VRB03KT FEW010 SCT022
+      BECMG 2923/3001 04008KT FEW017CB SCT018=
+ SA 29/07:00
+ METAR WMKJ 290700Z 05011KT 350V080 9999 FEW018TCU BKN280 31/25 Q1009=
+
+
+  PENANG - PEN
+  ------------
+
+ FT 29/06:00
+ TAF WMKP 290500Z 2906/3006 22007KT 8000 FEW020 SCT140 BKN270
+      BECMG 2913/2915 03005KT FEW025=
+ SA 29/07:30 RTD
+ WMKP 290730Z 25009KT 220V300 9000 FEW017CB SCT140 BKN270 28/24
+      Q1010 TEMPO 7000 -RA=
+
+
+  SINGAPORE - SIN
+  ---------------
+
+ FT 29/07:00 RTD
+ TAF AMD WSSS 290700Z 2907/3012 03011KT 9999 FEW018CB SCT020=
+ SA 29/07:30
+ METAR WSSS 290730Z 04011KT 010V070 9999 FEW018TCU BKN300 31/24 Q1009
+      NOSIG=
+
+
+ ***********
+ DESTINATION
+ ***********
+
+
+  MUSCAT - MCT
+  ------------
+
+ FT 29/06:00
+ TAF OOMS 290500Z 2906/3012 01012KT 8000 NSC
+      BECMG 2918/2920 22008KT
+      BECMG 3006/3008 35012KT=
+ SA 29/06:50
+ METAR OOMS 290650Z 26012KT 9000 FEW030 26/18 Q1021 NOSIG=
+
+
+ **********************
+ DESTINATION ALTERNATES
+ **********************
+
+
+  DUBAI - DXB
+  -----------
+
+ FT 29/06:00
+ TAF OMDB 290453Z 2906/3012 19014KT 8000 NSC PROB30 2906/2910 4000
+      DU
+      BECMG 2910/2912 30012KT
+      BECMG 2916/2918 17007KT
+      BECMG 3006/3008 28012KT=
+
+
+  ABU DHABI - AUH
+  ---------------
+
+ FT 29/06:00
+ TAF OMAA 290500Z 2906/3012 18010KT 8000 NSC PROB30
+      TEMPO 2906/2908 17018KT 4000 DU
+      BECMG 2913/2915 34008KT
+      BECMG 2918/2920 09005KT
+      BECMG 3005/3007 34010KT=
+
+
+  AL AIN - AAN
+  ------------
+
+ FT 29/06:00
+ TAF OMAL 290500Z 2906/3012 17010KT 8000 NSC PROB30 2906/2908
+      18018KT 4000 DU
+      BECMG 2915/2917 35005KT
+      BECMG 2922/3000 12007KT=
+
+
+  SHARJAH - SHJ
+  ---------------
+
+ FT 29/06:00
+ TAF OMSJ 290453Z 2906/3012 19014KT 8000 NSC PROB30 2906/2910 4000
+      DU
+      BECMG 2910/2912 30012KT
+      BECMG 2916/2918 17007KT
+      BECMG 3006/3008 28013KT=
+
+
+  SALALAH - SLL
+  -------------
+
+ FT 29/06:00
+ TAF OOSA 290540Z 2906/3012 13013KT 9999 SCT025
+      BECMG 2921/2923 VRB03KT
+      BECMG 3007/3009 14010KT=
+
+
+  SOHAR - OHS
+  -----------
+
+ FT 29/06:00 RTD
+ TAF OOSH 290500Z 2906/3012 05012KT 8000 SCT030 BECMG 2918/2920
+      VRB02KT PROB30 TEMPO 2922/3002 3000 BR BKN010 BECMG
+      3006/3008 06012KT=
+ SA 29/06:50
+ METAR OOSH 290650Z AUTO 00000KT //// 26/15 Q1021 RMK 1017=
+
+
+  DOHA - DOH
+  ----------
+
+ FT 29/06:00
+ TAF OTHH 290513Z  2906/3012 17010KT 8000  NSC
+      TEMPO   2906/2918   -RA FEW030 SCT100
+      BECMG   2910/2912 35015KT
+      PROB30 TEMPO   2910/2921 33015G25KT 5000 DU=
+
+
+  BAHRAIN - BAH
+  -------------
+
+ FT 29/06:00
+ TAF OBBI 290500Z 2906/3012 14010KT CAVOK PROB30 TEMPO 2906/2912 5000
+      DU SCT030 BECMG 2908/2910 35016KT=
+
+
+ *******************
+ EN-ROUTE ALTERNATES
+ *******************
+
+
+  LANGKAWI - LGK
+  --------------
+
+ FT 29/06:00
+ TAF WMKL 290500Z 2906/3006 04005KT 9999 FEW022 SCT140 BKN280=
+
+
+  PHUKET - HKT
+  ------------
+
+ FT 29/06:00 RTD
+ TAF VTSP 290500Z 2906/3012 08010KT 9999 FEW020
+      TEMPO 2910/2914 VRB10G20KT 5000 TSRA FEW018CB SCT020 BKN100
+      BECMG 2910/2912 VRB04KT
+      BECMG 3000/3002 08010KT
+      TEMPO 3008/3012 VRB10G20KT 5000 TSRA FEW018CB SCT020 BKN100=
+
+
+  BANGKOK - BKK
+  -------------
+
+ FT 29/06:00
+ TAF VTBS 290500Z 2906/3012 06005KT 9000 FEW030
+      BECMG 2911/2913 19005KT 7000
+      BECMG 2920/2922 03005KT 3000 BR
+      BECMG 3001/3003 09005KT 8000 NSW=
+
+
+  JAKARTA - CGK
+  -------------
+
+ FT 29/06:00
+ TAF WIII 290500Z 2906/3012 32010KT 9000 SCT020
+      BECMG 2912/2914 VRB03KT 5000 HZ
+      TEMPO 2915/2918 3000 TSRA FEW018CB BKN020=
+
+
+  MEDAN - MES
+  -----------
+
+ FT 29/06:00 RTD
+ TAF WIMM 290500Z 2906/3006 05010KT 9000 FEW017CB SCT018
+      BECMG 2911/2913 VRB03KT 4000 HZ
+      TEMPO 2913/2917 -TSRA=
+
+
+  HAT YAI - HDY
+  -------------
+
+ FT 29/06:00 RTD
+ TAF VTSS 290500Z 2906/3006 08010KT 9999 SCT020 BKN100
+      PROB30 TEMPO 2906/2912 5000 RA SCT015 BKN100
+      BECMG 2914/2916 27003KT
+      BECMG 3003/3005 08010KT=
+
+
+  COLOMBO - CMB
+  -------------
+
+ FT 29/06:00
+ TAF VCBI 290500Z 2906/3012 04010KT 9999 SCT017 TX31/2908Z
+      TN23/3000Z
+      TEMPO 3000/3002 6000=
+
+
+  CHENNAI - MAA
+  -------------
+
+ FT 29/06:00
+ TAF VOMM 290500Z 2906/3012 07010KT 6000 FEW020 SCT100
+      BECMG 2921/2922 5000 HZ
+      TEMPO 3000/3003 3000 BR
+      BECMG 3004/3005 6000=
+
+
+  TRIVANDRAM - TRV
+  ----------------
+
+ FT 29/06:00 RTD
+ TAF VOTV 290500Z 2906/3012 30005KT 5000 HZ FEW015
+      BECMG 2908/2808 30010KT 6000 SCT015 FEW025CB BKN090
+      TEMPO 2912/2913 30010G20KT 3000 TSRA RA SCT015 FEW025CB BKN080
+      BECMG 2918/2919 00000KT 3000 HZ
+      BECMG 3002/3003 09005KT 4000 HZ
+      BECMG 3006/3007 30010KT 6000=
+
+
+  COCHIN - COK
+  ------------
+
+ FT 29/06:00
+ TAF VOCI 290500Z 2906/3012 09010KT 6000 FEW015
+      BECMG 2906/2907 30010KT 7000 SCT015 FEW025CB BKN090
+      TEMPO 2909/2912 30010KT 300 TSRA SCT010 FEW025CB BKN080
+      BECMG 2917/2918 00000KT 4000 HZ SCT015 BKN090
+      BECMG 3003/3004 09005KT 5000 HZ FEW015
+      BECMG 3006/3007 6000 SCT015 BKN090=
+
+
+  CALICUT - CCJ
+  -------------
+
+ FT 29/06:00 RTD
+ TAF VOCL 290500Z 2906/3012 07005KT 6000 NSC
+      BECMG 2908/2909 09010KT 7000 FEW015 FEW025CB BKN090
+      BECMG 2915/2916 09005KT 4000 HZ
+      BECMG 2920/2921 00000KT 3000 HZ SCT015 SCT090
+      BECMG 3001/3003 2500 BR/HZ FEW015
+      BECMG 3006/3007 09010KT 6000 SCT015=
+
+
+  HYDERABAD - HYD
+  ---------------
+
+ FT 29/06:00 RTD
+ TAF VOHS 290500Z 2906/3012 06008KT 6000 FEW020 BECMG 2915/2917
+      07005KT 5000 HZ SCT015 TEMPO 2923/3003 VRB03KT 3000 HZ BECMG
+      3006/3008 11006KT 6000 NSC=
+
+
+  BANGALORE - BLR
+  ---------------
+
+ FT 29/06:00 RTD
+ TAF VOBL 290500Z 2906/3012 09010KT 6000 SCT015 BECMG 2921/2922 3000
+      BR SCT010 TEMPO 3000/3003 1500 BR SCT008 BECMG 3004/3005
+      09010KT
+      6000 SCT015=
+
+
+  MUMBAI - BOM
+  ------------
+
+ FT 29/09:00
+ TAF VABB 290800Z 2909/2918 27008KT 5000 FU NSC BECMG 2913/2915 3000
+      HZ FU=
+
+
+  KARACHI - KHI
+  -------------
+
+ FT 29/06:00 RTD
+ TAF OPKC 290400Z 2906/3012 24008KT 6000 NSC
+      FM 291800Z 25006KT 4000 HZ SCT030
+      TEMPO 3000/3004 VRB03KT 2000 BR SCT030
+      FM 300600Z 25005G15KT 6000 SCT030=
+
+
+ *********************************
+ METEOROLOGICAL WARNINGS (SIGMETS)
+ *********************************
+
+ WS WMFC NO DATA FOUND.
+
+ WS VTBB NO DATA FOUND.
+
+ WS WSJC NO DATA FOUND.
+
+ WS VECF NO DATA FOUND.
+
+ WS VABF NO DATA FOUND.
+
+ WS VOMF NO DATA FOUND.
+
+ WS OOMM NO DATA FOUND.
+
+
+ END OF WEATHER MACRO
+ *********************
+
+       - - - DATA SUPPLIED BY SITA SURFACE WEATHER SYSTEM - - -
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ --------------------------------------------------------------------
+                          SITA NOTAM SERVICE
+               PRE-FLIGHT LOCATION INFORMATION BULLETIN
+ --------------------------------------------------------------------
+ Bulletin: TEMPORARY 5123302.TR         Valid from: 19/01/29 : 13:05Z
+ Issued: 19/01/29 : 07:50Z              Valid to  : 19/01/29 : 23:51Z
+ Filter: OMAFPL
+ Filter Description: OMAN AIR NOTAM FILTER
+ Locations: WMKK, WMFC, VOMF, VABF, OOMM, VTSP, VOHS, HKT, MAA, OOMS,
+ OMAL, OMSJ
+ --------------------------------------------------------------------
+ THE FOLLOWING AIRPORTS OR FIRS HAVE NO VALID NOTAM BASED ON YOUR
+ REQUEST PARAMETERS:
+  HKT/A MAA/A
+
+ KUALA LUMPUR - SEPANG(WMKK)
+
+ 1810290700-          PERM                               WMKK A3357/18
+ REF TO AIP MALAYSIA, PAGE AD 2-WMKK-1-26, PARAGRAPH 2.22.2
+    CLR DELIVERY. AMEND AS FLW:
+    (I) PARAGRAPH 2.22.2.1 TO READ AS:
+        PILOTS-IN-COMMAND SHALL REQ FM LUMPUR CLR
+        DELIVERY AN AIRWAYS CLR 5 MIN BFR ENG START UP.
+    (II)DELETE PARAGRAPH 2.22.2.2 AND RPLC WITH THE FLW:
+        2.22.2.2 NOT WITHSTANDING PARA 2.22.2.1 ABV, EASTBOUND DEP
+        PLANNED ALONG THE FLW ATS RTE SEGMENTS CAN OBTAIN AN AWY
+        CLR 30 MIN PRIOR TO ENG START:
+        A) M771 - DUDIS
+        B) L625 - AKMON
+        C) N884 - LAXOR
+        WHERE APPLICABLE, SLOT DEP TIMES SHALL BE PROVIDED BY
+        LUMPUR CLR DELIVERY.
+ Issued: 1810290909
+
+ 1811291200-1902282300                                   WMKK A3792/18
+ CRANES ERECTED AT COORDS OF:
+   1) 024340N 1014329E.
+   2) 024342N 1014331E.
+   3) 024337N 1014334E.
+   4) 024335N 1014331E.
+   (APPRX:2120M TO THE SOUTH OF RWY 32R AND
+          1340M TO THE SOUTH WEST OF RWY 32L).
+   RMK/CRANE MARKED WITH FLAGS AND LGTD. PILOT TO EXER CTN.
+ FROM GND UP TO 180FT AMSL
+ Issued: 1811291213
+
+ 1812120316-1903122359                                   WMKK A3910/18
+ FLT PLAN RQMNTS FOR RNAV 1 CAPABLE ACFT INTO KL INTL AP(KLIA)
+    SHALL PLAN ON FLW STAR:
+    RWY 32L/32R - KIDOT 1P / BOBIS 1P
+    RWY 33      - EKUDA 1B / SALAX 1B / NOBEK 1B
+    RMK: ATC WILL ASSIGN ALTERNATE STAR SHOULD THERE BE A CHG.
+ Issued: 1812120323
+
+ 1812301700-1902062200                                   WMKK A4067/18
+ SAT SUN MON TUE WED 1700-2200
+ RWY 14R/32L CLSD
+ Issued: 1812301134
+
+ 1812302322-1901310900                                   WMKK A4068/18
+ PORTION OF TWY B BTN INT B14 TIL N2 CLSD.
+    RMKS:INT B14 AVBL FOR ACFT TAX
+    MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGTS
+    PLACED TO DENOTE CLOSURE.
+ Issued: 1812302325
+
+               END OF PART  1   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ --------------------------------------------------------------------
+                          SITA NOTAM SERVICE
+               PRE-FLIGHT LOCATION INFORMATION BULLETIN
+ --------------------------------------------------------------------
+ Bulletin: TEMPORARY 5123302.TR         Valid from: 19/01/29 : 13:05Z
+ Issued: 19/01/29 : 07:50Z              Valid to  : 19/01/29 : 23:51Z
+ Filter: OMAFPL
+ Filter Description: OMAN AIR NOTAM FILTER
+ Locations: WMKK, WMFC, VOMF, VABF, OOMM, VTSP, VOHS, HKT, MAA, OOMS,
+ OMAL, OMSJ
+ --------------------------------------------------------------------
+ THE FOLLOWING AIRPORTS OR FIRS HAVE NO VALID NOTAM BASED ON YOUR
+ REQUEST PARAMETERS:
+  HKT/A MAA/A
+
+ KUALA LUMPUR - SEPANG(WMKK)
+
+ 1810290700-          PERM                               WMKK A3357/18
+ REF TO AIP MALAYSIA, PAGE AD 2-WMKK-1-26, PARAGRAPH 2.22.2
+    CLR DELIVERY. AMEND AS FLW:
+    (I) PARAGRAPH 2.22.2.1 TO READ AS:
+        PILOTS-IN-COMMAND SHALL REQ FM LUMPUR CLR
+        DELIVERY AN AIRWAYS CLR 5 MIN BFR ENG START UP.
+    (II)DELETE PARAGRAPH 2.22.2.2 AND RPLC WITH THE FLW:
+        2.22.2.2 NOT WITHSTANDING PARA 2.22.2.1 ABV, EASTBOUND DEP
+        PLANNED ALONG THE FLW ATS RTE SEGMENTS CAN OBTAIN AN AWY
+        CLR 30 MIN PRIOR TO ENG START:
+        A) M771 - DUDIS
+        B) L625 - AKMON
+        C) N884 - LAXOR
+        WHERE APPLICABLE, SLOT DEP TIMES SHALL BE PROVIDED BY
+        LUMPUR CLR DELIVERY.
+ Issued: 1810290909
+
+ 1811291200-1902282300                                   WMKK A3792/18
+ CRANES ERECTED AT COORDS OF:
+   1) 024340N 1014329E.
+   2) 024342N 1014331E.
+   3) 024337N 1014334E.
+   4) 024335N 1014331E.
+   (APPRX:2120M TO THE SOUTH OF RWY 32R AND
+          1340M TO THE SOUTH WEST OF RWY 32L).
+   RMK/CRANE MARKED WITH FLAGS AND LGTD. PILOT TO EXER CTN.
+ FROM GND UP TO 180FT AMSL
+ Issued: 1811291213
+
+ 1812120316-1903122359                                   WMKK A3910/18
+ FLT PLAN RQMNTS FOR RNAV 1 CAPABLE ACFT INTO KL INTL AP(KLIA)
+    SHALL PLAN ON FLW STAR:
+    RWY 32L/32R - KIDOT 1P / BOBIS 1P
+    RWY 33      - EKUDA 1B / SALAX 1B / NOBEK 1B
+    RMK: ATC WILL ASSIGN ALTERNATE STAR SHOULD THERE BE A CHG.
+ Issued: 1812120323
+
+ 1812301700-1902062200                                   WMKK A4067/18
+ SAT SUN MON TUE WED 1700-2200
+ RWY 14R/32L CLSD
+ Issued: 1812301134
+
+ 1812302322-1901310900                                   WMKK A4068/18
+ PORTION OF TWY B BTN INT B14 TIL N2 CLSD.
+    RMKS:INT B14 AVBL FOR ACFT TAX
+    MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGTS
+    PLACED TO DENOTE CLOSURE.
+ Issued: 1812302325
+
+               END OF PART  1   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812302325-1901310900                                   WMKK A4069/18
+ TWY L CLSD.
+    MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGTS
+    PLACED TO DENOTE CLOSURE.
+ Issued: 1812302328
+
+ 1812310304-1903312359EST                                WMKK A4070/18
+ HGT RESTRICTION OVER TRANSITION WAYPOINTS (ARRIVING ACFT):
+    1.  DAKUS - FL250 OR BLW (RWY 32/33 MODE)
+    1.1 DAKUS - FL190 OR BLW (RWY 14/15 MODE)
+    2.  PULIP - FL250 OR BLW (RWY 32/33 MODE)
+    2.1 PULIP - FL190 OR BLW (RWY 14/15 MODE)
+    3.  SAROX - FL230 OR BLW (REMAINS UNCHANGED)
+    HGT RESTRICTIONS STATED IN AIP MALAYSIA PAGE AD 2-WMKK-1-28
+    PARAGRAPH 2.22.5.4 AND 2.22.5.4.1 REMAINS UNCHANGED.
+ Issued: 1812310319
+
+ 1901140437-1904300900                                   WMKK A0145/19
+ ACFT STAND C12,C16 AND C25 AVBL FOR A380 PRKG.
+ Issued: 1901140442
+
+ 1901240200-1902250900                                   WMKK A0197/19
+ PORTION OF TWY U4 ABM BAY P17 CLSD .
+   RMK: 1)BAY P17 NOT AVBL.
+
+ MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGT PLACED TO DENOTE
+ CLOSURE.
+ Issued: 1901210754
+
+ 1901230944-1901302200                                   WMKK A0224/19
+ TWY U6 CL LGT BTN U5D AND TWY Z WITHDRAWN FOR MAINT.
+ Issued: 1901230948
+
+ 1901291700-1901292100                                   WMKK A0278/19
+ PORTION OF TWY U3 ABM BAY J08 TIL BAY J10 CLSD.
+    RMKS:
+    1)INT U3B AVBL FOR ACFT TAX.
+    2)BAYS J08 AND J10 AVBL FOR NIGHT STOP ACFT ONLY.
+    MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGTS PLACED TO
+    DENOTE CLOSURE.
+ Issued: 1901280615
+
+ 1901290200-1901291400                                   WMKK A0281/19
+ PORTION OF TWY U4 ABM BAY Q19 TIL TWY Z CLSD.
+    RMKS:
+    1)BAY Q19 AND BAY Q21 NOT AVBL FOR ACFT PRKG.
+    2)INT U3F NOT AVBL FOR ACFT TAX.
+    MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGTS PLACED TO
+    DENOTE CLOSURE.
+ Issued: 1901281006
+
+ 1901281002-1902062200                                   WMKK A0282/19
+ STOPBAR RWY 14R/32L FM INT C1 TO INT C5 WITHDRAWN FOR MAINT.
+ Issued: 1901281014
+
+ KUALA LUMPUR FIR(WMFC)
+
+ 1811041400-1902041400EST                           WMFC,WBFC A3469/18
+ DRG FLTS IF OPEN BURNING WERE SPOTTED WI KUALA LUMPUR AND
+    KOTA KINABALU FIRS, PILOTS ARE REQ TO NOTIFY THE DCA AUTHORITY
+    OF THE LOCATION (LAT AND LONG) SAP VIA RTF OR INFORM THE DCA
+    CTL TWR UPON LDG.
+ Issued: 1811041353
+
+ 1812251200-1902281215                                   WMFC A3771/18
+ 2018 DEC 25 31 AND 2019 FEB 28
+ FIREWORKS DISPLAY WILL TAKE PLACE AT 030643.30N 1014936.82E
+    (WATERVIEW THAI CUISINE,HULU LANGAT,SELANGOR)
+ SFC 300FT AGL
+ Issued: 1811280209
+
+               END OF PART  2   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812302325-1901310900                                   WMKK A4069/18
+ TWY L CLSD.
+    MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGTS
+    PLACED TO DENOTE CLOSURE.
+ Issued: 1812302328
+
+ 1812310304-1903312359EST                                WMKK A4070/18
+ HGT RESTRICTION OVER TRANSITION WAYPOINTS (ARRIVING ACFT):
+    1.  DAKUS - FL250 OR BLW (RWY 32/33 MODE)
+    1.1 DAKUS - FL190 OR BLW (RWY 14/15 MODE)
+    2.  PULIP - FL250 OR BLW (RWY 32/33 MODE)
+    2.1 PULIP - FL190 OR BLW (RWY 14/15 MODE)
+    3.  SAROX - FL230 OR BLW (REMAINS UNCHANGED)
+    HGT RESTRICTIONS STATED IN AIP MALAYSIA PAGE AD 2-WMKK-1-28
+    PARAGRAPH 2.22.5.4 AND 2.22.5.4.1 REMAINS UNCHANGED.
+ Issued: 1812310319
+
+ 1901140437-1904300900                                   WMKK A0145/19
+ ACFT STAND C12,C16 AND C25 AVBL FOR A380 PRKG.
+ Issued: 1901140442
+
+ 1901240200-1902250900                                   WMKK A0197/19
+ PORTION OF TWY U4 ABM BAY P17 CLSD .
+   RMK: 1)BAY P17 NOT AVBL.
+
+ MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGT PLACED TO DENOTE
+ CLOSURE.
+ Issued: 1901210754
+
+ 1901230944-1901302200                                   WMKK A0224/19
+ TWY U6 CL LGT BTN U5D AND TWY Z WITHDRAWN FOR MAINT.
+ Issued: 1901230948
+
+ 1901291700-1901292100                                   WMKK A0278/19
+ PORTION OF TWY U3 ABM BAY J08 TIL BAY J10 CLSD.
+    RMKS:
+    1)INT U3B AVBL FOR ACFT TAX.
+    2)BAYS J08 AND J10 AVBL FOR NIGHT STOP ACFT ONLY.
+    MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGTS PLACED TO
+    DENOTE CLOSURE.
+ Issued: 1901280615
+
+ 1901290200-1901291400                                   WMKK A0281/19
+ PORTION OF TWY U4 ABM BAY Q19 TIL TWY Z CLSD.
+    RMKS:
+    1)BAY Q19 AND BAY Q21 NOT AVBL FOR ACFT PRKG.
+    2)INT U3F NOT AVBL FOR ACFT TAX.
+    MARKER BOARDS WITH FLAGS AND UNSERVICEABILITY LGTS PLACED TO
+    DENOTE CLOSURE.
+ Issued: 1901281006
+
+ 1901281002-1902062200                                   WMKK A0282/19
+ STOPBAR RWY 14R/32L FM INT C1 TO INT C5 WITHDRAWN FOR MAINT.
+ Issued: 1901281014
+
+ KUALA LUMPUR FIR(WMFC)
+
+ 1811041400-1902041400EST                           WMFC,WBFC A3469/18
+ DRG FLTS IF OPEN BURNING WERE SPOTTED WI KUALA LUMPUR AND
+    KOTA KINABALU FIRS, PILOTS ARE REQ TO NOTIFY THE DCA AUTHORITY
+    OF THE LOCATION (LAT AND LONG) SAP VIA RTF OR INFORM THE DCA
+    CTL TWR UPON LDG.
+ Issued: 1811041353
+
+ 1812251200-1902281215                                   WMFC A3771/18
+ 2018 DEC 25 31 AND 2019 FEB 28
+ FIREWORKS DISPLAY WILL TAKE PLACE AT 030643.30N 1014936.82E
+    (WATERVIEW THAI CUISINE,HULU LANGAT,SELANGOR)
+ SFC 300FT AGL
+ Issued: 1811280209
+
+               END OF PART  2   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901262300-1902031500                                   WMFC A3921/18
+ 2300-1500
+ WMD222 ACT
+ SFC 8200FT AMSL
+ Issued: 1812130212
+
+ 1901142205-1901311559                                   WMFC A0149/19
+ MILITARY EXER WILL TAKE PLACE WI COORD N0552 E10011 - N0552
+ E10021-N0538 E10021 - N0538 E10011
+ SFC 15000FT AMSL
+ Issued: 1901142213
+
+ 1901280001-1902020500                                   WMFC A0246/19
+ JAN 28-FEB 01 0001-1100, 02 0001-0500
+ WMD21 ACT
+ SFC 2000FT AMSL
+ Issued: 1901250832
+
+ CHENNAI FIR(VOMF)
+
+ 1901260130-1901291330                    VIDF,VABF,VOMF,VECF A0044/19
+ 26 0130-0700 0830-1300,    29 0830-1330
+ DUE RESTRICTIONS ON OVERFLYING FLT WI A ZONE OF
+    300KM AROUND NEW DELHI (VIDP) ON THE OCASSION
+    OF REPUBLIC DAY CELEBRATIONS, ATS RTE P628 BTN
+    BOBET AND IBANI IS DECLARED AS BIDIRECTIONAL RTE,
+    IN ORDER TO FACILITATE CONNECTIVITY FOR EAST BOUND
+    FLT ON ATS RTE P628.
+ Issued: 1901140451
+
+ 1811080000-          PERM                               VOMF G1397/18
+ REFER SECTION ENR 3.1 AND ENR 4.4 OF EAIP INDIA.
+ CONSEQUENT UPON ESTABLISHMENT OF CONNECTOR ROUTE V88, COMPULSORY
+ WAYPOINT LUMBU (130105.69N 0753025.63E) IS INTRODUCED AT THE
+ INTERSECTION OF ATS ROUTES Q13 AND V88, THE FOLLOWING AMENDMENTS
+ ARE MADE IN ATS ROUTE Q13:
+ 1. SEGMENT -IKATI - TR 155/ DEG (M) 176NM - MUDIT- IS AMENDED AS
+ -IKATI - TR 155/DEG (M) 97.7 NM- LUMBU - TR 155/ DEG (M) 77.7 NM-
+ MUDIT-.
+ 2. UPPER LIMIT/LOWER LIMIT AND AIRSPACE CLASSIFICATION OF SEGMENT
+  IKATI - LUMBU - MUDIT ARE AMENDED AS FL460/FL290 AND CLASS D.
+ AMEND EAIP INDIA SECTION ENR 3.1 AND ENR 4.4 ACCORDINGLY.
+ Issued: 1809120718
+
+ 1811080000-          PERM                               VOMF G1398/18
+ REFER SECTION ENR 3.1 AND ENR 4.4 OF EAIP INDIA.
+ CONSEQUENT UPON ESTABLISHMENT OF CONNECTOR ROUTE V87, COMPULSORY
+ WAYPOINT PAMLU (121052.11N 0762852.45E) IS INTRODUCED AT THE
+ INTERSECTION OF ATS ROUTES R461 AND V87, THE FOLLOWING AMENDMENTS
+ ARE MADE IN ATS ROUTE R461:
+ 1. SEGMENT -COIMBATORE (CCB) DVOR/DME - TR 336/156 DEG (M) 136NM -
+ PEXEG- IS AMENDED AS -COIMBATORE (CCB) DVOR/DME - TR 336/156 DEG (M)
+ 76.2 NM - PAMLU - TR 336/156 DEG (M) 59.1 NM- PEXEG-.
+ 2. UPPER LIMIT/LOWER LIMIT, MFA AND AIRSPACE CLASSIFICATION OF
+ SEGMENT COIMBATORE (CCB) DVOR/DME - PAMLU ARE AMENDED AS FL460/FL200,
+ 11700FT AND CLASS D.
+ 3. UPPER LIMIT/LOWER LIMIT, MFA AND AIRSPACE CLASSIFICATION OF
+ SEGMENT PAMLU - PEXEG ARE AMENDED AS FL460/FL110,
+ 7300FT AND CLASS D.
+ 4. LATERAL LIMITS OF SEGMENT COIMBATORE (CCB) DVOR/DME - PAMLU -
+ PEXEG IS AMENDED AS 20NM.
+ AMEND EAIP INDIA SECTION ENR 3.1 AND ENR 4.4 ACCORDINGLY.
+ Issued: 1809120935
+
+               END OF PART  3   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901262300-1902031500                                   WMFC A3921/18
+ 2300-1500
+ WMD222 ACT
+ SFC 8200FT AMSL
+ Issued: 1812130212
+
+ 1901142205-1901311559                                   WMFC A0149/19
+ MILITARY EXER WILL TAKE PLACE WI COORD N0552 E10011 - N0552
+ E10021-N0538 E10021 - N0538 E10011
+ SFC 15000FT AMSL
+ Issued: 1901142213
+
+ 1901280001-1902020500                                   WMFC A0246/19
+ JAN 28-FEB 01 0001-1100, 02 0001-0500
+ WMD21 ACT
+ SFC 2000FT AMSL
+ Issued: 1901250832
+
+ CHENNAI FIR(VOMF)
+
+ 1901260130-1901291330                    VIDF,VABF,VOMF,VECF A0044/19
+ 26 0130-0700 0830-1300,    29 0830-1330
+ DUE RESTRICTIONS ON OVERFLYING FLT WI A ZONE OF
+    300KM AROUND NEW DELHI (VIDP) ON THE OCASSION
+    OF REPUBLIC DAY CELEBRATIONS, ATS RTE P628 BTN
+    BOBET AND IBANI IS DECLARED AS BIDIRECTIONAL RTE,
+    IN ORDER TO FACILITATE CONNECTIVITY FOR EAST BOUND
+    FLT ON ATS RTE P628.
+ Issued: 1901140451
+
+ 1811080000-          PERM                               VOMF G1397/18
+ REFER SECTION ENR 3.1 AND ENR 4.4 OF EAIP INDIA.
+ CONSEQUENT UPON ESTABLISHMENT OF CONNECTOR ROUTE V88, COMPULSORY
+ WAYPOINT LUMBU (130105.69N 0753025.63E) IS INTRODUCED AT THE
+ INTERSECTION OF ATS ROUTES Q13 AND V88, THE FOLLOWING AMENDMENTS
+ ARE MADE IN ATS ROUTE Q13:
+ 1. SEGMENT -IKATI - TR 155/ DEG (M) 176NM - MUDIT- IS AMENDED AS
+ -IKATI - TR 155/DEG (M) 97.7 NM- LUMBU - TR 155/ DEG (M) 77.7 NM-
+ MUDIT-.
+ 2. UPPER LIMIT/LOWER LIMIT AND AIRSPACE CLASSIFICATION OF SEGMENT
+  IKATI - LUMBU - MUDIT ARE AMENDED AS FL460/FL290 AND CLASS D.
+ AMEND EAIP INDIA SECTION ENR 3.1 AND ENR 4.4 ACCORDINGLY.
+ Issued: 1809120718
+
+ 1811080000-          PERM                               VOMF G1398/18
+ REFER SECTION ENR 3.1 AND ENR 4.4 OF EAIP INDIA.
+ CONSEQUENT UPON ESTABLISHMENT OF CONNECTOR ROUTE V87, COMPULSORY
+ WAYPOINT PAMLU (121052.11N 0762852.45E) IS INTRODUCED AT THE
+ INTERSECTION OF ATS ROUTES R461 AND V87, THE FOLLOWING AMENDMENTS
+ ARE MADE IN ATS ROUTE R461:
+ 1. SEGMENT -COIMBATORE (CCB) DVOR/DME - TR 336/156 DEG (M) 136NM -
+ PEXEG- IS AMENDED AS -COIMBATORE (CCB) DVOR/DME - TR 336/156 DEG (M)
+ 76.2 NM - PAMLU - TR 336/156 DEG (M) 59.1 NM- PEXEG-.
+ 2. UPPER LIMIT/LOWER LIMIT, MFA AND AIRSPACE CLASSIFICATION OF
+ SEGMENT COIMBATORE (CCB) DVOR/DME - PAMLU ARE AMENDED AS FL460/FL200,
+ 11700FT AND CLASS D.
+ 3. UPPER LIMIT/LOWER LIMIT, MFA AND AIRSPACE CLASSIFICATION OF
+ SEGMENT PAMLU - PEXEG ARE AMENDED AS FL460/FL110,
+ 7300FT AND CLASS D.
+ 4. LATERAL LIMITS OF SEGMENT COIMBATORE (CCB) DVOR/DME - PAMLU -
+ PEXEG IS AMENDED AS 20NM.
+ AMEND EAIP INDIA SECTION ENR 3.1 AND ENR 4.4 ACCORDINGLY.
+ Issued: 1809120935
+
+               END OF PART  3   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811080000-          PERM                               VOMF G1454/18
+ REFER AIP SUPPLEMENT 111/2018 REGARDING ESTABLISHMENT
+ OF KANNUR CONTROL AREA. IN COLUMN NR 3 HOURS OF SERVICE IS AMENDED
+ AS HO IN PLACE OF H24. AMEND AIP SUPPLEMENT ACCORDINGLY.
+ Issued: 1809290514
+
+ 1810291100-          PERM                          VECF,VOMF G1871/18
+ REFER SECTION ENR 3.1 OF EAIP INDIA.
+ TRACKS OF ATS ROUTE Q11 ARE AMENDED AS KOLKATA VOR DVOR/DME (CEA) -
+ TR 221 DEG (M) - MAVLA - TR 220 DEG (M) - SURUP - TR 220 DEG (M) -
+ BOLUS - TR 220 DEG (M) - ONATI - TR 220 DEG (M) -SADGU - TR 220 DEG
+ (M) - KAGUL - TR 220 DEG (M) - POTAS - TR 220 DEG (M) - NODAX - TR
+ 220 DEG (M) - KASRO - TR 223 DEG (M) - GURAS - TR 235 DEG (M) -
+ RUPKU - TR 197 DEG (M) - CHENNAI VOR DVOR/DME (MMV).
+ AMEND ACCORDINGLY.)
+ Issued: 1810291130
+
+ 1811020620-          PERM                VIDF,VABF,VECF,VOMF G1902/18
+ REFER AIP SUPPLEMENT 130/2018 REGARDING CHECK LIST OF CURRENT AIP
+ SUPPLEMENTS. INCLUDE AIP SUPPLEMENT 74/2016 - NDB PROCEDURE RWY 11
+ CAT A/B, KADAPA AIRPORT (VOCP) - IN THE CHECK LIST.
+ AMEND AIP SUPPLEMENT 130/2018 ACCORDINGLY.
+ Issued: 1811020801
+
+ 1811051300-          PERM                VIDF,VABF,VECF,VOMF G1904/18
+ REFER GEN 3.2 OF EAIP INDIA.
+    INSERT FOLLOWING TEXT IN PARA 4.1:-L.)
+    RADAR MINIMUM ALTITUDE CHART
+    (ATC SURVEILLANCE MINIMUM ALTITUDE CHART).
+    AMEND ACCORDINGLY.
+ Issued: 1811051445
+
+               END OF PART  4   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811080000-          PERM                               VOMF G1454/18
+ REFER AIP SUPPLEMENT 111/2018 REGARDING ESTABLISHMENT
+ OF KANNUR CONTROL AREA. IN COLUMN NR 3 HOURS OF SERVICE IS AMENDED
+ AS HO IN PLACE OF H24. AMEND AIP SUPPLEMENT ACCORDINGLY.
+ Issued: 1809290514
+
+ 1810291100-          PERM                          VECF,VOMF G1871/18
+ REFER SECTION ENR 3.1 OF EAIP INDIA.
+ TRACKS OF ATS ROUTE Q11 ARE AMENDED AS KOLKATA VOR DVOR/DME (CEA) -
+ TR 221 DEG (M) - MAVLA - TR 220 DEG (M) - SURUP - TR 220 DEG (M) -
+ BOLUS - TR 220 DEG (M) - ONATI - TR 220 DEG (M) -SADGU - TR 220 DEG
+ (M) - KAGUL - TR 220 DEG (M) - POTAS - TR 220 DEG (M) - NODAX - TR
+ 220 DEG (M) - KASRO - TR 223 DEG (M) - GURAS - TR 235 DEG (M) -
+ RUPKU - TR 197 DEG (M) - CHENNAI VOR DVOR/DME (MMV).
+ AMEND ACCORDINGLY.)
+ Issued: 1810291130
+
+ 1811020620-          PERM                VIDF,VABF,VECF,VOMF G1902/18
+ REFER AIP SUPPLEMENT 130/2018 REGARDING CHECK LIST OF CURRENT AIP
+ SUPPLEMENTS. INCLUDE AIP SUPPLEMENT 74/2016 - NDB PROCEDURE RWY 11
+ CAT A/B, KADAPA AIRPORT (VOCP) - IN THE CHECK LIST.
+ AMEND AIP SUPPLEMENT 130/2018 ACCORDINGLY.
+ Issued: 1811020801
+
+ 1811051300-          PERM                VIDF,VABF,VECF,VOMF G1904/18
+ REFER GEN 3.2 OF EAIP INDIA.
+    INSERT FOLLOWING TEXT IN PARA 4.1:-L.)
+    RADAR MINIMUM ALTITUDE CHART
+    (ATC SURVEILLANCE MINIMUM ALTITUDE CHART).
+    AMEND ACCORDINGLY.
+ Issued: 1811051445
+
+               END OF PART  4   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811061330-          PERM                VIDF,VABF,VECF,VOMF G1908/18
+ REFER ENR 3.0 OF EAIP INDIA.
+ 1) PARA 4 IS AMENDED AS: APPLICATION OF DATA LINK SERVICES WITHIN
+ CHENNAI, MUMBAI, DELHI AND KOLKATA FIR.
+ 2) PARA 4.1.1 IS AMENDED AS: CONTROLLER PILOT DATA LINK
+ COMMUNICATIONS (CPDLC) AUTOMATIC DEPENDENT SURVEILLANCE (ADS) ARE
+ OPERATIONAL WITHIN CHENNAI, MUMBAI, DELHI AND KOLKATA FIR.
+ 3) PARA 4.1.2 IS AMENDED AS: DATA-LINK SERVICES ARE AVAILABLE TO ALL
+ FANS 1/A EQUIPPED AIRCRAFT OPERATING IN THE CHENNAI, MUMBAI, DELHI
+ AND KOLKATA FIR ON H24 BASIS.
+ 4) PARA 4.1.3. IS AMENDED AS: IF NO CONTACT ON VHF/HF ALL
+ ADS-C/CPDLC EQUIPPED AIRCRAFT ENTERING INDIAN FIR ARE REQUIRED TO
+ LOGON TO APPROPRIATE ATS UNIT AT LEAST TEN MINUTES PRIOR TO THE
+ ESTIMATED TIME BEFORE ENTERING CHENNAI OR DELHI OR MUMBAI OR KOLKATA
+ FIR. FOR ADS AND CPDLC ESTABLISHED AIRCRAFT, ADS WILL BE THE PRIMARY
+ MEANS OF SURVEILLANCE AND CPDLC WILL BE THE PRIMARY MEANS OF
+ COMMUNICATION OUTSIDE TERMINAL CONTROL AREA. VHF/HF WILL BE BACK UP
+ FOR COMMUNICATION AND POSITION REPORTING.
+ 5) INSERT: PARA 4.3.3.3 THE AFN LOGON ADDRESS FOR THE MUMBAI FIR IS
+ VABF.
+ 6) INSERT: PARA 4.3.3.4 THE AFN LOGON ADDRESS FOR THE DELHI FIR IS
+ VIDF.
+ 7) PARA 4.3.4 IS AMENDED AS: ADS/CPDLC IS INTEGRATED WITH FLIGHT
+ DATA PROCESSING SYSTEM (FDPS) AT CHENNAI, MUMBAI, DELHI AND KOLKATA.
+ TO AVOID MISMATCH OF DATA, THE FLIGHT IDENTIFICATION NUMBER USED BY
+ THE PILOT IN THE LOGON PROCESS MUST
+ BE IDENTICAL TO THE FLIGHT
+  IDENTIFICATION NUMBER FILED IN THE FLIGHT PLAN.
+ 8) PARA 4.3.6 IS AMENDED AS: DATA LINK EQUIPPED AIRCRAFT DEPARTING
+ Issued: 1811061835
+
+ 1811061330-          PERM                VIDF,VABF,VECF,VOMF G1908/18
+ FROM AERODROMES WITHIN THE CHENNAI, MUMBAI, DELHI OR KOLKATA FIR
+ AND
+ EQUIPPED WITH DATA LINK MAY LOGON TO APPROPRIATE ATS UNIT PRIOR TO
+ LEAVING CONTROLLED AIRSPACE. PILOTS UNABLE TO ESTABLISH A DATA LINK
+ CONNECTION ARE TO INFORM ATC ON VHF OR HF RTF.
+ 9) INSERT: PARA 4.9 INTENTIONAL SHUTDOWN OF CPDLC.
+ 10) INSERT: PARA 4.9.1 WHEN A SYSTEM SHUTDOWN OF THE COMMUNICATIONS
+ NETWORK OR THE CPDLC GROUND SYSTEM IS PLANNED, A NOTAM SHALL BE
+ PUBLISHED TO INFORM ALL AFFECTED PARTIES OF THE SHUTDOWN PERIOD AND
+ IF NECESSARY, THE DETAILS OF THE VOICE OMMUNICATION FREQUENCIES TO
+ BE USED.
+ 11) INSERT: PARA 4.9.2 AIRCRAFT CURRENTLY IN COMMUNICATION WITH THE
+ ATC UNIT SHALL BE INFORMED BY VOICE OR CPDLC OF ANY IMMINENT LOSS OF
+ CPDLC SERVICE.
+ 12) INSERT: PARA 4.9.3 THE CONTROLLER AND PILOT SHALL BE PROVIDED
+ WITH THE CAPABILITY TO ABORT CPDLC.
+ AMEND ENR 3.0 OF EAIP INDIA ACCORDINGLY.
+ Issued: 1811061835
+
+               END OF PART  5   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811061330-          PERM                VIDF,VABF,VECF,VOMF G1908/18
+ REFER ENR 3.0 OF EAIP INDIA.
+ 1) PARA 4 IS AMENDED AS: APPLICATION OF DATA LINK SERVICES WITHIN
+ CHENNAI, MUMBAI, DELHI AND KOLKATA FIR.
+ 2) PARA 4.1.1 IS AMENDED AS: CONTROLLER PILOT DATA LINK
+ COMMUNICATIONS (CPDLC) AUTOMATIC DEPENDENT SURVEILLANCE (ADS) ARE
+ OPERATIONAL WITHIN CHENNAI, MUMBAI, DELHI AND KOLKATA FIR.
+ 3) PARA 4.1.2 IS AMENDED AS: DATA-LINK SERVICES ARE AVAILABLE TO ALL
+ FANS 1/A EQUIPPED AIRCRAFT OPERATING IN THE CHENNAI, MUMBAI, DELHI
+ AND KOLKATA FIR ON H24 BASIS.
+ 4) PARA 4.1.3. IS AMENDED AS: IF NO CONTACT ON VHF/HF ALL
+ ADS-C/CPDLC EQUIPPED AIRCRAFT ENTERING INDIAN FIR ARE REQUIRED TO
+ LOGON TO APPROPRIATE ATS UNIT AT LEAST TEN MINUTES PRIOR TO THE
+ ESTIMATED TIME BEFORE ENTERING CHENNAI OR DELHI OR MUMBAI OR KOLKATA
+ FIR. FOR ADS AND CPDLC ESTABLISHED AIRCRAFT, ADS WILL BE THE PRIMARY
+ MEANS OF SURVEILLANCE AND CPDLC WILL BE THE PRIMARY MEANS OF
+ COMMUNICATION OUTSIDE TERMINAL CONTROL AREA. VHF/HF WILL BE BACK UP
+ FOR COMMUNICATION AND POSITION REPORTING.
+ 5) INSERT: PARA 4.3.3.3 THE AFN LOGON ADDRESS FOR THE MUMBAI FIR IS
+ VABF.
+ 6) INSERT: PARA 4.3.3.4 THE AFN LOGON ADDRESS FOR THE DELHI FIR IS
+ VIDF.
+ 7) PARA 4.3.4 IS AMENDED AS: ADS/CPDLC IS INTEGRATED WITH FLIGHT
+ DATA PROCESSING SYSTEM (FDPS) AT CHENNAI, MUMBAI, DELHI AND KOLKATA.
+ TO AVOID MISMATCH OF DATA, THE FLIGHT IDENTIFICATION NUMBER USED BY
+ THE PILOT IN THE LOGON PROCESS MUST
+ BE IDENTICAL TO THE FLIGHT
+  IDENTIFICATION NUMBER FILED IN THE FLIGHT PLAN.
+ 8) PARA 4.3.6 IS AMENDED AS: DATA LINK EQUIPPED AIRCRAFT DEPARTING
+ Issued: 1811061835
+
+ 1811061330-          PERM                VIDF,VABF,VECF,VOMF G1908/18
+ FROM AERODROMES WITHIN THE CHENNAI, MUMBAI, DELHI OR KOLKATA FIR
+ AND
+ EQUIPPED WITH DATA LINK MAY LOGON TO APPROPRIATE ATS UNIT PRIOR TO
+ LEAVING CONTROLLED AIRSPACE. PILOTS UNABLE TO ESTABLISH A DATA LINK
+ CONNECTION ARE TO INFORM ATC ON VHF OR HF RTF.
+ 9) INSERT: PARA 4.9 INTENTIONAL SHUTDOWN OF CPDLC.
+ 10) INSERT: PARA 4.9.1 WHEN A SYSTEM SHUTDOWN OF THE COMMUNICATIONS
+ NETWORK OR THE CPDLC GROUND SYSTEM IS PLANNED, A NOTAM SHALL BE
+ PUBLISHED TO INFORM ALL AFFECTED PARTIES OF THE SHUTDOWN PERIOD AND
+ IF NECESSARY, THE DETAILS OF THE VOICE OMMUNICATION FREQUENCIES TO
+ BE USED.
+ 11) INSERT: PARA 4.9.2 AIRCRAFT CURRENTLY IN COMMUNICATION WITH THE
+ ATC UNIT SHALL BE INFORMED BY VOICE OR CPDLC OF ANY IMMINENT LOSS OF
+ CPDLC SERVICE.
+ 12) INSERT: PARA 4.9.3 THE CONTROLLER AND PILOT SHALL BE PROVIDED
+ WITH THE CAPABILITY TO ABORT CPDLC.
+ AMEND ENR 3.0 OF EAIP INDIA ACCORDINGLY.
+ Issued: 1811061835
+
+               END OF PART  5   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811131115-          PERM                               VOMF G1912/18
+ REFER AIP SUPPLEMENT 18/2014 AND 148/2018. ADS-B
+ GROUND STATION AT THIRUVANANTHAPURAM IN OPERATIONAL.
+ 1. ATS SURVEILLANCE BASED SERVICES USING ADS-B SHALL ALSO BE
+ PROVIDED WITHIN THE JURISDICTION OF THIRUVANANTHAPURAM
+ AREA CONTROL TO SUITABLY EQUIPPED AIRCRAFT ON OPPORTUNITY
+ BASIS WITHIN THE COVERAGE AREA OF THIRUVANANTHAPURAM AND
+ TIRUCHIRAPPALLI ADS-B SENSORS ON VHF 125.95 MHZ AND 132.25 MHZ.
+ 2. ATS SURVEILLANCE BASED SERVICES USING ADS-B SHALL ALSO BE
+ PROVIDED WITHIN THE JURISDICTION OF THIRUVANANTHAPURAM APPROACH
+ CONTROL TO SUITABLY EQUIPPED AIRCRAFT ON OPPORTUNITY BASIS WITHIN
+ THE COVERAGE AREA OF THIRUVANANTHAPURAM ADS-B SENSOR ON VHF 119.6
+ MHZ.
+ 3. ADS-B EQUIPPED AIRCRAFT FLYING WITHIN THE JURISDICTION OF
+ THIRUVANANTHAPURAM AREA CONTROL AND THIRUVANANTHAPURAM APPROACH
+ CONTROL SHALL COMPLY WITH PROVISIONS CONTAINED IN AIP SUPPLEMENT
+ 18/2014 AND 148/2018.
+ Issued: 1811131133
+
+ 1812010000-          PERM                VECF,VOMF,VABF,VIDF G1942/18
+ REFER EAIP INDIA SECTION GEN 1.5: AIRCRAFT INSTRUMENTS,
+    EQUIPMENT AND FLIGHT DOCUMENTS: PARA 7: CARRIAGE OF
+    PRESSURE ALTITUDE REPORTING TRANSPONDER. INSERT
+    SUB-PARA 7.3 AS UNDER: -
+    7.3 : REMOTELY PILOTED AIRCRAFT INTENDING TO OPERATE
+    IN CONTROLLED AIRSPACE SHALL BE EQUIPPED WITH SERVICEABLE
+    SSR MODE C OR MODE S TRANSPONDER OR ADS-B OUT EQUIPMENT.
+    AMEND ACCORDINGLY.
+ Issued: 1811291115
+
+ 1812010000-          PERM                VIDF,VOMF,VABF,VECF G1943/18
+ REFER EAIP INDIA SECTION GEN 2.1: MEASURING SYSTEM, AIRCRAFT
+ MARKINGS AND HOLIDAYS. REPLACE SUB-PARA 5.1 AS UNDER: -
+ 5.1 : THE NATIONALITY MARK FOR AIRCRAFT REGISTERED IN INDIA IS THE
+ LETTER VT FOR CIVIL AIRCRAFT AND VU FOR AIR FORCE AIRCRAFT. THE
+ NATIONALITY MARK IS FOLLOWED BY A HYPHEN AND A REGISTRATION MARK
+ CONSISTING OF 3 LETTERS, E.G., VT-EPC OR VU-AWB. THE NATIONALITY
+ MARK FOR UNMANNED AIRCRAFT REGISTERED IN INDIA IS U FOLLOWED BY 6
+ ALPHA-NUMERIC CHARACTERS, I.E., BETWEEN 0 AND 9 OR A AND Z, E.G.,
+ UB67DFC.
+ AMEND ACCORDINGLY.
+ Issued: 1811291129
+
+               END OF PART  6   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811131115-          PERM                               VOMF G1912/18
+ REFER AIP SUPPLEMENT 18/2014 AND 148/2018. ADS-B
+ GROUND STATION AT THIRUVANANTHAPURAM IN OPERATIONAL.
+ 1. ATS SURVEILLANCE BASED SERVICES USING ADS-B SHALL ALSO BE
+ PROVIDED WITHIN THE JURISDICTION OF THIRUVANANTHAPURAM
+ AREA CONTROL TO SUITABLY EQUIPPED AIRCRAFT ON OPPORTUNITY
+ BASIS WITHIN THE COVERAGE AREA OF THIRUVANANTHAPURAM AND
+ TIRUCHIRAPPALLI ADS-B SENSORS ON VHF 125.95 MHZ AND 132.25 MHZ.
+ 2. ATS SURVEILLANCE BASED SERVICES USING ADS-B SHALL ALSO BE
+ PROVIDED WITHIN THE JURISDICTION OF THIRUVANANTHAPURAM APPROACH
+ CONTROL TO SUITABLY EQUIPPED AIRCRAFT ON OPPORTUNITY BASIS WITHIN
+ THE COVERAGE AREA OF THIRUVANANTHAPURAM ADS-B SENSOR ON VHF 119.6
+ MHZ.
+ 3. ADS-B EQUIPPED AIRCRAFT FLYING WITHIN THE JURISDICTION OF
+ THIRUVANANTHAPURAM AREA CONTROL AND THIRUVANANTHAPURAM APPROACH
+ CONTROL SHALL COMPLY WITH PROVISIONS CONTAINED IN AIP SUPPLEMENT
+ 18/2014 AND 148/2018.
+ Issued: 1811131133
+
+ 1812010000-          PERM                VECF,VOMF,VABF,VIDF G1942/18
+ REFER EAIP INDIA SECTION GEN 1.5: AIRCRAFT INSTRUMENTS,
+    EQUIPMENT AND FLIGHT DOCUMENTS: PARA 7: CARRIAGE OF
+    PRESSURE ALTITUDE REPORTING TRANSPONDER. INSERT
+    SUB-PARA 7.3 AS UNDER: -
+    7.3 : REMOTELY PILOTED AIRCRAFT INTENDING TO OPERATE
+    IN CONTROLLED AIRSPACE SHALL BE EQUIPPED WITH SERVICEABLE
+    SSR MODE C OR MODE S TRANSPONDER OR ADS-B OUT EQUIPMENT.
+    AMEND ACCORDINGLY.
+ Issued: 1811291115
+
+ 1812010000-          PERM                VIDF,VOMF,VABF,VECF G1943/18
+ REFER EAIP INDIA SECTION GEN 2.1: MEASURING SYSTEM, AIRCRAFT
+ MARKINGS AND HOLIDAYS. REPLACE SUB-PARA 5.1 AS UNDER: -
+ 5.1 : THE NATIONALITY MARK FOR AIRCRAFT REGISTERED IN INDIA IS THE
+ LETTER VT FOR CIVIL AIRCRAFT AND VU FOR AIR FORCE AIRCRAFT. THE
+ NATIONALITY MARK IS FOLLOWED BY A HYPHEN AND A REGISTRATION MARK
+ CONSISTING OF 3 LETTERS, E.G., VT-EPC OR VU-AWB. THE NATIONALITY
+ MARK FOR UNMANNED AIRCRAFT REGISTERED IN INDIA IS U FOLLOWED BY 6
+ ALPHA-NUMERIC CHARACTERS, I.E., BETWEEN 0 AND 9 OR A AND Z, E.G.,
+ UB67DFC.
+ AMEND ACCORDINGLY.
+ Issued: 1811291129
+
+               END OF PART  6   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812010000-          PERM                VECF,VOMF,VABF,VIDF G1944/18
+ REFER EAIP INDIA SECTION GEN 2.2: ABBREVIATIONS USED IN AIS
+ PUBLICATIONS. INSERT FOLLOWING:
+ AAI         AIRPORTS AUTHORITY OF INDIA
+ ADC         AIR DEFENCE CLEARANCE
+ ARC         AVIATION RESEARCH CENTRE
+ BRLOS       BEYOND RADIO LINE-OF-SIGHT
+ BVLOS       BEYOND VISUAL LINE-OF-SIGHT
+ C2          COMMAND AND CONTROL
+ CAR         CIVIL AVIATION REQUIREMENTS
+ DGCA        DIRECTORATE OF CIVIL AVIATION
+ ICAO        INTERNATIONAL CIVIL AVIATION ORGANIZATION
+ MHA         MINISTRY OF HOME AFFAIRS
+ MOD         MINISTRY OF DEFENCE
+ MOEFCC      MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE
+ NDZ         NO DRONE ZONE
+ NOTAM?    NOTICE TO AIRMEN
+ NPNT        NO PERMISSION-NO TAKEOFF
+ NTRO        NATIONAL TECHNICAL RESEARCH ORGANISATION
+ OLS         OBSTACLE LIMITATION SURFACE
+ RFID        RADIO FREQUENCY IDENTIFICATION
+ RLOS        RADIO LINE OF SIGHT
+ RPA         REMOTELY PILOTED AIRCRAFT
+ RPAS        REMOTELY PILOTED AIRCRAFT SYSTEM
+ SIM         SUBSCRIBER IDENTITY MODULE
+ SOP         STANDARD OPERATING PROCEDURE
+ TRA         TEMPORARY RESERVED AREA
+ TSA         TEMPORARY SEGREGATED AREA
+ UA          UNMANNED AIRCRAFT
+ UAOP        UNMANNED AIRCRAFT OPERATOR PERMIT
+ UAS         UNMANNED AIRCRAFT SYSTEM
+ UIN         UNIQUE IDENTIFICATION NUMBER
+ VLOS        VISUAL LINE-OF-SIGHT
+ AMEND ACCORDINGLY.
+ Issued: 1811291141
+
+               END OF PART  7   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812010000-          PERM                VECF,VOMF,VABF,VIDF G1944/18
+ REFER EAIP INDIA SECTION GEN 2.2: ABBREVIATIONS USED IN AIS
+ PUBLICATIONS. INSERT FOLLOWING:
+ AAI         AIRPORTS AUTHORITY OF INDIA
+ ADC         AIR DEFENCE CLEARANCE
+ ARC         AVIATION RESEARCH CENTRE
+ BRLOS       BEYOND RADIO LINE-OF-SIGHT
+ BVLOS       BEYOND VISUAL LINE-OF-SIGHT
+ C2          COMMAND AND CONTROL
+ CAR         CIVIL AVIATION REQUIREMENTS
+ DGCA        DIRECTORATE OF CIVIL AVIATION
+ ICAO        INTERNATIONAL CIVIL AVIATION ORGANIZATION
+ MHA         MINISTRY OF HOME AFFAIRS
+ MOD         MINISTRY OF DEFENCE
+ MOEFCC      MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE
+ NDZ         NO DRONE ZONE
+ NOTAM?    NOTICE TO AIRMEN
+ NPNT        NO PERMISSION-NO TAKEOFF
+ NTRO        NATIONAL TECHNICAL RESEARCH ORGANISATION
+ OLS         OBSTACLE LIMITATION SURFACE
+ RFID        RADIO FREQUENCY IDENTIFICATION
+ RLOS        RADIO LINE OF SIGHT
+ RPA         REMOTELY PILOTED AIRCRAFT
+ RPAS        REMOTELY PILOTED AIRCRAFT SYSTEM
+ SIM         SUBSCRIBER IDENTITY MODULE
+ SOP         STANDARD OPERATING PROCEDURE
+ TRA         TEMPORARY RESERVED AREA
+ TSA         TEMPORARY SEGREGATED AREA
+ UA          UNMANNED AIRCRAFT
+ UAOP        UNMANNED AIRCRAFT OPERATOR PERMIT
+ UAS         UNMANNED AIRCRAFT SYSTEM
+ UIN         UNIQUE IDENTIFICATION NUMBER
+ VLOS        VISUAL LINE-OF-SIGHT
+ AMEND ACCORDINGLY.
+ Issued: 1811291141
+
+               END OF PART  7   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812010000-          PERM                VIDF,VOMF,VABF,VECF G1948/18
+ REFER EAIP INDIA SECTION ENR 1.10 : FLIGHT PLANNING.
+ 1. PARA 1.1 IS AMENDED AS: EXCEPT FOR FLIGHTS OF NANO AND MICRO
+ REMOTELY PILOTED AIRCRAFT (RPA) INTENDING TO OPERATE UP TO 50 FT
+ (15M) AGL AND 200 FT (60 M) AGL RESPECTIVELY IN UNCONTROLLED
+ AIRSPACE OR ENCLOSED PREMISES, INFORMATION PERTAINING TO ANY FLIGHT
+ UNDERTAKEN IN INDIAN AIRSPACE SHALL BE INFORMED TO THE CONCERNED AIR
+ TRAFFIC SERVICE UNIT.
+ 2. PARA 3.1 IS AMENDED AS: EXCEPT WHERE NECESSARY FOR OPERATIONAL OR
+ TECHNICAL REASONS, THE FLIGHT PLANS FOR INTENDED FLIGHTS SHALL BE
+ SUBMITTED TO APPROPRIATE ATS UNIT AT LEAST 180 MINUTES (3 HRS)
+ BEFORE ESTIMATED OFF BLOCK TIME. FLIGHT PLANS OF REMOTELY PILOTED
+ AIRCRAFT (RPA) SHALL BE SUBMITTED AT LEAST 24 HOURS BEFORE ESTIMATED
+ TIME OF DEPARTURE.
+ 3. PARA 3.2 IS AMENDED AS: IN THE EVENT OF A PROPOSED DELAY OF 15
+ MINUTES OR MORE TO THE DEPARTURE TIME FOR A FLIGHT PLAN WHEN A
+ FLIGHT PLAN HAS BEEN PREVIOUSLY FILED, THE PILOT-IN-COMMAND OR HIS
+ REPRESENTATIVE WILL BE REQUIRED TO NOTIFY ATC OF THE REVISED ETD.
+ WHERE APPLICABLE THE FLIGHT PLAN SHOULD BE AMENDED OR A NEW FLIGHT
+ PLAN SUBMITTED BY THE PILOT-IN-COMMAND AND THE OLD FLIGHT PLAN
+ CANCELLED.
+ 4. PARA 4.1 IS AMENDED AS: INCREASINGLY THE RESPONSIBILITY FOR
+ ORIGINATING THE FPL AND ASSOCIATED MESSAGES IS BEING DELEGATED BY
+ ATC TO AIRLINES AND AIRCRAFT OPERATORS. IN SUCH INSTANCES THE
+ RESPONSIBILITY FOR COMPLETING ALL PARTS
+ OF THE FORM, INCLUDING THE ADDRESSING, RESTS WITH THEM. ALL SUCH FPL
+ AND ASSOCIATED MESSAGES SHALL ALSO BE ADDRESSED TO VIDPCTFM, IN
+ Issued: 1811301657
+
+               END OF PART  8   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812010000-          PERM                VIDF,VOMF,VABF,VECF G1948/18
+ REFER EAIP INDIA SECTION ENR 1.10 : FLIGHT PLANNING.
+ 1. PARA 1.1 IS AMENDED AS: EXCEPT FOR FLIGHTS OF NANO AND MICRO
+ REMOTELY PILOTED AIRCRAFT (RPA) INTENDING TO OPERATE UP TO 50 FT
+ (15M) AGL AND 200 FT (60 M) AGL RESPECTIVELY IN UNCONTROLLED
+ AIRSPACE OR ENCLOSED PREMISES, INFORMATION PERTAINING TO ANY FLIGHT
+ UNDERTAKEN IN INDIAN AIRSPACE SHALL BE INFORMED TO THE CONCERNED AIR
+ TRAFFIC SERVICE UNIT.
+ 2. PARA 3.1 IS AMENDED AS: EXCEPT WHERE NECESSARY FOR OPERATIONAL OR
+ TECHNICAL REASONS, THE FLIGHT PLANS FOR INTENDED FLIGHTS SHALL BE
+ SUBMITTED TO APPROPRIATE ATS UNIT AT LEAST 180 MINUTES (3 HRS)
+ BEFORE ESTIMATED OFF BLOCK TIME. FLIGHT PLANS OF REMOTELY PILOTED
+ AIRCRAFT (RPA) SHALL BE SUBMITTED AT LEAST 24 HOURS BEFORE ESTIMATED
+ TIME OF DEPARTURE.
+ 3. PARA 3.2 IS AMENDED AS: IN THE EVENT OF A PROPOSED DELAY OF 15
+ MINUTES OR MORE TO THE DEPARTURE TIME FOR A FLIGHT PLAN WHEN A
+ FLIGHT PLAN HAS BEEN PREVIOUSLY FILED, THE PILOT-IN-COMMAND OR HIS
+ REPRESENTATIVE WILL BE REQUIRED TO NOTIFY ATC OF THE REVISED ETD.
+ WHERE APPLICABLE THE FLIGHT PLAN SHOULD BE AMENDED OR A NEW FLIGHT
+ PLAN SUBMITTED BY THE PILOT-IN-COMMAND AND THE OLD FLIGHT PLAN
+ CANCELLED.
+ 4. PARA 4.1 IS AMENDED AS: INCREASINGLY THE RESPONSIBILITY FOR
+ ORIGINATING THE FPL AND ASSOCIATED MESSAGES IS BEING DELEGATED BY
+ ATC TO AIRLINES AND AIRCRAFT OPERATORS. IN SUCH INSTANCES THE
+ RESPONSIBILITY FOR COMPLETING ALL PARTS
+ OF THE FORM, INCLUDING THE ADDRESSING, RESTS WITH THEM. ALL SUCH FPL
+ AND ASSOCIATED MESSAGES SHALL ALSO BE ADDRESSED TO VIDPCTFM, IN
+ Issued: 1811301657
+
+               END OF PART  8   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812010000-          PERM                VIDF,VOMF,VABF,VECF G1948/18
+ ADDITION TO OTHER ADDRESSEES. THE ULTIMATE RESPONSIBILITY FOR
+ FILING
+ AN ACCURATE FPL RESTS WITH THE PILOT OR OPERATOR.
+ 5. PARA 4.2 IS AMENDED AS: FOR FLIGHT PLANS FILED ON-LINE THROUGH
+ AAI WEBSITE, IT WILL BE THE RESPONSIBILITY OF THE ARO (ATS REPORTING
+ OFFICER), AAI TO ENSURE CORRECT AFTN ADDRESS AND ALL SUCH FLIGHT
+ PLANS SHALL ALSO BE ADDRESSED TO VIDPCTFM, IN ADDITION TO OTHER
+ ADDRESSEES.
+ 6. PARA 4.3 IS AMENDED AS: FOR FLIGHT PLANS SUBMITTED IN PERSON OR
+ BY FAX TO AN ATS UNIT, IT WILL BE THE RESPONSIBILITY OF AIRLINES,
+ AIRCRAFT OPERATORS OR THEIR AUTHORIZED HANDLING AGENCY FOR
+ COMPLETING ALL PARTS OF THE FORM INCLUDING AFTN ADDRESSES OF FIR
+ THROUGH WHICH THE FLIGHT IS LIKELY TO OPERATE. IN ADDITION, ALL SUCH
+ FLIGHT PLANS SHALL ALSO BE ADDRESSED TO VIDPCTFM.
+ 7. PARA 6.2.1 IS AMENDED AS: DLA MESSAGES SHOULD BE ORIGINATED WHEN
+ THE DEPARTURE OF AN AIRCRAFT, FOR WHICH BASIC FLIGHT PLAN DATA (FPL
+ OR RPL) HAS BEEN SENT, IS DELAYED BY 15 MINUTES OR MORE AFTER THE
+ EOBT CONTAINED IN THE BASIC FLIGHT PLAN DATA. CHG MESSAGES AND CNL
+ MESSAGES ARE PROMPTLY ORIGINATED IN ACCORDANCE WITH THE PROVISIONS
+ OF ICAO DOC 4444 PROCEDURES FOR AIR NAVIGATION SERVICES (PANS-ATM)
+ 11.4.2.2. THE PROCEDURE TO BE FOLLOWED TO MODIFY THE EOBT IS AS
+ FOLLOWS:
+ A. TO AMEND THE EOBT TO A LATER TIME, A DLA OR CHG MESSAGE SHALL BE
+ SENT TO ATC AND CATFM.
+ B. TO AMEND THE
+  EOBT TO AN  EARLIER TIME, A CNL MESSAGE MUST BE SENT TO ATC AND
+ CATFM WHICH CANCELS THE EARLIER FPL. IT SHALL BE FOLLOWED FIVE
+ MINUTES LATER BY A NEW FLIGHT PLAN WITH NEW EOBT INDICATED.)
+ Issued: 1811301658
+
+ 1812031255-1902272359EST                                VOMF G1950/18
+ REFER AIP SUPPLEMENT 18/2014.
+    ADS-B GND STATION AT PORTBLAIR IN OPERATION
+    ON TRIAL BASIS.
+    1. ADS-B BASED ATS SURVEILLANCE SERVICES WILL BE
+       PROVIDED DURING THE TRIAL OPERATIONS WITHIN THE
+       JURISDICTION OF CHENNAI OCEANIC CONTROL TO SUITABLY
+       EQUIPPED ACFT ON OPPORTUNITY BASIS WITHIN THE
+       COVERAGE AREA OF PORTBLAIR ADS-B SENSOR ON
+       VHF 126.15MHZ.
+    2. ADS-B EQUIPPED ACFT FLYING WITHIN
+       CHENNAI OCEANIC CONTROL SHALL COMPLY WITH
+       PROVISIONS CONTAINED IN AIP SUPPLEMENT 18/2014.
+ Issued: 1812031303
+
+               END OF PART  9   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812010000-          PERM                VIDF,VOMF,VABF,VECF G1948/18
+ ADDITION TO OTHER ADDRESSEES. THE ULTIMATE RESPONSIBILITY FOR
+ FILING
+ AN ACCURATE FPL RESTS WITH THE PILOT OR OPERATOR.
+ 5. PARA 4.2 IS AMENDED AS: FOR FLIGHT PLANS FILED ON-LINE THROUGH
+ AAI WEBSITE, IT WILL BE THE RESPONSIBILITY OF THE ARO (ATS REPORTING
+ OFFICER), AAI TO ENSURE CORRECT AFTN ADDRESS AND ALL SUCH FLIGHT
+ PLANS SHALL ALSO BE ADDRESSED TO VIDPCTFM, IN ADDITION TO OTHER
+ ADDRESSEES.
+ 6. PARA 4.3 IS AMENDED AS: FOR FLIGHT PLANS SUBMITTED IN PERSON OR
+ BY FAX TO AN ATS UNIT, IT WILL BE THE RESPONSIBILITY OF AIRLINES,
+ AIRCRAFT OPERATORS OR THEIR AUTHORIZED HANDLING AGENCY FOR
+ COMPLETING ALL PARTS OF THE FORM INCLUDING AFTN ADDRESSES OF FIR
+ THROUGH WHICH THE FLIGHT IS LIKELY TO OPERATE. IN ADDITION, ALL SUCH
+ FLIGHT PLANS SHALL ALSO BE ADDRESSED TO VIDPCTFM.
+ 7. PARA 6.2.1 IS AMENDED AS: DLA MESSAGES SHOULD BE ORIGINATED WHEN
+ THE DEPARTURE OF AN AIRCRAFT, FOR WHICH BASIC FLIGHT PLAN DATA (FPL
+ OR RPL) HAS BEEN SENT, IS DELAYED BY 15 MINUTES OR MORE AFTER THE
+ EOBT CONTAINED IN THE BASIC FLIGHT PLAN DATA. CHG MESSAGES AND CNL
+ MESSAGES ARE PROMPTLY ORIGINATED IN ACCORDANCE WITH THE PROVISIONS
+ OF ICAO DOC 4444 PROCEDURES FOR AIR NAVIGATION SERVICES (PANS-ATM)
+ 11.4.2.2. THE PROCEDURE TO BE FOLLOWED TO MODIFY THE EOBT IS AS
+ FOLLOWS:
+ A. TO AMEND THE EOBT TO A LATER TIME, A DLA OR CHG MESSAGE SHALL BE
+ SENT TO ATC AND CATFM.
+ B. TO AMEND THE
+  EOBT TO AN  EARLIER TIME, A CNL MESSAGE MUST BE SENT TO ATC AND
+ CATFM WHICH CANCELS THE EARLIER FPL. IT SHALL BE FOLLOWED FIVE
+ MINUTES LATER BY A NEW FLIGHT PLAN WITH NEW EOBT INDICATED.)
+ Issued: 1811301658
+
+ 1812031255-1902272359EST                                VOMF G1950/18
+ REFER AIP SUPPLEMENT 18/2014.
+    ADS-B GND STATION AT PORTBLAIR IN OPERATION
+    ON TRIAL BASIS.
+    1. ADS-B BASED ATS SURVEILLANCE SERVICES WILL BE
+       PROVIDED DURING THE TRIAL OPERATIONS WITHIN THE
+       JURISDICTION OF CHENNAI OCEANIC CONTROL TO SUITABLY
+       EQUIPPED ACFT ON OPPORTUNITY BASIS WITHIN THE
+       COVERAGE AREA OF PORTBLAIR ADS-B SENSOR ON
+       VHF 126.15MHZ.
+    2. ADS-B EQUIPPED ACFT FLYING WITHIN
+       CHENNAI OCEANIC CONTROL SHALL COMPLY WITH
+       PROVISIONS CONTAINED IN AIP SUPPLEMENT 18/2014.
+ Issued: 1812031303
+
+               END OF PART  9   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812190650-1901312359EST                                VOMF G1967/18
+ REFER AIP SUPPLEMENT 18/2014. ADS-B GROUND STATION AT COCHIN
+ IN OPERATION ON TRIAL BASIS.
+ 1. ADS-B BASED ATS SURVEILLANCE SERVICES SHALL ALSO BE PROVIDED
+    DURING THE TRIAL OPERATIONS WITHIN THE JURISDICTION OF COCHIN
+    APPROACH CONTROL TO SUITABLY EQUIPPED AIRCRAFT ON OPPORTUNITY
+    BASIS WITHIN THE COVERAGE AREA OF COCHIN ADS-B SENSORS ON
+    VHF 119.75MHZ.
+ 2. ADS-B EQUIPPED AIRCRAFT FLYING WITHIN THE JURISDICTION OF COCHIN
+    APPROACH CONTROL SHALL COMPLY WITH PROVISIONS CONTAINED IN AIP
+    SUPPLEMENT 18/2014.
+ Issued: 1812190707
+
+ 1812190655-1901312359EST                                VOMF G1968/18
+ REFER AIP SUPPLEMENT 18/2014.
+ ADS-B GROUND STATION AT COCHIN IN OPERATION ON TRIAL BASIS.
+ 1. ATS SURVEILLANCE BASED SERVICES USING ADS-B SHALL ALSO BE
+    PROVIDED DURING THE TRIAL OPERATIONS WITHIN THE JURISDICTION OF
+    COCHIN AREA CONTROL TO SUITABLY EQUIPPED AIRCRAFT ON OPPORTUNITY
+    BASIS WITHIN THE COVERAGE AREA OF COCHIN ADS-B SENSORS ON
+    VHF 128.3 MHZ AND 133.15 MHZ.
+ 2. ADS-B EQUIPPED AIRCRAFT FLYING WITHIN THE JURISDICTION OF COCHIN
+    AREA CONTROL SHALL COMPLY WITH PROVISIONS CONTAINED IN AIP
+    SUPPLEMENT 18/2014.
+ Issued: 1812190710
+
+               END OF PART  10   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812190650-1901312359EST                                VOMF G1967/18
+ REFER AIP SUPPLEMENT 18/2014. ADS-B GROUND STATION AT COCHIN
+ IN OPERATION ON TRIAL BASIS.
+ 1. ADS-B BASED ATS SURVEILLANCE SERVICES SHALL ALSO BE PROVIDED
+    DURING THE TRIAL OPERATIONS WITHIN THE JURISDICTION OF COCHIN
+    APPROACH CONTROL TO SUITABLY EQUIPPED AIRCRAFT ON OPPORTUNITY
+    BASIS WITHIN THE COVERAGE AREA OF COCHIN ADS-B SENSORS ON
+    VHF 119.75MHZ.
+ 2. ADS-B EQUIPPED AIRCRAFT FLYING WITHIN THE JURISDICTION OF COCHIN
+    APPROACH CONTROL SHALL COMPLY WITH PROVISIONS CONTAINED IN AIP
+    SUPPLEMENT 18/2014.
+ Issued: 1812190707
+
+ 1812190655-1901312359EST                                VOMF G1968/18
+ REFER AIP SUPPLEMENT 18/2014.
+ ADS-B GROUND STATION AT COCHIN IN OPERATION ON TRIAL BASIS.
+ 1. ATS SURVEILLANCE BASED SERVICES USING ADS-B SHALL ALSO BE
+    PROVIDED DURING THE TRIAL OPERATIONS WITHIN THE JURISDICTION OF
+    COCHIN AREA CONTROL TO SUITABLY EQUIPPED AIRCRAFT ON OPPORTUNITY
+    BASIS WITHIN THE COVERAGE AREA OF COCHIN ADS-B SENSORS ON
+    VHF 128.3 MHZ AND 133.15 MHZ.
+ 2. ADS-B EQUIPPED AIRCRAFT FLYING WITHIN THE JURISDICTION OF COCHIN
+    AREA CONTROL SHALL COMPLY WITH PROVISIONS CONTAINED IN AIP
+    SUPPLEMENT 18/2014.
+ Issued: 1812190710
+
+               END OF PART  10   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901010000-1912312359                    VIDF,VABF,VECF,VOMF G1994/18
+ REFER EAIP INDIA GEN 0.1 PARA 6 REGARDING PURCHASE OF AIP.
+ PRICE OF AIP, AIP AMDT AND AIP SUPPLEMENT SERVICE (INCLUDING
+ POSTAL CHARGES) FOR THE YEAR 2019 ARE AS FOLLOWS:
+ S.NO.  DESCRIPTION               WITHIN INDIA    OUTSIDE INDIA
+   ------------------------------------------------------------------
+ 01.EAIP INDIA (DVD) INCLUDING    RS. 21,450.00    USD 400.00
+    AIP AMDT AND AIP SUP.
+
+ ------------------------------------------------------------------
+ MODE OF PAYMENT :
+ PAYMENT BY ELECTRONIC TRANSFER MAY BE MADE AS PER FOLLOWING BANK
+ DETAILS:
+ FOR DOMESTIC SUBSCRIBERS:
+ NAME OF THE BENEFICIARY : AIRPORTS AUTHORITY OF INDIA
+ BENEFICIARY ADDRESS     : A-BLOCK, RAJIV GANDHI BHAWAN,NEW DELHI-
+                        110003
+ NAME OF BENEFICIARY BANK: HDFC BANK
+ BRANCH NAME/ADDRESS     : SURYA KIRAN BUILDING, KASTURBA GANDHI
+                      MARG, NEW DELHI-110 001.
+ IFSC CODE OF THE BANK   : HDFC0000003
+ BENEFICIARY ACCOUNT NUMBER : 00030350003831
+ FOR INTERNATIONAL SUBSCRIBERS:
+ NAME OF THE BENEFICIARY    : AIRPORTS AUTHORITY OF INDIA
+ BENEFICIARY ADDRESS        : A-BLOCK, RAJIV GANDHI BHAWAN,
+                              NEW DELHI-110003
+ NAME OF BENEFICIARY BANK   : HDFC BANK
+ BRANCH NAME/ADDRESS        : SURYA KIRAN BUILDING, KASTURBA
+                              GANDHI MARG, NEW DELHI-110 001.
+ BENEFICIARY ACCOUNT NUMBER : 00038580000059
+ SWIFT CODE  OF THE BANK     : HDFCINBBDEL
+ (NOTE: THE ABOVE CHARGES IN USD ARE EXCLUDING BANK CHARGES,IF ANY,
+ WHICH SHALL BE BORNE BY THE SUBSCRIBER. PURPOSE OF THE PAYMENT TO BE
+ MENTIONED AS - FOR PURCHASE OF AIS DOCUMENTS - WHILE MAKING
+ ELECTRONIC FUND TRANSFER.)
+ AFTER COMPLETION OF ELECTRONIC PAYMENT, PAYMENT DETAILS BE SENT BY
+ EMAIL TO GMAIS(A)AAI.AERO FOR CONFIRMATION. ALL THE SUBSCRIBERS ARE
+ REQUIRED TO SEND DETAILS OF FULL POSTAL ADDRESS, TELEPHONE NR, EMAIL
+ ADDRESS, ETC BY EMAIL/LETTER- HEAD TO GENERAL MANAGER(AIS), AIRPORTS
+ AUTHORITY OF INDIA, RAJIV GANDHI BHAVAN, SAFDARJUNG AIRPORT, NEW
+ DELHI - 110003 OR BY EMAIL MENTIONED ABOVE FOR DISPATCH OF EAIP
+ DVD/DOCUMENTS.
+ AMEND GEN 0.1, PARA 6 OF EAIP INDIA ACCORDINGLY.
+ Issued: 1812280850
+
+ 1812281230-          PERM                VABF,VIDF,VECF,VOMF G1995/18
+ REFER AIP SUPPLEMENT 148/2018 REGARDING AUTOMATIC DEPENDENT
+   SURVEILLANCE - BROADCAST (ADS - B) OUT EQUIPAGE
+   MANDATE IN INDIA.THE EFFECTIVE DATE OF IMPLEMENTATION
+   PLAN IS AMENDED AS 01ST JANUARY 2020 IN PLACE OF
+   01ST JANUARY 2019.
+   AMEND PARA 2.1 OF THE AIP SUPPLEMENT 148/2018 ACCORDINGLY.
+ Issued: 1812281242
+
+               END OF PART  11   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901010000-1912312359                    VIDF,VABF,VECF,VOMF G1994/18
+ REFER EAIP INDIA GEN 0.1 PARA 6 REGARDING PURCHASE OF AIP.
+ PRICE OF AIP, AIP AMDT AND AIP SUPPLEMENT SERVICE (INCLUDING
+ POSTAL CHARGES) FOR THE YEAR 2019 ARE AS FOLLOWS:
+ S.NO.  DESCRIPTION               WITHIN INDIA    OUTSIDE INDIA
+   ------------------------------------------------------------------
+ 01.EAIP INDIA (DVD) INCLUDING    RS. 21,450.00    USD 400.00
+    AIP AMDT AND AIP SUP.
+
+ ------------------------------------------------------------------
+ MODE OF PAYMENT :
+ PAYMENT BY ELECTRONIC TRANSFER MAY BE MADE AS PER FOLLOWING BANK
+ DETAILS:
+ FOR DOMESTIC SUBSCRIBERS:
+ NAME OF THE BENEFICIARY : AIRPORTS AUTHORITY OF INDIA
+ BENEFICIARY ADDRESS     : A-BLOCK, RAJIV GANDHI BHAWAN,NEW DELHI-
+                        110003
+ NAME OF BENEFICIARY BANK: HDFC BANK
+ BRANCH NAME/ADDRESS     : SURYA KIRAN BUILDING, KASTURBA GANDHI
+                      MARG, NEW DELHI-110 001.
+ IFSC CODE OF THE BANK   : HDFC0000003
+ BENEFICIARY ACCOUNT NUMBER : 00030350003831
+ FOR INTERNATIONAL SUBSCRIBERS:
+ NAME OF THE BENEFICIARY    : AIRPORTS AUTHORITY OF INDIA
+ BENEFICIARY ADDRESS        : A-BLOCK, RAJIV GANDHI BHAWAN,
+                              NEW DELHI-110003
+ NAME OF BENEFICIARY BANK   : HDFC BANK
+ BRANCH NAME/ADDRESS        : SURYA KIRAN BUILDING, KASTURBA
+                              GANDHI MARG, NEW DELHI-110 001.
+ BENEFICIARY ACCOUNT NUMBER : 00038580000059
+ SWIFT CODE  OF THE BANK     : HDFCINBBDEL
+ (NOTE: THE ABOVE CHARGES IN USD ARE EXCLUDING BANK CHARGES,IF ANY,
+ WHICH SHALL BE BORNE BY THE SUBSCRIBER. PURPOSE OF THE PAYMENT TO BE
+ MENTIONED AS - FOR PURCHASE OF AIS DOCUMENTS - WHILE MAKING
+ ELECTRONIC FUND TRANSFER.)
+ AFTER COMPLETION OF ELECTRONIC PAYMENT, PAYMENT DETAILS BE SENT BY
+ EMAIL TO GMAIS(A)AAI.AERO FOR CONFIRMATION. ALL THE SUBSCRIBERS ARE
+ REQUIRED TO SEND DETAILS OF FULL POSTAL ADDRESS, TELEPHONE NR, EMAIL
+ ADDRESS, ETC BY EMAIL/LETTER- HEAD TO GENERAL MANAGER(AIS), AIRPORTS
+ AUTHORITY OF INDIA, RAJIV GANDHI BHAVAN, SAFDARJUNG AIRPORT, NEW
+ DELHI - 110003 OR BY EMAIL MENTIONED ABOVE FOR DISPATCH OF EAIP
+ DVD/DOCUMENTS.
+ AMEND GEN 0.1, PARA 6 OF EAIP INDIA ACCORDINGLY.
+ Issued: 1812280850
+
+ 1812281230-          PERM                VABF,VIDF,VECF,VOMF G1995/18
+ REFER AIP SUPPLEMENT 148/2018 REGARDING AUTOMATIC DEPENDENT
+   SURVEILLANCE - BROADCAST (ADS - B) OUT EQUIPAGE
+   MANDATE IN INDIA.THE EFFECTIVE DATE OF IMPLEMENTATION
+   PLAN IS AMENDED AS 01ST JANUARY 2020 IN PLACE OF
+   01ST JANUARY 2019.
+   AMEND PARA 2.1 OF THE AIP SUPPLEMENT 148/2018 ACCORDINGLY.
+ Issued: 1812281242
+
+               END OF PART  11   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901040950-          PERM                VIDF,VABF,VOMF,VECF G0006/19
+ AIP SUP 09/1999 CNL. AMEND AIP SUP 01/2019 ACCORDINGLY.
+ Issued: 1901041039
+
+ 1901111220-          PERM                VIDF,VABF,VOMF,VECF G0012/19
+ AIP SUP 30/1999 CNL. AMEND AIP SUP 01/2019 ACCORDINGLY.
+ Issued: 1901111225
+
+ 1901140730-1904100530EST                                VOMF G0013/19
+ 0230-0530 EXC SAT SUN
+ REFER AIP INDIA SUPPLEMENT 18/2014. ADS-B GROUND STATION AT
+ TIRUCHIRAPPALLI IN OPERATION ON TRIAL BASIS.
+ 1. ADS-B BASED ATS SURVEILLANCE SERVICES ARE PROVIDED DURING THE
+ TRIAL OPERATIONS WITHIN THE JURISDICTION OF TIRUCHIRAPPALLI APPROACH
+ CONTROL TO SUITABLY EQUIPPED ACFT ON OPPORTUNITY BASIS WITHIN THE
+ COVERAGE AREA OF TIRUCHIRAPPALLI ADS-B SENSOR ON VHF 124.0 MHZ.
+ 2. ADS-B EQUIPPED ACFT FLYING WITHIN TIRUCHIRAPPALLI APPROACH
+ CONTROL SHALL COMPLY WITH PROVISIONS CONTAINED IN AIP INDIA
+ SUPPLEMENT 18/2014.
+ Issued: 1901140743
+
+ 1901281520-1903272359                                   VOMF G0067/19
+ REFER EAIP INDIA SECTION ENR 3.1. CONSEQUENT UPON RELOCATION OF
+ BBM VOR/DME AND INSTALLATION OF NEW VOR/DME (HBL) AT HUBLI, FLW AMDT
+ MADE IN ATS ROUTE W126:
+ 1. COORD OF BELGAUM VOR (BBM) ARE 155125.7N 0743709.5E.
+ 2. COORD OF HUBLI VOR (HBL) ARE 152154.45N 0750547.51E.
+ 3. ATS ROUTE W126 SEGMENT HUBLI NDB (HB) - TRACK 319/139 DEG (M)
+ 40.2NM- BELGAUM VOR/DME (BBM) IS REPLACED BY HUBLI VOR/DME (HBL) -
+ TRACK 318/138 DEG (M) 40.4NM - BELGAUM VOR/DME (BBM).
+ AMEND ACCORDINGLY.
+ Issued: 1901281537
+
+ 1812021315-1903021030EST                                VOMF A3226/18
+ DAILY 0430-1030
+ REF AIP SUP 18/2014.
+    ADS-B GND STN AT COIMBATORE OPR ON TRIAL BASIS.
+    ADS-B BASED ATS SURVEILLANCE SERVICES ARE PROVIDED
+    DRG THE TRIAL OPS WI THE JURISDICTION OF COIMBATORE APCH
+    CTL UNIT TO SUITABLY EQUIPPED ACFT OPPORTUNITY BASIS WI
+    THE COVERAGE AREA OF COIMBATORE ADS-B SENSOR ON
+    VHF 120.05MHZ
+ Issued: 1812021319
+
+ 1812100605-1903082359EST                                VOMF A3292/18
+ REF ENR2-AIR TRAFFIC SERVICES AIRSPACE
+ ENR 2.1 FLIGHT INFORMATION REGION(FIR),TERMINAL CONTROL AREA(TMA)
+ UNDER CHENNAI CONTROL AREA AND SECT UMM -
+ 1) DRG HIGH DENSITY TFC DYNAMIC BIFURCATION OF UMM SECT AND
+ CHENNAI CONTROL AREAS WILL BE IN PROGRESS ON TRIAL BASIS
+ 2)AIRSPACE OF RAD 100NM CENTRED AT MMV VOR WI UMM SECT AND CHENNAI
+ CONTROL AREAS,EXCLUDING THE AIRSPACE BELONGING TO LBL,UBL AND
+ BENGALURU HAL IS LOWER CHENNAI SECT(LMM)
+ 3)LOWER AND UPPER LIMITS OF LMM ARE FL145 AND FL285 RESPECTIVELY.OPR
+ FREQ SHALL BE 125.3MHZ
+ Issued: 1812100614
+
+               END OF PART  12   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901040950-          PERM                VIDF,VABF,VOMF,VECF G0006/19
+ AIP SUP 09/1999 CNL. AMEND AIP SUP 01/2019 ACCORDINGLY.
+ Issued: 1901041039
+
+ 1901111220-          PERM                VIDF,VABF,VOMF,VECF G0012/19
+ AIP SUP 30/1999 CNL. AMEND AIP SUP 01/2019 ACCORDINGLY.
+ Issued: 1901111225
+
+ 1901140730-1904100530EST                                VOMF G0013/19
+ 0230-0530 EXC SAT SUN
+ REFER AIP INDIA SUPPLEMENT 18/2014. ADS-B GROUND STATION AT
+ TIRUCHIRAPPALLI IN OPERATION ON TRIAL BASIS.
+ 1. ADS-B BASED ATS SURVEILLANCE SERVICES ARE PROVIDED DURING THE
+ TRIAL OPERATIONS WITHIN THE JURISDICTION OF TIRUCHIRAPPALLI APPROACH
+ CONTROL TO SUITABLY EQUIPPED ACFT ON OPPORTUNITY BASIS WITHIN THE
+ COVERAGE AREA OF TIRUCHIRAPPALLI ADS-B SENSOR ON VHF 124.0 MHZ.
+ 2. ADS-B EQUIPPED ACFT FLYING WITHIN TIRUCHIRAPPALLI APPROACH
+ CONTROL SHALL COMPLY WITH PROVISIONS CONTAINED IN AIP INDIA
+ SUPPLEMENT 18/2014.
+ Issued: 1901140743
+
+ 1901281520-1903272359                                   VOMF G0067/19
+ REFER EAIP INDIA SECTION ENR 3.1. CONSEQUENT UPON RELOCATION OF
+ BBM VOR/DME AND INSTALLATION OF NEW VOR/DME (HBL) AT HUBLI, FLW AMDT
+ MADE IN ATS ROUTE W126:
+ 1. COORD OF BELGAUM VOR (BBM) ARE 155125.7N 0743709.5E.
+ 2. COORD OF HUBLI VOR (HBL) ARE 152154.45N 0750547.51E.
+ 3. ATS ROUTE W126 SEGMENT HUBLI NDB (HB) - TRACK 319/139 DEG (M)
+ 40.2NM- BELGAUM VOR/DME (BBM) IS REPLACED BY HUBLI VOR/DME (HBL) -
+ TRACK 318/138 DEG (M) 40.4NM - BELGAUM VOR/DME (BBM).
+ AMEND ACCORDINGLY.
+ Issued: 1901281537
+
+ 1812021315-1903021030EST                                VOMF A3226/18
+ DAILY 0430-1030
+ REF AIP SUP 18/2014.
+    ADS-B GND STN AT COIMBATORE OPR ON TRIAL BASIS.
+    ADS-B BASED ATS SURVEILLANCE SERVICES ARE PROVIDED
+    DRG THE TRIAL OPS WI THE JURISDICTION OF COIMBATORE APCH
+    CTL UNIT TO SUITABLY EQUIPPED ACFT OPPORTUNITY BASIS WI
+    THE COVERAGE AREA OF COIMBATORE ADS-B SENSOR ON
+    VHF 120.05MHZ
+ Issued: 1812021319
+
+ 1812100605-1903082359EST                                VOMF A3292/18
+ REF ENR2-AIR TRAFFIC SERVICES AIRSPACE
+ ENR 2.1 FLIGHT INFORMATION REGION(FIR),TERMINAL CONTROL AREA(TMA)
+ UNDER CHENNAI CONTROL AREA AND SECT UMM -
+ 1) DRG HIGH DENSITY TFC DYNAMIC BIFURCATION OF UMM SECT AND
+ CHENNAI CONTROL AREAS WILL BE IN PROGRESS ON TRIAL BASIS
+ 2)AIRSPACE OF RAD 100NM CENTRED AT MMV VOR WI UMM SECT AND CHENNAI
+ CONTROL AREAS,EXCLUDING THE AIRSPACE BELONGING TO LBL,UBL AND
+ BENGALURU HAL IS LOWER CHENNAI SECT(LMM)
+ 3)LOWER AND UPPER LIMITS OF LMM ARE FL145 AND FL285 RESPECTIVELY.OPR
+ FREQ SHALL BE 125.3MHZ
+ Issued: 1812100614
+
+               END OF PART  12   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901010900-1903291430                                   VOMF A3381/18
+
+ JAN 01 08 15 22 29 FEB 05 12 19 26 MAR 05 12 19 26 0900-1200, JAN 04
+ 11 25 FEB 01 08 15 22 MAR 01 08 15 22 29 0900-1200 1230-1430, JAN 18
+ 0330-0630 0900-1200 1230-1430
+ VOD172 (COCHIN) DRONACHARYA FRNG RANGE ACT
+ SFC 10000M AGL
+ Issued: 1812181117
+
+ 1812260935-1903261430EST                                VOMF A3458/18
+ DAILY 0030-1430
+ VOD-188 CHENGALPATTU FRNG RANGE ACT
+ GND 5000FT AGL
+ Issued: 1812260938
+
+ 1812311210-1904021230EST                                VOMF A3490/18
+ THE FLW PROC WILL BE APPLICABLE ON TRIAL BASIS FOR ASSESSMENT
+ AND TO FACILITATE FUTURE IMPLEMENTATION OF MODE-S ELEMENTARY
+ SURVEILLANCE/ENHANCED SURVEILLANCE AIRSPACE WI CHENNAI FIR.
+ 1.ALL DEPARTING MODE-S EQUIPPED ACFT OPR BTN AIRPORTS
+ A.VOMM-VOHS
+ B.VOMM-VOBL
+ C.VOBL-VOHS
+ SHALL SET CONSPICUITY CODE A 1000 AT THE STAND INSTEAD OF
+ DISCRETE SSR CODE AS SPECIFIED IN PARA 1 OF AIP SUP 10/2012
+ 2.ENTER THE THREE LETTER ICAO DESIGNATOR FOLLOWED BY THE FLT
+ IDENT NR AS SPECIFIED IN ITEM 7 OF THE FPL
+ THRU THE FMS OR THE TRANSPONDER CTL PANEL DEPENDING
+ ON THE AVIONICS.
+ 3.SPECIAL PURPOSE CODES 7700, 7600 AND 7500 SHALL CONT
+ TO BE USED BY PILOTS ENCOUNTERING A STATE OF EMERG,RCF
+ OR UNLAWFUL INTERFERENCE RESPECTIVELY.
+ Issued: 1812311218
+
+               END OF PART  13   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901010900-1903291430                                   VOMF A3381/18
+
+ JAN 01 08 15 22 29 FEB 05 12 19 26 MAR 05 12 19 26 0900-1200, JAN 04
+ 11 25 FEB 01 08 15 22 MAR 01 08 15 22 29 0900-1200 1230-1430, JAN 18
+ 0330-0630 0900-1200 1230-1430
+ VOD172 (COCHIN) DRONACHARYA FRNG RANGE ACT
+ SFC 10000M AGL
+ Issued: 1812181117
+
+ 1812260935-1903261430EST                                VOMF A3458/18
+ DAILY 0030-1430
+ VOD-188 CHENGALPATTU FRNG RANGE ACT
+ GND 5000FT AGL
+ Issued: 1812260938
+
+ 1812311210-1904021230EST                                VOMF A3490/18
+ THE FLW PROC WILL BE APPLICABLE ON TRIAL BASIS FOR ASSESSMENT
+ AND TO FACILITATE FUTURE IMPLEMENTATION OF MODE-S ELEMENTARY
+ SURVEILLANCE/ENHANCED SURVEILLANCE AIRSPACE WI CHENNAI FIR.
+ 1.ALL DEPARTING MODE-S EQUIPPED ACFT OPR BTN AIRPORTS
+ A.VOMM-VOHS
+ B.VOMM-VOBL
+ C.VOBL-VOHS
+ SHALL SET CONSPICUITY CODE A 1000 AT THE STAND INSTEAD OF
+ DISCRETE SSR CODE AS SPECIFIED IN PARA 1 OF AIP SUP 10/2012
+ 2.ENTER THE THREE LETTER ICAO DESIGNATOR FOLLOWED BY THE FLT
+ IDENT NR AS SPECIFIED IN ITEM 7 OF THE FPL
+ THRU THE FMS OR THE TRANSPONDER CTL PANEL DEPENDING
+ ON THE AVIONICS.
+ 3.SPECIAL PURPOSE CODES 7700, 7600 AND 7500 SHALL CONT
+ TO BE USED BY PILOTS ENCOUNTERING A STATE OF EMERG,RCF
+ OR UNLAWFUL INTERFERENCE RESPECTIVELY.
+ Issued: 1812311218
+
+               END OF PART  13   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812311210-1904021230EST                                VOMF A3491/18
+ REF E-AIP INDIA, ENR-2 AIR TRAFFIC SERVICES AIRSPACE ENR 2.1
+ FLIGHT INFORMATION REGION (FIR), TERMINAL AREA (TMA)-UNDER CHENNAI
+ CONTROL AREA-SECTOR UMM (.)
+ 1.DURING HIGH DENSITY TRAFFIC DYNAMIC BIFURCATION OF UMM SECTOR INTO
+ UMM-NORTH AND UMM-SOUTH ON TRIAL BASIS WILL  BE IN PROGRESS
+ 2.UMM - SOUTH AREA BOUNDED BY -140100N 0791600E?-THEN ALONG
+ ANTICLOCKWISE ARC OF 80NM RADIUS CENTERED AT CHENNAI VOR (MMV)
+ (125936.1N 0801014.5E) TO 130000N0784800E? 130000N0782500E?
+ 124500N0782500E? 122800N0791700E? THEN ALONG CLOCKWISE ARC OF 100NM
+ RADIUS CENTERED AT 125705.1N 0773955.7E TO 112130N0780745E?
+ 11400N0781200E? 110300N0781700E? 100000N0794000E? 100000N0800000E?
+ 100006N0814654E? THEN ALONG THE ANTICLOCKWISE ARC OF 200NM CENTERED
+ AT CHENNAI VOR (MMV) (125936.1N 0801014.5E) TO
+ 123935N0833323E   125308N 0834557E 134411N 0821108E 131746N 0803544E
+ 131926N 0802640E 131542N 0800853E 133716N 0795532E TO 140100N
+ 0791600E
+ FL460/FL145
+ FREQUENCY-125.3 MHZ
+ 3.UMM - NORTH AREA BOUNDED BY COORDS- 140100N 0791600E 133716N
+ 0795532E 131542N 0800853E 131926N 0802640E 131746N 0803544E 134411N
+ 0821108E 125608N0834557E 154200N0855400E 171500N0820000E
+ 184100N0824900E 184250N0820000E 155900N0791300E 155800N0784500E
+ 142300N0785400E 140100N 0791600E
+ FL460/FL145
+ FREQUENCY-134.25 MHZ
+ Issued: 1812311230
+
+               END OF PART  14   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812311210-1904021230EST                                VOMF A3491/18
+ REF E-AIP INDIA, ENR-2 AIR TRAFFIC SERVICES AIRSPACE ENR 2.1
+ FLIGHT INFORMATION REGION (FIR), TERMINAL AREA (TMA)-UNDER CHENNAI
+ CONTROL AREA-SECTOR UMM (.)
+ 1.DURING HIGH DENSITY TRAFFIC DYNAMIC BIFURCATION OF UMM SECTOR INTO
+ UMM-NORTH AND UMM-SOUTH ON TRIAL BASIS WILL  BE IN PROGRESS
+ 2.UMM - SOUTH AREA BOUNDED BY -140100N 0791600E?-THEN ALONG
+ ANTICLOCKWISE ARC OF 80NM RADIUS CENTERED AT CHENNAI VOR (MMV)
+ (125936.1N 0801014.5E) TO 130000N0784800E? 130000N0782500E?
+ 124500N0782500E? 122800N0791700E? THEN ALONG CLOCKWISE ARC OF 100NM
+ RADIUS CENTERED AT 125705.1N 0773955.7E TO 112130N0780745E?
+ 11400N0781200E? 110300N0781700E? 100000N0794000E? 100000N0800000E?
+ 100006N0814654E? THEN ALONG THE ANTICLOCKWISE ARC OF 200NM CENTERED
+ AT CHENNAI VOR (MMV) (125936.1N 0801014.5E) TO
+ 123935N0833323E   125308N 0834557E 134411N 0821108E 131746N 0803544E
+ 131926N 0802640E 131542N 0800853E 133716N 0795532E TO 140100N
+ 0791600E
+ FL460/FL145
+ FREQUENCY-125.3 MHZ
+ 3.UMM - NORTH AREA BOUNDED BY COORDS- 140100N 0791600E 133716N
+ 0795532E 131542N 0800853E 131926N 0802640E 131746N 0803544E 134411N
+ 0821108E 125608N0834557E 154200N0855400E 171500N0820000E
+ 184100N0824900E 184250N0820000E 155900N0791300E 155800N0784500E
+ 142300N0785400E 140100N 0791600E
+ FL460/FL145
+ FREQUENCY-134.25 MHZ
+ Issued: 1812311230
+
+               END OF PART  14   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812311220-1904021230EST                                VOMF A3492/18
+ REF ENR 2- AIR TFC SERVICES AIRSPACE ENR 2.1
+    FLT INFO REGION (FIR), TERMINAL CTL
+    AREA(TMA) UNDER CHENNAI UPPER CTL AREA - SECT UBL.
+ I)DRG HIGH DENSITY TFC DYNAMIC BIFURCATION OF
+    UBL SECT ON TRIAL BASIS WILL BE IN PROGRESS.
+ II)AIRSPACE WI UBL SECT WEST OF R355 FM BIA VOR BEYOND
+    30NM FM BIA VOR DME IS UBL WEST AND REMAINING PORTION OF
+    THE UBL SECTOR AIRSPACE IS UBL EAST
+ III)THE UBL WEST AND UBL EAST ARE FURTHER DEFINED IN TERMS
+    OF COORD ALONGWITH THE RESPECTIVE OPR FREQ AS FLW:
+ 1. UBL WEST AREA BOUNDED BY COORD:
+    164000N 0760000E  160054.12N 0772257.60E 134218.01N
+    0774010.79E  THEN ALONG ANTICLOCKWISE ARC OF 30NM RADIUS
+    CENTERED AT BIA VOR (131223.39N 0774351.25E) TO 133330N
+    0772045E? 144000N 0763600E? 145600N0760600E?
+    144700N0755800E? 155100N 0743700E? 162600N 0741100E?
+    163600N 0752800E 164000N 0760000E
+    FL255/FL460
+    FREQ: 124.5MHZ
+ 2. UBL EAST AREA BOUNDED BY COORD:
+    160054.12N 0772257.60E  155700N 0773100E 155800N
+    0784500E 142300N 0785400E  140100N 0791600E-THEN
+    ALONG ANTICLOCKWISE ARC OF 80NM RADIUS CENTRED AT
+    125936.1N 0801014.5E TO 130000N 0784800E? 130100N 0771410E-
+    THEN ALONG CLOCKWISE ARC OF 30NM RADIUS CENTRED AT BIA
+    VOR (131223.39N 0774351.25E) TO 134218.01N  0774010.79E
+    160054.12N 0772257.60E
+    FL255/FL460
+    FREQ: 118.9MHZ
+ FL255/FL460
+ Issued: 1812311230
+
+ 1901241249-1902281700                                   VOMF A0190/19
+ DAILY 0030-1700 EXC SAT SUN
+ TSA-803(B) (VISAKHAPATNAM) ACT
+ SFC 14500FT AMSL
+ Issued: 1901241255
+
+ 1901241253-1902281700                                   VOMF A0191/19
+ DAILY 0030-1700 EXC SAT SUN
+ TSA-803(C) (VISAKHAPATNAM) ACT
+ SFC 23000FT AMSL
+ Issued: 1901241258
+
+ 1901241309-1902281700                                   VOMF A0192/19
+ MON FRI 0100-1400, TUE WED THU  0100-1700
+ TRA-808(B) (VISAKHAPATNAM) ACT
+ 14500FT AMSL 23000FT AMSL
+ Issued: 1901241315
+
+ 1901241314-1902281700                                   VOMF A0193/19
+ MON FRI 0100-1400, TUE WED THU 0100-1700
+ TRA-808(A) (VISAKHAPATNAM) ACT
+ 14500FT AMSL 23000FT AMSL
+ Issued: 1901241317
+
+ 1901241435-1902281700                                   VOMF A0195/19
+ DAILY 0030-1700 EXC SAT SUN
+ TRA-805(A) VISAKHAPATNAM ACT
+ 14500FT AMSL 23000FT AMSL
+ Issued: 1901241444
+
+ 1901291730-1901292330                                   VOMF A0214/19
+ CDR2 ATS ROUTES J13,J14,J15 AND J16 AVBL FOR PLN
+ AND ACFT OPS AS PER AIP INDIA ENR-3.1
+ Issued: 1901280542
+
+               END OF PART  15   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812311220-1904021230EST                                VOMF A3492/18
+ REF ENR 2- AIR TFC SERVICES AIRSPACE ENR 2.1
+    FLT INFO REGION (FIR), TERMINAL CTL
+    AREA(TMA) UNDER CHENNAI UPPER CTL AREA - SECT UBL.
+ I)DRG HIGH DENSITY TFC DYNAMIC BIFURCATION OF
+    UBL SECT ON TRIAL BASIS WILL BE IN PROGRESS.
+ II)AIRSPACE WI UBL SECT WEST OF R355 FM BIA VOR BEYOND
+    30NM FM BIA VOR DME IS UBL WEST AND REMAINING PORTION OF
+    THE UBL SECTOR AIRSPACE IS UBL EAST
+ III)THE UBL WEST AND UBL EAST ARE FURTHER DEFINED IN TERMS
+    OF COORD ALONGWITH THE RESPECTIVE OPR FREQ AS FLW:
+ 1. UBL WEST AREA BOUNDED BY COORD:
+    164000N 0760000E  160054.12N 0772257.60E 134218.01N
+    0774010.79E  THEN ALONG ANTICLOCKWISE ARC OF 30NM RADIUS
+    CENTERED AT BIA VOR (131223.39N 0774351.25E) TO 133330N
+    0772045E? 144000N 0763600E? 145600N0760600E?
+    144700N0755800E? 155100N 0743700E? 162600N 0741100E?
+    163600N 0752800E 164000N 0760000E
+    FL255/FL460
+    FREQ: 124.5MHZ
+ 2. UBL EAST AREA BOUNDED BY COORD:
+    160054.12N 0772257.60E  155700N 0773100E 155800N
+    0784500E 142300N 0785400E  140100N 0791600E-THEN
+    ALONG ANTICLOCKWISE ARC OF 80NM RADIUS CENTRED AT
+    125936.1N 0801014.5E TO 130000N 0784800E? 130100N 0771410E-
+    THEN ALONG CLOCKWISE ARC OF 30NM RADIUS CENTRED AT BIA
+    VOR (131223.39N 0774351.25E) TO 134218.01N  0774010.79E
+    160054.12N 0772257.60E
+    FL255/FL460
+    FREQ: 118.9MHZ
+ FL255/FL460
+ Issued: 1812311230
+
+ 1901241249-1902281700                                   VOMF A0190/19
+ DAILY 0030-1700 EXC SAT SUN
+ TSA-803(B) (VISAKHAPATNAM) ACT
+ SFC 14500FT AMSL
+ Issued: 1901241255
+
+ 1901241253-1902281700                                   VOMF A0191/19
+ DAILY 0030-1700 EXC SAT SUN
+ TSA-803(C) (VISAKHAPATNAM) ACT
+ SFC 23000FT AMSL
+ Issued: 1901241258
+
+ 1901241309-1902281700                                   VOMF A0192/19
+ MON FRI 0100-1400, TUE WED THU  0100-1700
+ TRA-808(B) (VISAKHAPATNAM) ACT
+ 14500FT AMSL 23000FT AMSL
+ Issued: 1901241315
+
+ 1901241314-1902281700                                   VOMF A0193/19
+ MON FRI 0100-1400, TUE WED THU 0100-1700
+ TRA-808(A) (VISAKHAPATNAM) ACT
+ 14500FT AMSL 23000FT AMSL
+ Issued: 1901241317
+
+ 1901241435-1902281700                                   VOMF A0195/19
+ DAILY 0030-1700 EXC SAT SUN
+ TRA-805(A) VISAKHAPATNAM ACT
+ 14500FT AMSL 23000FT AMSL
+ Issued: 1901241444
+
+ 1901291730-1901292330                                   VOMF A0214/19
+ CDR2 ATS ROUTES J13,J14,J15 AND J16 AVBL FOR PLN
+ AND ACFT OPS AS PER AIP INDIA ENR-3.1
+ Issued: 1901280542
+
+               END OF PART  15   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901280935-1902281730                                   VOMF A0215/19
+ MON-FRI 0330-1730
+ 1.TEMPO RESERVED AREAS TRA807(B) AND TRA807(C) LIKELY TO BE ACT.
+    2. FLT CREW MAY OBTAIN CURRENT STATUS OF ACT ON RT FM
+    CHENNAI/COCHIN/TRIVANDRUM ACC OR MADURAI TWR
+ SFC UNL
+ Issued: 1901280945
+
+ BOMBAY FIR(VABF)
+
+ 1812190000-1902202359EST                                VABF A2275/18
+ 0000-0529 0931-2359
+ REF E-AIP INDIA ENR 1.9 PARA 15.4.3.3, FLT LVL
+    ALLOCATION SCHEME (FLAS) IN ARABIAN SEA OCEANIC
+    AIRSPACE. FL320 BLOCKED INSTEAD OF F300 ON ATS
+    RTE N563,M300,P570,L894,UL425,
+    G465 AND N628. FL320 IS AVBL ON ATS RTE P751,G450,B459,
+    A474 AND G424. AMEND E-AIP INDIA ENR 1.9 PARA 15.4.3.3
+    ACCORDINGLY
+ Issued: 1812191233
+
+ 1812191230-1902200930EST                                VABF A2276/18
+ REF TO E-AIP INDIA ENR 1.9 PARA 15.4.3.3 AND NOTAM VABBYNYX
+    A2274/18 REGARDING FL ALLOCATION SCHEME(FLAS) IN
+    ARABIAN SEA OCEANIC AIRSPACE. ON TRIAL BASIS THESE
+    RESTRICTIONS ARE NOT APPLICABLE ON ATS RTE A474 FOR
+    FANS1A DATALINK CAPABLE ACFT. ACFT SHALL LOGON VABF
+    15 MIN PRIOR TO ENTERING MUMBAI FIR.
+ Issued: 1812191235
+
+ 1812311229-1901312359EST                                VABF A2318/18
+ TRA 501 ACT. NO ACFT TO TRANSIT THRU THE AREA WO PRIOR CDN.
+    ACFT PLANNING TO PASS THRU THE AREA TO TAKE POSITIVE CLR
+    FM ATC BHUJ(VABJ) PRIOR TO ENTRY ON 123.5MHZ APP,120.6MHZ
+    AD CTRL OR TELEPHONE NR.02832-244019
+ 200FT AGL 6000FT AGL
+ Issued: 1812311234
+
+ 1901020750-1903211130                              VABF,VIDF A0010/19
+ JAN 02 0750-1130,JAN 03-MAR 21 0100-1130
+ GEOGRAPHICAL SURVEY SHALL BE CARRIED OUT BY GSI ACFT TWIN OTTER
+ DHC6300 REG VTELX IN THE AREA BOUNDED BY FLW COORD:
+    235545N 0750000E
+    235545N 0742610E
+    242615N 0735350E
+    243800N 0740730E
+    252045N 0744150E
+    252045N 0752000E
+    250000N 0752000E
+    250000N 0750000E
+    BASE AND LDG SITE-HAMIRGARH AIR STRIP 2508N07437E/NEEMUCH
+    AIR STRIP 2425N07452E/UDAIPUR AIRPORT
+ GND 260FT AGL
+ Issued: 1901020815
+
+ 1901100030-1902281730                                   VABF A0048/19
+ JAN 10-12 14-19 21-25 28-31 FEB 01 02 04-09 11-16 18-23 25-28
+ 0030-1730
+ VAD 08 ACT
+ GND 37000FT AGL
+ Issued: 1901100451
+
+ 1901100451-1902281730                                   VABF A0049/19
+ JAN 10-12 14-19 21-25 28-31 FEB 01 02 04-09 11-16 18-23 25-28
+ 0030-1730
+ VAD 219 ACT
+ GND 8000FT AGL
+ Issued: 1901100510
+
+               END OF PART  16   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901280935-1902281730                                   VOMF A0215/19
+ MON-FRI 0330-1730
+ 1.TEMPO RESERVED AREAS TRA807(B) AND TRA807(C) LIKELY TO BE ACT.
+    2. FLT CREW MAY OBTAIN CURRENT STATUS OF ACT ON RT FM
+    CHENNAI/COCHIN/TRIVANDRUM ACC OR MADURAI TWR
+ SFC UNL
+ Issued: 1901280945
+
+ BOMBAY FIR(VABF)
+
+ 1812190000-1902202359EST                                VABF A2275/18
+ 0000-0529 0931-2359
+ REF E-AIP INDIA ENR 1.9 PARA 15.4.3.3, FLT LVL
+    ALLOCATION SCHEME (FLAS) IN ARABIAN SEA OCEANIC
+    AIRSPACE. FL320 BLOCKED INSTEAD OF F300 ON ATS
+    RTE N563,M300,P570,L894,UL425,
+    G465 AND N628. FL320 IS AVBL ON ATS RTE P751,G450,B459,
+    A474 AND G424. AMEND E-AIP INDIA ENR 1.9 PARA 15.4.3.3
+    ACCORDINGLY
+ Issued: 1812191233
+
+ 1812191230-1902200930EST                                VABF A2276/18
+ REF TO E-AIP INDIA ENR 1.9 PARA 15.4.3.3 AND NOTAM VABBYNYX
+    A2274/18 REGARDING FL ALLOCATION SCHEME(FLAS) IN
+    ARABIAN SEA OCEANIC AIRSPACE. ON TRIAL BASIS THESE
+    RESTRICTIONS ARE NOT APPLICABLE ON ATS RTE A474 FOR
+    FANS1A DATALINK CAPABLE ACFT. ACFT SHALL LOGON VABF
+    15 MIN PRIOR TO ENTERING MUMBAI FIR.
+ Issued: 1812191235
+
+ 1812311229-1901312359EST                                VABF A2318/18
+ TRA 501 ACT. NO ACFT TO TRANSIT THRU THE AREA WO PRIOR CDN.
+    ACFT PLANNING TO PASS THRU THE AREA TO TAKE POSITIVE CLR
+    FM ATC BHUJ(VABJ) PRIOR TO ENTRY ON 123.5MHZ APP,120.6MHZ
+    AD CTRL OR TELEPHONE NR.02832-244019
+ 200FT AGL 6000FT AGL
+ Issued: 1812311234
+
+ 1901020750-1903211130                              VABF,VIDF A0010/19
+ JAN 02 0750-1130,JAN 03-MAR 21 0100-1130
+ GEOGRAPHICAL SURVEY SHALL BE CARRIED OUT BY GSI ACFT TWIN OTTER
+ DHC6300 REG VTELX IN THE AREA BOUNDED BY FLW COORD:
+    235545N 0750000E
+    235545N 0742610E
+    242615N 0735350E
+    243800N 0740730E
+    252045N 0744150E
+    252045N 0752000E
+    250000N 0752000E
+    250000N 0750000E
+    BASE AND LDG SITE-HAMIRGARH AIR STRIP 2508N07437E/NEEMUCH
+    AIR STRIP 2425N07452E/UDAIPUR AIRPORT
+ GND 260FT AGL
+ Issued: 1901020815
+
+ 1901100030-1902281730                                   VABF A0048/19
+ JAN 10-12 14-19 21-25 28-31 FEB 01 02 04-09 11-16 18-23 25-28
+ 0030-1730
+ VAD 08 ACT
+ GND 37000FT AGL
+ Issued: 1901100451
+
+ 1901100451-1902281730                                   VABF A0049/19
+ JAN 10-12 14-19 21-25 28-31 FEB 01 02 04-09 11-16 18-23 25-28
+ 0030-1730
+ VAD 219 ACT
+ GND 8000FT AGL
+ Issued: 1901100510
+
+               END OF PART  16   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901230600-1901311630                         VIDF,VABF,VECF A0100/19
+ 23 0600-1630, 24-31 0030-1630
+ BABINA FLD FRNG RANGE (VID-99) ACT.
+    PORTION OF ATS RTE W33 BTN AGRA VOR (AGG)
+    AND KHAJURAHO VOR (KKJ) NOT AVBL UPTO FL200.
+    ALTN RTE AVBL VIA: AGRA VOR (AGG)
+    - POINT 'A' (RADIAL 347 DIST 090NM FM 'KKJ' VOR)
+    - KHAJURAHO VOR (KKJ) AND VICE VERSA.
+    COORD: POINT 'A': 2616N07932E
+ GND FL200
+ Issued: 1901230605
+
+ 1811080000-          PERM                               VABF G1376/18
+ CONSEQUENT UPON THE INSTALLATION OF NEW VOR (BHU) AT BHUJ,
+ FOLLOWING DETAILS ARE INSERTED IN GEN 2.5 OF EAIP INDIA?
+ IDENTIFIER   NAME OF STATION   TYPE OF FACILITY/AID    PURPOSE
+ --------------------------------------------------------------
+   BHU           BHUJ            VOR/DME                 AE
+ ---------------------------------------------------------------
+ AMEND GEN 2.5 ACCORDINGLY.
+ Issued: 1809061432
+
+ 1811080000-          PERM                               VABF G1412/18
+ REFER ENR 2.2 AND VAKS AD 2.17 OF EAIP INDIA.
+ COORDINATES OF KESHOD NDB (KS) ARE AMENDED AS 211905.130N
+ 0701541.895E.
+ AMEND EAIP INDIA ENR 2.2 AND VAKS AD 2.17 ACCORDINGLY.
+ Issued: 1809171325
+
+ 1811080000-          PERM                               VABF G1413/18
+ REFER ENR 3.1 OF EAIP INDIA, FOLLOWING AMENDMENTS ARE MADE IN ATS
+ ROUTES W63: -
+ 1. COORDINATES OF KESHOD NDB (KS) ARE AMENDED AS 211905.130N
+ 0701541.895E.
+ 2. SEGMENT KESHOD (KS) NDB - TRACK 052/233 DEG (M) 168.3NM -
+ AHMEDABAD (AAE) DVOR/DME OF ATS ROUTE W63 IS REPLACED BY KESHOD (KS)
+ NDB - TRACK 051/232 DEG (M) 168.3NM - AHMEDABAD (AAE) DVOR/DME.
+ AMEND EAIP INDIA ACCORDINGLY.
+ Issued: 1809171326
+
+ 1811080000-          PERM                               VABF G1414/18
+ REFER ENR 3.1 OF EAIP INDIA. FOLLOWING AMENDMENTS ARE MADE IN ATS
+ ROUTE W103: -
+ SEGMENT TAXUN - TRACK 237/057 DEG (M) 34NM - BERPO OF ATS ROUTE W103
+ IS REPLACED BY KESHOD (KS) NDB (211905.130N 0701541.895E) - TRACK
+ 237/057 DEG (M) 34.4NM - BERPO.
+ AMEND EAIP INDIA ACCORDINGLY.
+ Issued: 1809171327
+
+ 1811080000-          PERM                               VABF G1415/18
+ REFER ENR 5.1 OF EAIP INDIA, FOLLOWING AMENDMENTS ARE MADE IN
+ RESTRICTED AREA VAR 42 (C) JAMNAGAR: -
+ LATERAL LIMITS OF RESTRICTED AREA IS CORRECTED AS 213902.3N
+ 0700459.1E, 213402.4N 0702858.9E, 212802.4N 0702358.9E, - THEN ALONG
+ A LARGER ARC OF A CIRCLE OF RADIUS 11NM CENTRED AT JUNAGARH/KESHOD
+ NDB (KS) 211905.130N 0701541.895E, 210802.5N 0701759E, 205702.6N
+ 0701559E, 211902.5N 0694359.2E, 213902.3N 0700459.1E.
+ AMEND EAIP INDIA SECTION ENR 5.1 ACCORDINGLY
+ SFC UNL
+ Issued: 1809171332
+
+               END OF PART  17   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901230600-1901311630                         VIDF,VABF,VECF A0100/19
+ 23 0600-1630, 24-31 0030-1630
+ BABINA FLD FRNG RANGE (VID-99) ACT.
+    PORTION OF ATS RTE W33 BTN AGRA VOR (AGG)
+    AND KHAJURAHO VOR (KKJ) NOT AVBL UPTO FL200.
+    ALTN RTE AVBL VIA: AGRA VOR (AGG)
+    - POINT 'A' (RADIAL 347 DIST 090NM FM 'KKJ' VOR)
+    - KHAJURAHO VOR (KKJ) AND VICE VERSA.
+    COORD: POINT 'A': 2616N07932E
+ GND FL200
+ Issued: 1901230605
+
+ 1811080000-          PERM                               VABF G1376/18
+ CONSEQUENT UPON THE INSTALLATION OF NEW VOR (BHU) AT BHUJ,
+ FOLLOWING DETAILS ARE INSERTED IN GEN 2.5 OF EAIP INDIA?
+ IDENTIFIER   NAME OF STATION   TYPE OF FACILITY/AID    PURPOSE
+ --------------------------------------------------------------
+   BHU           BHUJ            VOR/DME                 AE
+ ---------------------------------------------------------------
+ AMEND GEN 2.5 ACCORDINGLY.
+ Issued: 1809061432
+
+ 1811080000-          PERM                               VABF G1412/18
+ REFER ENR 2.2 AND VAKS AD 2.17 OF EAIP INDIA.
+ COORDINATES OF KESHOD NDB (KS) ARE AMENDED AS 211905.130N
+ 0701541.895E.
+ AMEND EAIP INDIA ENR 2.2 AND VAKS AD 2.17 ACCORDINGLY.
+ Issued: 1809171325
+
+ 1811080000-          PERM                               VABF G1413/18
+ REFER ENR 3.1 OF EAIP INDIA, FOLLOWING AMENDMENTS ARE MADE IN ATS
+ ROUTES W63: -
+ 1. COORDINATES OF KESHOD NDB (KS) ARE AMENDED AS 211905.130N
+ 0701541.895E.
+ 2. SEGMENT KESHOD (KS) NDB - TRACK 052/233 DEG (M) 168.3NM -
+ AHMEDABAD (AAE) DVOR/DME OF ATS ROUTE W63 IS REPLACED BY KESHOD (KS)
+ NDB - TRACK 051/232 DEG (M) 168.3NM - AHMEDABAD (AAE) DVOR/DME.
+ AMEND EAIP INDIA ACCORDINGLY.
+ Issued: 1809171326
+
+ 1811080000-          PERM                               VABF G1414/18
+ REFER ENR 3.1 OF EAIP INDIA. FOLLOWING AMENDMENTS ARE MADE IN ATS
+ ROUTE W103: -
+ SEGMENT TAXUN - TRACK 237/057 DEG (M) 34NM - BERPO OF ATS ROUTE W103
+ IS REPLACED BY KESHOD (KS) NDB (211905.130N 0701541.895E) - TRACK
+ 237/057 DEG (M) 34.4NM - BERPO.
+ AMEND EAIP INDIA ACCORDINGLY.
+ Issued: 1809171327
+
+ 1811080000-          PERM                               VABF G1415/18
+ REFER ENR 5.1 OF EAIP INDIA, FOLLOWING AMENDMENTS ARE MADE IN
+ RESTRICTED AREA VAR 42 (C) JAMNAGAR: -
+ LATERAL LIMITS OF RESTRICTED AREA IS CORRECTED AS 213902.3N
+ 0700459.1E, 213402.4N 0702858.9E, 212802.4N 0702358.9E, - THEN ALONG
+ A LARGER ARC OF A CIRCLE OF RADIUS 11NM CENTRED AT JUNAGARH/KESHOD
+ NDB (KS) 211905.130N 0701541.895E, 210802.5N 0701759E, 205702.6N
+ 0701559E, 211902.5N 0694359.2E, 213902.3N 0700459.1E.
+ AMEND EAIP INDIA SECTION ENR 5.1 ACCORDINGLY
+ SFC UNL
+ Issued: 1809171332
+
+               END OF PART  17   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811080000-          PERM                               VABF G1438/18
+ REFER ENR 3.1 OF EAIP INDIA. FOLLOWING AMENDMENT IS
+    MADE IN ATS ROUTE V59: -
+    THE COORDINATES OF KOLHAPUR NDB (KP) ARE AMENDED AS
+    163949.33N 0741636.35E. AMEND ACCORDINGLY.
+ Issued: 1809261401
+
+ 1811080000-          PERM                               VABF G1539/18
+ VOR IDENT (BHU) COORD (231630.00N 0694001.00E) MAINTAINED BY
+ AAI IS WITHDRAWN AND A NEW VOR MAINTAINED BY IAF IS
+ COMMISSIONED AT BHUJ.
+ FOLLOWING DETAILS ARE AMENDED IN ENR 4.1 OF EAIP INDIA: -
+ NAME OF     ID   FREQUENCY  HOURS OF  WGS-84  ELEVATION    REMARKS
+ STATION                     OPS       COORDS  OF DME
+                                               ANTENNA
+ ------------------------------------------------------------------
+ BHUJ       BHU  112.60MHZ      HJ    231648.88N  87M  1. MAINAINED
+ VOR/DME          CH-73X              0693956.73E AMSL    BY IAF.
+                                      1097/1160 MHZ
+
+                                                      2. COVERAGE
+                                                          150NM.
+ -----------------------------------------------------------------
+ AMEND ENR 4.1 ACCORDINGLY.
+ Issued: 1810020253
+
+ 1811080000-          PERM                               VABF G1545/18
+ VOR IDENT (JAM) COORD (222809.25N 0700118.02E) MAINTAINED BY AAI
+ IS WITHDRAWN AND A NEW VOR MAINTAINED BY IAF IS COMMISSIONED AT
+ JAMNAGAR. FOLLOWING DETAILS ARE AMENDED IN ENR 4.1 OF EAIP INDIA: -
+ NAME OF  ID  FREQUENCY  HRS OF   WGS-84    ELEVATION    REMARKS
+ STATION                 OPS      COORDS    OF DME
+                                            ANTENNA
+ ------------------------------------------------------------------
+ JAMNAGAR JNR 117.900MHZ  HJ   222758.00N   39.7 M    1. MAINTAINED
+ VOR/DME      CH-126X          0700102.80E     AMSL      BY IAF.
+              1150/1213MHZ                            2. COVERAGE
+                                                         150NM
+ ------------------------------------------------------------------
+ AMEND ENR 4.1 ACCORDINGLY.
+ Issued: 1810020317
+
+               END OF PART  18   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811080000-          PERM                               VABF G1438/18
+ REFER ENR 3.1 OF EAIP INDIA. FOLLOWING AMENDMENT IS
+    MADE IN ATS ROUTE V59: -
+    THE COORDINATES OF KOLHAPUR NDB (KP) ARE AMENDED AS
+    163949.33N 0741636.35E. AMEND ACCORDINGLY.
+ Issued: 1809261401
+
+ 1811080000-          PERM                               VABF G1539/18
+ VOR IDENT (BHU) COORD (231630.00N 0694001.00E) MAINTAINED BY
+ AAI IS WITHDRAWN AND A NEW VOR MAINTAINED BY IAF IS
+ COMMISSIONED AT BHUJ.
+ FOLLOWING DETAILS ARE AMENDED IN ENR 4.1 OF EAIP INDIA: -
+ NAME OF     ID   FREQUENCY  HOURS OF  WGS-84  ELEVATION    REMARKS
+ STATION                     OPS       COORDS  OF DME
+                                               ANTENNA
+ ------------------------------------------------------------------
+ BHUJ       BHU  112.60MHZ      HJ    231648.88N  87M  1. MAINAINED
+ VOR/DME          CH-73X              0693956.73E AMSL    BY IAF.
+                                      1097/1160 MHZ
+
+                                                      2. COVERAGE
+                                                          150NM.
+ -----------------------------------------------------------------
+ AMEND ENR 4.1 ACCORDINGLY.
+ Issued: 1810020253
+
+ 1811080000-          PERM                               VABF G1545/18
+ VOR IDENT (JAM) COORD (222809.25N 0700118.02E) MAINTAINED BY AAI
+ IS WITHDRAWN AND A NEW VOR MAINTAINED BY IAF IS COMMISSIONED AT
+ JAMNAGAR. FOLLOWING DETAILS ARE AMENDED IN ENR 4.1 OF EAIP INDIA: -
+ NAME OF  ID  FREQUENCY  HRS OF   WGS-84    ELEVATION    REMARKS
+ STATION                 OPS      COORDS    OF DME
+                                            ANTENNA
+ ------------------------------------------------------------------
+ JAMNAGAR JNR 117.900MHZ  HJ   222758.00N   39.7 M    1. MAINTAINED
+ VOR/DME      CH-126X          0700102.80E     AMSL      BY IAF.
+              1150/1213MHZ                            2. COVERAGE
+                                                         150NM
+ ------------------------------------------------------------------
+ AMEND ENR 4.1 ACCORDINGLY.
+ Issued: 1810020317
+
+               END OF PART  18   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811080000-          PERM                               VABF G1554/18
+ REFER EAIP INDIA SECTION ENR 3.1, CONSEQUENT UPON THE
+ INSTALLATION OF NEW VOR (JNR) AT JAMNAGAR, FOLLOWING
+ AMENDMENTS ARE MADE IN ATS ROUTES W135 AND W61:
+ 1. JAMNAGAR VOR (JAM) 222809.25N 0700118.02E IS REPLACED
+ BY JAMNAGAR VOR (JNR) 222758.00N 0700102.80E.
+ 2. SEGMENT RAJKOT VOR/DME (RKT) - TR 283/102 DEG (M)
+ 43.1 NM - JAMNAGAR VOR/DME (JAM) OF ATS ROUTE W61
+ IS REPLACED BY RAJKOT VOR/DME (RKT) -
+ TR 282/102 DEG (M) 43.3 NM - JAMNAGAR VOR/DME (JNR).
+ 3. SEGMENT LAXOM - TR 246/066 DEG (M) 49.4 NM -
+ JAMNAGAR VOR/DME (JAM) OF ATS ROUTE W135 IS
+ REPLACED BY LAXOM - TR 246/066 DEG (M)
+ 49.7 NM - JAMNAGAR VOR/DME (JNR).
+ AMEND ACCORDINGLY.
+ Issued: 1810020421
+
+ 1811080000-          PERM                          VABF,VIDF G1769/18
+ REFER EAIP INDIA SECTION ENR 3.1, CONSEQUENT UPON THE
+ INSTALLATION OF NEW VOR (JDP) AT JODHPUR, FOLLOWING AMENDMENTS ARE
+ MADE IN ATS ROUTE W58, W65 (NORTH BOUND), W65 (SOUTH BOUND):
+ 1. JODHPUR VOR (JJO) 261401N 0730300E IS REPLACED BY JODHPUR VOR
+ (JDP) 261458.22N 0730235.73E.
+ 2. SEGMENT DUKOT - TR 257/076 DEG (M) 117 NM - JODHPUR
+ VOR/DME (JJO) - TR 154/335 DEG (M) 107.2 NM - UDAIPUR
+ VOR/DME (UUD) OF ATS ROUTE W58 IS REPLACED BY DUKOT -
+ TR 257/076 DEG (M) 117.9 NM - JODHPUR VOR/DME (JDP) -
+ TR 154/334 DEG (M) 108.3 NM - UDAIPUR VOR/DME (UUD).
+ 3. SEGMENT DUKOT - TR 257 DEG (M) 117 NM - JODHPUR
+ VOR/DME (JJO) OF ATS ROUTE W65 (SOUTH BOUND) IS
+ REPLACED BY DUKOT - TR 257 DEG (M)117.9 NM -
+ JODHPUR VOR/DME (JDP).
+ 4. SEGMENT JODHPUR VOR/DME (JJO) - TR 052 DEG (M) 154.2 NM -
+ ATRIN OF ATS ROUTE W65 (NORTH BOUND) IS REPLACED BY
+ JODHPUR VOR/DME (JDP)- TR 051 DEG (M) 153.9 NM - ATRIN.
+ AMEND ACCORDINGLY.
+ Issued: 1810031529
+
+ 1811080000-          PERM                               VABF G1839/18
+ REFER EAIP INDIA SECTION ENR 3.1, CONSEQUENT UPON
+    THE INSTALLATION OF NEW VOR (BHU) AT BHUJ,
+    FOLLOWING AMENDMENTS ARE MADE IN ATS ROUTE W74
+    1. COORDINATES OF BHUJ VOR (BHU) AMENDED TO
+       231648.88N 0693956.73E.
+    2. SEGMENT LAXOM - TR 295/114 DEG (M) 71 NM -
+       BHUJ VOR/DME (BHU) IS REPLACED BY LAXOM -
+       TR 294/113 DEG (M) 70.5 NM - BHUJ VOR/DME (BHU).
+    AMEND ACCORDINGLY.
+ Issued: 1810121318
+
+ 1812060000-          PERM                               VABF G1869/18
+ REFER ENR 3.1 OF EAIP INDIA. FOLLOWING AMENDMENT IS MADE IN ATS
+ ROUTES W161, W11 AND V47: -
+ 1. COORD OF SURAT VOR (SUR) ARE AMENDED AS 210638.30707N
+ 0724425.21398E.
+ AMEND EAIP INDIA ACCORDINGLY.
+ Issued: 1810260706
+
+               END OF PART  19   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1811080000-          PERM                               VABF G1554/18
+ REFER EAIP INDIA SECTION ENR 3.1, CONSEQUENT UPON THE
+ INSTALLATION OF NEW VOR (JNR) AT JAMNAGAR, FOLLOWING
+ AMENDMENTS ARE MADE IN ATS ROUTES W135 AND W61:
+ 1. JAMNAGAR VOR (JAM) 222809.25N 0700118.02E IS REPLACED
+ BY JAMNAGAR VOR (JNR) 222758.00N 0700102.80E.
+ 2. SEGMENT RAJKOT VOR/DME (RKT) - TR 283/102 DEG (M)
+ 43.1 NM - JAMNAGAR VOR/DME (JAM) OF ATS ROUTE W61
+ IS REPLACED BY RAJKOT VOR/DME (RKT) -
+ TR 282/102 DEG (M) 43.3 NM - JAMNAGAR VOR/DME (JNR).
+ 3. SEGMENT LAXOM - TR 246/066 DEG (M) 49.4 NM -
+ JAMNAGAR VOR/DME (JAM) OF ATS ROUTE W135 IS
+ REPLACED BY LAXOM - TR 246/066 DEG (M)
+ 49.7 NM - JAMNAGAR VOR/DME (JNR).
+ AMEND ACCORDINGLY.
+ Issued: 1810020421
+
+ 1811080000-          PERM                          VABF,VIDF G1769/18
+ REFER EAIP INDIA SECTION ENR 3.1, CONSEQUENT UPON THE
+ INSTALLATION OF NEW VOR (JDP) AT JODHPUR, FOLLOWING AMENDMENTS ARE
+ MADE IN ATS ROUTE W58, W65 (NORTH BOUND), W65 (SOUTH BOUND):
+ 1. JODHPUR VOR (JJO) 261401N 0730300E IS REPLACED BY JODHPUR VOR
+ (JDP) 261458.22N 0730235.73E.
+ 2. SEGMENT DUKOT - TR 257/076 DEG (M) 117 NM - JODHPUR
+ VOR/DME (JJO) - TR 154/335 DEG (M) 107.2 NM - UDAIPUR
+ VOR/DME (UUD) OF ATS ROUTE W58 IS REPLACED BY DUKOT -
+ TR 257/076 DEG (M) 117.9 NM - JODHPUR VOR/DME (JDP) -
+ TR 154/334 DEG (M) 108.3 NM - UDAIPUR VOR/DME (UUD).
+ 3. SEGMENT DUKOT - TR 257 DEG (M) 117 NM - JODHPUR
+ VOR/DME (JJO) OF ATS ROUTE W65 (SOUTH BOUND) IS
+ REPLACED BY DUKOT - TR 257 DEG (M)117.9 NM -
+ JODHPUR VOR/DME (JDP).
+ 4. SEGMENT JODHPUR VOR/DME (JJO) - TR 052 DEG (M) 154.2 NM -
+ ATRIN OF ATS ROUTE W65 (NORTH BOUND) IS REPLACED BY
+ JODHPUR VOR/DME (JDP)- TR 051 DEG (M) 153.9 NM - ATRIN.
+ AMEND ACCORDINGLY.
+ Issued: 1810031529
+
+ 1811080000-          PERM                               VABF G1839/18
+ REFER EAIP INDIA SECTION ENR 3.1, CONSEQUENT UPON
+    THE INSTALLATION OF NEW VOR (BHU) AT BHUJ,
+    FOLLOWING AMENDMENTS ARE MADE IN ATS ROUTE W74
+    1. COORDINATES OF BHUJ VOR (BHU) AMENDED TO
+       231648.88N 0693956.73E.
+    2. SEGMENT LAXOM - TR 295/114 DEG (M) 71 NM -
+       BHUJ VOR/DME (BHU) IS REPLACED BY LAXOM -
+       TR 294/113 DEG (M) 70.5 NM - BHUJ VOR/DME (BHU).
+    AMEND ACCORDINGLY.
+ Issued: 1810121318
+
+ 1812060000-          PERM                               VABF G1869/18
+ REFER ENR 3.1 OF EAIP INDIA. FOLLOWING AMENDMENT IS MADE IN ATS
+ ROUTES W161, W11 AND V47: -
+ 1. COORD OF SURAT VOR (SUR) ARE AMENDED AS 210638.30707N
+ 0724425.21398E.
+ AMEND EAIP INDIA ACCORDINGLY.
+ Issued: 1810260706
+
+               END OF PART  19   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ MUSCAT FIR(OOMM)
+
+ 1811080630-1902082359                                   OOMM A0438/18
+ CRANE WITH AN ELEVATION OF 437FT WHICH IS MARKED DURING THE DAY AND
+ LIT AT NIGHT WILL BE OPERATING AT 241912N0564012E (SUHAR).
+ SFC-437FT AMSL
+ Issued: 1811080703
+
+ 1812040600-1903042359                                   OOMM A0470/18
+ RADIO FAILURE PROCEDURE MURMA 1N (NOVEMBER) RUNWAY
+          08L SQUAWK 7600 INTERCEPT AND FOLLOW RDL080 FROM
+          MCT DVOR/DME,
+          MAINTAIN 3000FT OR LAST ASSIGNED RADAR INSTRUCTIONS TO
+          20 DME MCT. THENCE
+          1.R462 TRACK T500 DIRECT TO VUSET,
+          G216 TRACK DIRECT TO ITILA, THEN G216
+          ALL ROUTES CLIMB TO FL230 OR PLANNED LEVEL,IF LOWER,OR
+          LAST ASSIGNED LEVEL, IF HIGHER, ENROUTE DESTINATION.
+          2.FOR TRAFFIC ENTERING THE MUMBAI FIR VIA RASKI, PARAR
+          AND TOTOX CONTINUE ON RDL080 UNTIL PASSING 5000FT AND THEN
+          TRACK DIRECT MUSRU PLANNED ROUTE.
+          3.ALL ROUTES CLIMB TO FL230 OR PLANNED LEVEL, IF LOWER,OR
+          LAST ASSIGNED LEVEL, IF HIGHER, ENROUTE DESTINATION.
+          4.OTHER ROUTES-TURN LEFT, CLIMB TO SET COURSE OVER MCT
+          DVOR AT 12000FT, THEN CONTINUE CLIMB TO FL200 OR PLANNED
+          LEVEL. IF LOWER (WESTBOUND) OR FL230 OR PLANNED LEVEL, IF
+          LOWER (EASTBOUND) OR LAST ASSIGNED LEVEL, IF HIGHER,
+          ENROUTE DESTINATION NO TURN PERMITTED BELOW 3000FT.
+          RADIO FAILURE PROCEDURE ITLAK 1N (NOVEMBER) RUNWAY 26R
+          SQUAWK 7600, INTERCEPT AND FOLLOW RDL268 FROM MCT
+          DVOR/DME, MAINTAIN 3000FT OR LAST ASSIGNED RADAR
+          INSTRUCTIONS TO 20 DME MCT.
+          THENCE:
+          1.P899 (WESTBOUND) TRAFFIC-TRACK VIA Q978 TO IVETO,
+          THEN LOPIL TO ITRAX, P574, M762 OR B540 TRAFFIC VIA T508,
+          BOTH ROUTES CLIMB TO FL200 OR PLANNED LEVEL, IF LOWER OR
+          LAST ASSIGNED LEVEL,IF HIGHER, ENROUTE DESTINATION.
+ Issued: 1812040714
+
+ 1812040600-1903042359                                   OOMM A0470/18
+ 2.OTHER ROUTES-TURN RIGHT, CLIMB TO SET COURSE OVER MCT
+          DVOR/DME AT 12000FT, THEN CONTINUE CLIMB TO FL200 OR
+          PLANNED LEVEL. IF LOWER (WESTBOUND) OR FL230 OR PLANNED
+          LEVEL, IF LOWER (EASTBOUND)OR LAST ASSIGNED LEVEL, IF
+          HIGHER, ENROUTE DESTINATION.
+          NO TURN PERMITTED BELOW 3000FT
+          NOTE1: RCF AIRCRAFT OBSERVED ON RADAR TO BE FLYING OTHER
+          THAN THE ABOVE PROCEDURE WILL BE ASSUMED TO BE IN AN
+          EMERGENCY SITUATION AND WILL HAVE PRIORITY FOR LANDING
+          AT MUSCAT.
+ Issued: 1812040714
+
+               END OF PART  20   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ MUSCAT FIR(OOMM)
+
+ 1811080630-1902082359                                   OOMM A0438/18
+ CRANE WITH AN ELEVATION OF 437FT WHICH IS MARKED DURING THE DAY AND
+ LIT AT NIGHT WILL BE OPERATING AT 241912N0564012E (SUHAR).
+ SFC-437FT AMSL
+ Issued: 1811080703
+
+ 1812040600-1903042359                                   OOMM A0470/18
+ RADIO FAILURE PROCEDURE MURMA 1N (NOVEMBER) RUNWAY
+          08L SQUAWK 7600 INTERCEPT AND FOLLOW RDL080 FROM
+          MCT DVOR/DME,
+          MAINTAIN 3000FT OR LAST ASSIGNED RADAR INSTRUCTIONS TO
+          20 DME MCT. THENCE
+          1.R462 TRACK T500 DIRECT TO VUSET,
+          G216 TRACK DIRECT TO ITILA, THEN G216
+          ALL ROUTES CLIMB TO FL230 OR PLANNED LEVEL,IF LOWER,OR
+          LAST ASSIGNED LEVEL, IF HIGHER, ENROUTE DESTINATION.
+          2.FOR TRAFFIC ENTERING THE MUMBAI FIR VIA RASKI, PARAR
+          AND TOTOX CONTINUE ON RDL080 UNTIL PASSING 5000FT AND THEN
+          TRACK DIRECT MUSRU PLANNED ROUTE.
+          3.ALL ROUTES CLIMB TO FL230 OR PLANNED LEVEL, IF LOWER,OR
+          LAST ASSIGNED LEVEL, IF HIGHER, ENROUTE DESTINATION.
+          4.OTHER ROUTES-TURN LEFT, CLIMB TO SET COURSE OVER MCT
+          DVOR AT 12000FT, THEN CONTINUE CLIMB TO FL200 OR PLANNED
+          LEVEL. IF LOWER (WESTBOUND) OR FL230 OR PLANNED LEVEL, IF
+          LOWER (EASTBOUND) OR LAST ASSIGNED LEVEL, IF HIGHER,
+          ENROUTE DESTINATION NO TURN PERMITTED BELOW 3000FT.
+          RADIO FAILURE PROCEDURE ITLAK 1N (NOVEMBER) RUNWAY 26R
+          SQUAWK 7600, INTERCEPT AND FOLLOW RDL268 FROM MCT
+          DVOR/DME, MAINTAIN 3000FT OR LAST ASSIGNED RADAR
+          INSTRUCTIONS TO 20 DME MCT.
+          THENCE:
+          1.P899 (WESTBOUND) TRAFFIC-TRACK VIA Q978 TO IVETO,
+          THEN LOPIL TO ITRAX, P574, M762 OR B540 TRAFFIC VIA T508,
+          BOTH ROUTES CLIMB TO FL200 OR PLANNED LEVEL, IF LOWER OR
+          LAST ASSIGNED LEVEL,IF HIGHER, ENROUTE DESTINATION.
+ Issued: 1812040714
+
+ 1812040600-1903042359                                   OOMM A0470/18
+ 2.OTHER ROUTES-TURN RIGHT, CLIMB TO SET COURSE OVER MCT
+          DVOR/DME AT 12000FT, THEN CONTINUE CLIMB TO FL200 OR
+          PLANNED LEVEL. IF LOWER (WESTBOUND) OR FL230 OR PLANNED
+          LEVEL, IF LOWER (EASTBOUND)OR LAST ASSIGNED LEVEL, IF
+          HIGHER, ENROUTE DESTINATION.
+          NO TURN PERMITTED BELOW 3000FT
+          NOTE1: RCF AIRCRAFT OBSERVED ON RADAR TO BE FLYING OTHER
+          THAN THE ABOVE PROCEDURE WILL BE ASSUMED TO BE IN AN
+          EMERGENCY SITUATION AND WILL HAVE PRIORITY FOR LANDING
+          AT MUSCAT.
+ Issued: 1812040714
+
+               END OF PART  20   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812090100-1912032359                                   OOMM A0475/18
+ THREE TOWER CRANES WITH AN ELEVATION OF 417FT WHICH ARE MARKED
+ DURING THE DAY AND LIT AT NIGHT WILL BE OPERATING AT 233416N0581729E
+ (AIRPORT HEIGHTS).
+ SFC-417FT AMSL
+ Issued: 1812050635
+
+ 1812260630-1906302359                                   OOMM A0498/18
+ SEVERAL CRANES WITH ELEVATIONS OF 270FT WHICH ARE MARKED DURING THE
+ DAY AND LIT AT NIGHT WILL BE OPERATING AT 233450N0581930E
+ (MADINAT ALARFAN). SFC/270FT AMSL
+ Issued: 1812260712
+
+ 1812310853-1903312359                                   OOMM A0512/18
+ A NEW WESTBOUND RNAV1 ATS ROUTE ESTABLISHED
+     WITHIN OOMM FIR WITH DESIGNATOR Z833 CONNECTING EMATA TO PASOV
+     (MAG TR 338 DIST 16.7NM), AND FROM PASOV TO GIDIL
+     (MAG TR 358  DIST 38.9NM).AIRSPACE CLASS A JOINING
+      Z151  AT GIDIL TO ULDUN ESTABLISHED FOR TRAFFIC
+     DEPARTING OOMS, OOSA AND TRAFFIC ENTERING MUSCAT
+     FIR VIA TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD
+     DESTINATION OTHH.TRAFFIC SHALL ROUTE AFTER POINT
+     MIXAM P574 EMATA Z833 PASOV GIDIL Z151 ULDUN.
+ FL280/UNL
+ Issued: 1812310859
+
+ 1901010700-1904012359                                   OOMM A0003/19
+ PROVISION OF ATS , FIS AND ALERTING SERVICES ON AIRWAY UL425 AND
+ N315:
+ UL425 BETWEEN ASPUX AND BOVOS, N315 BETWEEN ASPUX AND KUTVI IS
+ DELEGATED TO MUSCAT ACC.
+ TRAFFIC WESTBOUND ON UL425 AND N315 SHALL CONTACT MUSCAT CONTROL ON
+ FREQUENCY 123.95MHZ AT POSITION ASPUX STOP
+ Issued: 1901010718
+
+ 1901030700-1904032359                                   OOMM A0009/19
+ NEW COMPULSORY REPORTING POINT ESTABLISHED WITH NAME-CODE
+ DESIGNATOR
+ IVIVA 245945N0574958E ON TEHRAN AND MUSCAT FIR BOUNDARIES.
+ Issued: 1901030725
+
+ 1901030700-1904032359                                   OOMM A0010/19
+ A NEW BI-DIRECTIONAL RNAV5 ATS ROUTE ESTABLISHED WITHIN OOMM FIR
+ WITH
+ DESIGNATOR Z152 CONNECTING MCT DVOR/DME TO MIXAM (MAG TR 108 DIST
+ 19NM) THEN FROM MIXAM TO GERAR (MAG TR 143 DIST 30NM) AND FROM GERAR
+ TO BUBAS (MAG TR 148 DIST 36NM) FOR TRAFFIC LANDING OOMS FROM OTHH.
+ Issued: 1901030728
+
+               END OF PART  21   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812090100-1912032359                                   OOMM A0475/18
+ THREE TOWER CRANES WITH AN ELEVATION OF 417FT WHICH ARE MARKED
+ DURING THE DAY AND LIT AT NIGHT WILL BE OPERATING AT 233416N0581729E
+ (AIRPORT HEIGHTS).
+ SFC-417FT AMSL
+ Issued: 1812050635
+
+ 1812260630-1906302359                                   OOMM A0498/18
+ SEVERAL CRANES WITH ELEVATIONS OF 270FT WHICH ARE MARKED DURING THE
+ DAY AND LIT AT NIGHT WILL BE OPERATING AT 233450N0581930E
+ (MADINAT ALARFAN). SFC/270FT AMSL
+ Issued: 1812260712
+
+ 1812310853-1903312359                                   OOMM A0512/18
+ A NEW WESTBOUND RNAV1 ATS ROUTE ESTABLISHED
+     WITHIN OOMM FIR WITH DESIGNATOR Z833 CONNECTING EMATA TO PASOV
+     (MAG TR 338 DIST 16.7NM), AND FROM PASOV TO GIDIL
+     (MAG TR 358  DIST 38.9NM).AIRSPACE CLASS A JOINING
+      Z151  AT GIDIL TO ULDUN ESTABLISHED FOR TRAFFIC
+     DEPARTING OOMS, OOSA AND TRAFFIC ENTERING MUSCAT
+     FIR VIA TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD
+     DESTINATION OTHH.TRAFFIC SHALL ROUTE AFTER POINT
+     MIXAM P574 EMATA Z833 PASOV GIDIL Z151 ULDUN.
+ FL280/UNL
+ Issued: 1812310859
+
+ 1901010700-1904012359                                   OOMM A0003/19
+ PROVISION OF ATS , FIS AND ALERTING SERVICES ON AIRWAY UL425 AND
+ N315:
+ UL425 BETWEEN ASPUX AND BOVOS, N315 BETWEEN ASPUX AND KUTVI IS
+ DELEGATED TO MUSCAT ACC.
+ TRAFFIC WESTBOUND ON UL425 AND N315 SHALL CONTACT MUSCAT CONTROL ON
+ FREQUENCY 123.95MHZ AT POSITION ASPUX STOP
+ Issued: 1901010718
+
+ 1901030700-1904032359                                   OOMM A0009/19
+ NEW COMPULSORY REPORTING POINT ESTABLISHED WITH NAME-CODE
+ DESIGNATOR
+ IVIVA 245945N0574958E ON TEHRAN AND MUSCAT FIR BOUNDARIES.
+ Issued: 1901030725
+
+ 1901030700-1904032359                                   OOMM A0010/19
+ A NEW BI-DIRECTIONAL RNAV5 ATS ROUTE ESTABLISHED WITHIN OOMM FIR
+ WITH
+ DESIGNATOR Z152 CONNECTING MCT DVOR/DME TO MIXAM (MAG TR 108 DIST
+ 19NM) THEN FROM MIXAM TO GERAR (MAG TR 143 DIST 30NM) AND FROM GERAR
+ TO BUBAS (MAG TR 148 DIST 36NM) FOR TRAFFIC LANDING OOMS FROM OTHH.
+ Issued: 1901030728
+
+               END OF PART  21   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901030700-1904032359                                   OOMM A0011/19
+ ESTABLISHMENT OF RNAV5 ATS ROUTE Z151 CONNECTING THE TEHRAN/MUSCAT
+ FIR BOUNDARY POINT ULDUN TO BUBAS:
+ TRACK (MAG) 150 DEGREES
+ DISTANCE 96NM
+ AIRSPACE CLASS A
+ EASTBOUND FOR TRAFFIC OVERFLYING OOMM FIR AND LANDING OOMS/OOSH FL310
+ AND FL350.
+ WESTBOUND  FOR TRAFFIC DEPARTING OOMS/OOSH/OOSA AND TRAFFIC ENTERING
+ MUSCAT FIR VIA TOTOX, REXOD, LOTAV,
+ KITAL, KIVEL, AND IMKAD DESTINATION OTHH SHALL EXIT VIA ULDUN AT
+ FL300, FL360, AND FL400.
+ SEGMENT ON AIRWAY P513 BETWEEN MIXAM AND BUBAS IS BIDIRECTIONAL FOR
+ TRAFFIC TO AND FROM OTHH VIA ULDUN.
+ MUSCAT CTL 119.8 MHZ.
+ Issued: 1901030732
+
+ 1901030700-1904032359                                   OOMM A0012/19
+ ESTABLISHMENT OF NEW RNAV5 ATS ROUTE DESIGNATED AS Z350 CONNECTING
+ POINT ITURA WITHIN MUSCAT FIR TO THE TEHRAN/MUSCAT FIR BOUNDARY
+ POINT IVIVA WITH FLW SPECIFICATIONS:
+ TRACK (MAG) 350 DEG
+ DISTANCE 96.9NM
+ AIRSPACE CLASS A
+ NOTE: NOT AVAILABLE  FOR EASTBOUND TRAFFIC.
+ WESTBOUND TRAFFIC LEVEL RESTRICTIONS AT IVIVA: ONLY FL360 AND FL400.
+ Issued: 1901030734
+
+ 1901030700-1904032359                                   OOMM A0013/19
+ ESTABLISHMENT OF RNAV5 ATS ROUTE WITH DESIGNATOR Z178 WITHIN MUSCAT
+ FIR CONNECTING POINT BOTOV TO SOLUD (MAG TR 178 DEG, DIST 55.6NM)
+ THEN FROM SOLUD TO LAKLU (MAG TR 164 DEG, DIST 71.8NM), MNM FLT:
+ FL280, AIRSPACE CLASS A.
+ Issued: 1901030738
+
+ 1901030700-1904032359                                   OOMM A0014/19
+ NEW COMPULSORY REPORTING POINT WITH NAME-CODE
+ DESIGNATOR BOTOV 252812N0564308E ESTABLISHED ON ATS ROUTE Z151 WITHIN
+ MUSCAT FIR.
+ Issued: 1901030739
+
+ 1901030700-1904032359                                   OOMM A0015/19
+ TEMPORARY RESTRICTIONS WITHIN MUSCAT FIR:
+ 1-MESPO IS NOT AVAILABLE FOR TRAFFIC OVERFLYING OOMM FIR ENTERING VIA
+ TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD.
+ 2- FL310 AND FL350  NOT AVAILABLE FOR EASTBOUND TRAFFIC  ENTERING
+ OOMM FIR VIA TONVO,TARDI  AND LABRI .
+ 3- EASTBOUND TRAFFIC FROM OIIX FIR INTENDING TO EXIT OOMM FIR VIA
+ ALPOR, RASKI AND PARAR SHALL ROUTE VIA MESPO L430.
+ 4- ATS ROUTE Z151 SEGMENT FROM BOTOV TO BUBAS IS ONLY AVAILABLE FOR
+ TRAFFIC LANDING AND DEPARTING OOMS/OOSH.
+ 5-EASTBOUND TRAFFIC ENTERING OOMM FIR VIA ULDUN Z151 INTENDING TO
+ EXIT OOMM FIR VIA  TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD SHALL
+ ROUTE Z151 BOTOV THEN Z178 TO LAKLU.
+ 6- ATS ROUTE Z151 IS NOT AVAILABLE FOR TRAFFIC EXITING OOMM FIR VIA
+ ALPOR, RASKI AND PARAR.
+ Issued: 1901030742
+
+               END OF PART  22   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901030700-1904032359                                   OOMM A0011/19
+ ESTABLISHMENT OF RNAV5 ATS ROUTE Z151 CONNECTING THE TEHRAN/MUSCAT
+ FIR BOUNDARY POINT ULDUN TO BUBAS:
+ TRACK (MAG) 150 DEGREES
+ DISTANCE 96NM
+ AIRSPACE CLASS A
+ EASTBOUND FOR TRAFFIC OVERFLYING OOMM FIR AND LANDING OOMS/OOSH FL310
+ AND FL350.
+ WESTBOUND  FOR TRAFFIC DEPARTING OOMS/OOSH/OOSA AND TRAFFIC ENTERING
+ MUSCAT FIR VIA TOTOX, REXOD, LOTAV,
+ KITAL, KIVEL, AND IMKAD DESTINATION OTHH SHALL EXIT VIA ULDUN AT
+ FL300, FL360, AND FL400.
+ SEGMENT ON AIRWAY P513 BETWEEN MIXAM AND BUBAS IS BIDIRECTIONAL FOR
+ TRAFFIC TO AND FROM OTHH VIA ULDUN.
+ MUSCAT CTL 119.8 MHZ.
+ Issued: 1901030732
+
+ 1901030700-1904032359                                   OOMM A0012/19
+ ESTABLISHMENT OF NEW RNAV5 ATS ROUTE DESIGNATED AS Z350 CONNECTING
+ POINT ITURA WITHIN MUSCAT FIR TO THE TEHRAN/MUSCAT FIR BOUNDARY
+ POINT IVIVA WITH FLW SPECIFICATIONS:
+ TRACK (MAG) 350 DEG
+ DISTANCE 96.9NM
+ AIRSPACE CLASS A
+ NOTE: NOT AVAILABLE  FOR EASTBOUND TRAFFIC.
+ WESTBOUND TRAFFIC LEVEL RESTRICTIONS AT IVIVA: ONLY FL360 AND FL400.
+ Issued: 1901030734
+
+ 1901030700-1904032359                                   OOMM A0013/19
+ ESTABLISHMENT OF RNAV5 ATS ROUTE WITH DESIGNATOR Z178 WITHIN MUSCAT
+ FIR CONNECTING POINT BOTOV TO SOLUD (MAG TR 178 DEG, DIST 55.6NM)
+ THEN FROM SOLUD TO LAKLU (MAG TR 164 DEG, DIST 71.8NM), MNM FLT:
+ FL280, AIRSPACE CLASS A.
+ Issued: 1901030738
+
+ 1901030700-1904032359                                   OOMM A0014/19
+ NEW COMPULSORY REPORTING POINT WITH NAME-CODE
+ DESIGNATOR BOTOV 252812N0564308E ESTABLISHED ON ATS ROUTE Z151 WITHIN
+ MUSCAT FIR.
+ Issued: 1901030739
+
+ 1901030700-1904032359                                   OOMM A0015/19
+ TEMPORARY RESTRICTIONS WITHIN MUSCAT FIR:
+ 1-MESPO IS NOT AVAILABLE FOR TRAFFIC OVERFLYING OOMM FIR ENTERING VIA
+ TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD.
+ 2- FL310 AND FL350  NOT AVAILABLE FOR EASTBOUND TRAFFIC  ENTERING
+ OOMM FIR VIA TONVO,TARDI  AND LABRI .
+ 3- EASTBOUND TRAFFIC FROM OIIX FIR INTENDING TO EXIT OOMM FIR VIA
+ ALPOR, RASKI AND PARAR SHALL ROUTE VIA MESPO L430.
+ 4- ATS ROUTE Z151 SEGMENT FROM BOTOV TO BUBAS IS ONLY AVAILABLE FOR
+ TRAFFIC LANDING AND DEPARTING OOMS/OOSH.
+ 5-EASTBOUND TRAFFIC ENTERING OOMM FIR VIA ULDUN Z151 INTENDING TO
+ EXIT OOMM FIR VIA  TOTOX, REXOD, LOTAV, KITAL, KIVEL AND IMKAD SHALL
+ ROUTE Z151 BOTOV THEN Z178 TO LAKLU.
+ 6- ATS ROUTE Z151 IS NOT AVAILABLE FOR TRAFFIC EXITING OOMM FIR VIA
+ ALPOR, RASKI AND PARAR.
+ Issued: 1901030742
+
+               END OF PART  22   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901101600-1902091630                                   OOMM A0020/19
+ DAILY 1600-1630
+ FIREWORKS DISPLAY WILL TAKE  PLACE WI CIRCLE RADIUS 0.5 NM CENTRED
+ AT 234127N0580239E(NASEEM GARDEN)
+ SFC 600FT AMSL
+ Issued: 1901070837
+
+ 1901101600-1902091630                                   OOMM A0021/19
+ 1600-1630
+ FIREWORKS DISPLAY WILL TAKE  PLACE WI CIRCLE RADIUS 0.5 NM CENTRED
+ AT 233033N0583039E (ALAMRAT PARK)
+ SFC 600FT AMSL
+ Issued: 1901070843
+
+ 1901100600-1904112359                                   OOMM A0024/19
+ DUE TO THE HIGH DENSITY TRAFFIC IN THE OOMM FIR AT CERTAIN TIMES,
+ FLOW CONTROL MEASURES HAVE BEEN IMPLEMENTED FOR UAE DEPARTUERS AS
+ FOLLOWS :
+  UAE DEPARTURES :
+  A)FROM 10 JAN 2019 TO 11 APR 2019 BTN 0630/0730 ON TRIAL BASIS
+ 20NM LONGITUDINAL SEPARATION BTN ANY TWO SUCCESSIVE DEPARTURES
+ ENTERING THE OOMM FIR POSITION LABRI
+ OR TARDI  (TARDI AND LABRI SHALL BE CONSIDERED AS TWO POINTS) ALL
+ TRAFFIC SHALL MAINTAIN SPEED OF 290 KTS. EXCLUDING TRAFFIC LANDING
+ AT MUSCAT INTL AIRPORT.
+  B)FROM 1700 TO 2359 UTC:
+  FIVE (5) MINUTES LONGITUDINAL SEPARATION BTN ANY
+  TWO SUCCESSIVE DEPARTURES ENTERING THE OOMM FIR POSITION LABRI OR
+ TARDI (TARDI AND LABRI SHALL BE CONSIDERED AS A COMMON POINT)
+ EXCLUDING TRAFFIC LANDING AT MUSCAT INTL AIRPORT.
+  C)FROM 1700 TO 2359 UTC :
+  20NM LONGITUDINAL SEPARATION BTN ANY TWO SUCCESSIVE UAE DEPARTURES
+ ENTERING THE OOMM FIR VIA LALDO OR GOMTA (LALDO AND GOMTA SHALL BE
+ CONSIDERED AS A COMMON POINT).
+  NOTE: DEPARTURES FROM OOMS LANDING AT ANY UAE AIRPORT
+  AND ALL UAE DEPARTURES LANDING AT OOMS ARE EXEMPTED FROM
+  THESE RESTRICTIONS.
+ Issued: 1901100607
+
+ 1901190001-1903182359                                   OOMM A0034/19
+ TEMPORARY RESTRICTED AREA ESTABLISHED AND ACTIVATED WI CIRCLE
+ RADIUS 2NM CENTRED ON 24191048N 056455757E ( BAHJAT AL ANZAR) SOHAR
+ SFC FL150
+ Issued: 1901171258
+
+ PHUKET INTL(VTSP)
+
+ 1811070248-1902070330                                   VTSP A2532/18
+ LOW LEVEL WIND SHEAR ALERT SYSTEM (LLWAS) NOT AVBL
+ Issued: 1811070254
+
+ 1811070330-1902070330                                   VTSP A2533/18
+ RVR RWY 09/27 U/S
+ Issued: 1811070316
+
+ 1811270100-1901311000                                   VTSP A2690/18
+ ACFT STAND NR 39 AND NR 40 CLSD DUE TO WIP
+ Issued: 1811260855
+
+ 1812010130-1903010100                                   VTSP A2757/18
+ ILS GP FREQ 333.8MHZ RWY 27 UNUSABLE BEYOND 6 DEG RIGHT OF LOC
+ COURSE
+ Issued: 1812010133
+
+               END OF PART  23   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901101600-1902091630                                   OOMM A0020/19
+ DAILY 1600-1630
+ FIREWORKS DISPLAY WILL TAKE  PLACE WI CIRCLE RADIUS 0.5 NM CENTRED
+ AT 234127N0580239E(NASEEM GARDEN)
+ SFC 600FT AMSL
+ Issued: 1901070837
+
+ 1901101600-1902091630                                   OOMM A0021/19
+ 1600-1630
+ FIREWORKS DISPLAY WILL TAKE  PLACE WI CIRCLE RADIUS 0.5 NM CENTRED
+ AT 233033N0583039E (ALAMRAT PARK)
+ SFC 600FT AMSL
+ Issued: 1901070843
+
+ 1901100600-1904112359                                   OOMM A0024/19
+ DUE TO THE HIGH DENSITY TRAFFIC IN THE OOMM FIR AT CERTAIN TIMES,
+ FLOW CONTROL MEASURES HAVE BEEN IMPLEMENTED FOR UAE DEPARTUERS AS
+ FOLLOWS :
+  UAE DEPARTURES :
+  A)FROM 10 JAN 2019 TO 11 APR 2019 BTN 0630/0730 ON TRIAL BASIS
+ 20NM LONGITUDINAL SEPARATION BTN ANY TWO SUCCESSIVE DEPARTURES
+ ENTERING THE OOMM FIR POSITION LABRI
+ OR TARDI  (TARDI AND LABRI SHALL BE CONSIDERED AS TWO POINTS) ALL
+ TRAFFIC SHALL MAINTAIN SPEED OF 290 KTS. EXCLUDING TRAFFIC LANDING
+ AT MUSCAT INTL AIRPORT.
+  B)FROM 1700 TO 2359 UTC:
+  FIVE (5) MINUTES LONGITUDINAL SEPARATION BTN ANY
+  TWO SUCCESSIVE DEPARTURES ENTERING THE OOMM FIR POSITION LABRI OR
+ TARDI (TARDI AND LABRI SHALL BE CONSIDERED AS A COMMON POINT)
+ EXCLUDING TRAFFIC LANDING AT MUSCAT INTL AIRPORT.
+  C)FROM 1700 TO 2359 UTC :
+  20NM LONGITUDINAL SEPARATION BTN ANY TWO SUCCESSIVE UAE DEPARTURES
+ ENTERING THE OOMM FIR VIA LALDO OR GOMTA (LALDO AND GOMTA SHALL BE
+ CONSIDERED AS A COMMON POINT).
+  NOTE: DEPARTURES FROM OOMS LANDING AT ANY UAE AIRPORT
+  AND ALL UAE DEPARTURES LANDING AT OOMS ARE EXEMPTED FROM
+  THESE RESTRICTIONS.
+ Issued: 1901100607
+
+ 1901190001-1903182359                                   OOMM A0034/19
+ TEMPORARY RESTRICTED AREA ESTABLISHED AND ACTIVATED WI CIRCLE
+ RADIUS 2NM CENTRED ON 24191048N 056455757E ( BAHJAT AL ANZAR) SOHAR
+ SFC FL150
+ Issued: 1901171258
+
+ PHUKET INTL(VTSP)
+
+ 1811070248-1902070330                                   VTSP A2532/18
+ LOW LEVEL WIND SHEAR ALERT SYSTEM (LLWAS) NOT AVBL
+ Issued: 1811070254
+
+ 1811070330-1902070330                                   VTSP A2533/18
+ RVR RWY 09/27 U/S
+ Issued: 1811070316
+
+ 1811270100-1901311000                                   VTSP A2690/18
+ ACFT STAND NR 39 AND NR 40 CLSD DUE TO WIP
+ Issued: 1811260855
+
+ 1812010130-1903010100                                   VTSP A2757/18
+ ILS GP FREQ 333.8MHZ RWY 27 UNUSABLE BEYOND 6 DEG RIGHT OF LOC
+ COURSE
+ Issued: 1812010133
+
+               END OF PART  23   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812030352-1902261130                                   VTSP A2761/18
+ DUE TO AIR TRAFFIC CONTROL TOWER RENOVATION AND AERODROME
+    CONTROL SERVICE MOVE TO OPERATE IN TEMPORARY CONTROL ROOM WITH
+    LIMITED VISION BETWEEN RADIAL R110-R250 PUT DVOR, ALL AIRCRAFT
+    MAY EXPERIENCE SOME INCONVENIENCES, ESPECIALLY AS USING AERODROME
+    TRAFFIC CIRCUIT NORTH ONLY FOR LANDING, OVERFLYING AND TRAINING
+    PURPOSE, RWY 09 BY ENTERING LEFT TRAFFIC CIRCUIT AND RWY 27 BY
+    ENTERING RIGHT TRAFFIC CIRCUIT
+ Issued: 1812030357
+
+ 1812190827-1901311659                                   VTSP A2919/18
+ TWO OBST MOBILE CRANE HGT 68FT ERECTED AT
+ 080655.70N 0981833.50E DIST APRX 700M BEYOND THR RWY 09 AND 330M
+ LEFT SIDE OF RCL, MARK RED LGT ON TOP.
+ Issued: 1812190837
+
+ 1901020800-1904020800                                   VTSP A0008/19
+ OBST TOWER CRANE ERECTED AT 080712.45N0981823.83E, HGT 98FT
+    DIST 472M FM THR RWY 09 AND 880.57M LEFT SIDE OF RCL,
+    MARK LGT AND RED FLAG ON TOP
+ Issued: 1901020753
+
+ 1901210845-1902111000                                   VTSP A0182/19
+ VISUAL DOCKING GUIDANCE SYSTEM (VDGS) ACFT STAND NR 10
+    AND NR 32L U/S
+    RMK/ACFT HAVE TO FLW MARSHALLING SIGNALS STRICTLY
+ Issued: 1901210846
+
+ 1901210855-1904220300                                   VTSP A0183/19
+ OBST ERECTED DETAIL AS FLW :
+    1. TREE AT 080649.3N0981808.52E DIST 65M BEFORE THR RWY 09,
+       200M NORTH OF EXTENDED RCL, HGT 100FT
+    2. TREE AT 080652.75N0981835.01E DIST 730M BEYOND THR RWY 09,
+       265M NORTH OF RCL, HGT 50FT
+    3. TREE AT 080638.8N0981843.41E DIST 930M BEYOND THR RWY 09,
+       210M SOUTH OF RCL, HGT 105FT
+    4. ELECTRIC POLE AT 080646.01N0981941.19E DIST 270M BEYOND
+       THR RWY 27, 160M SOUTH OF RCL, HGT 42FT
+ Issued: 1901210900
+
+ 1901230409-1902051300                                   VTSP A0199/19
+ DAILY 0100-1300
+ VISUAL DOCKING GUIDANCE SYSTEM (VDGS) ACFT STAND NR 1 TO 9,
+    NR 11 TO 16, NR 31, NR 32, NR 32R AND NR 33 TO 38 U/S
+    RMK/ACFT HAVE TO FLW MARSHALLING SIGNALS STRICTLY
+ Issued: 1901230413
+
+ 1901250850-1904250800                                   VTSP A0232/19
+ BIRD CONCENTRATION IN THE VICINITY OF AD
+ Issued: 1901250856
+
+ 1811070248-1902070330                                   VTSP C3828/18
+ LOW LEVEL WIND SHEAR ALERT SYSTEM (LLWAS) NOT AVBL
+ Issued: 1811070252
+
+ 1811070330-1902070330                                   VTSP C3829/18
+ RVR RWY 09/27 U/S
+ Issued: 1811070316
+
+ 1811270100-1901311000                                   VTSP C4055/18
+ ACFT STAND NR 39 AND NR 40 CLSD DUE TO WIP
+ Issued: 1811260855
+
+               END OF PART  24   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812030352-1902261130                                   VTSP A2761/18
+ DUE TO AIR TRAFFIC CONTROL TOWER RENOVATION AND AERODROME
+    CONTROL SERVICE MOVE TO OPERATE IN TEMPORARY CONTROL ROOM WITH
+    LIMITED VISION BETWEEN RADIAL R110-R250 PUT DVOR, ALL AIRCRAFT
+    MAY EXPERIENCE SOME INCONVENIENCES, ESPECIALLY AS USING AERODROME
+    TRAFFIC CIRCUIT NORTH ONLY FOR LANDING, OVERFLYING AND TRAINING
+    PURPOSE, RWY 09 BY ENTERING LEFT TRAFFIC CIRCUIT AND RWY 27 BY
+    ENTERING RIGHT TRAFFIC CIRCUIT
+ Issued: 1812030357
+
+ 1812190827-1901311659                                   VTSP A2919/18
+ TWO OBST MOBILE CRANE HGT 68FT ERECTED AT
+ 080655.70N 0981833.50E DIST APRX 700M BEYOND THR RWY 09 AND 330M
+ LEFT SIDE OF RCL, MARK RED LGT ON TOP.
+ Issued: 1812190837
+
+ 1901020800-1904020800                                   VTSP A0008/19
+ OBST TOWER CRANE ERECTED AT 080712.45N0981823.83E, HGT 98FT
+    DIST 472M FM THR RWY 09 AND 880.57M LEFT SIDE OF RCL,
+    MARK LGT AND RED FLAG ON TOP
+ Issued: 1901020753
+
+ 1901210845-1902111000                                   VTSP A0182/19
+ VISUAL DOCKING GUIDANCE SYSTEM (VDGS) ACFT STAND NR 10
+    AND NR 32L U/S
+    RMK/ACFT HAVE TO FLW MARSHALLING SIGNALS STRICTLY
+ Issued: 1901210846
+
+ 1901210855-1904220300                                   VTSP A0183/19
+ OBST ERECTED DETAIL AS FLW :
+    1. TREE AT 080649.3N0981808.52E DIST 65M BEFORE THR RWY 09,
+       200M NORTH OF EXTENDED RCL, HGT 100FT
+    2. TREE AT 080652.75N0981835.01E DIST 730M BEYOND THR RWY 09,
+       265M NORTH OF RCL, HGT 50FT
+    3. TREE AT 080638.8N0981843.41E DIST 930M BEYOND THR RWY 09,
+       210M SOUTH OF RCL, HGT 105FT
+    4. ELECTRIC POLE AT 080646.01N0981941.19E DIST 270M BEYOND
+       THR RWY 27, 160M SOUTH OF RCL, HGT 42FT
+ Issued: 1901210900
+
+ 1901230409-1902051300                                   VTSP A0199/19
+ DAILY 0100-1300
+ VISUAL DOCKING GUIDANCE SYSTEM (VDGS) ACFT STAND NR 1 TO 9,
+    NR 11 TO 16, NR 31, NR 32, NR 32R AND NR 33 TO 38 U/S
+    RMK/ACFT HAVE TO FLW MARSHALLING SIGNALS STRICTLY
+ Issued: 1901230413
+
+ 1901250850-1904250800                                   VTSP A0232/19
+ BIRD CONCENTRATION IN THE VICINITY OF AD
+ Issued: 1901250856
+
+ 1811070248-1902070330                                   VTSP C3828/18
+ LOW LEVEL WIND SHEAR ALERT SYSTEM (LLWAS) NOT AVBL
+ Issued: 1811070252
+
+ 1811070330-1902070330                                   VTSP C3829/18
+ RVR RWY 09/27 U/S
+ Issued: 1811070316
+
+ 1811270100-1901311000                                   VTSP C4055/18
+ ACFT STAND NR 39 AND NR 40 CLSD DUE TO WIP
+ Issued: 1811260855
+
+               END OF PART  24   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812010130-1903010100                                   VTSP C4154/18
+ ILS GP FREQ 333.8MHZ RWY 27 UNUSABLE BEYOND 6 DEG RIGHT OF LOC
+ COURSE
+ Issued: 1812010133
+
+ 1812030352-1902261130                                   VTSP C4165/18
+ DUE TO AIR TRAFFIC CONTROL TOWER RENOVATION AND AERODROME
+    CONTROL SERVICE MOVE TO OPERATE IN TEMPORARY CONTROL ROOM WITH
+    LIMITED VISION BETWEEN RADIAL R110-R250 PUT DVOR, ALL AIRCRAFT
+    MAY EXPERIENCE SOME INCONVENIENCES, ESPECIALLY AS USING AERODROME
+    TRAFFIC CIRCUIT NORTH ONLY FOR LANDING, OVERFLYING AND TRAINING
+    PURPOSE, RWY 09 BY ENTERING LEFT TRAFFIC CIRCUIT AND RWY 27 BY
+    ENTERING RIGHT TRAFFIC CIRCUIT
+ Issued: 1812030356
+
+ 1812190827-1901311659                                   VTSP C4390/18
+ TWO OBST MOBILE CRANE HGT 68FT ERECTED AT
+ 080655.70N 0981833.50E DIST APRX 700M BEYOND THR RWY 09 AND 330M
+ LEFT SIDE OF RCL, MARK RED LGT ON TOP.
+ Issued: 1812190835
+
+ 1901020800-1904020800                                   VTSP C0018/19
+ OBST TOWER CRANE ERECTED AT 080712.45N0981823.83E, HGT 98FT
+    DIST 472M FM THR RWY 09 AND 880.57M LEFT SIDE OF RCL,
+    MARK LGT AND RED FLAG ON TOP
+ Issued: 1901020753
+
+ 1901210845-1902111000                                   VTSP C0256/19
+ VISUAL DOCKING GUIDANCE SYSTEM (VDGS) ACFT STAND NR 10
+    AND NR 32L U/S
+    RMK/ACFT HAVE TO FLW MARSHALLING SIGNALS STRICTLY
+ Issued: 1901210845
+
+ 1901210855-1904220300                                   VTSP C0257/19
+ OBST ERECTED DETAIL AS FLW :
+    1. TREE AT 080649.3N0981808.52E DIST 65M BEFORE THR RWY 09,
+       200M NORTH OF EXTENDED RCL, HGT 100FT
+    2. TREE AT 080652.75N0981835.01E DIST 730M BEYOND THR RWY 09,
+       265M NORTH OF RCL, HGT 50FT
+    3. TREE AT 080638.8N0981843.41E DIST 930M BEYOND THR RWY 09,
+       210M SOUTH OF RCL, HGT 105FT
+    4. ELECTRIC POLE AT 080646.01N0981941.19E DIST 270M BEYOND
+       THR RWY 27, 160M SOUTH OF RCL, HGT 42FT
+ Issued: 1901210857
+
+ 1901230409-1902051300                                   VTSP C0282/19
+ DAILY 0100-1300
+ VISUAL DOCKING GUIDANCE SYSTEM (VDGS) ACFT STAND NR 1 TO 9,
+ NR 11 TO 16, NR 31, NR 32, NR 32R AND NR 33 TO 38 U/S
+ RMK/ACFT HAVE TO FLW MARSHALLING SIGNALS STRICTLY
+ Issued: 1901230413
+
+ 1901250850-1904250800                                   VTSP C0319/19
+ BIRD CONCENTRATION IN THE VICINITY OF AD
+ Issued: 1901250854
+
+               END OF PART  25   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1812010130-1903010100                                   VTSP C4154/18
+ ILS GP FREQ 333.8MHZ RWY 27 UNUSABLE BEYOND 6 DEG RIGHT OF LOC
+ COURSE
+ Issued: 1812010133
+
+ 1812030352-1902261130                                   VTSP C4165/18
+ DUE TO AIR TRAFFIC CONTROL TOWER RENOVATION AND AERODROME
+    CONTROL SERVICE MOVE TO OPERATE IN TEMPORARY CONTROL ROOM WITH
+    LIMITED VISION BETWEEN RADIAL R110-R250 PUT DVOR, ALL AIRCRAFT
+    MAY EXPERIENCE SOME INCONVENIENCES, ESPECIALLY AS USING AERODROME
+    TRAFFIC CIRCUIT NORTH ONLY FOR LANDING, OVERFLYING AND TRAINING
+    PURPOSE, RWY 09 BY ENTERING LEFT TRAFFIC CIRCUIT AND RWY 27 BY
+    ENTERING RIGHT TRAFFIC CIRCUIT
+ Issued: 1812030356
+
+ 1812190827-1901311659                                   VTSP C4390/18
+ TWO OBST MOBILE CRANE HGT 68FT ERECTED AT
+ 080655.70N 0981833.50E DIST APRX 700M BEYOND THR RWY 09 AND 330M
+ LEFT SIDE OF RCL, MARK RED LGT ON TOP.
+ Issued: 1812190835
+
+ 1901020800-1904020800                                   VTSP C0018/19
+ OBST TOWER CRANE ERECTED AT 080712.45N0981823.83E, HGT 98FT
+    DIST 472M FM THR RWY 09 AND 880.57M LEFT SIDE OF RCL,
+    MARK LGT AND RED FLAG ON TOP
+ Issued: 1901020753
+
+ 1901210845-1902111000                                   VTSP C0256/19
+ VISUAL DOCKING GUIDANCE SYSTEM (VDGS) ACFT STAND NR 10
+    AND NR 32L U/S
+    RMK/ACFT HAVE TO FLW MARSHALLING SIGNALS STRICTLY
+ Issued: 1901210845
+
+ 1901210855-1904220300                                   VTSP C0257/19
+ OBST ERECTED DETAIL AS FLW :
+    1. TREE AT 080649.3N0981808.52E DIST 65M BEFORE THR RWY 09,
+       200M NORTH OF EXTENDED RCL, HGT 100FT
+    2. TREE AT 080652.75N0981835.01E DIST 730M BEYOND THR RWY 09,
+       265M NORTH OF RCL, HGT 50FT
+    3. TREE AT 080638.8N0981843.41E DIST 930M BEYOND THR RWY 09,
+       210M SOUTH OF RCL, HGT 105FT
+    4. ELECTRIC POLE AT 080646.01N0981941.19E DIST 270M BEYOND
+       THR RWY 27, 160M SOUTH OF RCL, HGT 42FT
+ Issued: 1901210857
+
+ 1901230409-1902051300                                   VTSP C0282/19
+ DAILY 0100-1300
+ VISUAL DOCKING GUIDANCE SYSTEM (VDGS) ACFT STAND NR 1 TO 9,
+ NR 11 TO 16, NR 31, NR 32, NR 32R AND NR 33 TO 38 U/S
+ RMK/ACFT HAVE TO FLW MARSHALLING SIGNALS STRICTLY
+ Issued: 1901230413
+
+ 1901250850-1904250800                                   VTSP C0319/19
+ BIRD CONCENTRATION IN THE VICINITY OF AD
+ Issued: 1901250854
+
+               END OF PART  25   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901290017-1901302359                                   VTSP G0233/19
+ GPS RAIM PREDICTION FOR:
+ TSO-C129 FAULT DETECTION
+ NO GPS RAIM OUTAGES
+ TSO-C146A FAULT DETECTION ONLY
+ NO GPS RAIM OUTAGES
+ TSO-C146A FAULT DETECTION WITH EXCLUSION
+ 1901290258/1901290303
+ GPS RAIM UNAVAILABLE FOR RNP APPROACH
+ Issued: 1901290019
+
+ HYDERABAD RAJIV GANDHI INTL(VOHS)
+
+ 1811151055-1902161630                                   VOHS A3058/18
+ 0001-1630
+ CLR DELIVERY WITH CS SHAMSHABAD DELIVERY AVBL ON FREQ 121.625
+ MHZ.REMAINING TIME CTC SMC ON 121.85 MHZ FOR CLR DELIVERY
+ Issued: 1811151100
+
+ 1812051830-1903041830                                   VOHS A3229/18
+ REF AIR SUP 142/2018,ANNEXURE 1,PARA 2-TABLE 2
+ AND PRKG DOCKING CHART REGARDING TWY/TAXILANE DETAILS. AMEND
+ WIDTH OF TWY C,TWY D AND TAXILANE H AS 18.6M
+ Issued: 1812030647
+
+ 1812171110-2003032359                                   VOHS A3368/18
+ VALIDITY OF AD LICENSE:
+    AD NAME : RAJIV GANDHI INTERNATIONAL AIRPORT, SHAMSHABAD.
+    LICENSE NO. AL/PUB/021
+    VALID UP TO : 03 MAR 2020
+ Issued: 1812171212
+
+ SEEB INTL(OOMS)
+
+ 1811050800-1902052359                                   OOMS A0431/18
+ INSTRUMENT APPROACH PROCEDURES ILS RWY 26R AND ILS RWY 08L (CAT II)
+ ARE NOT AUTHORIZED.
+ Issued: 1811050839
+
+ 1812310730-1903312359                                   OOMS A0510/18
+ IMPLEMENTATION AND USE OF PUBLISHED SIDS AND STARS RWY 08L/26R ARE
+ DELAYED.
+ REF AIRAC AIP AMENDMENT NO 02-18 EFFECTIVE ON 11 OCTOBER 2018.
+ NEW TEMPORARY DEPARTURE/ARRIVAL PROCEDURES SHALL BE USED FOR RWY
+ 08L/26R AS FOLLOWS:
+ RWY 26R DEPARTURE WILL BE IDENTIFIED AS:
+ ITLAK 1N (NOVEMBER) AFTER TAKEOFF TRACK STRAIGHT AHEAD (MAG TRACK
+ 264) TO ITLAK CLIMB 3000FT QNH MINIMUM CLIMB GRADIENT 5 PERCENT.
+ FURTHER CLIMB VECTORING AS INSTRUCTED BY MUSCAT RADAR.
+ RWY 08L DEPARTURE WILL BE IDENTIFIED AS:
+ MURMA 1N (NOVEMBER) AFTER TAKEOFF TRACK STRAIGHT AHEAD (MAG TRACK
+ 084) TO MURMA CLIMB 3000FT QNH MINIMUM CLIMB GRADIENT 5 PERCENT.
+ FURTHER CLIMB VECTORING AS INSTRUCTED BY MUSCAT RADAR.
+ ARRIVAL: INBOUND AIRCRAFT CAN EXPECT RADAR VECTORING TO THE ILS OR
+ VISUAL APPROACH FOR THE RELEVANT RUNWAY.
+ RMK/ IN THE EVENT OF RADAR FAILURE, THE APPROPRIATE PUBLISHED
+ INSTRUMENT APPROACH WILL BE USED.
+ Issued: 1812310816
+
+ 1901020500-1904012359                                   OOMS A0005/19
+ MULTIPLE CRANES WITH ELEVATIONS OF 275FT WHICH ARE MARKED DURING
+ THE
+ DAY AND LIT AT NIGHT WILL BE OPERATING SOUTH EAST AIRFIELD AT THE
+ FLW CO-ORDS:
+ 233524.18N0581752.32E    233525.14N0581804.21E
+ 233520.19N0581752.73E    233521.14N0581804.59E
+ 233517.75N0581747.74E
+ SFC-275FT MSL
+ Issued: 1901020450
+
+               END OF PART  26   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901290017-1901302359                                   VTSP G0233/19
+ GPS RAIM PREDICTION FOR:
+ TSO-C129 FAULT DETECTION
+ NO GPS RAIM OUTAGES
+ TSO-C146A FAULT DETECTION ONLY
+ NO GPS RAIM OUTAGES
+ TSO-C146A FAULT DETECTION WITH EXCLUSION
+ 1901290258/1901290303
+ GPS RAIM UNAVAILABLE FOR RNP APPROACH
+ Issued: 1901290019
+
+ HYDERABAD RAJIV GANDHI INTL(VOHS)
+
+ 1811151055-1902161630                                   VOHS A3058/18
+ 0001-1630
+ CLR DELIVERY WITH CS SHAMSHABAD DELIVERY AVBL ON FREQ 121.625
+ MHZ.REMAINING TIME CTC SMC ON 121.85 MHZ FOR CLR DELIVERY
+ Issued: 1811151100
+
+ 1812051830-1903041830                                   VOHS A3229/18
+ REF AIR SUP 142/2018,ANNEXURE 1,PARA 2-TABLE 2
+ AND PRKG DOCKING CHART REGARDING TWY/TAXILANE DETAILS. AMEND
+ WIDTH OF TWY C,TWY D AND TAXILANE H AS 18.6M
+ Issued: 1812030647
+
+ 1812171110-2003032359                                   VOHS A3368/18
+ VALIDITY OF AD LICENSE:
+    AD NAME : RAJIV GANDHI INTERNATIONAL AIRPORT, SHAMSHABAD.
+    LICENSE NO. AL/PUB/021
+    VALID UP TO : 03 MAR 2020
+ Issued: 1812171212
+
+ SEEB INTL(OOMS)
+
+ 1811050800-1902052359                                   OOMS A0431/18
+ INSTRUMENT APPROACH PROCEDURES ILS RWY 26R AND ILS RWY 08L (CAT II)
+ ARE NOT AUTHORIZED.
+ Issued: 1811050839
+
+ 1812310730-1903312359                                   OOMS A0510/18
+ IMPLEMENTATION AND USE OF PUBLISHED SIDS AND STARS RWY 08L/26R ARE
+ DELAYED.
+ REF AIRAC AIP AMENDMENT NO 02-18 EFFECTIVE ON 11 OCTOBER 2018.
+ NEW TEMPORARY DEPARTURE/ARRIVAL PROCEDURES SHALL BE USED FOR RWY
+ 08L/26R AS FOLLOWS:
+ RWY 26R DEPARTURE WILL BE IDENTIFIED AS:
+ ITLAK 1N (NOVEMBER) AFTER TAKEOFF TRACK STRAIGHT AHEAD (MAG TRACK
+ 264) TO ITLAK CLIMB 3000FT QNH MINIMUM CLIMB GRADIENT 5 PERCENT.
+ FURTHER CLIMB VECTORING AS INSTRUCTED BY MUSCAT RADAR.
+ RWY 08L DEPARTURE WILL BE IDENTIFIED AS:
+ MURMA 1N (NOVEMBER) AFTER TAKEOFF TRACK STRAIGHT AHEAD (MAG TRACK
+ 084) TO MURMA CLIMB 3000FT QNH MINIMUM CLIMB GRADIENT 5 PERCENT.
+ FURTHER CLIMB VECTORING AS INSTRUCTED BY MUSCAT RADAR.
+ ARRIVAL: INBOUND AIRCRAFT CAN EXPECT RADAR VECTORING TO THE ILS OR
+ VISUAL APPROACH FOR THE RELEVANT RUNWAY.
+ RMK/ IN THE EVENT OF RADAR FAILURE, THE APPROPRIATE PUBLISHED
+ INSTRUMENT APPROACH WILL BE USED.
+ Issued: 1812310816
+
+ 1901020500-1904012359                                   OOMS A0005/19
+ MULTIPLE CRANES WITH ELEVATIONS OF 275FT WHICH ARE MARKED DURING
+ THE
+ DAY AND LIT AT NIGHT WILL BE OPERATING SOUTH EAST AIRFIELD AT THE
+ FLW CO-ORDS:
+ 233524.18N0581752.32E    233525.14N0581804.21E
+ 233520.19N0581752.73E    233521.14N0581804.59E
+ 233517.75N0581747.74E
+ SFC-275FT MSL
+ Issued: 1901020450
+
+               END OF PART  26   REP NO 15123302
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901240530-1904252359                                   OOMS A0037/19
+ EAST OF TWY H FROM TWY M TO CARGO APRON ACTIVE WITH CHECKER FOLLOW
+ ME
+ Issued: 1901240602
+
+ AL AIN INTL(OMAL)
+
+ 1812310935-1903192359EST                                OMAL A2515/18
+ TAXIWAYS R, G, H AND S NOT OPR DUE WIP.
+ Issued: 1812190953
+
+ 1812250703-1903242359EST                                OMAL A2543/18
+ OBST CRANE ERECTED AT PSN: 241731.39N 0553737.18E.
+ SFC/898FT AMSL
+ Issued: 1812250731
+
+ SHARJAH(OMSJ)
+
+ 1812050000-1903042359EST                                OMSJ A2356/18
+ ACFT TO EXER CTN WHEN TAXING TO STAND DUE INCREASED ACT ON SERVICE
+ ROAD BTN MAIN APN (ACFT STANDS 2 TO 8) AND TWY A.
+ Issued: 1811272012
+
+ 1812050000-1903042359EST                                OMSJ A2357/18
+ ACFT STANDS 2 AND 4 DOWNGRADED TO ACFT CODE C AND BELOW.
+ Issued: 1811272017
+
+                          END OF BULLETIN
+
+               END OF PART  27 OF 27   REP NO 15123302
+
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+-NTP INPUT MESSAGE DATE TIME REF 290750
+ NOTAM REQUEST GENERATED FOR AIRLINE OMA
+ C3JHG
+ 1901240530-1904252359                                   OOMS A0037/19
+ EAST OF TWY H FROM TWY M TO CARGO APRON ACTIVE WITH CHECKER FOLLOW
+ ME
+ Issued: 1901240602
+
+ AL AIN INTL(OMAL)
+
+ 1812310935-1903192359EST                                OMAL A2515/18
+ TAXIWAYS R, G, H AND S NOT OPR DUE WIP.
+ Issued: 1812190953
+
+ 1812250703-1903242359EST                                OMAL A2543/18
+ OBST CRANE ERECTED AT PSN: 241731.39N 0553737.18E.
+ SFC/898FT AMSL
+ Issued: 1812250731
+
+ SHARJAH(OMSJ)
+
+ 1812050000-1903042359EST                                OMSJ A2356/18
+ ACFT TO EXER CTN WHEN TAXING TO STAND DUE INCREASED ACT ON SERVICE
+ ROAD BTN MAIN APN (ACFT STANDS 2 TO 8) AND TWY A.
+ Issued: 1811272012
+
+ 1812050000-1903042359EST                                OMSJ A2357/18
+ ACFT STANDS 2 AND 4 DOWNGRADED TO ACFT CODE C AND BELOW.
+ Issued: 1811272017
+
+                          END OF BULLETIN
+
+               END OF PART  27 OF 27   REP NO 15123302
+
+
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
