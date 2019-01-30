@@ -1,4 +1,7 @@
 class OfpData {
+  /// This object builds a 'dart typed' Map of data fields out of the parsed
+  /// strings from the OFP. [rawData] shall be supplied on construction and
+  /// [data] made available along to a [processReport].
 
   Map<String, dynamic> data = {};
   final Map<String, dynamic> rawData;

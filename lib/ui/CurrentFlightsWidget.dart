@@ -62,6 +62,7 @@ class _CurrentFlightsWidgetState extends State<CurrentFlightsWidget>
               MaterialPageRoute(
                 builder: (context) {
                   return FlightScreen(
+                    _flightNumberAndReference[index]['flight_number'],
                     _flightNumberAndReference[index]['flight_reference'],
                     _connector
                   );

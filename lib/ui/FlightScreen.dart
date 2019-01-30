@@ -1,16 +1,17 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
 
 import 'package:wyofp_flutter/connectors/SitaConnector.dart';
 import 'package:wyofp_flutter/parser/Parser.dart';
+import 'package:wyofp_flutter/ui/OfpWidget.dart';
 
 
 class FlightScreen extends StatefulWidget {
 
+  final String _flightNumber;
   final String _flightReference;
   final SitaConnector _connector;
 
-  FlightScreen(this._flightReference, this._connector);
+  FlightScreen(this._flightNumber, this._flightReference, this._connector);
 
   _FlightScreenState createState() => _FlightScreenState();
 }
@@ -20,7 +21,7 @@ class _FlightScreenState extends State<FlightScreen> {
   bool textReceived = false;
   bool parsingFinished = false;
 
-  Map<String, String> ofpRawData;
+  Map<String, dynamic> ofpRawData;
 
   @override
   void initState() {
@@ -63,7 +64,7 @@ class _FlightScreenState extends State<FlightScreen> {
         ],
       );
     } else {
-      return Text('Finished!');
+      return OfpWidget(ofpRawData);
     }
   }
 
@@ -71,7 +72,7 @@ class _FlightScreenState extends State<FlightScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget._flightReference),
+        title: Text(widget._flightNumber + ' -REF: ' + ofpRawData['flight_plan_reference']),
       ),
       body: getMainWidget(),
     );
