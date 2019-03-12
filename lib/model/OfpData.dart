@@ -17,12 +17,12 @@ class OfpData {
         key == 'cost_index'
         ) {
         data[key] = int.parse(rawData[key]);
-      } else if ( // dates
+      } else if ( // date
           key == 'date'
         )
       {
         data[key] = _processHeaderDate(rawData[key]);
-      } else if ( // dates
+      } else if ( // estimated_time_departure, should be processed after 'date'
           key == 'estimated_time_departure'
         )
       {
@@ -38,7 +38,7 @@ class OfpData {
       'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT',
       'NOV', 'DEC'
     ];
-    RegExp headerDateRE = RegExp(r'(\d\d)/(\w\w\w)/(\d\d)');
+    RegExp headerDateRE = RegExp(r'(\d\d)/?(\w\w\w)/?(\d\d)');
     Match headerDateMatch = headerDateRE.firstMatch(dateString);
     if (headerDateMatch == null) return DateTime(1970); // Error!
     try {

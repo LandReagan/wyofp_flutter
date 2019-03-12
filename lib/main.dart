@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:wyofp_flutter/ui/CurrentFlightsWidget.dart';
 
-// For tests only:
-import 'package:wyofp_flutter/OFP1_flight_screen.dart';
-
 void main() => runApp(WyOfp());
 
 class WyOfp extends StatelessWidget {
@@ -47,17 +44,6 @@ class _LandingPageState extends State<LandingPage> with SingleTickerProviderStat
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.dashboard),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => OFP1FlightScreen())
-              );
-            },
-          )
-        ],
         bottom: TabBar(
           controller: _tabController,
           tabs: [
@@ -69,7 +55,9 @@ class _LandingPageState extends State<LandingPage> with SingleTickerProviderStat
       body: TabBarView(
         controller: _tabController,
         children: <Widget>[
+          // Current Flights tab
           CurrentFlightsWidget(),
+          // Saved Flights tab
           Text('WORK IN PROGRESS...'),
         ],
       ),

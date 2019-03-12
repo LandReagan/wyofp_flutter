@@ -70,9 +70,10 @@ class _FlightScreenState extends State<FlightScreen> {
 
   @override
   Widget build(BuildContext context) {
+    String ofpReference = ofpRawData == null ? '' : ofpRawData['flight_plan_reference'];
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget._flightNumber + ' -REF: ' + ofpRawData['flight_plan_reference']),
+        title: Text(widget._flightNumber + ' -REF: ' +  ofpReference),
       ),
       body: getMainWidget(),
     );

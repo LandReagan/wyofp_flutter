@@ -61,4 +61,14 @@ void main() {
       if (key.contains('etops')) print(key + ' : ' + value);
     });
   });
+
+  test('OFP8 parsing', () async {
+    final String ofp8String = File('test/OFP_examples/OFP8.txt').readAsStringSync();
+    Parser parser = Parser(ofp8String);
+    await parser.parse();
+
+    parser.ofpData.forEach((key, value) {
+      if (key.contains('etops')) print(key + ' : ' + value);
+    });
+  });
 }

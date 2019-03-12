@@ -11,6 +11,7 @@ class _CurrentFlightsWidgetState extends State<CurrentFlightsWidget>
     with AutomaticKeepAliveClientMixin<CurrentFlightsWidget>{
 
   SitaConnector _connector = SitaConnector();
+  String connectorMessage = '';
   bool loading = false;
 
   List<Map<String, String>> _flightNumberAndReference = [];
@@ -25,22 +26,28 @@ class _CurrentFlightsWidgetState extends State<CurrentFlightsWidget>
 
   void _refreshConnector() async {
 
-    String message = await _connector.init();
-    if (message != 'Connection OK!') {
-      print('ERROR while connecting to SITA:\n' + message);
+    loading = true;
+
+    connectorMessage = await _connector.init();
+    if (connectorMessage != 'Connection OK!') {
+      print('ERROR while connecting to SITA:\n' + connectorMessage);
+      loading = false;
       return;
     }
     _flightNumberAndReference = await _connector.getFlightPlanList();
+    loading = false;
     if (this.mounted) {
       setState(() {
-        // State is reset after async work is finished.
+        // State is reset after async work is finished!
       });
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    if (_flightNumberAndReference.length == 0) {
+    print(_flightNumberAndReference);
+    // While loading data
+    if (loading == true) {
       return Column(
         children: <Widget>[
           Text('Fetching flight plans, please wait...',
@@ -51,6 +58,12 @@ class _CurrentFlightsWidgetState extends State<CurrentFlightsWidget>
         ],
       );
     }
+    // In case of error
+    if (_flightNumberAndReference.length == 0) {
+      return Text(connectorMessage);
+    }
+
+    // Otherwise, show the stuff!
     return ListView.builder(
       itemCount: _flightNumberAndReference.length,
       itemBuilder: (context, index) {
